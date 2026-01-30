@@ -1,16 +1,28 @@
 async function loadIndex() {
   const res = await fetch('./data/index.json');
   const data = await res.json();
+
   const grid = document.getElementById('recent-grid');
-  if (!grid) return;
-  grid.innerHTML = data.items.map(item => `
-    <div class="card">
-      <div class="title">${item.title}</div>
-      <div class="meta"><span class="chip">${item.date}</span><span>${item.subtitle || ''}</span></div>
-      <div class="desc">${item.desc}</div>
-      <div class="link-row"><a href="daily/${item.date}.html">打开详情 →</a></div>
-    </div>
-  `).join('');
+  if (grid) {
+    grid.innerHTML = data.items.map(item => `
+      <div class="card">
+        <div class="title">${item.title}</div>
+        <div class="meta"><span class="chip">${item.date}</span><span>${item.subtitle || ''}</span></div>
+        <div class="desc">${item.desc}</div>
+        <div class="link-row"><a href="daily/${item.date}.html">打开详情 →</a></div>
+      </div>
+    `).join('');
+  }
+
+  const nav = document.getElementById('date-nav');
+  if (nav) {
+    nav.innerHTML = data.items.map(item => `
+      <a class="date-link" href="daily/${item.date}.html">
+        <span>${item.date}</span>
+        <span class="chip">${item.subtitle || '简报'}</span>
+      </a>
+    `).join('');
+  }
 }
 
 async function loadDaily() {
