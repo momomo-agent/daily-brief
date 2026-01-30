@@ -1,38 +1,33 @@
-async function loadIndex() {
+let indexData = null;
+
+async function fetchIndex() {
   const res = await fetch('./data/index.json');
-  const data = await res.json();
-
-  const grid = document.getElementById('recent-grid');
-  if (grid) {
-    grid.innerHTML = data.items.map(item => `
-      <div class="card">
-        <div class="title">${item.title}</div>
-        <div class="meta"><span class="chip">${item.date}</span><span>${item.subtitle || ''}</span></div>
-        <div class="desc">${item.desc}</div>
-        <div class="link-row"><a href="daily/${item.date}.html">打开详情 →</a></div>
-      </div>
-    `).join('');
-  }
-
-  const nav = document.getElementById('date-nav');
-  if (nav) {
-    nav.innerHTML = data.items.map(item => `
-      <a class="date-link" href="daily/${item.date}.html">
-        <span>${item.date}</span>
-        <span class="chip">${item.subtitle || '简报'}</span>
-      </a>
-    `).join('');
-  }
+  indexData = await res.json();
 }
 
-async function loadDaily() {
-  const root = document.getElementById('daily-root');
-  if (!root) return;
-  const date = root.dataset.date;
-  const res = await fetch(`../data/${date}.json`);
-  const data = await res.json();
+function renderNav(selectedDate) {
+  const nav = document.getElementById('date-nav');
+  if (!nav || !indexData) return;
+  nav.innerHTML = indexData.items.map(item => `
+    <a class="date-link ${item.date===selectedDate?'active':''}" href="#" data-date="${item.date}">
+      <span>${item.date}</span>
+      <span class="chip">${item.subtitle || '简报'}</span>
+    </a>
+  `).join('');
 
-  document.getElementById('daily-title').textContent = data.title;
+  nav.querySelectorAll('.date-link').forEach(a => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const date = a.getAttribute('data-date');
+      loadDaily(date);
+    });
+  });
+}
+
+async function loadDaily(date) {
+  const res = await fetch(`./data/${date}.json`);
+  const data = await res.json();
+  document.getElementById('daily-title').textContent = `${date} · ${data.title}`;
 
   const sections = document.getElementById('daily-sections');
   sections.innerHTML = data.sections.map(sec => `
@@ -44,13 +39,18 @@ async function loadDaily() {
             <div class="title">${it.title}</div>
             <div class="meta"><span class="chip">${it.source || '来源'}</span></div>
             <div class="desc">${it.desc}</div>
-            <div class="link-row"><a href="${it.url}" target="_blank">直达原文 →</a></div>
+            <a href="${it.url}" target="_blank">直达原文 →</a>
           </div>
         `).join('')}
       </div>
     </section>
   `).join('');
+
+  renderNav(date);
 }
 
-loadIndex();
-loadDaily();
+(async () => {
+  await fetchIndex();
+  const firstDate = indexData.items[0].date;
+  await loadDaily(firstDate);
+})();

@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Daily Brief · 看板</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
@@ -21,18 +20,11 @@
 
     <section class="content">
       <section class="hero">
-        <h1>每日简报</h1>
-        <p>直观、简洁、可回溯。每天生成一页，点击即可进入详情。</p>
-        <div class="hero-actions">
-          <a class="btn" href="daily/2026-01-30.html">今日</a>
-          <span class="muted">自动归档 · 可检索</span>
-        </div>
+        <h1 id="daily-title">今日简报</h1>
+        <p>左边选择日期，右边直接展示内容。</p>
       </section>
 
-      <section class="board">
-        <h2>最近更新</h2>
-        <div class="grid" id="recent-grid"></div>
-      </section>
+      <div id="daily-sections"></div>
     </section>
   </main>
 
