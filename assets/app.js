@@ -6,17 +6,17 @@ async function loadIndex() {
   grid.innerHTML = data.items.map(item => `
     <div class="card">
       <div class="title">${item.title}</div>
-      <div class="meta">${item.date}</div>
+      <div class="meta"><span class="chip">${item.date}</span><span>${item.subtitle || ''}</span></div>
       <div class="desc">${item.desc}</div>
-      <a href="daily/${item.date}.html">打开详情 →</a>
+      <div class="link-row"><a href="daily/${item.date}.html">打开详情 →</a></div>
     </div>
   `).join('');
 }
 
 async function loadDaily() {
-  const el = document.getElementById('daily-root');
-  if (!el) return;
-  const date = el.dataset.date;
+  const root = document.getElementById('daily-root');
+  if (!root) return;
+  const date = root.dataset.date;
   const res = await fetch(`../data/${date}.json`);
   const data = await res.json();
 
@@ -30,8 +30,9 @@ async function loadDaily() {
         ${sec.items.map(it => `
           <div class="card">
             <div class="title">${it.title}</div>
+            <div class="meta"><span class="chip">${it.source || '来源'}</span></div>
             <div class="desc">${it.desc}</div>
-            <a href="${it.url}" target="_blank">查看链接 →</a>
+            <div class="link-row"><a href="${it.url}" target="_blank">直达原文 →</a></div>
           </div>
         `).join('')}
       </div>

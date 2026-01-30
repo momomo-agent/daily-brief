@@ -6,19 +6,22 @@
       "title": "AI / 模型",
       "items": [
         {
-          "title": "Google Project Genie：无限互动世界",
-          "desc": "世界模型继续升温，讨论集中在可玩性与内容生成边界。",
-          "url": "https://blog.google"
+          "title": "Project Genie：可交互世界模型",
+          "desc": "Google 实验项目引发讨论：可玩性与内容边界。",
+          "url": "https://blog.google/technology/ai/",
+          "source": "Google"
         },
         {
-          "title": "GPT‑4o 逐步退场",
-          "desc": "ChatGPT 将淘汰 GPT‑4o/4.1 系列，模型路线收敛。",
-          "url": "https://openai.com"
+          "title": "GPT‑4o / 4.1 系列退出 ChatGPT",
+          "desc": "产品线收敛，模型选择进一步简化。",
+          "url": "https://openai.com/",
+          "source": "OpenAI"
         },
         {
           "title": "Claude Code 评测追踪",
-          "desc": "社区关注模型“退化/漂移”监测与工程化基准。",
-          "url": "https://marginlab.ai"
+          "desc": "社区关注“性能漂移/退化”与工程基准。",
+          "url": "https://marginlab.ai/",
+          "source": "Marginlab"
         }
       ]
     },
@@ -26,9 +29,10 @@
       "title": "OS / 系统",
       "items": [
         {
-          "title": "意图层与流程卡成为焦点",
-          "desc": "更多讨论开始围绕“任务流”与“权限合约”的系统体验。",
-          "url": "https://news.ycombinator.com/"
+          "title": "意图层与流程卡成为讨论焦点",
+          "desc": "系统体验从 App 切换为任务流与权限合约。",
+          "url": "https://news.ycombinator.com/",
+          "source": "Hacker News"
         }
       ]
     },
@@ -36,9 +40,10 @@
       "title": "图形 / 交互",
       "items": [
         {
-          "title": "Blender 生态持续扩张",
-          "desc": "企业赞助与开源工具链进一步加固。",
-          "url": "https://blender.org"
+          "title": "Blender 生态扩张",
+          "desc": "企业赞助与开源工具链加固。",
+          "url": "https://www.blender.org/news/",
+          "source": "Blender"
         }
       ]
     },
@@ -46,9 +51,10 @@
       "title": "社区热议",
       "items": [
         {
-          "title": "先检索后解释的搜索系统",
-          "desc": "真实用户场景中，解释层应作用于排序而非过滤。",
-          "url": "https://www.reddit.com/r/MachineLearning/top/?t=day"
+          "title": "检索系统：先检索后解释",
+          "desc": "真实用户场景中，解释层用于排序而非过滤。",
+          "url": "https://www.reddit.com/r/MachineLearning/top/?t=day",
+          "source": "Reddit"
         }
       ]
     }
