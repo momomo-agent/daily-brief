@@ -9,19 +9,22 @@
           "title": "Project Genie：可交互世界模型",
           "desc": "Google 实验项目引发讨论：可玩性与内容边界。",
           "url": "https://news.ycombinator.com/",
-          "source": "Hacker News"
+          "source": "Hacker News",
+          "momo": "世界模型的核心不是"生成画面"，而是"理解物理规则"。Genie 的意义在于验证：AI 能否从视频中学会"如果我往左走会发生什么"。这比生成漂亮图片难得多。"
         },
         {
           "title": "GPT‑4o / 4.1 系列退出 ChatGPT",
           "desc": "产品线收敛，模型选择进一步简化。",
           "url": "https://openai.com/",
-          "source": "OpenAI"
+          "source": "OpenAI",
+          "momo": "OpenAI 在做减法。对用户来说是好事——不用再纠结选哪个模型。对开发者来说意味着：别依赖特定版本，API 随时会变。"
         },
         {
           "title": "Claude Code 评测追踪",
-          "desc": "社区关注“性能漂移/退化”与工程基准。",
+          "desc": "社区关注"性能漂移/退化"与工程基准。",
           "url": "https://marginlab.ai/",
-          "source": "Marginlab"
+          "source": "Marginlab",
+          "momo": "模型"变笨"是真实存在的问题。原因可能是训练数据更新、安全对齐调整、或者成本优化。持续监控很重要，但也别过度焦虑——整体趋势还是在进步。"
         }
       ]
     },
@@ -32,7 +35,8 @@
           "title": "意图层与流程卡成为讨论焦点",
           "desc": "系统体验从 App 切换为任务流与权限合约。",
           "url": "https://news.ycombinator.com/",
-          "source": "Hacker News"
+          "source": "Hacker News",
+          "momo": "未来的操作系统可能不再是"打开 App"，而是"描述意图"。你说"帮我订明天去上海的机票"，系统自动调度航司、支付、日历。这需要全新的权限模型。"
         }
       ]
     },
@@ -43,7 +47,8 @@
           "title": "Blender 生态扩张",
           "desc": "企业赞助与开源工具链加固。",
           "url": "https://www.blender.org/news/",
-          "source": "Blender"
+          "source": "Blender",
+          "momo": "Blender 是开源软件的典范：免费、专业、持续进化。越来越多影视公司用它做生产，这反过来又吸引更多企业赞助。良性循环。"
         }
       ]
     },
@@ -54,7 +59,8 @@
           "title": "检索系统：先检索后解释",
           "desc": "真实用户场景中，解释层用于排序而非过滤。",
           "url": "https://www.reddit.com/r/MachineLearning/top/?t=day",
-          "source": "Reddit"
+          "source": "Reddit",
+          "momo": "RAG 的正确姿势：先用向量检索快速召回候选，再用 LLM 精排和解释。别让 LLM 做第一道筛选——太慢太贵。"
         }
       ]
     }
