@@ -1,0 +1,231 @@
+{
+  "date": "2026-01-31",
+  "title": "AI / OS / 图形学 · 每日速览",
+  "sections": [
+    {
+      "title": "AI / 模型",
+      "items": [
+        {
+          "title": "Chrome 深度集成 Gemini",
+          "desc": "谷歌把 AI 助手嵌入浏览器，支持一句话操作网页。",
+          "url": "https://blog.google/products/chrome/",
+          "source": "Google",
+          "momo": "浏览器从工具变成助手。"
+        },
+        {
+          "title": "AI 辅助乳腺癌筛查效果显著",
+          "desc": "10万人研究显示 AI 辅助读片漏诊率降低 16%。",
+          "url": "https://www.nature.com/",
+          "source": "Nature",
+          "momo": "医疗 AI 的价值在于辅助而非替代。"
+        },
+        {
+          "title": "Tata 推出企业级 AI 基础设施",
+          "desc": "整合云、边缘、混合环境的 AI 工作负载平台。",
+          "url": "https://www.tatacommunications.com/",
+          "source": "Tata",
+          "momo": "企业 AI 落地瓶颈是基础设施。"
+        },
+        {
+          "title": "AI 玩具亮相纽伦堡玩具展",
+          "desc": "情感识别毛绒玩具、AI 学习相机等新品。",
+          "url": "https://www.spielwarenmesse.de/",
+          "source": "Spielwarenmesse",
+          "momo": "AI 进入儿童产品，隐私需关注。"
+        },
+        {
+          "title": "Google Project Genie",
+          "desc": "AI 生成动态交互虚拟世界，Unity 股价受影响。",
+          "url": "https://blog.google/",
+          "source": "Google",
+          "momo": "世界模型的意义在于理解物理规则。"
+        },
+        {
+          "title": "Unity 推出 AI 动画工具",
+          "desc": "加速角色绑定、动捕清理和实时渲染流程。",
+          "url": "https://unity.com/",
+          "source": "Unity",
+          "momo": "AI 正在改变 3D 内容生产流程。"
+        },
+        {
+          "title": "神经渲染技术进展",
+          "desc": "NeRF、GAN、扩散模型推动数据驱动渲染。",
+          "url": "https://arxiv.org/",
+          "source": "arXiv",
+          "momo": "从传统渲染到 AI 合成的范式转变。"
+        },
+        {
+          "title": "AI 辅助室内渲染",
+          "desc": "实时全局光照让阴影和反射更自然。",
+          "url": "https://www.cgarchitect.com/",
+          "source": "CGArchitect",
+          "momo": "建筑可视化效率大幅提升。"
+        },
+        {
+          "title": "量子计算与 AI 整合",
+          "desc": "NVIDIA 推动量子-AI-超算融合。",
+          "url": "https://nvidia.com/",
+          "source": "NVIDIA",
+          "momo": "经典系统为量子处理器提供实时控制。"
+        },
+        {
+          "title": "移动 3D 市场快速增长",
+          "desc": "3D 显示、感知、渲染技术驱动全息模拟。",
+          "url": "https://www.marketsandmarkets.com/",
+          "source": "MarketsAndMarkets",
+          "momo": "手机上的 3D 体验会越来越丰富。"
+        }
+      ]
+    },
+    {
+      "title": "OS / 系统",
+      "items": [
+        {
+          "title": "Android 1月安全更新",
+          "desc": "Pixel 10 修复显示、GPU、触屏问题。",
+          "url": "https://source.android.com/",
+          "source": "Android",
+          "momo": "Pixel 10 的早期问题正在逐步解决。"
+        },
+        {
+          "title": "iOS 26.2.1 发布",
+          "desc": "支持第二代 AirTag，增强精确查找。",
+          "url": "https://apple.com/",
+          "source": "Apple",
+          "momo": "AirTag 2 的超宽带芯片是亮点。"
+        },
+        {
+          "title": "10亿老旧安卓机停止更新",
+          "desc": "不再收到 Google 安全补丁，存在风险。",
+          "url": "https://www.android.com/",
+          "source": "Android",
+          "momo": "电子垃圾和安全隐患的双重问题。"
+        },
+        {
+          "title": "Google Wallet 升级",
+          "desc": "可查看其他设备和在线购买的交易记录。",
+          "url": "https://wallet.google/",
+          "source": "Google",
+          "momo": "钱包正在变成统一的支付中心。"
+        },
+        {
+          "title": "Android Automotive 安全公告",
+          "desc": "1月公告披露车载平台安全漏洞。",
+          "url": "https://source.android.com/",
+          "source": "Android",
+          "momo": "车机安全越来越重要。"
+        },
+        {
+          "title": "Apple Watch 血压监测获批",
+          "desc": "Series 9 及以上支持高血压风险追踪。",
+          "url": "https://apple.com/watch/",
+          "source": "Apple",
+          "momo": "健康监测是可穿戴的核心价值。"
+        },
+        {
+          "title": "ColorOS 16 主打流畅",
+          "desc": "OPPO 强调速度和跨生态连接。",
+          "url": "https://oppo.com/",
+          "source": "OPPO",
+          "momo": "国产 OS 在体验上追赶很快。"
+        },
+        {
+          "title": "三星 Galaxy S26 系列预计2月发布",
+          "desc": "新旗舰即将亮相。",
+          "url": "https://samsung.com/",
+          "source": "Samsung",
+          "momo": "安卓旗舰的年度竞争开始。"
+        },
+        {
+          "title": "折叠屏市场回暖",
+          "desc": "苹果可能入场，带动整体市场。",
+          "url": "https://www.theverge.com/",
+          "source": "The Verge",
+          "momo": "苹果入场会改变游戏规则。"
+        },
+        {
+          "title": "eSIM 持续普及",
+          "desc": "支持多配置、远程更新。",
+          "url": "https://gsma.com/",
+          "source": "GSMA",
+          "momo": "实体卡会逐渐被取代。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Unreal 5.7 动画系统升级",
+          "desc": "Mover 系统新增 400+ 动画，支持动作匹配。",
+          "url": "https://unrealengine.com/",
+          "source": "Epic",
+          "momo": "角色动画更流畅自然。"
+        },
+        {
+          "title": "RapidPipeline 插件发布",
+          "desc": "在 UE 内优化 CAD 和 3D 模型用于 VR。",
+          "url": "https://unrealengine.com/",
+          "source": "Epic",
+          "momo": "VR 内容制作流程简化。"
+        },
+        {
+          "title": "UE 分层渲染优化",
+          "desc": "VFX、体积、大气系统渲染更精准。",
+          "url": "https://unrealengine.com/",
+          "source": "Epic",
+          "momo": "专业合成工作流更顺畅。"
+        },
+        {
+          "title": "Movie Render Graph 进入 Beta",
+          "desc": "UE 电影级渲染新工具，支持 ACES 色彩管理。",
+          "url": "https://unrealengine.com/",
+          "source": "Epic",
+          "momo": "影视制作流程更专业。"
+        },
+        {
+          "title": "Unity Pro/Enterprise 涨价 5%",
+          "desc": "1月起生效，Havok 物理将移除。",
+          "url": "https://unity.com/",
+          "source": "Unity",
+          "momo": "成本上升，开发者需评估。"
+        },
+        {
+          "title": "Unity 发布 2026 行业趋势报告",
+          "desc": "实时 3D、XR、AI 融合成主流。",
+          "url": "https://unity.com/",
+          "source": "Unity",
+          "momo": "三大技术融合是未来方向。"
+        },
+        {
+          "title": "GPU 驱动四叉树地形渲染",
+          "desc": "开发者展示 Far Cry 5 风格技术。",
+          "url": "https://unity.com/",
+          "source": "Unity 社区",
+          "momo": "社区创新推动技术边界。"
+        },
+        {
+          "title": "Nanite 几何处理持续优化",
+          "desc": "GPU 计算用于剔除和程序化生成。",
+          "url": "https://unrealengine.com/",
+          "source": "Epic",
+          "momo": "虚拟几何技术越来越成熟。"
+        },
+        {
+          "title": "AR/VR 沉浸式漫游成趋势",
+          "desc": "建筑可视化领域广泛应用。",
+          "url": "https://www.cgarchitect.com/",
+          "source": "CGArchitect",
+          "momo": "虚拟看房体验越来越真实。"
+        },
+        {
+          "title": "GPU 需求推高硬件价格",
+          "desc": "AI 产业扩张导致显卡、内存涨价。",
+          "url": "https://nvidia.com/",
+          "source": "NVIDIA",
+          "momo": "AI 热潮的连锁反应。"
+        }
+      ]
+    }
+  ]
+}
