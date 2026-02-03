@@ -1,7 +1,6 @@
 :root {
   --bg: #0a0b0d;
   --paper: #f5f5f0;
-  --paper-shadow: rgba(0,0,0,0.3);
   --text: #1a1a1a;
   --muted: #666;
   --accent: #c41e3a;
@@ -12,8 +11,8 @@
 body {
   font-family: "Georgia", "Times New Roman", serif;
   background: var(--bg);
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 100vh;
+  overflow: hidden;
   perspective: 1500px;
 }
 
@@ -28,7 +27,7 @@ body {
   z-index: -1;
 }
 
-/* 头部 */
+/* 固定头部 */
 .site-header {
   position: fixed;
   top: 0;
@@ -40,6 +39,7 @@ body {
   align-items: center;
   z-index: 100;
   color: #fff;
+  background: linear-gradient(180deg, rgba(10,11,13,0.9) 0%, transparent 100%);
 }
 
 .brand {
@@ -56,36 +56,63 @@ body {
   color: rgba(255,255,255,0.5);
 }
 
-/* 报纸容器 */
-.papers-container {
-  padding: 100px 40px 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 60px;
+/* 报纸堆叠容器 */
+.papers-stack {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 800px;
+  height: 80vh;
+  transform-style: preserve-3d;
 }
 
 /* 单张报纸 */
 .newspaper {
-  width: 100%;
-  max-width: 900px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 90%;
+  max-width: 750px;
+  height: 100%;
+  transform: translateX(-50%);
   background: var(--paper);
   border-radius: 4px;
-  box-shadow: 
-    0 30px 60px var(--paper-shadow),
-    0 10px 20px rgba(0,0,0,0.2),
-    inset 0 1px 0 rgba(255,255,255,0.8);
-  transform: rotateX(2deg) rotateY(-1deg);
-  transform-style: preserve-3d;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  position: relative;
+  overflow: hidden;
+  cursor: grab;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.4s ease,
+              box-shadow 0.4s ease;
+  will-change: transform;
 }
 
-.newspaper:hover {
-  transform: rotateX(0deg) rotateY(0deg) translateY(-10px);
+.newspaper:active {
+  cursor: grabbing;
+}
+
+.newspaper.active {
+  z-index: 10;
   box-shadow: 
-    0 50px 100px var(--paper-shadow),
-    0 20px 40px rgba(0,0,0,0.3);
+    0 40px 80px rgba(0,0,0,0.4),
+    0 15px 30px rgba(0,0,0,0.3);
+}
+
+.newspaper.prev {
+  transform: translateX(-50%) translateX(-120%) rotateY(25deg) scale(0.85);
+  opacity: 0.6;
+  z-index: 5;
+}
+
+.newspaper.next {
+  transform: translateX(-50%) translateX(120%) rotateY(-25deg) scale(0.85);
+  opacity: 0.6;
+  z-index: 5;
+}
+
+.newspaper.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* 折痕效果 */
@@ -98,57 +125,61 @@ body {
   height: 2px;
   background: linear-gradient(90deg, 
     transparent 0%, 
-    rgba(0,0,0,0.08) 20%, 
-    rgba(0,0,0,0.08) 80%, 
+    rgba(0,0,0,0.06) 20%, 
+    rgba(0,0,0,0.06) 80%, 
     transparent 100%);
   pointer-events: none;
+  z-index: 10;
 }
 
 /* 报纸头部 */
 .paper-header {
-  padding: 30px 40px 20px;
+  padding: 25px 35px 18px;
   border-bottom: 3px double #1a1a1a;
   text-align: center;
+  background: var(--paper);
 }
 
 .paper-date {
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: var(--muted);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .paper-title {
   font-family: "Playfair Display", Georgia, serif;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .paper-tagline {
   font-style: italic;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* 报纸内容区 */
 .paper-content {
-  padding: 25px 40px 35px;
+  padding: 20px 35px 30px;
+  height: calc(100% - 120px);
+  overflow-y: auto;
   column-count: 2;
-  column-gap: 30px;
+  column-gap: 25px;
   column-rule: 1px solid #ddd;
 }
 
 .section-title {
   column-span: all;
   font-family: "Playfair Display", Georgia, serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   border-bottom: 1px solid #1a1a1a;
-  padding-bottom: 6px;
-  margin: 20px 0 15px;
+  padding-bottom: 5px;
+  margin: 16px 0 12px;
 }
 
 .section-title:first-child {
@@ -158,20 +189,16 @@ body {
 /* 新闻条目 */
 .news-item {
   break-inside: avoid;
-  margin-bottom: 18px;
-  padding-bottom: 15px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
   border-bottom: 1px dotted #ccc;
-}
-
-.news-item:last-child {
-  border-bottom: none;
 }
 
 .news-title {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.4;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .news-title a {
@@ -184,14 +211,14 @@ body {
 }
 
 .news-desc {
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 12px;
+  line-height: 1.55;
   color: #444;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .news-source {
-  font-size: 10px;
+  font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--muted);
@@ -199,48 +226,71 @@ body {
 
 .news-momo {
   font-style: italic;
-  font-size: 12px;
+  font-size: 11px;
   color: #666;
-  margin-top: 6px;
-  padding-left: 12px;
+  margin-top: 5px;
+  padding-left: 10px;
   border-left: 2px solid var(--accent);
 }
 
-/* 日期导航 */
-.date-nav {
+/* 导航指示器 */
+.nav-dots {
   position: fixed;
-  right: 30px;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   z-index: 100;
 }
 
-.date-dot {
-  width: 12px;
-  height: 12px;
+.nav-dot {
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.2);
-  border: 2px solid rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.3);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.date-dot:hover,
-.date-dot.active {
+.nav-dot:hover {
+  background: rgba(255,255,255,0.6);
+}
+
+.nav-dot.active {
   background: #fff;
-  border-color: #fff;
   transform: scale(1.3);
 }
 
-/* Footer */
-.site-footer {
-  text-align: center;
-  padding: 40px;
-  color: rgba(255,255,255,0.4);
-  font-size: 11px;
+/* 左右箭头 */
+.nav-arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.nav-arrow:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.nav-arrow.left { left: 20px; }
+.nav-arrow.right { right: 20px; }
+.nav-arrow.disabled {
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 /* 响应式 */
@@ -249,12 +299,10 @@ body {
     column-count: 1;
   }
   .paper-title {
-    font-size: 28px;
+    font-size: 24px;
   }
-  .papers-container {
-    padding: 80px 20px 40px;
-  }
-  .newspaper {
-    transform: none;
+  .nav-arrow {
+    width: 40px;
+    height: 40px;
   }
 }
