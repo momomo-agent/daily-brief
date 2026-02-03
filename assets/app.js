@@ -53,15 +53,10 @@ function renderPaper(data, index) {
 function updatePositions() {
   papers.forEach((paper, i) => {
     paper.classList.remove('active', 'prev', 'next', 'hidden');
-    if (i === currentIndex) {
-      paper.classList.add('active');
-    } else if (i === currentIndex - 1) {
-      paper.classList.add('prev');
-    } else if (i === currentIndex + 1) {
-      paper.classList.add('next');
-    } else {
-      paper.classList.add('hidden');
-    }
+    if (i === currentIndex) paper.classList.add('active');
+    else if (i === currentIndex - 1) paper.classList.add('prev');
+    else if (i === currentIndex + 1) paper.classList.add('next');
+    else paper.classList.add('hidden');
   });
   updateDots();
   updateArrows();
@@ -87,7 +82,6 @@ function goTo(index) {
 function prev() { goTo(currentIndex - 1); }
 function next() { goTo(currentIndex + 1); }
 
-// 拖拽手势
 function handleStart(e) {
   isDragging = true;
   startX = e.type.includes('mouse') ? e.clientX : e.touches[0].clientX;
@@ -108,51 +102,50 @@ function handleEnd(e) {
   isDragging = false;
   const x = e.type.includes('mouse') ? e.clientX : e.changedTouches[0].clientX;
   const diff = x - startX;
-  
   papers[currentIndex].style.transform = '';
-  
   if (diff < -80) next();
   else if (diff > 80) prev();
 }
 
-// 键盘控制
 document.addEventListener('keydown', e => {
   if (e.key === 'ArrowLeft') prev();
   if (e.key === 'ArrowRight') next();
 });
 
 async function init() {
-  const index = await loadIndex();
-  const stack = document.getElementById('stack');
-  const dots = document.getElementById('dots');
-  
-  for (let i = 0; i < index.dates.length; i++) {
-    const data = await loadDay(index.dates[i]);
-    const paper = renderPaper(data, i);
-    stack.appendChild(paper);
-    papers.push(paper);
+  try {
+    const index = await loadIndex();
+    const stack = document.getElementById('stack');
+    const dots = document.getElementById('dots');
     
-    // 创建导航点
-    const dot = document.createElement('div');
-    dot.className = 'nav-dot';
-    dot.onclick = () => goTo(i);
-    dots.appendChild(dot);
+    for (let i = 0; i < index.dates.length; i++) {
+      const data = await loadDay(index.dates[i]);
+      const paper = renderPaper(data, i);
+      stack.appendChild(paper);
+      papers.push(paper);
+      
+      const dot = document.createElement('div');
+      dot.className = 'nav-dot';
+      dot.onclick = () => goTo(i);
+      dots.appendChild(dot);
+    }
+    
+    document.getElementById('prevBtn').onclick = prev;
+    document.getElementById('nextBtn').onclick = next;
+    
+    stack.addEventListener('mousedown', handleStart);
+    stack.addEventListener('mousemove', handleMove);
+    stack.addEventListener('mouseup', handleEnd);
+    stack.addEventListener('mouseleave', handleEnd);
+    
+    stack.addEventListener('touchstart', handleStart);
+    stack.addEventListener('touchmove', handleMove);
+    stack.addEventListener('touchend', handleEnd);
+    
+    updatePositions();
+  } catch (err) {
+    console.error('Init error:', err);
   }
-  
-  // 绑定事件
-  document.getElementById('prevBtn').onclick = prev;
-  document.getElementById('nextBtn').onclick = next;
-  
-  stack.addEventListener('mousedown', handleStart);
-  stack.addEventListener('mousemove', handleMove);
-  stack.addEventListener('mouseup', handleEnd);
-  stack.addEventListener('mouseleave', handleEnd);
-  
-  stack.addEventListener('touchstart', handleStart);
-  stack.addEventListener('touchmove', handleMove);
-  stack.addEventListener('touchend', handleEnd);
-  
-  updatePositions();
 }
 
 init();
