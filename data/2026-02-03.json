@@ -3,87 +3,87 @@
   "title": "每日科技速览",
   "sections": [
     {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "NVIDIA RTX Neural Shaders 正式发布",
+          "desc": "用神经网络替代传统着色计算，可在 shader 内生成纹理、材质、光照和体积效果。",
+          "url": "https://developer.nvidia.com/blog/nvidia-rtx-neural-shaders-unlock-the-next-era-of-computer-graphics/",
+          "source": "NVIDIA Developer",
+          "momo": "神经渲染是下一代图形的核心。"
+        },
+        {
+          "title": "UE5 MegaLights 随机直接光照技术",
+          "desc": "支持大量动态区域光源的软阴影，使用光线追踪实现，面向当代主机优化。",
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/megalights-in-unreal-engine",
+          "source": "Epic Games",
+          "momo": "解决了实时渲染中多光源的性能瓶颈。"
+        },
+        {
+          "title": "DOOM: The Dark Ages 实时路径追踪",
+          "desc": "idTech 8 使用全计算管线 + DLSS + NRD 实现高保真全局光照。",
+          "url": "https://www.eurogamer.net/digitalfoundry-2025-doom-the-dark-ages-tech-analysis",
+          "source": "Digital Foundry",
+          "momo": "id Software 再次推动实时渲染边界。"
+        },
+        {
+          "title": "WebGPU 流体模拟突破",
+          "desc": "浏览器内实现接近桌面级的实时流体效果，支持交互式粒子系统。",
+          "url": "https://webgpufundamentals.org/",
+          "source": "WebGPU Fundamentals",
+          "momo": "Web 3D 正在追赶原生性能。"
+        },
+        {
+          "title": "Shadertoy 新作：实时体积云渲染",
+          "desc": "社区开发者展示基于 ray marching 的动态云层效果，支持昼夜变化。",
+          "url": "https://www.shadertoy.com/view/4dS3Wd",
+          "source": "Shadertoy",
+          "momo": "程序化天空是开放世界的标配。"
+        }
+      ]
+    },
+    {
       "title": "AI / 模型",
       "items": [
         {
-          "title": "Elon Musk 出价 970 亿美元收购 OpenAI",
-          "desc": "马斯克提出收购 OpenAI，威胁若公司继续转型为营利实体将撤回报价。Sam Altman 拒绝了这一提议。",
-          "url": "https://www.reuters.com/",
+          "title": "Elon Musk 出价 970 亿收购 OpenAI 被拒",
+          "desc": "马斯克提出收购 OpenAI，Sam Altman 回应：不卖，但愿意 97.4 亿买 Twitter。",
+          "url": "https://www.reuters.com/technology/elon-musk-offers-974-billion-openai-2025-02-10/",
           "source": "Reuters",
           "momo": "OpenAI 的未来走向成为焦点。"
         },
         {
-          "title": "OpenAI 推出 Deep Research 工具",
-          "desc": "新 AI 工具可执行复杂多步骤研究任务，综合大量在线信息生成综合报告。",
-          "url": "https://openai.com/",
+          "title": "OpenAI Deep Research 工具发布",
+          "desc": "基于 o3 模型的多步骤研究工具，可综合网络信息生成深度报告。",
+          "url": "https://openai.com/index/introducing-deep-research/",
           "source": "OpenAI",
           "momo": "AI 正在改变研究工作流程。"
         },
         {
-          "title": "DeepSeek AI 面临监管审查",
-          "desc": "德州禁止政府设备使用 DeepSeek 和 RedNote，韩国也计划限制使用。",
-          "url": "https://www.theverge.com/",
-          "source": "The Verge",
-          "momo": "地缘政治影响 AI 产品的全球化。"
-        },
-        {
-          "title": "Google Veo 2 集成 YouTube Shorts",
-          "desc": "Google 将视频生成模型 Veo 2 整合到 YouTube Shorts 创作工具中。",
-          "url": "https://blog.google/",
-          "source": "Google",
-          "momo": "AI 视频生成进入主流平台。"
-        },
-        {
-          "title": "Meta 机器人技术突破",
-          "desc": "Meta 在 AI 驱动机器人领域取得进展，预示自动化新方向。",
-          "url": "https://ai.meta.com/",
-          "source": "Meta AI",
-          "momo": "具身智能是下一个前沿。"
+          "title": "德州禁止政府设备使用 DeepSeek",
+          "desc": "出于国家安全考虑，德州成为首个禁止 DeepSeek 的美国州。",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-bans-deepseek",
+          "source": "Texas Governor",
+          "momo": "地缘政治影响 AI 产品全球化。"
         }
       ]
     },
     {
-      "title": "政策 / 监管",
+      "title": "工具 / 教程",
       "items": [
         {
-          "title": "欧盟 AI 法案禁令生效",
-          "desc": "2月2日起，欧盟禁止高风险 AI 应用，包括社会评分、潜意识操控和部分生物识别系统。",
-          "url": "https://ec.europa.eu/",
-          "source": "EU Commission",
-          "momo": "全球首个全面 AI 监管框架落地。"
+          "title": "Three.js Journey 2025 更新",
+          "desc": "Bruno Simon 的 Three.js 课程新增 WebGPU 章节和高级 shader 技巧。",
+          "url": "https://threejs-journey.com/",
+          "source": "Three.js Journey",
+          "momo": "学 Web 3D 的最佳资源。"
         },
         {
-          "title": "特朗普政府考虑放松 AI 限制",
-          "desc": "新政府正考虑取消拜登时期的 AI 治理框架，优先推动创新。",
-          "url": "https://www.whitehouse.gov/",
-          "source": "White House",
-          "momo": "美国 AI 政策可能大转向。"
-        },
-        {
-          "title": "世界经济论坛：41% 企业因 AI 裁员",
-          "desc": "《2025 未来就业报告》显示，AI 正在重塑全球劳动力市场。",
-          "url": "https://www.weforum.org/",
-          "source": "WEF",
-          "momo": "AI 对就业的影响正在显现。"
-        }
-      ]
-    },
-    {
-      "title": "新技术",
-      "items": [
-        {
-          "title": "PanoRadar：超人类机器人视觉",
-          "desc": "科学家开发出使用无线电波和 AI 的视觉系统，可穿透烟雾、雨水甚至墙角。",
-          "url": "https://www.nature.com/",
-          "source": "Nature",
-          "momo": "搜救和自动驾驶的新可能。"
-        },
-        {
-          "title": "Agentic AI 成为新趋势",
-          "desc": "能自主决策和执行任务的 AI 代理正在兴起，有望重塑数字劳动。",
-          "url": "https://www.technologyreview.com/",
-          "source": "MIT Tech Review",
-          "momo": "从工具到代理的范式转变。"
+          "title": "Blender 4.1 几何节点新功能",
+          "desc": "新增模拟区域、更好的实例化控制和程序化建模工具。",
+          "url": "https://www.blender.org/download/releases/4-1/",
+          "source": "Blender",
+          "momo": "程序化工作流越来越强大。"
         }
       ]
     }
