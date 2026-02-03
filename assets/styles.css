@@ -62,10 +62,11 @@ body {
   top: 80px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  max-width: 800px;
+  width: 100vw;
+  max-width: none;
   height: calc(100vh - 80px);
   transform-style: preserve-3d;
+  overflow: visible;
 }
 
 /* 单张报纸 */
