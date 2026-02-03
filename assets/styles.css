@@ -99,14 +99,14 @@ body {
 }
 
 .newspaper.prev {
-  transform: translateX(-50%) translateX(-120%) rotateY(25deg) scale(0.85);
-  opacity: 0.6;
+  transform: translateX(-50%) translateX(-60%) rotateY(15deg) scale(0.9);
+  opacity: 0.7;
   z-index: 5;
 }
 
 .newspaper.next {
-  transform: translateX(-50%) translateX(120%) rotateY(-25deg) scale(0.85);
-  opacity: 0.6;
+  transform: translateX(-50%) translateX(60%) rotateY(-15deg) scale(0.9);
+  opacity: 0.7;
   z-index: 5;
 }
 
