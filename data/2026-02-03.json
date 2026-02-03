@@ -1,0 +1,91 @@
+{
+  "date": "2026-02-03",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "AI / 模型",
+      "items": [
+        {
+          "title": "Elon Musk 出价 970 亿美元收购 OpenAI",
+          "desc": "马斯克提出收购 OpenAI，威胁若公司继续转型为营利实体将撤回报价。Sam Altman 拒绝了这一提议。",
+          "url": "https://www.reuters.com/",
+          "source": "Reuters",
+          "momo": "OpenAI 的未来走向成为焦点。"
+        },
+        {
+          "title": "OpenAI 推出 Deep Research 工具",
+          "desc": "新 AI 工具可执行复杂多步骤研究任务，综合大量在线信息生成综合报告。",
+          "url": "https://openai.com/",
+          "source": "OpenAI",
+          "momo": "AI 正在改变研究工作流程。"
+        },
+        {
+          "title": "DeepSeek AI 面临监管审查",
+          "desc": "德州禁止政府设备使用 DeepSeek 和 RedNote，韩国也计划限制使用。",
+          "url": "https://www.theverge.com/",
+          "source": "The Verge",
+          "momo": "地缘政治影响 AI 产品的全球化。"
+        },
+        {
+          "title": "Google Veo 2 集成 YouTube Shorts",
+          "desc": "Google 将视频生成模型 Veo 2 整合到 YouTube Shorts 创作工具中。",
+          "url": "https://blog.google/",
+          "source": "Google",
+          "momo": "AI 视频生成进入主流平台。"
+        },
+        {
+          "title": "Meta 机器人技术突破",
+          "desc": "Meta 在 AI 驱动机器人领域取得进展，预示自动化新方向。",
+          "url": "https://ai.meta.com/",
+          "source": "Meta AI",
+          "momo": "具身智能是下一个前沿。"
+        }
+      ]
+    },
+    {
+      "title": "政策 / 监管",
+      "items": [
+        {
+          "title": "欧盟 AI 法案禁令生效",
+          "desc": "2月2日起，欧盟禁止高风险 AI 应用，包括社会评分、潜意识操控和部分生物识别系统。",
+          "url": "https://ec.europa.eu/",
+          "source": "EU Commission",
+          "momo": "全球首个全面 AI 监管框架落地。"
+        },
+        {
+          "title": "特朗普政府考虑放松 AI 限制",
+          "desc": "新政府正考虑取消拜登时期的 AI 治理框架，优先推动创新。",
+          "url": "https://www.whitehouse.gov/",
+          "source": "White House",
+          "momo": "美国 AI 政策可能大转向。"
+        },
+        {
+          "title": "世界经济论坛：41% 企业因 AI 裁员",
+          "desc": "《2025 未来就业报告》显示，AI 正在重塑全球劳动力市场。",
+          "url": "https://www.weforum.org/",
+          "source": "WEF",
+          "momo": "AI 对就业的影响正在显现。"
+        }
+      ]
+    },
+    {
+      "title": "新技术",
+      "items": [
+        {
+          "title": "PanoRadar：超人类机器人视觉",
+          "desc": "科学家开发出使用无线电波和 AI 的视觉系统，可穿透烟雾、雨水甚至墙角。",
+          "url": "https://www.nature.com/",
+          "source": "Nature",
+          "momo": "搜救和自动驾驶的新可能。"
+        },
+        {
+          "title": "Agentic AI 成为新趋势",
+          "desc": "能自主决策和执行任务的 AI 代理正在兴起，有望重塑数字劳动。",
+          "url": "https://www.technologyreview.com/",
+          "source": "MIT Tech Review",
+          "momo": "从工具到代理的范式转变。"
+        }
+      ]
+    }
+  ]
+}

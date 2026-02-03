@@ -1,74 +1,89 @@
-let indexData = null;
-
-async function fetchIndex() {
-  const res = await fetch('./data/index.json');
-  indexData = await res.json();
+// 加载日期索引
+async function loadIndex() {
+  const res = await fetch('data/index.json');
+  return res.json();
 }
 
-function renderNav(selectedDate) {
-  const nav = document.getElementById('date-nav');
-  if (!nav || !indexData) return;
-  nav.innerHTML = indexData.items.map(item => `
-    <a class="date-link ${item.date===selectedDate?'active':''}" href="#" data-date="${item.date}">
-      <span>${item.date}</span>
-      <span>${item.subtitle || '简报'}</span>
-    </a>
-  `).join('');
-  nav.querySelectorAll('.date-link').forEach(a => {
-    a.addEventListener('click', (e) => {
-      e.preventDefault();
-      loadDaily(a.getAttribute('data-date'));
+// 加载单日数据
+async function loadDay(date) {
+  const res = await fetch(`data/${date}.json`);
+  return res.json();
+}
+
+// 渲染单张报纸
+function renderPaper(data) {
+  const paper = document.createElement('article');
+  paper.className = 'newspaper';
+  paper.id = `paper-${data.date}`;
+  
+  let sectionsHtml = '';
+  data.sections.forEach(section => {
+    sectionsHtml += `<h2 class="section-title">${section.title}</h2>`;
+    section.items.forEach(item => {
+      sectionsHtml += renderItem(item);
     });
+  });
+  
+  paper.innerHTML = `
+    <header class="paper-header">
+      <div class="paper-date">${formatDate(data.date)}</div>
+      <h1 class="paper-title">${data.title}</h1>
+      <div class="paper-tagline">AI · OS · Graphics</div>
+    </header>
+    <div class="paper-content">
+      ${sectionsHtml}
+    </div>
+  `;
+  
+  return paper;
+}
+
+function renderItem(item) {
+  return `
+    <div class="news-item">
+      <h3 class="news-title">
+        <a href="${item.url}" target="_blank">${item.title}</a>
+      </h3>
+      <p class="news-desc">${item.desc}</p>
+      <span class="news-source">${item.source}</span>
+      ${item.momo ? `<p class="news-momo">✨ ${item.momo}</p>` : ''}
+    </div>
+  `;
+}
+
+function formatDate(dateStr) {
+  const d = new Date(dateStr);
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 
+                  'July', 'August', 'September', 'October', 'November', 'December'];
+  return `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+}
+
+function renderDateNav(dates) {
+  const nav = document.getElementById('dateNav');
+  dates.forEach((date, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'date-dot' + (i === 0 ? ' active' : '');
+    dot.title = date;
+    dot.onclick = () => {
+      document.getElementById(`paper-${date}`)?.scrollIntoView({ behavior: 'smooth' });
+      document.querySelectorAll('.date-dot').forEach(d => d.classList.remove('active'));
+      dot.classList.add('active');
+    };
+    nav.appendChild(dot);
   });
 }
 
-function coverClass(sectionTitle) {
-  const t = sectionTitle.toLowerCase();
-  if (t.includes('ai') || t.includes('模型')) return 'card-cover ai';
-  if (t.includes('os') || t.includes('系统')) return 'card-cover os';
-  if (t.includes('图形') || t.includes('交互')) return 'card-cover graphics';
-  if (t.includes('社区')) return 'card-cover community';
-  return 'card-cover';
+async function init() {
+  const index = await loadIndex();
+  const container = document.getElementById('papers');
+  
+  renderDateNav(index.dates);
+  
+  for (const date of index.dates) {
+    const data = await loadDay(date);
+    container.appendChild(renderPaper(data));
+  }
 }
 
-function coverIcon(sectionTitle) {
-  const t = sectionTitle.toLowerCase();
-  if (t.includes('ai') || t.includes('模型')) return '🤖';
-  if (t.includes('os') || t.includes('系统')) return '💻';
-  if (t.includes('图形') || t.includes('交互')) return '🎨';
-  if (t.includes('社区')) return '💬';
-  return '📰';
-}
-
-async function loadDaily(date) {
-  const res = await fetch(`./data/${date}.json`);
-  const data = await res.json();
-  document.getElementById('daily-title').textContent = `${date} · ${data.title}`;
-
-  const container = document.getElementById('daily-sections');
-  let html = '<div class="masonry">';
-  data.sections.forEach(sec => {
-    sec.items.forEach(it => {
-      html += `
-        <div class="card">
-          <div class="${coverClass(sec.title)}">${coverIcon(sec.title)}</div>
-          <div class="card-body">
-            <div class="title">${it.title}</div>
-            <div class="meta">${sec.title} · ${it.source || '来源'}</div>
-            <div class="desc">${it.desc}</div>
-            ${it.momo ? `<div class="momo-take">${it.momo}</div>` : ''}
-            <a href="${it.url}" target="_blank">打开原文 →</a>
-          </div>
-        </div>`;
-    });
-  });
-  html += '</div>';
-  container.innerHTML = html;
-  renderNav(date);
-}
-
-(async () => {
-  await fetchIndex();
-  const firstDate = indexData.items[0].date;
-  await loadDaily(firstDate);
-})();
+init();
