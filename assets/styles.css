@@ -59,13 +59,15 @@ body {
 /* 报纸堆叠容器 */
 .papers-stack {
   position: fixed;
-  top: 50%;
+  top: 80px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   width: 100%;
   max-width: 800px;
-  height: 80vh;
+  height: calc(100vh - 80px);
   transform-style: preserve-3d;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* 单张报纸 */
@@ -75,11 +77,11 @@ body {
   left: 50%;
   width: 90%;
   max-width: 750px;
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   transform: translateX(-50%);
   background: var(--paper);
-  border-radius: 4px;
-  overflow: hidden;
+  border-radius: 4px 4px 0 0;
   cursor: grab;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
               opacity 0.4s ease,
@@ -115,23 +117,6 @@ body {
   pointer-events: none;
 }
 
-/* 折痕效果 */
-.newspaper::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, 
-    transparent 0%, 
-    rgba(0,0,0,0.06) 20%, 
-    rgba(0,0,0,0.06) 80%, 
-    transparent 100%);
-  pointer-events: none;
-  z-index: 10;
-}
-
 /* 报纸头部 */
 .paper-header {
   padding: 25px 35px 18px;
@@ -164,9 +149,7 @@ body {
 
 /* 报纸内容区 */
 .paper-content {
-  padding: 20px 35px 30px;
-  height: calc(100% - 120px);
-  overflow-y: auto;
+  padding: 20px 35px 60px;
   column-count: 2;
   column-gap: 25px;
   column-rule: 1px solid #ddd;
