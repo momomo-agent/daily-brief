@@ -3,80 +3,83 @@
   "title": "每日科技速览",
   "sections": [
     {
-      "title": "图形 / 渲染",
+      "title": "科技",
       "items": [
         {
-          "title": "NVIDIA DLSS 4.5 发布：动态多帧生成",
-          "desc": "CES 2026 发布，支持 6X 多帧生成，路径追踪游戏可达 240+ FPS。",
-          "url": "https://www.nvidia.com/en-us/geforce/news/dlss4-5-multi-frame-generation/",
-          "source": "NVIDIA",
-          "momo": "神经渲染正式成为主流。"
+          "title": "Adobe actually won’t discontinue Animate",
+          "desc": "Adobe is no longer planning to discontinue Adobe Animate on March 1st. In an FAQ, the company now says that Animate will now be in maintenance mode and that it has \"no plans to discontinue or remove a...",
+          "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
+          "source": "The Verge"
         },
         {
-          "title": "RTX Kit 神经渲染套件详解",
-          "desc": "包含 RTX Neural Shaders、Neural Texture Compression、Mega Geometry 等技术。",
-          "url": "https://developer.nvidia.com/rtx/kit",
-          "source": "NVIDIA Developer",
-          "momo": "AI 深度融入图形管线。"
+          "title": "Republicans haul Netflix before Congress for being too ‘woke’",
+          "desc": "Netflix CEO Ted Sarandos was launched into the middle of a congressional culture war on Tuesday as he testified before a Senate subcommittee about the company's attempt to buy a large part of Warner B...",
+          "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
+          "source": "The Verge"
         },
         {
-          "title": "WebGPU 3D 生命游戏演示",
-          "desc": "纯 compute shader 实现三维康威生命游戏，数十万实例化立方体。",
-          "url": "https://webgpu.github.io/webgpu-samples/",
-          "source": "WebGPU Samples",
-          "momo": "WebGPU compute shader 的威力。"
+          "title": "AMD hints Microsoft could launch its next-gen Xbox in 2027",
+          "desc": "Microsoft confirmed last year that it's working on a next-gen Xbox console in partnership with AMD. Now, AMD is hinting that the next Xbox console, which will use custom AMD chips, could be launching ...",
+          "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
+          "source": "The Verge"
         },
         {
-          "title": "Grenzwert: 浏览器内路径追踪 CT 渲染",
-          "desc": "C++/WASM + WebGPU 实现体积数据的真实路径追踪。",
-          "url": "https://github.com/nickmcummins/grenzwert",
-          "source": "GitHub",
-          "momo": "医学可视化进入 Web 时代。"
+          "title": "Nvidia's $100 billion OpenAI deal has seemingly vanished",
+          "desc": "Two AI giants shake market confidence after investment fails to materialize.",
+          "url": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "The rise of Moltbook suggests viral AI prompts may be the next big security threat",
+          "desc": "We don't need self-replicating AI models to have problems, just self-replicating prompts.",
+          "url": "https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/",
+          "source": "Ars Technica"
         }
       ]
     },
     {
-      "title": "AI / 模型",
+      "title": "开发者",
       "items": [
         {
-          "title": "NVIDIA Vera Rubin AI 芯片 2026 年发布",
-          "desc": "下一代 AI 芯片，集成新 GPU、CPU 和网络芯片。",
-          "url": "https://www.reuters.com/technology/nvidia-vera-rubin-ai-chip-2026/",
-          "source": "Reuters",
-          "momo": "AI 算力继续指数增长。"
+          "title": "I miss thinking hard",
+          "desc": "Article URL: https://www.jernesto.com/articles/thinking_hard Comments URL: https://news.ycombinator.com/item?id=46881264 Points: 99 # Comments: 63",
+          "url": "https://www.jernesto.com/articles/thinking_hard",
+          "source": "Hacker News"
         },
         {
-          "title": "RTX 本地 4K AI 视频生成",
-          "desc": "CES 2026 宣布，消费级 GPU 支持专业级 AI 视频生成，速度提升 3 倍。",
-          "url": "https://blogs.nvidia.com/blog/ai-video-generation-rtx/",
-          "source": "NVIDIA Blog",
-          "momo": "本地 AI 创作门槛大幅降低。"
+          "title": "Notepad++ supply chain attack breakdown",
+          "desc": "Article URL: https://securelist.com/notepad-supply-chain-attack/118708/ Comments URL: https://news.ycombinator.com/item?id=46878338 Points: 224 # Comments: 100",
+          "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
+          "source": "Hacker News"
         },
         {
-          "title": "Neural Radiance Cache 技术解析",
-          "desc": "AI 学习多次光线反弹，从少量采样推断完整全局光照。",
-          "url": "https://developer.nvidia.com/blog/neural-radiance-cache/",
-          "source": "NVIDIA Developer",
-          "momo": "路径追踪降噪的未来。"
+          "title": "FlashAttention-T: Towards Tensorized Attention",
+          "desc": "Article URL: https://dl.acm.org/doi/10.1145/3774934.3786425 Comments URL: https://news.ycombinator.com/item?id=46877403 Points: 86 # Comments: 46",
+          "url": "https://dl.acm.org/doi/10.1145/3774934.3786425",
+          "source": "Hacker News"
         }
       ]
     },
     {
-      "title": "工具 / 教程",
+      "title": "AI",
       "items": [
         {
-          "title": "Three.js WebGPU 迁移指南 2026",
-          "desc": "TSL 着色器语言同时编译 WGSL 和 GLSL，compute shader 性能提升 10-100 倍。",
-          "url": "https://threejs-journey.com/webgpu",
-          "source": "Three.js Journey",
-          "momo": "Web 3D 开发者必读。"
+          "title": "The Download: squeezing more metal out of aging mines, and AI’s truth crisis",
+          "desc": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Microbes could extract the metal needed for cleantech In a pin...",
+          "url": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
+          "source": "MIT Tech Review AI"
         },
         {
-          "title": "UE5.7 新功能：AI 助手与骨骼编辑器",
-          "desc": "编辑器内 AI 指导、改进的骨骼动画工具、单向物理碰撞支持。",
-          "url": "https://www.unrealengine.com/en-US/blog/unreal-engine-5-7-release",
-          "source": "Unreal Engine",
-          "momo": "游戏开发工作流持续优化。"
+          "title": "Microbes could extract the metal needed for cleantech",
+          "desc": "In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is nearing the end of its life. At a time when carmakers want the metal for electric-vehicle batteries, nickel con...",
+          "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
+          "source": "MIT Tech Review AI"
+        },
+        {
+          "title": "What we’ve been getting wrong about AI’s truth crisis",
+          "desc": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. What would it take to convince you that the era of truth decay...",
+          "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
+          "source": "MIT Tech Review AI"
         }
       ]
     }

@@ -1,13 +1,145 @@
 #!/usr/bin/env python3
-# Placeholder generator: fetch sources & write daily page (manual curation for now)
-import datetime, pathlib
+"""
+Daily Brief Generator - 从真实 RSS 源抓取新闻
+"""
+import datetime
+import json
+import pathlib
+import xml.etree.ElementTree as ET
+from urllib.request import urlopen, Request
+from html import unescape
+import re
 
-root = pathlib.Path('/Users/kenefe/LOCAL/momo-agent/daily-brief')
-(date,) = (datetime.date.today().isoformat(),)
+ROOT = pathlib.Path(__file__).parent.parent
+DATA_DIR = ROOT / 'data'
 
-# For now, just ensure a daily page exists.
-path = root / 'daily' / f"{date}.html"
-if not path.exists():
-    path.write_text(f"""<!doctype html><html><head><meta charset='utf-8'><title>{date}</title></head><body><h1>{date}</h1><p>Placeholder</p></body></html>""")
+# RSS 源配置
+FEEDS = {
+    "科技": [
+        ("The Verge", "https://www.theverge.com/rss/index.xml", "atom"),
+        ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab", "rss"),
+    ],
+    "开发者": [
+        ("Hacker News", "https://hnrss.org/frontpage", "rss"),
+    ],
+    "AI": [
+        ("MIT Tech Review AI", "https://www.technologyreview.com/feed/", "rss"),
+    ],
+}
 
-print(path)
+def fetch_feed(url):
+    """抓取 RSS/Atom feed"""
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0 DailyBrief/1.0'})
+    with urlopen(req, timeout=15) as resp:
+        return resp.read().decode('utf-8')
+
+def clean_text(text):
+    """清理 HTML 和多余空白"""
+    if not text:
+        return ""
+    text = unescape(text)
+    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text[:200] + "..." if len(text) > 200 else text
+
+def parse_atom(xml_str, source_name, limit=3):
+    """解析 Atom feed"""
+    items = []
+    root = ET.fromstring(xml_str)
+    ns = {'atom': 'http://www.w3.org/2005/Atom'}
+    
+    for entry in root.findall('atom:entry', ns)[:limit]:
+        title_el = entry.find('atom:title', ns)
+        link_el = entry.find('atom:link[@rel="alternate"]', ns)
+        if link_el is None:
+            link_el = entry.find('atom:link', ns)
+        summary_el = entry.find('atom:summary', ns)
+        content_el = entry.find('atom:content', ns)
+        
+        title = clean_text(title_el.text if title_el is not None else "")
+        url = link_el.get('href') if link_el is not None else ""
+        desc = clean_text((summary_el.text if summary_el is not None else "") or 
+                         (content_el.text if content_el is not None else ""))
+        
+        if title and url:
+            items.append({
+                "title": title,
+                "desc": desc or "点击查看详情",
+                "url": url,
+                "source": source_name
+            })
+    return items
+
+def parse_rss(xml_str, source_name, limit=3):
+    """解析 RSS feed"""
+    items = []
+    root = ET.fromstring(xml_str)
+    
+    for item in root.findall('.//item')[:limit]:
+        title_el = item.find('title')
+        link_el = item.find('link')
+        desc_el = item.find('description')
+        
+        title = clean_text(title_el.text if title_el is not None else "")
+        url = link_el.text if link_el is not None else ""
+        desc = clean_text(desc_el.text if desc_el is not None else "")
+        
+        if title and url:
+            items.append({
+                "title": title,
+                "desc": desc or "点击查看详情",
+                "url": url,
+                "source": source_name
+            })
+    return items
+
+def generate_daily():
+    """生成今日报纸数据"""
+    today = datetime.date.today().isoformat()
+    sections = []
+    
+    for section_name, feeds in FEEDS.items():
+        items = []
+        for source_name, url, feed_type in feeds:
+            try:
+                xml_str = fetch_feed(url)
+                if feed_type == "atom":
+                    items.extend(parse_atom(xml_str, source_name))
+                else:
+                    items.extend(parse_rss(xml_str, source_name))
+            except Exception as e:
+                print(f"  ⚠️ {source_name} 抓取失败: {e}")
+        
+        if items:
+            sections.append({
+                "title": section_name,
+                "items": items[:5]  # 每个分类最多5条
+            })
+    
+    data = {
+        "date": today,
+        "title": "每日科技速览",
+        "sections": sections
+    }
+    
+    # 保存今日数据
+    DATA_DIR.mkdir(exist_ok=True)
+    data_path = DATA_DIR / f"{today}.json"
+    data_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    print(f"✅ 已生成: {data_path}")
+    
+    # 更新索引
+    update_index()
+    return data_path
+
+def update_index():
+    """更新 index.json，保留最近7天"""
+    json_files = sorted(DATA_DIR.glob("202*.json"), reverse=True)
+    dates = [f.stem for f in json_files if f.stem != "index"][:7]
+    
+    index_path = DATA_DIR / "index.json"
+    index_path.write_text(json.dumps({"dates": dates}, indent=2))
+    print(f"✅ 索引已更新: {dates}")
+
+if __name__ == "__main__":
+    generate_daily()
