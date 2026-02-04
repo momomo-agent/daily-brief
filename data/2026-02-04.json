@@ -7,61 +7,15 @@
       "items": [
         {
           "title": "实时头发渲染的光线追踪方案",
-          "desc": "Jacco Bikker 推荐的博客，对比 NVIDIA 硬件加速头发与其他方案。",
+          "desc": "对比 NVIDIA 硬件加速头发与其他渲染方案。",
           "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdv5xqx5ik26",
           "source": "Jacco Bikker"
         },
         {
           "title": "BVH 预分割优化详解",
-          "desc": "通过预分割生成高质量 BVH 的技术文章，附 GitHub 实现。",
+          "desc": "通过预分割生成高质量 BVH，附 GitHub 实现。",
           "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdksp5det22r",
           "source": "Jacco Bikker"
-        }
-      ]
-    },
-    {
-      "title": "科技",
-      "items": [
-        {
-          "title": "Adobe 不会停止 Animate",
-          "desc": "进入维护模式而非停产，用户可继续使用。",
-          "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
-          "source": "The Verge"
-        },
-        {
-          "title": "下一代 Xbox 或 2027 年发布",
-          "desc": "AMD 暗示与微软合作的新主机可能 2027 年推出。",
-          "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
-          "source": "The Verge"
-        },
-        {
-          "title": "英伟达千亿投资 OpenAI 计划泡汤",
-          "desc": "五个月过去，巨额投资未能落地。",
-          "url": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
-          "source": "Ars Technica"
-        }
-      ]
-    },
-    {
-      "title": "开发者",
-      "items": [
-        {
-          "title": "我怀念深度思考的日子",
-          "desc": "反思 AI 工具普及后，人们逐渐失去独立思考能力。",
-          "url": "https://www.jernesto.com/articles/thinking_hard",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Notepad++ 供应链攻击分析",
-          "desc": "安全研究人员详细拆解针对 Notepad++ 的攻击手法。",
-          "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "太空数据中心毫无意义",
-          "desc": "热门讨论：为什么把数据中心放到太空是个糟糕的主意。",
-          "url": "https://civai.org/blog/space-data-centers",
-          "source": "Hacker News"
         }
       ]
     },
@@ -70,15 +24,78 @@
       "items": [
         {
           "title": "微生物或能提取清洁技术金属",
-          "desc": "科学家探索用微生物从废矿中提取电池所需金属。",
-          "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech",
+          "desc": "用微生物从废矿中提取电池所需金属。",
+          "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
           "source": "MIT Tech Review"
         },
         {
           "title": "AI 真相危机的理解可能有误",
-          "desc": "深度伪造威胁或被高估，真正问题在于信任体系崩塌。",
-          "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis",
+          "desc": "深度伪造威胁或被高估，问题在于信任崩塌。",
+          "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
           "source": "MIT Tech Review"
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "title": "Combobox vs Multiselect vs Listbox",
+          "desc": "详解三种选择器组件的区别和适用场景。",
+          "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/",
+          "source": "Smashing Magazine"
+        },
+        {
+          "title": "AI 编程工具的负责任使用",
+          "desc": "AI 代码助手如何帮助处理繁琐工作。",
+          "url": "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/",
+          "source": "Smashing Magazine"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "英伟达千亿投资 OpenAI 计划泡汤",
+          "desc": "五个月过去，巨额投资未能落地。",
+          "url": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "太空数据中心毫无意义",
+          "desc": "热门讨论：为什么这是个糟糕的主意。",
+          "url": "https://civai.org/blog/space-data-centers",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Notepad++ 供应链攻击分析",
+          "desc": "详细拆解针对 Notepad++ 的攻击手法。",
+          "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "操作系统",
+      "items": [
+        {
+          "title": "Zig 用自己的代码替换第三方 C 代码",
+          "desc": "Zig libc 项目逐步删除冗余代码。",
+          "url": "https://www.osnews.com/story/144329/zig-replaces-third-party-c-code-with-zigs-own-code/",
+          "source": "OSNews"
+        },
+        {
+          "title": "Rust 进入 NetBSD 内核似乎不太可能",
+          "desc": "NetBSD 开发者对 Rust 内核支持的讨论。",
+          "url": "https://www.osnews.com/story/144326/rust-in-the-netbsd-kernel-seems-unlikely/",
+          "source": "OSNews"
+        },
+        {
+          "title": "Firefox Nightly 添加 AI 关闭开关",
+          "desc": "Mozilla 终于加了禁用 AI 功能的选项。",
+          "url": "https://www.osnews.com/story/144321/firefox-nightly-gets-ai-kill-switch/",
+          "source": "OSNews"
         }
       ]
     }

@@ -72,15 +72,21 @@ FEEDS = {
         ("Ben Golus", "https://bsky.app/profile/bgolus.bsky.social/rss", "rss"),
         ("Jacco Bikker", "https://bsky.app/profile/jbikker.bsky.social/rss", "rss"),
     ],
-    "科技": [
+    "AI": [
+        ("MIT Tech Review", "https://www.technologyreview.com/feed/", "rss"),
+    ],
+    "设计": [
+        ("Smashing Magazine", "https://www.smashingmagazine.com/feed/", "rss"),
+        ("A List Apart", "https://alistapart.com/main/feed/", "rss"),
+    ],
+    "互联网 / 科技": [
         ("The Verge", "https://www.theverge.com/rss/index.xml", "atom"),
         ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab", "rss"),
-    ],
-    "开发者": [
         ("Hacker News", "https://hnrss.org/frontpage", "rss"),
     ],
-    "AI": [
-        ("MIT Tech Review AI", "https://www.technologyreview.com/feed/", "rss"),
+    "操作系统": [
+        ("OSNews", "https://www.osnews.com/feed/", "rss"),
+        ("9to5Mac", "https://9to5mac.com/feed/", "rss"),
     ],
 }
 
