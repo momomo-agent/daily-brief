@@ -3,6 +3,35 @@
   "title": "每日科技速览",
   "sections": [
     {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "SIGGRAPH 2025 资源汇总",
+          "desc": "Self Shadow 整理的 SIGGRAPH 2025 全部课程、演讲和开源项目链接，包括神经着色、实时渲染进展等。",
+          "url": "https://blog.selfshadow.com/2025/08/15/siggraph-2025-links/",
+          "source": "Self Shadow"
+        },
+        {
+          "title": "SIGGRAPH 2024 资源汇总",
+          "desc": "2024 年 SIGGRAPH 大会内容合集，涵盖 Caldera 实时渲染、开源项目和主题演讲录像。",
+          "url": "https://blog.selfshadow.com/2024/08/03/siggraph-2024-links/",
+          "source": "Self Shadow"
+        },
+        {
+          "title": "光线追踪环境光遮蔽的空间哈希方法",
+          "desc": "介绍如何用空间哈希将 3D 空间划分为体素，高效存储和访问局部光照数据。",
+          "url": "https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/",
+          "source": "Interplay of Light"
+        },
+        {
+          "title": "顶点着色器导出对性能的影响",
+          "desc": "深入分析顶点着色器输出数据量如何影响 GPU 利用率和整体渲染性能。",
+          "url": "https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/",
+          "source": "Interplay of Light"
+        }
+      ]
+    },
+    {
       "title": "科技",
       "items": [
         {

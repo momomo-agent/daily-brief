@@ -61,6 +61,10 @@ def translate_with_ai(items):
 
 # RSS 源配置
 FEEDS = {
+    "图形 / 渲染": [
+        ("Self Shadow", "https://blog.selfshadow.com/feed/", "rss"),
+        ("Interplay of Light", "https://interplayoflight.wordpress.com/feed/", "rss"),
+    ],
     "科技": [
         ("The Verge", "https://www.theverge.com/rss/index.xml", "atom"),
         ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab", "rss"),
