@@ -3,17 +3,40 @@
   "title": "每日科技速览",
   "sections": [
     {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "用 Vulkan GUI 库做 IDE",
+          "desc": "基于 tinyvk 和 ImGui 的 IDE 项目。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv091k/sol_trying_to_make_an_ide_with_tinyvk_my_vulkan/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Bindless Buffer API 讨论",
+          "desc": "ByteAddressBuffer 性能开销讨论。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvfskj/bindless_api_for_buffers/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "纯 C 软件渲染器",
+          "desc": "从零实现软件渲染器。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quk0kb/software_renderer_written_in_c/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
       "title": "Bluesky 图形学",
       "items": [
         {
-          "title": "实时头发渲染的光线追踪方案",
-          "desc": "对比 NVIDIA 硬件加速头发与其他渲染方案。",
+          "title": "实时头发光追渲染",
+          "desc": "对比 NVIDIA 硬件加速方案。",
           "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdv5xqx5ik26",
           "source": "Jacco Bikker"
         },
         {
-          "title": "BVH 预分割优化详解",
-          "desc": "通过预分割生成高质量 BVH，附 GitHub 实现。",
+          "title": "BVH 预分割优化",
+          "desc": "生成高质量 BVH。",
           "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdksp5det22r",
           "source": "Jacco Bikker"
         }
@@ -23,14 +46,14 @@
       "title": "AI",
       "items": [
         {
-          "title": "微生物或能提取清洁技术金属",
-          "desc": "用微生物从废矿中提取电池所需金属。",
-          "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
-          "source": "MIT Tech Review"
+          "title": "MichiAI: 530M 全双工语音模型",
+          "desc": "75ms 延迟的语音 LLM，用 Flow Matching。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1quwjt1/p_michiai_a_530m_fullduplex_speech_llm_with_75ms/",
+          "source": "r/MachineLearning"
         },
         {
           "title": "AI 真相危机的理解可能有误",
-          "desc": "深度伪造威胁或被高估，问题在于信任崩塌。",
+          "desc": "深度伪造威胁或被高估。",
           "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
           "source": "MIT Tech Review"
         }
@@ -41,14 +64,8 @@
       "items": [
         {
           "title": "Combobox vs Multiselect vs Listbox",
-          "desc": "详解三种选择器组件的区别和适用场景。",
+          "desc": "三种选择器组件的区别。",
           "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/",
-          "source": "Smashing Magazine"
-        },
-        {
-          "title": "AI 编程工具的负责任使用",
-          "desc": "AI 代码助手如何帮助处理繁琐工作。",
-          "url": "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/",
           "source": "Smashing Magazine"
         }
       ]
@@ -57,21 +74,15 @@
       "title": "互联网 / 科技",
       "items": [
         {
-          "title": "英伟达千亿投资 OpenAI 计划泡汤",
-          "desc": "五个月过去，巨额投资未能落地。",
-          "url": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
-          "source": "Ars Technica"
-        },
-        {
-          "title": "太空数据中心毫无意义",
-          "desc": "热门讨论：为什么这是个糟糕的主意。",
-          "url": "https://civai.org/blog/space-data-centers",
+          "title": "Notepad++ 供应链攻击分析",
+          "desc": "详细拆解攻击手法。",
+          "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
           "source": "Hacker News"
         },
         {
-          "title": "Notepad++ 供应链攻击分析",
-          "desc": "详细拆解针对 Notepad++ 的攻击手法。",
-          "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
+          "title": "太空数据中心毫无意义",
+          "desc": "热门讨论。",
+          "url": "https://civai.org/blog/space-data-centers",
           "source": "Hacker News"
         }
       ]
@@ -80,21 +91,15 @@
       "title": "操作系统",
       "items": [
         {
-          "title": "Zig 用自己的代码替换第三方 C 代码",
-          "desc": "Zig libc 项目逐步删除冗余代码。",
+          "title": "NTFS Linux 驱动重构",
+          "desc": "更多改进和修复。",
+          "url": "https://www.reddit.com/r/linux/comments/1qut4ob/reworked_ntfs_linux_driver_posted_with_more/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Zig 替换第三方 C 代码",
+          "desc": "Zig libc 项目进展。",
           "url": "https://www.osnews.com/story/144329/zig-replaces-third-party-c-code-with-zigs-own-code/",
-          "source": "OSNews"
-        },
-        {
-          "title": "Rust 进入 NetBSD 内核似乎不太可能",
-          "desc": "NetBSD 开发者对 Rust 内核支持的讨论。",
-          "url": "https://www.osnews.com/story/144326/rust-in-the-netbsd-kernel-seems-unlikely/",
-          "source": "OSNews"
-        },
-        {
-          "title": "Firefox Nightly 添加 AI 关闭开关",
-          "desc": "Mozilla 终于加了禁用 AI 功能的选项。",
-          "url": "https://www.osnews.com/story/144321/firefox-nightly-gets-ai-kill-switch/",
           "source": "OSNews"
         }
       ]
