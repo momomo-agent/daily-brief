@@ -5,15 +5,16 @@
     {
       "title": "图形 / 渲染",
       "items": [
-        {"title": "用 Vulkan GUI 库做 IDE", "desc": "基于 tinyvk 和 ImGui 的 IDE 项目", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv091k/sol_trying_to_make_an_ide_with_tinyvk_my_vulkan/", "source": "r/GraphicsProgramming"},
-        {"title": "Bindless Buffer API 讨论", "desc": "ByteAddressBuffer 性能开销讨论", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvfskj/bindless_api_for_buffers/", "source": "r/GraphicsProgramming"},
-        {"title": "纯 C 软件渲染器", "desc": "从零实现软件渲染器", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quk0kb/software_renderer_written_in_c/", "source": "r/GraphicsProgramming"},
+        {"title": "用 Vulkan GUI 库做 IDE", "desc": "基于 tinyvk 和 ImGui，实现了 rope 结构编辑器", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv091k/sol_trying_to_make_an_ide_with_tinyvk_my_vulkan/", "source": "r/GraphicsProgramming"},
+        {"title": "Bindless Buffer API 讨论", "desc": "ByteAddressBuffer 在着色器中的性能开销", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvfskj/bindless_api_for_buffers/", "source": "r/GraphicsProgramming"},
+        {"title": "纯 C 软件渲染器", "desc": "学习 C 后从零实现，深入理解图形管线", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quk0kb/software_renderer_written_in_c/", "source": "r/GraphicsProgramming"},
         {"title": "lmath 线性代数库", "desc": "路径追踪器的数学库独立发布", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv3vf4/lmath_library/", "source": "r/GraphicsProgramming"},
-        {"title": "BVH 网格选择与遮挡测试", "desc": "屏幕空间区域选择的 BVH 实现", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quqntu/mesh_selection_with_bvh_and_occlusion_test/", "source": "r/GraphicsProgramming"},
-        {"title": "DX12 帧生成研究框架", "desc": "DXGI/DX12 代理层用于帧生成实验", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv1vpg/dx12_frame_interception_timing_layer_for/", "source": "r/GraphicsProgramming"},
-        {"title": "光追三角形倒置问题", "desc": "Ray Tracing in One Weekend 系列实现问题", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quy1c6/the_triangle_is_upside_down_in_my_ray_tracer/", "source": "r/GraphicsProgramming"},
-        {"title": "游戏开发周末分享", "desc": "本周项目进展讨论", "url": "https://www.reddit.com/r/gamedev/comments/1qv9zzz/its_the_rgamedev_daily_random_discussion_thread/", "source": "r/gamedev"},
-        {"title": "OpenGL 学习资源", "desc": "新手入门推荐", "url": "https://www.reddit.com/r/opengl/comments/1qv0abc/opengl_learning_resources/", "source": "r/opengl"}
+        {"title": "BVH 网格选择与遮挡测试", "desc": "屏幕空间矩形/套索选择的实现", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quqntu/mesh_selection_with_bvh_and_occlusion_test/", "source": "r/GraphicsProgramming"},
+        {"title": "DX12 帧生成研究框架", "desc": "DXGI/DX12 代理层，用于帧生成实验", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv1vpg/dx12_frame_interception_timing_layer_for/", "source": "r/GraphicsProgramming"},
+        {"title": "光追三角形倒置问题", "desc": "Ray Tracing in One Weekend 实现中的问题", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quy1c6/the_triangle_is_upside_down_in_my_ray_tracer/", "source": "r/GraphicsProgramming"},
+        {"title": "薛定谔方程动画", "desc": "量子力学可视化", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qtu7pj/some_animations_of_the_schrödinger_equation/", "source": "r/GraphicsProgramming"},
+        {"title": "Brian Karis 谈 Nanite 曲面细分", "desc": "UE5 Nanite 技术分享", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qu6pbv/brian_karis_on_nanite_tessellation/", "source": "r/GraphicsProgramming"},
+        {"title": "屏幕空间伪体积雾", "desc": "用深度作为遮挡遮罩，低成本实现密度变化", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qu2fzz/faking_fog_volumes_in_screen_space_by_using_depth/", "source": "r/GraphicsProgramming"}
       ]
     },
     {
@@ -25,17 +26,21 @@
     {
       "title": "AI",
       "items": [
-        {"title": "MichiAI: 530M 全双工语音模型", "desc": "75ms 延迟，用 Flow Matching", "url": "https://www.reddit.com/r/MachineLearning/comments/1quwjt1/p_michiai_a_530m_fullduplex_speech_llm_with_75ms/", "source": "r/MachineLearning"},
-        {"title": "本地 LLM 招聘帖", "desc": "r/LocalLLaMA 月度招聘", "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qrrayn/monthly_whos_hiring/", "source": "r/LocalLLaMA"},
+        {"title": "MichiAI: 530M 全双工语音模型", "desc": "75ms 延迟，用 Flow Matching 实现", "url": "https://www.reddit.com/r/MachineLearning/comments/1quwjt1/p_michiai_a_530m_fullduplex_speech_llm_with_75ms/", "source": "r/MachineLearning"},
+        {"title": "ML 自我推广帖", "desc": "分享个人项目和产品", "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/", "source": "r/MachineLearning"},
+        {"title": "ML 招聘月帖", "desc": "谁在招人/谁在找工作", "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/", "source": "r/MachineLearning"},
+        {"title": "本地 LLM 周讨论", "desc": "r/LocalLLaMA 每周话题", "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qv0abc/weekly_discussion/", "source": "r/LocalLLaMA"},
         {"title": "AI 真相危机的理解可能有误", "desc": "深度伪造威胁或被高估", "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/", "source": "MIT Tech Review"}
       ]
     },
     {
       "title": "设计",
       "items": [
-        {"title": "Combobox vs Multiselect vs Listbox", "desc": "三种选择器组件的区别", "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/", "source": "Smashing Magazine"},
+        {"title": "Combobox vs Multiselect vs Listbox", "desc": "三种选择器组件的区别和适用场景", "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/", "source": "Smashing Magazine"},
         {"title": "Web 开发职业讨论", "desc": "月度新手入门帖", "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/", "source": "r/webdev"},
-        {"title": "Dreamweaver 还值得学吗", "desc": "新手工具选择讨论", "url": "https://www.reddit.com/r/webdev/comments/1qv3v3m/dreamweaver/", "source": "r/webdev"}
+        {"title": "Dreamweaver 还值得学吗", "desc": "新手工具选择讨论", "url": "https://www.reddit.com/r/webdev/comments/1qv3v3m/dreamweaver/", "source": "r/webdev"},
+        {"title": "2026 年 2 月桌面壁纸", "desc": "设计师创作的月度壁纸合集", "url": "https://smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/", "source": "Smashing Magazine"},
+        {"title": "AI 编程工具的负责任使用", "desc": "开发者如何正确使用 AI 助手", "url": "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/", "source": "Smashing Magazine"}
       ]
     },
     {
@@ -44,7 +49,8 @@
         {"title": "Notepad++ 供应链攻击分析", "desc": "详细拆解攻击手法", "url": "https://securelist.com/notepad-supply-chain-attack/118708/", "source": "Hacker News"},
         {"title": "太空数据中心毫无意义", "desc": "热门讨论 390+ 赞", "url": "https://civai.org/blog/space-data-centers", "source": "Hacker News"},
         {"title": "我怀念深度思考的日子", "desc": "AI 时代的反思", "url": "https://www.jernesto.com/articles/thinking_hard", "source": "Hacker News"},
-        {"title": "FlashAttention-T 张量化注意力", "desc": "优化 Transformer 效率", "url": "https://dl.acm.org/doi/10.1145/3774934.3786425", "source": "Hacker News"}
+        {"title": "FlashAttention-T 张量化注意力", "desc": "优化 Transformer 效率", "url": "https://dl.acm.org/doi/10.1145/3774934.3786425", "source": "Hacker News"},
+        {"title": "德国开源工作志愿者认定请愿", "desc": "呼吁认可开源贡献", "url": "https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany", "source": "Hacker News"}
       ]
     },
     {
@@ -53,7 +59,8 @@
         {"title": "NTFS Linux 驱动重构", "desc": "更多改进和修复", "url": "https://www.reddit.com/r/linux/comments/1qut4ob/reworked_ntfs_linux_driver_posted_with_more/", "source": "r/linux"},
         {"title": "EU 加密通信监控计划", "desc": "隐私和端到端加密争议", "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/", "source": "r/linux"},
         {"title": "Zig 替换第三方 C 代码", "desc": "Zig libc 项目进展", "url": "https://www.osnews.com/story/144329/zig-replaces-third-party-c-code-with-zigs-own-code/", "source": "OSNews"},
-        {"title": "Rust 进入 NetBSD 内核不太可能", "desc": "内核开发者讨论", "url": "https://www.osnews.com/story/144326/rust-in-the-netbsd-kernel-seems-unlikely/", "source": "OSNews"}
+        {"title": "Rust 进入 NetBSD 内核不太可能", "desc": "内核开发者讨论", "url": "https://www.osnews.com/story/144326/rust-in-the-netbsd-kernel-seems-unlikely/", "source": "OSNews"},
+        {"title": "Firefox Nightly 添加 AI 关闭开关", "desc": "Mozilla 终于加了禁用选项", "url": "https://www.osnews.com/story/144321/firefox-nightly-gets-ai-kill-switch/", "source": "OSNews"}
       ]
     }
   ]
