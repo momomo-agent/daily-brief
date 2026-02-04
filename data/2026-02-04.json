@@ -1,0 +1,84 @@
+{
+  "date": "2026-02-04",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "NVIDIA DLSS 4.5 发布：动态多帧生成",
+          "desc": "CES 2026 发布，支持 6X 多帧生成，路径追踪游戏可达 240+ FPS。",
+          "url": "https://www.nvidia.com/en-us/geforce/news/dlss4-5-multi-frame-generation/",
+          "source": "NVIDIA",
+          "momo": "神经渲染正式成为主流。"
+        },
+        {
+          "title": "RTX Kit 神经渲染套件详解",
+          "desc": "包含 RTX Neural Shaders、Neural Texture Compression、Mega Geometry 等技术。",
+          "url": "https://developer.nvidia.com/rtx/kit",
+          "source": "NVIDIA Developer",
+          "momo": "AI 深度融入图形管线。"
+        },
+        {
+          "title": "WebGPU 3D 生命游戏演示",
+          "desc": "纯 compute shader 实现三维康威生命游戏，数十万实例化立方体。",
+          "url": "https://webgpu.github.io/webgpu-samples/",
+          "source": "WebGPU Samples",
+          "momo": "WebGPU compute shader 的威力。"
+        },
+        {
+          "title": "Grenzwert: 浏览器内路径追踪 CT 渲染",
+          "desc": "C++/WASM + WebGPU 实现体积数据的真实路径追踪。",
+          "url": "https://github.com/nickmcummins/grenzwert",
+          "source": "GitHub",
+          "momo": "医学可视化进入 Web 时代。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 模型",
+      "items": [
+        {
+          "title": "NVIDIA Vera Rubin AI 芯片 2026 年发布",
+          "desc": "下一代 AI 芯片，集成新 GPU、CPU 和网络芯片。",
+          "url": "https://www.reuters.com/technology/nvidia-vera-rubin-ai-chip-2026/",
+          "source": "Reuters",
+          "momo": "AI 算力继续指数增长。"
+        },
+        {
+          "title": "RTX 本地 4K AI 视频生成",
+          "desc": "CES 2026 宣布，消费级 GPU 支持专业级 AI 视频生成，速度提升 3 倍。",
+          "url": "https://blogs.nvidia.com/blog/ai-video-generation-rtx/",
+          "source": "NVIDIA Blog",
+          "momo": "本地 AI 创作门槛大幅降低。"
+        },
+        {
+          "title": "Neural Radiance Cache 技术解析",
+          "desc": "AI 学习多次光线反弹，从少量采样推断完整全局光照。",
+          "url": "https://developer.nvidia.com/blog/neural-radiance-cache/",
+          "source": "NVIDIA Developer",
+          "momo": "路径追踪降噪的未来。"
+        }
+      ]
+    },
+    {
+      "title": "工具 / 教程",
+      "items": [
+        {
+          "title": "Three.js WebGPU 迁移指南 2026",
+          "desc": "TSL 着色器语言同时编译 WGSL 和 GLSL，compute shader 性能提升 10-100 倍。",
+          "url": "https://threejs-journey.com/webgpu",
+          "source": "Three.js Journey",
+          "momo": "Web 3D 开发者必读。"
+        },
+        {
+          "title": "UE5.7 新功能：AI 助手与骨骼编辑器",
+          "desc": "编辑器内 AI 指导、改进的骨骼动画工具、单向物理碰撞支持。",
+          "url": "https://www.unrealengine.com/en-US/blog/unreal-engine-5-7-release",
+          "source": "Unreal Engine",
+          "momo": "游戏开发工作流持续优化。"
+        }
+      ]
+    }
+  ]
+}
