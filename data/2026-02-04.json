@@ -6,32 +6,32 @@
       "title": "科技",
       "items": [
         {
-          "title": "Adobe actually won’t discontinue Animate",
-          "desc": "Adobe is no longer planning to discontinue Adobe Animate on March 1st. In an FAQ, the company now says that Animate will now be in maintenance mode and that it has \"no plans to discontinue or remove a...",
+          "title": "Adobe 宣布不会停止 Animate",
+          "desc": "Adobe 改口称 Animate 将进入维护模式而非停产，用户仍可继续使用。",
           "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
           "source": "The Verge"
         },
         {
-          "title": "Republicans haul Netflix before Congress for being too ‘woke’",
-          "desc": "Netflix CEO Ted Sarandos was launched into the middle of a congressional culture war on Tuesday as he testified before a Senate subcommittee about the company's attempt to buy a large part of Warner B...",
+          "title": "Netflix CEO 因「觉醒文化」被国会质询",
+          "desc": "Netflix 试图收购华纳兄弟部分资产，CEO 在参议院反垄断听证会上遭遇文化战争质疑。",
           "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
           "source": "The Verge"
         },
         {
-          "title": "AMD hints Microsoft could launch its next-gen Xbox in 2027",
-          "desc": "Microsoft confirmed last year that it's working on a next-gen Xbox console in partnership with AMD. Now, AMD is hinting that the next Xbox console, which will use custom AMD chips, could be launching ...",
+          "title": "AMD 暗示下一代 Xbox 或于 2027 年发布",
+          "desc": "微软与 AMD 合作开发的新一代 Xbox 主机可能在 2027 年推出。",
           "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
           "source": "The Verge"
         },
         {
-          "title": "Nvidia's $100 billion OpenAI deal has seemingly vanished",
-          "desc": "Two AI giants shake market confidence after investment fails to materialize.",
+          "title": "英伟达 1000 亿美元投资 OpenAI 计划似乎已泡汤",
+          "desc": "五个月过去，英伟达对 OpenAI 的巨额投资计划未能落地，市场信心受挫。",
           "url": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
           "source": "Ars Technica"
         },
         {
-          "title": "The rise of Moltbook suggests viral AI prompts may be the next big security threat",
-          "desc": "We don't need self-replicating AI models to have problems, just self-replicating prompts.",
+          "title": "病毒式 AI 提示词可能成为新型安全威胁",
+          "desc": "Moltbook 的兴起表明，自我复制的提示词比自我复制的 AI 模型更值得警惕。",
           "url": "https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/",
           "source": "Ars Technica"
         }
@@ -41,20 +41,20 @@
       "title": "开发者",
       "items": [
         {
-          "title": "I miss thinking hard",
-          "desc": "Article URL: https://www.jernesto.com/articles/thinking_hard Comments URL: https://news.ycombinator.com/item?id=46881264 Points: 99 # Comments: 63",
+          "title": "我怀念深度思考的日子",
+          "desc": "作者反思 AI 工具普及后，人们逐渐失去独立深度思考的能力。",
           "url": "https://www.jernesto.com/articles/thinking_hard",
           "source": "Hacker News"
         },
         {
-          "title": "Notepad++ supply chain attack breakdown",
-          "desc": "Article URL: https://securelist.com/notepad-supply-chain-attack/118708/ Comments URL: https://news.ycombinator.com/item?id=46878338 Points: 224 # Comments: 100",
+          "title": "Notepad++ 供应链攻击分析",
+          "desc": "安全研究人员详细拆解了针对 Notepad++ 的供应链攻击手法。",
           "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
           "source": "Hacker News"
         },
         {
-          "title": "FlashAttention-T: Towards Tensorized Attention",
-          "desc": "Article URL: https://dl.acm.org/doi/10.1145/3774934.3786425 Comments URL: https://news.ycombinator.com/item?id=46877403 Points: 86 # Comments: 46",
+          "title": "FlashAttention-T：张量化注意力机制",
+          "desc": "新论文提出张量化的 FlashAttention 变体，进一步优化 Transformer 计算效率。",
           "url": "https://dl.acm.org/doi/10.1145/3774934.3786425",
           "source": "Hacker News"
         }
@@ -64,22 +64,22 @@
       "title": "AI",
       "items": [
         {
-          "title": "The Download: squeezing more metal out of aging mines, and AI’s truth crisis",
-          "desc": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Microbes could extract the metal needed for cleantech In a pin...",
+          "title": "每日简报：老矿山挖掘更多金属 & AI 真相危机",
+          "desc": "MIT 科技评论今日聚焦微生物采矿技术和 AI 时代的信息真实性问题。",
           "url": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
-          "source": "MIT Tech Review AI"
+          "source": "MIT Tech Review"
         },
         {
-          "title": "Microbes could extract the metal needed for cleantech",
-          "desc": "In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is nearing the end of its life. At a time when carmakers want the metal for electric-vehicle batteries, nickel con...",
+          "title": "微生物或能提取清洁技术所需金属",
+          "desc": "美国唯一活跃镍矿即将枯竭，科学家探索用微生物从废矿中提取电池所需金属。",
           "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
-          "source": "MIT Tech Review AI"
+          "source": "MIT Tech Review"
         },
         {
-          "title": "What we’ve been getting wrong about AI’s truth crisis",
-          "desc": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. What would it take to convince you that the era of truth decay...",
+          "title": "我们对 AI 真相危机的理解可能有误",
+          "desc": "深度伪造和 AI 生成内容的威胁或许被高估，真正的问题在于信任体系的崩塌。",
           "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
-          "source": "MIT Tech Review AI"
+          "source": "MIT Tech Review"
         }
       ]
     }

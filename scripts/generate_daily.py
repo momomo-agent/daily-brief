@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Daily Brief Generator - 从真实 RSS 源抓取新闻
+Daily Brief Generator - 从真实 RSS 源抓取新闻，AI 翻译成中文
 """
 import datetime
 import json
@@ -9,9 +9,55 @@ import xml.etree.ElementTree as ET
 from urllib.request import urlopen, Request
 from html import unescape
 import re
+import os
 
 ROOT = pathlib.Path(__file__).parent.parent
 DATA_DIR = ROOT / 'data'
+
+# Anthropic API
+ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+
+def translate_with_ai(items):
+    """用 Claude 翻译标题并生成中文简述"""
+    if not ANTHROPIC_KEY or not items:
+        return items
+    
+    prompt = "将以下新闻翻译成中文。对每条新闻：1) 翻译标题 2) 用一句话简述内容要点。\n\n"
+    for i, item in enumerate(items):
+        prompt += f"{i+1}. 标题: {item['title']}\n   原文: {item['desc']}\n\n"
+    
+    prompt += "返回 JSON 数组，格式: [{\"title\": \"中文标题\", \"desc\": \"一句话简述\"}]，只返回 JSON。"
+    
+    try:
+        import urllib.request
+        req = urllib.request.Request(
+            "https://api.anthropic.com/v1/messages",
+            data=json.dumps({
+                "model": "claude-sonnet-4-20250514",
+                "max_tokens": 1500,
+                "messages": [{"role": "user", "content": prompt}]
+            }).encode(),
+            headers={
+                "Content-Type": "application/json",
+                "x-api-key": ANTHROPIC_KEY,
+                "anthropic-version": "2023-06-01"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode())
+            text = result["content"][0]["text"]
+            # 提取 JSON
+            match = re.search(r'\[.*\]', text, re.DOTALL)
+            if match:
+                translated = json.loads(match.group())
+                for i, t in enumerate(translated):
+                    if i < len(items):
+                        items[i]["title"] = t.get("title", items[i]["title"])
+                        items[i]["desc"] = t.get("desc", items[i]["desc"])
+    except Exception as e:
+        print(f"  ⚠️ 翻译失败: {e}")
+    
+    return items
 
 # RSS 源配置
 FEEDS = {
@@ -111,9 +157,11 @@ def generate_daily():
                 print(f"  ⚠️ {source_name} 抓取失败: {e}")
         
         if items:
+            items = items[:5]  # 每个分类最多5条
+            items = translate_with_ai(items)  # AI 翻译
             sections.append({
                 "title": section_name,
-                "items": items[:5]  # 每个分类最多5条
+                "items": items
             })
     
     data = {
