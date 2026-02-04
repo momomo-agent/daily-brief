@@ -3,54 +3,19 @@
   "title": "每日科技速览",
   "sections": [
     {
-      "title": "图形 / 渲染",
-      "items": [
-        {
-          "title": "SIGGRAPH 2025 资源汇总",
-          "desc": "Self Shadow 整理的 SIGGRAPH 2025 全部课程、演讲和开源项目链接。",
-          "url": "https://blog.selfshadow.com/2025/08/15/siggraph-2025-links/",
-          "source": "Self Shadow"
-        },
-        {
-          "title": "光线追踪 AO 的空间哈希方法",
-          "desc": "用空间哈希划分体素，高效存储和访问局部光照数据。",
-          "url": "https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/",
-          "source": "Interplay of Light"
-        },
-        {
-          "title": "顶点着色器导出对性能的影响",
-          "desc": "分析顶点着色器输出数据量如何影响 GPU 利用率。",
-          "url": "https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/",
-          "source": "Interplay of Light"
-        }
-      ]
-    },
-    {
       "title": "Bluesky 图形学",
       "items": [
         {
-          "title": "arctan(x) 的可爱近似公式",
-          "desc": "Inigo Quilez 分享简洁的 arctan 近似算法，数学上很优雅。",
-          "url": "https://bsky.app/profile/iquilezles.bsky.social/post/3mdsarwlsxk27",
-          "source": "Inigo Quilez"
+          "title": "实时头发渲染的光线追踪方案",
+          "desc": "Jacco Bikker 推荐的博客，对比 NVIDIA 硬件加速头发与其他方案。",
+          "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdv5xqx5ik26",
+          "source": "Jacco Bikker"
         },
         {
-          "title": "2D 形状包围盒函数集合",
-          "desc": "一组计算 2D 图形包围盒的实用函数。",
-          "url": "https://bsky.app/profile/iquilezles.bsky.social/post/3m6g3rzhylk23",
-          "source": "Inigo Quilez"
-        },
-        {
-          "title": "Header Hero 工具重写",
-          "desc": "Aras P 重写 C/C++ 头文件分析工具，现支持全平台。",
-          "url": "https://bsky.app/profile/aras-p.bsky.social/post/3m7qdi3bdss2n",
-          "source": "Aras P"
-        },
-        {
-          "title": "Blender VSE 开发两周年",
-          "desc": "Aras P 回顾在 Blender 视频编辑器上工作两年的进展。",
-          "url": "https://bsky.app/profile/aras-p.bsky.social/post/3m6cldwpc2c2o",
-          "source": "Aras P"
+          "title": "BVH 预分割优化详解",
+          "desc": "通过预分割生成高质量 BVH 的技术文章，附 GitHub 实现。",
+          "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdksp5det22r",
+          "source": "Jacco Bikker"
         }
       ]
     },
@@ -59,14 +24,8 @@
       "items": [
         {
           "title": "Adobe 不会停止 Animate",
-          "desc": "Animate 进入维护模式而非停产，用户可继续使用。",
+          "desc": "进入维护模式而非停产，用户可继续使用。",
           "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
-          "source": "The Verge"
-        },
-        {
-          "title": "Netflix CEO 被国会质询",
-          "desc": "因收购华纳资产，CEO 在反垄断听证会遭文化战争质疑。",
-          "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
           "source": "The Verge"
         },
         {
@@ -77,7 +36,7 @@
         },
         {
           "title": "英伟达千亿投资 OpenAI 计划泡汤",
-          "desc": "五个月过去，巨额投资未能落地，市场信心受挫。",
+          "desc": "五个月过去，巨额投资未能落地。",
           "url": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
           "source": "Ars Technica"
         }
@@ -99,9 +58,9 @@
           "source": "Hacker News"
         },
         {
-          "title": "FlashAttention-T：张量化注意力",
-          "desc": "新论文提出张量化 FlashAttention，优化 Transformer 效率。",
-          "url": "https://dl.acm.org/doi/10.1145/3774934.3786425",
+          "title": "太空数据中心毫无意义",
+          "desc": "热门讨论：为什么把数据中心放到太空是个糟糕的主意。",
+          "url": "https://civai.org/blog/space-data-centers",
           "source": "Hacker News"
         }
       ]
@@ -112,13 +71,13 @@
         {
           "title": "微生物或能提取清洁技术金属",
           "desc": "科学家探索用微生物从废矿中提取电池所需金属。",
-          "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
+          "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech",
           "source": "MIT Tech Review"
         },
         {
           "title": "AI 真相危机的理解可能有误",
           "desc": "深度伪造威胁或被高估，真正问题在于信任体系崩塌。",
-          "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
+          "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis",
           "source": "MIT Tech Review"
         }
       ]

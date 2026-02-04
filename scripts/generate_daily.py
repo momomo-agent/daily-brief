@@ -69,6 +69,8 @@ FEEDS = {
         ("Inigo Quilez", "https://bsky.app/profile/iquilezles.bsky.social/rss", "rss"),
         ("Aras P", "https://bsky.app/profile/aras-p.bsky.social/rss", "rss"),
         ("Krzysztof Narkowicz", "https://bsky.app/profile/knarkowicz.bsky.social/rss", "rss"),
+        ("Ben Golus", "https://bsky.app/profile/bgolus.bsky.social/rss", "rss"),
+        ("Jacco Bikker", "https://bsky.app/profile/jbikker.bsky.social/rss", "rss"),
     ],
     "科技": [
         ("The Verge", "https://www.theverge.com/rss/index.xml", "atom"),
@@ -125,12 +127,33 @@ def parse_atom(xml_str, source_name, limit=3):
             })
     return items
 
-def parse_rss(xml_str, source_name, limit=3):
-    """解析 RSS feed"""
+def parse_rss(xml_str, source_name, limit=5, max_age_days=7):
+    """解析 RSS feed，只保留最近 max_age_days 天的内容"""
     items = []
     root = ET.fromstring(xml_str)
+    cutoff = datetime.datetime.now() - datetime.timedelta(days=max_age_days)
     
-    for item in root.findall('.//item')[:limit]:
+    # 技术相关关键词（用于过滤 Bluesky 非技术内容）
+    tech_keywords = ['shader', 'render', 'gpu', 'graphics', 'ray', 'light', 'code', 
+                     'algorithm', 'math', 'engine', 'webgpu', 'vulkan', 'opengl',
+                     'texture', 'mesh', 'geometry', 'pixel', 'blog', 'article',
+                     'github', 'tool', 'performance', 'optimization', 'neural']
+    
+    for item in root.findall('.//item'):
+        if len(items) >= limit:
+            break
+            
+        # 解析日期
+        pub_date_el = item.find('pubDate')
+        if pub_date_el is not None and pub_date_el.text:
+            try:
+                from email.utils import parsedate_to_datetime
+                pub_date = parsedate_to_datetime(pub_date_el.text)
+                if pub_date.replace(tzinfo=None) < cutoff:
+                    continue  # 跳过旧内容
+            except:
+                pass  # 解析失败就不过滤
+        
         title_el = item.find('title')
         link_el = item.find('link')
         desc_el = item.find('description')
@@ -142,6 +165,12 @@ def parse_rss(xml_str, source_name, limit=3):
         # Bluesky RSS 没有 title，用 description 前50字符作为标题
         if not title and desc:
             title = desc[:50] + ("..." if len(desc) > 50 else "")
+        
+        # Bluesky 内容过滤：只保留技术相关
+        if 'bsky.app' in url:
+            text_lower = (title + ' ' + desc).lower()
+            if not any(kw in text_lower for kw in tech_keywords):
+                continue  # 跳过非技术内容
         
         if url and (title or desc):
             items.append({
