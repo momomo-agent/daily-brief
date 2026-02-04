@@ -65,6 +65,11 @@ FEEDS = {
         ("Self Shadow", "https://blog.selfshadow.com/feed/", "rss"),
         ("Interplay of Light", "https://interplayoflight.wordpress.com/feed/", "rss"),
     ],
+    "Bluesky 图形学": [
+        ("Inigo Quilez", "https://bsky.app/profile/iquilezles.bsky.social/rss", "rss"),
+        ("Aras P", "https://bsky.app/profile/aras-p.bsky.social/rss", "rss"),
+        ("Krzysztof Narkowicz", "https://bsky.app/profile/knarkowicz.bsky.social/rss", "rss"),
+    ],
     "科技": [
         ("The Verge", "https://www.theverge.com/rss/index.xml", "atom"),
         ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab", "rss"),
@@ -134,9 +139,13 @@ def parse_rss(xml_str, source_name, limit=3):
         url = link_el.text if link_el is not None else ""
         desc = clean_text(desc_el.text if desc_el is not None else "")
         
-        if title and url:
+        # Bluesky RSS 没有 title，用 description 前50字符作为标题
+        if not title and desc:
+            title = desc[:50] + ("..." if len(desc) > 50 else "")
+        
+        if url and (title or desc):
             items.append({
-                "title": title,
+                "title": title or "无标题",
                 "desc": desc or "点击查看详情",
                 "url": url,
                 "source": source_name

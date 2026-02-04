@@ -7,27 +7,50 @@
       "items": [
         {
           "title": "SIGGRAPH 2025 资源汇总",
-          "desc": "Self Shadow 整理的 SIGGRAPH 2025 全部课程、演讲和开源项目链接，包括神经着色、实时渲染进展等。",
+          "desc": "Self Shadow 整理的 SIGGRAPH 2025 全部课程、演讲和开源项目链接。",
           "url": "https://blog.selfshadow.com/2025/08/15/siggraph-2025-links/",
           "source": "Self Shadow"
         },
         {
-          "title": "SIGGRAPH 2024 资源汇总",
-          "desc": "2024 年 SIGGRAPH 大会内容合集，涵盖 Caldera 实时渲染、开源项目和主题演讲录像。",
-          "url": "https://blog.selfshadow.com/2024/08/03/siggraph-2024-links/",
-          "source": "Self Shadow"
-        },
-        {
-          "title": "光线追踪环境光遮蔽的空间哈希方法",
-          "desc": "介绍如何用空间哈希将 3D 空间划分为体素，高效存储和访问局部光照数据。",
+          "title": "光线追踪 AO 的空间哈希方法",
+          "desc": "用空间哈希划分体素，高效存储和访问局部光照数据。",
           "url": "https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/",
           "source": "Interplay of Light"
         },
         {
           "title": "顶点着色器导出对性能的影响",
-          "desc": "深入分析顶点着色器输出数据量如何影响 GPU 利用率和整体渲染性能。",
+          "desc": "分析顶点着色器输出数据量如何影响 GPU 利用率。",
           "url": "https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/",
           "source": "Interplay of Light"
+        }
+      ]
+    },
+    {
+      "title": "Bluesky 图形学",
+      "items": [
+        {
+          "title": "arctan(x) 的可爱近似公式",
+          "desc": "Inigo Quilez 分享简洁的 arctan 近似算法，数学上很优雅。",
+          "url": "https://bsky.app/profile/iquilezles.bsky.social/post/3mdsarwlsxk27",
+          "source": "Inigo Quilez"
+        },
+        {
+          "title": "2D 形状包围盒函数集合",
+          "desc": "一组计算 2D 图形包围盒的实用函数。",
+          "url": "https://bsky.app/profile/iquilezles.bsky.social/post/3m6g3rzhylk23",
+          "source": "Inigo Quilez"
+        },
+        {
+          "title": "Header Hero 工具重写",
+          "desc": "Aras P 重写 C/C++ 头文件分析工具，现支持全平台。",
+          "url": "https://bsky.app/profile/aras-p.bsky.social/post/3m7qdi3bdss2n",
+          "source": "Aras P"
+        },
+        {
+          "title": "Blender VSE 开发两周年",
+          "desc": "Aras P 回顾在 Blender 视频编辑器上工作两年的进展。",
+          "url": "https://bsky.app/profile/aras-p.bsky.social/post/3m6cldwpc2c2o",
+          "source": "Aras P"
         }
       ]
     },
@@ -35,33 +58,27 @@
       "title": "科技",
       "items": [
         {
-          "title": "Adobe 宣布不会停止 Animate",
-          "desc": "Adobe 改口称 Animate 将进入维护模式而非停产，用户仍可继续使用。",
+          "title": "Adobe 不会停止 Animate",
+          "desc": "Animate 进入维护模式而非停产，用户可继续使用。",
           "url": "https://www.theverge.com/tech/873621/adobe-animate-maintenance-mode-reverse-course",
           "source": "The Verge"
         },
         {
-          "title": "Netflix CEO 因「觉醒文化」被国会质询",
-          "desc": "Netflix 试图收购华纳兄弟部分资产，CEO 在参议院反垄断听证会上遭遇文化战争质疑。",
+          "title": "Netflix CEO 被国会质询",
+          "desc": "因收购华纳资产，CEO 在反垄断听证会遭文化战争质疑。",
           "url": "https://www.theverge.com/policy/873533/netflix-warner-bros-discovery-senate-antitrust-hearing",
           "source": "The Verge"
         },
         {
-          "title": "AMD 暗示下一代 Xbox 或于 2027 年发布",
-          "desc": "微软与 AMD 合作开发的新一代 Xbox 主机可能在 2027 年推出。",
+          "title": "下一代 Xbox 或 2027 年发布",
+          "desc": "AMD 暗示与微软合作的新主机可能 2027 年推出。",
           "url": "https://www.theverge.com/news/873490/microsoft-next-gen-xbox-console-2027-date-amd",
           "source": "The Verge"
         },
         {
-          "title": "英伟达 1000 亿美元投资 OpenAI 计划似乎已泡汤",
-          "desc": "五个月过去，英伟达对 OpenAI 的巨额投资计划未能落地，市场信心受挫。",
+          "title": "英伟达千亿投资 OpenAI 计划泡汤",
+          "desc": "五个月过去，巨额投资未能落地，市场信心受挫。",
           "url": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
-          "source": "Ars Technica"
-        },
-        {
-          "title": "病毒式 AI 提示词可能成为新型安全威胁",
-          "desc": "Moltbook 的兴起表明，自我复制的提示词比自我复制的 AI 模型更值得警惕。",
-          "url": "https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/",
           "source": "Ars Technica"
         }
       ]
@@ -71,19 +88,19 @@
       "items": [
         {
           "title": "我怀念深度思考的日子",
-          "desc": "作者反思 AI 工具普及后，人们逐渐失去独立深度思考的能力。",
+          "desc": "反思 AI 工具普及后，人们逐渐失去独立思考能力。",
           "url": "https://www.jernesto.com/articles/thinking_hard",
           "source": "Hacker News"
         },
         {
           "title": "Notepad++ 供应链攻击分析",
-          "desc": "安全研究人员详细拆解了针对 Notepad++ 的供应链攻击手法。",
+          "desc": "安全研究人员详细拆解针对 Notepad++ 的攻击手法。",
           "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
           "source": "Hacker News"
         },
         {
-          "title": "FlashAttention-T：张量化注意力机制",
-          "desc": "新论文提出张量化的 FlashAttention 变体，进一步优化 Transformer 计算效率。",
+          "title": "FlashAttention-T：张量化注意力",
+          "desc": "新论文提出张量化 FlashAttention，优化 Transformer 效率。",
           "url": "https://dl.acm.org/doi/10.1145/3774934.3786425",
           "source": "Hacker News"
         }
@@ -93,20 +110,14 @@
       "title": "AI",
       "items": [
         {
-          "title": "每日简报：老矿山挖掘更多金属 & AI 真相危机",
-          "desc": "MIT 科技评论今日聚焦微生物采矿技术和 AI 时代的信息真实性问题。",
-          "url": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
-          "source": "MIT Tech Review"
-        },
-        {
-          "title": "微生物或能提取清洁技术所需金属",
-          "desc": "美国唯一活跃镍矿即将枯竭，科学家探索用微生物从废矿中提取电池所需金属。",
+          "title": "微生物或能提取清洁技术金属",
+          "desc": "科学家探索用微生物从废矿中提取电池所需金属。",
           "url": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
           "source": "MIT Tech Review"
         },
         {
-          "title": "我们对 AI 真相危机的理解可能有误",
-          "desc": "深度伪造和 AI 生成内容的威胁或许被高估，真正的问题在于信任体系的崩塌。",
+          "title": "AI 真相危机的理解可能有误",
+          "desc": "深度伪造威胁或被高估，真正问题在于信任体系崩塌。",
           "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
           "source": "MIT Tech Review"
         }
