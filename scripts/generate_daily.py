@@ -63,6 +63,8 @@ def translate_with_ai(items):
 FEEDS = {
     "图形 / 渲染": [
         ("r/GraphicsProgramming", "https://www.reddit.com/r/GraphicsProgramming/hot.rss", "atom"),
+        ("r/gamedev", "https://www.reddit.com/r/gamedev/hot.rss", "atom"),
+        ("r/opengl", "https://www.reddit.com/r/opengl/hot.rss", "atom"),
     ],
     "Bluesky 图形学": [
         ("Inigo Quilez", "https://bsky.app/profile/iquilezles.bsky.social/rss", "rss"),
@@ -73,18 +75,22 @@ FEEDS = {
     ],
     "AI": [
         ("r/MachineLearning", "https://www.reddit.com/r/MachineLearning/hot.rss", "atom"),
+        ("r/LocalLLaMA", "https://www.reddit.com/r/LocalLLaMA/hot.rss", "atom"),
         ("MIT Tech Review", "https://www.technologyreview.com/feed/", "rss"),
     ],
     "设计": [
         ("r/webdev", "https://www.reddit.com/r/webdev/hot.rss", "atom"),
+        ("r/web_design", "https://www.reddit.com/r/web_design/hot.rss", "atom"),
         ("Smashing Magazine", "https://www.smashingmagazine.com/feed/", "rss"),
     ],
     "互联网 / 科技": [
         ("Hacker News", "https://hnrss.org/frontpage", "rss"),
         ("The Verge", "https://www.theverge.com/rss/index.xml", "atom"),
+        ("r/technology", "https://www.reddit.com/r/technology/hot.rss", "atom"),
     ],
     "操作系统": [
         ("r/linux", "https://www.reddit.com/r/linux/hot.rss", "atom"),
+        ("r/apple", "https://www.reddit.com/r/apple/hot.rss", "atom"),
         ("OSNews", "https://www.osnews.com/feed/", "rss"),
     ],
 }
@@ -104,7 +110,7 @@ def clean_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text[:200] + "..." if len(text) > 200 else text
 
-def parse_atom(xml_str, source_name, limit=3):
+def parse_atom(xml_str, source_name, limit=10):
     """解析 Atom feed"""
     items = []
     root = ET.fromstring(xml_str)
@@ -132,7 +138,7 @@ def parse_atom(xml_str, source_name, limit=3):
             })
     return items
 
-def parse_rss(xml_str, source_name, limit=5, max_age_days=7):
+def parse_rss(xml_str, source_name, limit=10, max_age_days=3):
     """解析 RSS feed，只保留最近 max_age_days 天的内容"""
     items = []
     root = ET.fromstring(xml_str)
@@ -204,7 +210,7 @@ def generate_daily():
                 print(f"  ⚠️ {source_name} 抓取失败: {e}")
         
         if items:
-            items = items[:5]  # 每个分类最多5条
+            items = items[:10]  # 每个分类最多10条
             items = translate_with_ai(items)  # AI 翻译
             sections.append({
                 "title": section_name,

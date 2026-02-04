@@ -6,21 +6,63 @@
       "title": "图形 / 渲染",
       "items": [
         {
-          "title": "用 Vulkan GUI 库做 IDE",
-          "desc": "基于 tinyvk 和 ImGui 的 IDE 项目。",
+          "title": "[ Sol ] Trying to make an IDE with tinyvk (my Vulkan GUI library)",
+          "desc": "Sol is an IDE leveraging the rendering capabilities of tinyvk, a Vulkan GUI library I have created. The UI is ImGui based. So far i managed to implement: The UI ofc, rope inspired structure for editab...",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv091k/sol_trying_to_make_an_ide_with_tinyvk_my_vulkan/",
           "source": "r/GraphicsProgramming"
         },
         {
-          "title": "Bindless Buffer API 讨论",
-          "desc": "ByteAddressBuffer 性能开销讨论。",
+          "title": "Bindless API for buffers",
+          "desc": "I am building an abstraction over Vulkan, I have been using bindless descriptors + ByteAddressBuffer for accessing buffers inside shaders. I am curious about the overhead of ByteAddressBuffers and if ...",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvfskj/bindless_api_for_buffers/",
           "source": "r/GraphicsProgramming"
         },
         {
-          "title": "纯 C 软件渲染器",
-          "desc": "从零实现软件渲染器。",
+          "title": "Software Renderer written in C",
+          "desc": "Hello everyone, just wanted to showcase something i had been working on for the last few months,I have recently started learning C and wanted to understand a bit more in depth behind the graphics pipe...",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quk0kb/software_renderer_written_in_c/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "«lmath» library",
+          "desc": "Actually, a year ago I started writing my own toy path tracer. And I wrote some math for him. The project is currently on hold, but I decided to reuse it and turn it into an independent linear algebra...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv3vf4/lmath_library/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Mesh Selection With BVH and Occlusion Test",
+          "desc": "I’m using a BVH for mesh primitive selection queries, especially screen-space area selection (rectangle / lasso). Current Selection Flow Traverse BVH For each node: Project node bounds to screen space...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quqntu/mesh_selection_with_bvh_and_occlusion_test/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "DX12 Frame Interception & Timing Layer for Experimental Frame Generation Research (No FG Algorithm Included)",
+          "desc": "’ve been working on a DXGI/DX12 proxy layer that focuses on the infrastructure side of modern frame generation systems — the part that usually breaks first. This project provides: Stable DXGI frame in...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv1vpg/dx12_frame_interception_timing_layer_for/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "The triangle is upside down in my ray tracer.",
+          "desc": "Hello, I have been following ray tracing in one weekend series, after implementing quads, book said implementing other simple 2D shapes like triangle should be pretty doable, so i started implementing...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quy1c6/the_triangle_is_upside_down_in_my_ray_tracer/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Some animations of the Schrödinger equation",
+          "desc": "submitted by /u/Business-Western1885 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qtu7pj/some_animations_of_the_schrödinger_equation/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Brian Karis on Nanite Tessellation",
+          "desc": "submitted by /u/corysama [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qu6pbv/brian_karis_on_nanite_tessellation/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Faking fog volumes in screen space by using depth as a scalar occlusion mask",
+          "desc": "Does a fairly good job of giving the appearance of density variation for cheap. submitted by /u/noradninja [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qu2fzz/faking_fog_volumes_in_screen_space_by_using_depth/",
           "source": "r/GraphicsProgramming"
         }
       ]
@@ -29,15 +71,9 @@
       "title": "Bluesky 图形学",
       "items": [
         {
-          "title": "实时头发光追渲染",
-          "desc": "对比 NVIDIA 硬件加速方案。",
+          "title": "Marcin Zalewski informed me that his blog post on ...",
+          "desc": "Marcin Zalewski informed me that his blog post on real-time hair rendering using ray tracing is now available: https://mmzala.github.io/blog/hair-geometry This is nice work, in which he compares NVidi...",
           "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdv5xqx5ik26",
-          "source": "Jacco Bikker"
-        },
-        {
-          "title": "BVH 预分割优化",
-          "desc": "生成高质量 BVH。",
-          "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdksp5det22r",
           "source": "Jacco Bikker"
         }
       ]
@@ -46,16 +82,64 @@
       "title": "AI",
       "items": [
         {
-          "title": "MichiAI: 530M 全双工语音模型",
-          "desc": "75ms 延迟的语音 LLM，用 Flow Matching。",
+          "title": "[D] Self-Promotion Thread",
+          "desc": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+          "desc": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for j...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] MichiAI: A 530M Full-Duplex Speech LLM with ~75ms Latency using Flow Matching",
+          "desc": "I wanted to see if I could build a full-duplex speech model that avoids the coherence degradation that plagues models of this type while also requiring low compute for training and inference. I don't ...",
           "url": "https://www.reddit.com/r/MachineLearning/comments/1quwjt1/p_michiai_a_530m_fullduplex_speech_llm_with_75ms/",
           "source": "r/MachineLearning"
         },
         {
-          "title": "AI 真相危机的理解可能有误",
-          "desc": "深度伪造威胁或被高估。",
-          "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
-          "source": "MIT Tech Review"
+          "title": "[D] Where is modern geometry actually useful in machine learning? (data, architectures, optimization)",
+          "desc": "From April 2025 to January 2026, I worked through Frankel’s \"The Geometry of Physics\". The goal wasn’t to “relearn physics”, but to rebuild a modern geometric toolbox and see which mature ideas from g...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1quehcc/d_where_is_modern_geometry_actually_useful_in/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Optimal Transport for ML",
+          "desc": "Where should one start to learn Optimal Transport for ML? I am finding it hard to follow the math in the book “Computational Optimal Transport”. Any pointers to some simplified versions or even an app...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qufx6b/d_optimal_transport_for_ml/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Looking for LOI",
+          "desc": "I'm looking for an inference provider to partner up with. I have developed a proprietary optimization plugin that has been rigorously tested and is about ready to launch. It has a 95% Confidence Inter...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qvc7j8/d_looking_for_loi/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Your pet peeves in ML research ?",
+          "desc": "For researchers, what parts of academic machine learning environement irritates you the most ? what do you suggest to fix the problem ? submitted by /u/al3arabcoreleone [link] [comments]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qu7voe/d_your_pet_peeves_in_ml_research/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Rebase for agents: why your AI workflows should use linear history",
+          "desc": "We've been working on agent workflows that write to Dolt (SQL database with Git semantics), and rebase has become a core part of the pattern. The setup: Each agent gets its own branch Agent makes chan...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qv7nz9/d_rebase_for_agents_why_your_ai_workflows_should/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] We added semantic caching to Bifrost and it's cutting API costs by 60-70%",
+          "desc": "Building Bifrost and one feature that's been really effective is semantic caching. Instead of just exact string matching, we use embeddings to catch when users ask the same thing in different ways. Ho...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qv07mw/p_we_added_semantic_caching_to_bifrost_and_its/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] New interesting AI papers exploration service",
+          "desc": "A lot of time ago, I used arxiv sanity to see what's hot in AI papers. Which tool do you use to explore what's new and interesting in 2026? submitted by /u/ArtisticHamster [link] [comments]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qu28wx/d_new_interesting_ai_papers_exploration_service/",
+          "source": "r/MachineLearning"
         }
       ]
     },
@@ -63,10 +147,64 @@
       "title": "设计",
       "items": [
         {
-          "title": "Combobox vs Multiselect vs Listbox",
-          "desc": "三种选择器组件的区别。",
-          "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/",
-          "source": "Smashing Magazine"
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Dreamweaver?",
+          "desc": "I’m currently in college for computer programming because I plan on pursuing a career in web development. While I’m not against learning the basics, or any different software in general, even as a beg...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qv3v3m/dreamweaver/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "My coworkers are \"AI-dependent\" and it's creating a nightmare of technical debt. Should I quit or adapt?",
+          "desc": "Hey everyone, I’m looking for some perspective on a frustrating situation at my current startup. I’m currently doing OE (Overemployed), and while I need the extra income, the environment is becoming u...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qv8428/my_coworkers_are_aidependent_and_its_creating_a/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Codebase has given me depression. What's the worst codebase you've worked on?",
+          "desc": "I have never been so unhappy as when I'm forced to work on this project. It is by far the worst codebase I've ever worked on in over 12 years of development. There is no saving it. It does not need a ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qut5fu/codebase_has_given_me_depression_whats_the_worst/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "So when will people realize vibe coding is just unscalable dumpster fires?",
+          "desc": "Some guy was asking to build an AI agent that can do X, Y, Z. Along with a website. I asked him what he was looking to spend. His response “Not much since you just can vibe code the whole thing”. Lol....",
+          "url": "https://www.reddit.com/r/webdev/comments/1qughoj/so_when_will_people_realize_vibe_coding_is_just/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Tool for room light layout planning",
+          "desc": "I am planning on installing some recessed lights in my upstairs living room. For some reason a 15x22 foot room has a single light and its not even centered. But before I commit to cutting the holes an...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvdvqw/tool_for_room_light_layout_planning/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Self-Taught Developers Without IT Degrees",
+          "desc": "I’m a self-taught Front-End Developer without a formal IT degree, but I’ve been building real projects with React, Next.js, and modern web tools. I’m confident in my skills, but I know the degree ques...",
+          "url": "https://www.reddit.com/r/webdev/comments/1quumvl/selftaught_developers_without_it_degrees/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Adobe Animate (formerly Flash) will be discontinued effective March 1, 2026, and will no longer be available on Adobe.com",
+          "desc": "submitted by /u/magenta_placenta [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1qu7yqc/adobe_animate_formerly_flash_will_be_discontinued/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Experiences debugging kotlin's coroutines",
+          "desc": "Hi all, just want to ask around to understand the current atmosphere regarding the experience of debugging coroutines in kotlin. From what I last heard, println was everyone's best friend since the de...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvd37b/experiences_debugging_kotlins_coroutines/",
+          "source": "r/webdev"
         }
       ]
     },
@@ -74,15 +212,63 @@
       "title": "互联网 / 科技",
       "items": [
         {
-          "title": "Notepad++ 供应链攻击分析",
-          "desc": "详细拆解攻击手法。",
+          "title": "Petition for Recognition of Work on Open-Source as Volunteering in Germany",
+          "desc": "Article URL: https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany Comments URL: https://news.ycombinator.com/item?id=46881568 Points: 3 # Comments:...",
+          "url": "https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany",
+          "source": "Hacker News"
+        },
+        {
+          "title": "I miss thinking hard",
+          "desc": "Article URL: https://www.jernesto.com/articles/thinking_hard Comments URL: https://news.ycombinator.com/item?id=46881264 Points: 120 # Comments: 82",
+          "url": "https://www.jernesto.com/articles/thinking_hard",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Notepad++ supply chain attack breakdown",
+          "desc": "Article URL: https://securelist.com/notepad-supply-chain-attack/118708/ Comments URL: https://news.ycombinator.com/item?id=46878338 Points: 225 # Comments: 101",
           "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
           "source": "Hacker News"
         },
         {
-          "title": "太空数据中心毫无意义",
-          "desc": "热门讨论。",
+          "title": "FlashAttention-T: Towards Tensorized Attention",
+          "desc": "Article URL: https://dl.acm.org/doi/10.1145/3774934.3786425 Comments URL: https://news.ycombinator.com/item?id=46877403 Points: 86 # Comments: 47",
+          "url": "https://dl.acm.org/doi/10.1145/3774934.3786425",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Data centers in space makes no sense",
+          "desc": "Article URL: https://civai.org/blog/space-data-centers Comments URL: https://news.ycombinator.com/item?id=46876105 Points: 390 # Comments: 515",
           "url": "https://civai.org/blog/space-data-centers",
+          "source": "Hacker News"
+        },
+        {
+          "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
+          "desc": "Article URL: https://github.com/alibaba/AliSQL Comments URL: https://news.ycombinator.com/item?id=46875228 Points: 177 # Comments: 22",
+          "url": "https://github.com/alibaba/AliSQL",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Y Combinator will let founders receive funds in stablecoins",
+          "desc": "Article URL: https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/ Comments URL: https://news.ycombinator.com/item?id=46875033 Points: 104 #...",
+          "url": "https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Xcode 26.3 – Developers can leverage coding agents directly in Xcode",
+          "desc": "Article URL: https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/ Comments URL: https://news.ycombinator.com/item?id=46874619 Points: 272 # Comments: 223",
+          "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Deno Sandbox",
+          "desc": "Article URL: https://deno.com/blog/introducing-deno-sandbox Comments URL: https://news.ycombinator.com/item?id=46874097 Points: 369 # Comments: 126",
+          "url": "https://deno.com/blog/introducing-deno-sandbox",
+          "source": "Hacker News"
+        },
+        {
+          "title": "221 Cannon is Not For Sale",
+          "desc": "Article URL: https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/ Comments URL: https://news.ycombinator.com/item?id=46873574 Points: 210 # Comments: 166",
+          "url": "https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/",
           "source": "Hacker News"
         }
       ]
@@ -91,16 +277,64 @@
       "title": "操作系统",
       "items": [
         {
-          "title": "NTFS Linux 驱动重构",
-          "desc": "更多改进和修复。",
+          "title": "The EU is trying to implement a plan to use AI to scan and report all private encrypted communication. This is insane and breaks the fundamental concepts of privacy and end to end encryption. Don’t sl...",
+          "desc": "submitted by /u/B3_Kind_R3wind_ [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
+          "source": "r/linux"
+        },
+        {
+          "title": "EU is proposing a new mass surveillance law and they are asking the public for feedback",
+          "desc": "submitted by /u/Dry_Row_7050 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Reworked NTFS Linux Driver Posted With More Improvements & Fixes",
+          "desc": "submitted by /u/anh0516 [link] [comments]",
           "url": "https://www.reddit.com/r/linux/comments/1qut4ob/reworked_ntfs_linux_driver_posted_with_more/",
           "source": "r/linux"
         },
         {
-          "title": "Zig 替换第三方 C 代码",
-          "desc": "Zig libc 项目进展。",
-          "url": "https://www.osnews.com/story/144329/zig-replaces-third-party-c-code-with-zigs-own-code/",
-          "source": "OSNews"
+          "title": "XLibreDev announces the start of HDR rendering prototyping in XLibre, an X11 display server project aimed at modernizing the protocol while preserving backward compatibility, with an initial proof-of-...",
+          "desc": "submitted by /u/Kevin_Kofler [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qvdok4/xlibredev_announces_the_start_of_hdr_rendering/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Libreboot 26.01 stable release",
+          "desc": "submitted by /u/libreleah [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1quwf9f/libreboot_2601_stable_release/",
+          "source": "r/linux"
+        },
+        {
+          "title": "AI controls are coming to Firefox",
+          "desc": "submitted by /u/GoldBarb [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qum962/ai_controls_are_coming_to_firefox/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Petition to get FLOSS contributors the same rights and status as other volunteers in other fields",
+          "desc": "submitted by /u/Bro666 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1quokbk/petition_to_get_floss_contributors_the_same/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Linux Heroes: Mike Kelly & The Computer Upcycle Project",
+          "desc": "submitted by /u/LinuxForEveryone [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qv0fh4/linux_heroes_mike_kelly_the_computer_upcycle/",
+          "source": "r/linux"
+        },
+        {
+          "title": "In the future, Rust becomes \"Mandatory\" in Git build .....",
+          "desc": "submitted by /u/unixbhaskar [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qu9qqq/in_the_future_rust_becomes_mandatory_in_git_build/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Live & recent football(soccer) data in your terminal",
+          "desc": "Built this TUI for devs who can't stream matches at work but refuse to miss the action. What you get: - Live match timeline with auto-polling (goals, cards, subs) - Full match stats, formations, playe...",
+          "url": "https://www.reddit.com/r/linux/comments/1quhkiv/live_recent_footballsoccer_data_in_your_terminal/",
+          "source": "r/linux"
         }
       ]
     }
