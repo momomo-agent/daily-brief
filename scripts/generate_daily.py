@@ -61,6 +61,11 @@ def translate_with_ai(items):
 
 # RSS 源配置
 FEEDS = {
+    "WebGPU / WebGL": [
+        ("r/webgpu", "https://www.reddit.com/r/webgpu/hot.rss", "atom"),
+        ("r/webgl", "https://www.reddit.com/r/webgl/hot.rss", "atom"),
+        ("r/threejs", "https://www.reddit.com/r/threejs/hot.rss", "atom"),
+    ],
     "图形 / 渲染": [
         ("r/GraphicsProgramming", "https://www.reddit.com/r/GraphicsProgramming/hot.rss", "atom"),
         ("r/gamedev", "https://www.reddit.com/r/gamedev/hot.rss", "atom"),

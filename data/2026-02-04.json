@@ -3,18 +3,32 @@
   "title": "每日科技速览",
   "sections": [
     {
+      "title": "WebGPU / WebGL",
+      "items": [
+        {"title": "SplitShade: WebGPU 在线编辑器", "desc": "学习 WebGPU 时做的 shader playground", "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/", "source": "r/webgpu"},
+        {"title": "浏览器实时脑信号解码", "desc": "用 WebGPU 在浏览器跑脑机接口", "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/", "source": "r/webgpu"},
+        {"title": "Compute Shader 依赖列问题", "desc": "每列依赖前一列的数组计算如何并行化", "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/", "source": "r/webgpu"},
+        {"title": "WebGPU 视频特效原型", "desc": "three.js + WebGPU 集成到合成管线", "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/", "source": "r/webgpu"},
+        {"title": "Web 端 Surfel 全局光照", "desc": "基于 Surfel 的 GI 实现", "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/", "source": "r/webgpu"},
+        {"title": "Mystral Native: 原生 WebGPU 运行时", "desc": "类似 Node/Deno 但专为游戏优化", "url": "https://www.reddit.com/r/webgpu/comments/1qot3qp/mystral_native_a_native_webgpu_js_runtime_no/", "source": "r/webgpu"},
+        {"title": "C++ WebGPU Shader 引擎进展", "desc": "开发日志第一部分", "url": "https://www.reddit.com/r/webgpu/comments/1qo6l8w/c_webgpu_shader_engine_progress_part_1/", "source": "r/webgpu"},
+        {"title": "compute.toys: WebGPU 版 Shadertoy", "desc": "支持 WGSL/Slang，移动端友好", "url": "https://www.reddit.com/r/webgpu/comments/1qo8yv1/shadertoy_for_webgpu_compute_shaders_computetoys/", "source": "r/webgpu"},
+        {"title": "WebGPU Agent Skill", "desc": "给 Claude Code/Cursor 等 AI 用的 WebGPU 技能包", "url": "https://www.reddit.com/r/webgpu/comments/1qld2c3/webgpu_agent_skill/", "source": "r/webgpu"},
+        {"title": "WebGPU 天气地球可视化", "desc": "660 万点不规则网格全 GPU 渲染", "url": "https://www.reddit.com/r/webgpu/comments/1qj6yln/built_a_weather_globe_using_webgpu_compute/", "source": "r/webgpu"}
+      ]
+    },
+    {
       "title": "图形 / 渲染",
       "items": [
-        {"title": "用 Vulkan GUI 库做 IDE", "desc": "基于 tinyvk 和 ImGui，实现了 rope 结构编辑器", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv091k/sol_trying_to_make_an_ide_with_tinyvk_my_vulkan/", "source": "r/GraphicsProgramming"},
-        {"title": "Bindless Buffer API 讨论", "desc": "ByteAddressBuffer 在着色器中的性能开销", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvfskj/bindless_api_for_buffers/", "source": "r/GraphicsProgramming"},
-        {"title": "纯 C 软件渲染器", "desc": "学习 C 后从零实现，深入理解图形管线", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quk0kb/software_renderer_written_in_c/", "source": "r/GraphicsProgramming"},
-        {"title": "lmath 线性代数库", "desc": "路径追踪器的数学库独立发布", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv3vf4/lmath_library/", "source": "r/GraphicsProgramming"},
-        {"title": "BVH 网格选择与遮挡测试", "desc": "屏幕空间矩形/套索选择的实现", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quqntu/mesh_selection_with_bvh_and_occlusion_test/", "source": "r/GraphicsProgramming"},
-        {"title": "DX12 帧生成研究框架", "desc": "DXGI/DX12 代理层，用于帧生成实验", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv1vpg/dx12_frame_interception_timing_layer_for/", "source": "r/GraphicsProgramming"},
-        {"title": "光追三角形倒置问题", "desc": "Ray Tracing in One Weekend 实现中的问题", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quy1c6/the_triangle_is_upside_down_in_my_ray_tracer/", "source": "r/GraphicsProgramming"},
+        {"title": "用 Vulkan GUI 库做 IDE", "desc": "基于 tinyvk 和 ImGui 的编辑器", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv091k/sol_trying_to_make_an_ide_with_tinyvk_my_vulkan/", "source": "r/GraphicsProgramming"},
+        {"title": "Bindless Buffer API 讨论", "desc": "ByteAddressBuffer 性能开销", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvfskj/bindless_api_for_buffers/", "source": "r/GraphicsProgramming"},
+        {"title": "VMath 向量数学库 + 可视化调试器", "desc": "学习图形数学的工具", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvh33w/vmath_vector_math_library_visual_math_debugger/", "source": "r/GraphicsProgramming"},
+        {"title": "纯 C 软件渲染器", "desc": "从零实现图形管线", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quk0kb/software_renderer_written_in_c/", "source": "r/GraphicsProgramming"},
+        {"title": "lmath 线性代数库", "desc": "路径追踪器数学库独立发布", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv3vf4/lmath_library/", "source": "r/GraphicsProgramming"},
+        {"title": "BVH 网格选择与遮挡测试", "desc": "屏幕空间选择实现", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1quqntu/mesh_selection_with_bvh_and_occlusion_test/", "source": "r/GraphicsProgramming"},
+        {"title": "DX12 帧生成研究框架", "desc": "DXGI/DX12 代理层", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv1vpg/dx12_frame_interception_timing_layer_for/", "source": "r/GraphicsProgramming"},
         {"title": "薛定谔方程动画", "desc": "量子力学可视化", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qtu7pj/some_animations_of_the_schrödinger_equation/", "source": "r/GraphicsProgramming"},
-        {"title": "Brian Karis 谈 Nanite 曲面细分", "desc": "UE5 Nanite 技术分享", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qu6pbv/brian_karis_on_nanite_tessellation/", "source": "r/GraphicsProgramming"},
-        {"title": "屏幕空间伪体积雾", "desc": "用深度作为遮挡遮罩，低成本实现密度变化", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qu2fzz/faking_fog_volumes_in_screen_space_by_using_depth/", "source": "r/GraphicsProgramming"}
+        {"title": "Brian Karis 谈 Nanite 曲面细分", "desc": "UE5 技术分享", "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qu6pbv/brian_karis_on_nanite_tessellation/", "source": "r/GraphicsProgramming"}
       ]
     },
     {
@@ -26,41 +40,45 @@
     {
       "title": "AI",
       "items": [
-        {"title": "MichiAI: 530M 全双工语音模型", "desc": "75ms 延迟，用 Flow Matching 实现", "url": "https://www.reddit.com/r/MachineLearning/comments/1quwjt1/p_michiai_a_530m_fullduplex_speech_llm_with_75ms/", "source": "r/MachineLearning"},
-        {"title": "ML 自我推广帖", "desc": "分享个人项目和产品", "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/", "source": "r/MachineLearning"},
-        {"title": "ML 招聘月帖", "desc": "谁在招人/谁在找工作", "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/", "source": "r/MachineLearning"},
-        {"title": "本地 LLM 周讨论", "desc": "r/LocalLLaMA 每周话题", "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qv0abc/weekly_discussion/", "source": "r/LocalLLaMA"},
-        {"title": "AI 真相危机的理解可能有误", "desc": "深度伪造威胁或被高估", "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/", "source": "MIT Tech Review"}
+        {"title": "MichiAI: 530M 全双工语音模型", "desc": "75ms 延迟，用 Flow Matching", "url": "https://www.reddit.com/r/MachineLearning/comments/1quwjt1/p_michiai_a_530m_fullduplex_speech_llm_with_75ms/", "source": "r/MachineLearning"},
+        {"title": "现代几何在 ML 中的应用", "desc": "从物理几何到机器学习", "url": "https://www.reddit.com/r/MachineLearning/comments/1quehcc/d_where_is_modern_geometry_actually_useful_in/", "source": "r/MachineLearning"},
+        {"title": "OpenClaw 自动化局限性", "desc": "UI Agent 可能取代 API 自动化", "url": "https://www.reddit.com/r/MachineLearning/comments/1qvgx7y/d_openclaw_cant_automate_half_the_things_i_want/", "source": "r/MachineLearning"},
+        {"title": "最优传输入门", "desc": "ML 中的 Optimal Transport 学习资源", "url": "https://www.reddit.com/r/MachineLearning/comments/1qufx6b/d_optimal_transport_for_ml/", "source": "r/MachineLearning"},
+        {"title": "Bifrost 语义缓存", "desc": "API 成本降低 60-70%", "url": "https://www.reddit.com/r/MachineLearning/comments/1qv07mw/p_we_added_semantic_caching_to_bifrost_and_its/", "source": "r/MachineLearning"}
       ]
     },
     {
       "title": "设计",
       "items": [
-        {"title": "Combobox vs Multiselect vs Listbox", "desc": "三种选择器组件的区别和适用场景", "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/", "source": "Smashing Magazine"},
-        {"title": "Web 开发职业讨论", "desc": "月度新手入门帖", "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/", "source": "r/webdev"},
         {"title": "Dreamweaver 还值得学吗", "desc": "新手工具选择讨论", "url": "https://www.reddit.com/r/webdev/comments/1qv3v3m/dreamweaver/", "source": "r/webdev"},
-        {"title": "2026 年 2 月桌面壁纸", "desc": "设计师创作的月度壁纸合集", "url": "https://smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/", "source": "Smashing Magazine"},
-        {"title": "AI 编程工具的负责任使用", "desc": "开发者如何正确使用 AI 助手", "url": "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/", "source": "Smashing Magazine"}
+        {"title": "AI 依赖同事制造技术债", "desc": "要不要辞职还是适应", "url": "https://www.reddit.com/r/webdev/comments/1qv8428/my_coworkers_are_aidependent_and_its_creating_a/", "source": "r/webdev"},
+        {"title": "浏览器不尊重设备选择", "desc": "麦克风权限的边缘情况", "url": "https://www.reddit.com/r/webdev/comments/1qvhj3n/til_browsers_dont_respect_your_device_selection/", "source": "r/webdev"},
+        {"title": "代码库让我抑郁了", "desc": "最糟糕的代码库经历分享", "url": "https://www.reddit.com/r/webdev/comments/1qut5fu/codebase_has_given_me_depression_whats_the_worst/", "source": "r/webdev"},
+        {"title": "Vibe Coding 不可扩展", "desc": "AI 生成代码的局限性讨论", "url": "https://www.reddit.com/r/webdev/comments/1qughoj/so_when_will_people_realize_vibe_coding_is_just/", "source": "r/webdev"}
       ]
     },
     {
       "title": "互联网 / 科技",
       "items": [
-        {"title": "Notepad++ 供应链攻击分析", "desc": "详细拆解攻击手法", "url": "https://securelist.com/notepad-supply-chain-attack/118708/", "source": "Hacker News"},
-        {"title": "太空数据中心毫无意义", "desc": "热门讨论 390+ 赞", "url": "https://civai.org/blog/space-data-centers", "source": "Hacker News"},
-        {"title": "我怀念深度思考的日子", "desc": "AI 时代的反思", "url": "https://www.jernesto.com/articles/thinking_hard", "source": "Hacker News"},
-        {"title": "FlashAttention-T 张量化注意力", "desc": "优化 Transformer 效率", "url": "https://dl.acm.org/doi/10.1145/3774934.3786425", "source": "Hacker News"},
-        {"title": "德国开源工作志愿者认定请愿", "desc": "呼吁认可开源贡献", "url": "https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany", "source": "Hacker News"}
+        {"title": "微软已杀死 Widgets 六次", "desc": "为什么它们总是回来", "url": "https://xakpc.dev/windows-widgets/history/", "source": "Hacker News"},
+        {"title": "德国开源志愿者认定请愿", "desc": "132 赞", "url": "https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany", "source": "Hacker News"},
+        {"title": "我怀念深度思考的日子", "desc": "274 赞，AI 时代反思", "url": "https://www.jernesto.com/articles/thinking_hard", "source": "Hacker News"},
+        {"title": "Notepad++ 供应链攻击分析", "desc": "254 赞", "url": "https://securelist.com/notepad-supply-chain-attack/118708/", "source": "Hacker News"},
+        {"title": "太空数据中心毫无意义", "desc": "468 赞热门讨论", "url": "https://civai.org/blog/space-data-centers", "source": "Hacker News"},
+        {"title": "AliSQL: 阿里开源 MySQL", "desc": "带向量和 DuckDB 引擎", "url": "https://github.com/alibaba/AliSQL", "source": "Hacker News"},
+        {"title": "YC 支持稳定币收款", "desc": "创始人可用稳定币接收投资", "url": "https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/", "source": "Hacker News"},
+        {"title": "Xcode 26.3 支持 AI 编程代理", "desc": "288 赞", "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/", "source": "Hacker News"},
+        {"title": "Deno Sandbox 发布", "desc": "393 赞", "url": "https://deno.com/blog/introducing-deno-sandbox", "source": "Hacker News"}
       ]
     },
     {
       "title": "操作系统",
       "items": [
         {"title": "NTFS Linux 驱动重构", "desc": "更多改进和修复", "url": "https://www.reddit.com/r/linux/comments/1qut4ob/reworked_ntfs_linux_driver_posted_with_more/", "source": "r/linux"},
-        {"title": "EU 加密通信监控计划", "desc": "隐私和端到端加密争议", "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/", "source": "r/linux"},
-        {"title": "Zig 替换第三方 C 代码", "desc": "Zig libc 项目进展", "url": "https://www.osnews.com/story/144329/zig-replaces-third-party-c-code-with-zigs-own-code/", "source": "OSNews"},
-        {"title": "Rust 进入 NetBSD 内核不太可能", "desc": "内核开发者讨论", "url": "https://www.osnews.com/story/144326/rust-in-the-netbsd-kernel-seems-unlikely/", "source": "OSNews"},
-        {"title": "Firefox Nightly 添加 AI 关闭开关", "desc": "Mozilla 终于加了禁用选项", "url": "https://www.osnews.com/story/144321/firefox-nightly-gets-ai-kill-switch/", "source": "OSNews"}
+        {"title": "XLibre HDR 渲染原型", "desc": "X11 现代化项目", "url": "https://www.reddit.com/r/linux/comments/1qvdok4/xlibredev_announces_the_start_of_hdr_rendering/", "source": "r/linux"},
+        {"title": "Libreboot 26.01 发布", "desc": "稳定版更新", "url": "https://www.reddit.com/r/linux/comments/1quwf9f/libreboot_2601_stable_release/", "source": "r/linux"},
+        {"title": "Firefox 将加入 AI 控制", "desc": "可禁用选项", "url": "https://www.reddit.com/r/linux/comments/1qum962/ai_controls_are_coming_to_firefox/", "source": "r/linux"},
+        {"title": "Git 构建将强制 Rust", "desc": "未来趋势", "url": "https://www.reddit.com/r/linux/comments/1qu9qqq/in_the_future_rust_becomes_mandatory_in_git_build/", "source": "r/linux"}
       ]
     }
   ]
