@@ -1,0 +1,407 @@
+{
+  "date": "2026-02-05",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "WebGPU / WebGL",
+      "items": [
+        {
+          "title": "I wanted a WebGPU playground so I made one - SplitShade",
+          "desc": "Hey everyone. I wanted to share a small project I built while figuring out WebGPU. Sometime last year, I was working on a WebGPU fluid simulation for a class assignment, and was mostly new to shader w...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "How can I structure this problem for a compute shader?",
+          "desc": "I need to compute an array, where every column depends on the previous column. The rows are independent. In pseudocode: for i = 0..m: for j = 1..n: A[i][j] = some_function(A[i][j - 1]) How would you s...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Running real-time brain-signal decoders in the browser with WebGPU",
+          "desc": "submitted by /u/yelabbassi [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU video/VFX prototype – basic 3D integrated into the compositing pipeline",
+          "desc": "Hi everyone, this is a follow-up to a previous post where I shared an early WebGPU-based video/VFX prototype. In this new video I’ve integrated basic 3D rendering (with three.js and WebGPU Renderer) a...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Surfel-based global illumination on the web",
+          "desc": "submitted by /u/neondei [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Mystral Native - A native WebGPU JS runtime (no browser)",
+          "desc": "Hey r/webgpu, I built Mystral Native.js, a WebGPU JS runtime like Node/Deno/Bun but specifically optimized for games: WebGPU, Canvas 2D, Web Audio, fetch, all backed by native implementations (V8, Daw...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qot3qp/mystral_native_a_native_webgpu_js_runtime_no/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "C++ WebGPU Shader Engine Progress (part 1)",
+          "desc": "submitted by /u/SuboptimalEng [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo6l8w/c_webgpu_shader_engine_progress_part_1/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Shadertoy for WebGPU compute shaders - compute.toys",
+          "desc": "It supports WGSL/Slang and is mobile-friendly. Join the project's contributors. submitted by /u/munrocket [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo8yv1/shadertoy_for_webgpu_compute_shaders_computetoys/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU Agent Skill",
+          "desc": "I gave skills.sh a try and created an agent skill for WebGPU with my learnings from implementing caza.la/party, works with all major agents (Claude Code/Codex/Cursor/etc) you can install it via the sk...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qld2c3/webgpu_agent_skill/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Built a weather globe using WebGPU compute shaders - irregular grid sampling, marching squares, streamline tracing",
+          "desc": "Built a browser-based weather visualization that renders ECMWF forecast data (6.6M-point irregular grid) entirely on GPU. Wanted to share what worked and get feedback on the approach. Live demo: https...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qj6yln/built_a_weather_globe_using_webgpu_compute/",
+          "source": "r/webgpu"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "How Virtual Textures Really Work (end-to-end, no sparse textures)",
+          "desc": "I just published a deep dive on virtual texturing that tries to explain the system end-to-end. The article covers: Why virtual texturing exists (screen space, not “bigger textures”) How mip hierarchie...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvoqbn/how_virtual_textures_really_work_endtoend_no/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Almost done with LearnOpenGL, feeling pretty good",
+          "desc": "submitted by /u/Background_Shift5408 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvt7zy/almost_done_with_learnopengl_feeling_pretty_good/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Variable-width analytic-AA polylines in a single WebGL draw call: SDF vs tessellation?",
+          "desc": "I'm trying to render a color gradient along a variable-thickness, semitransparent, analytically anti-aliased polyline in a single WebGL draw call, tessellated on GPU, stable under animation, and witho...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvoizc/variablewidth_analyticaa_polylines_in_a_single/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Send meshes and sprites my way I just found a bunch of fonts tho, sweet, like looking for a microchip in a supercomputer",
+          "desc": "submitted by /u/Timely-Degree7739 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvrmwi/send_meshes_and_sprites_my_way_i_just_found_a/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Am i required to know DSA",
+          "desc": "Im a graphic programmer and only know about basic data structures like stack, array, link lists, queues, and how to use algos like sorting and searching, i made game engine and games in c++ and some i...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvtf5o/am_i_required_to_know_dsa/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Improved Forest Scene for Order-Independent Transparent Shadows in OpenGL",
+          "desc": "Added a character for this scene in my OpenGL engine, to show the shadow mapping works with the new alpha rendering (combination of WBOIT and standard masked alpha). I'm drawing the masked part of the...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvj294/improved_forest_scene_for_orderindependent/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Classic computer graphics for modern video games: specification and lean APIs",
+          "desc": "I have written two articles to encourage readers to develop video games with classic graphics that run on an exceptional variety of modern and recent computers, with low resource requirements (say, 64...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qw3scq/classic_computer_graphics_for_modern_video_games/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "ai engineering transition into graphics eng and 3D roadmap?",
+          "desc": "hello, i'm in ai engineering currently and i really want to transition into graphics eng and 3D i'm really passionate about 3D and graphics in general, i've done some unity projects here and there and...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvy8oe/ai_engineering_transition_into_graphics_eng_and/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "[ Sol ] Trying to make an IDE with tinyvk (my Vulkan GUI library)",
+          "desc": "Sol is an IDE leveraging the rendering capabilities of tinyvk, a Vulkan GUI library I have created. The UI is ImGui based. So far i managed to implement: The UI ofc, rope inspired structure for editab...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qv091k/sol_trying_to_make_an_ide_with_tinyvk_my_vulkan/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Bindless API for buffers",
+          "desc": "I am building an abstraction over Vulkan, I have been using bindless descriptors + ByteAddressBuffer for accessing buffers inside shaders. I am curious about the overhead of ByteAddressBuffers and if ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvfskj/bindless_api_for_buffers/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "Bluesky 图形学",
+      "items": [
+        {
+          "title": "Marcin Zalewski informed me that his blog post on ...",
+          "desc": "Marcin Zalewski informed me that his blog post on real-time hair rendering using ray tracing is now available: https://mmzala.github.io/blog/hair-geometry This is nice work, in which he compares NVidi...",
+          "url": "https://bsky.app/profile/jbikker.bsky.social/post/3mdv5xqx5ik26",
+          "source": "Jacco Bikker"
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "items": [
+        {
+          "title": "[D] Self-Promotion Thread",
+          "desc": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+          "desc": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for j...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Using SORT as an activation function fixes spectral bias in MLPs",
+          "desc": "SortDC vs. SIREN vs. ReLU on image compression task Training an INR with standard MLPs (ReLU/SiLU) results in blurry images unless we use Fourier Features or periodic activations (like SIREN), but it ...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qvs003/d_using_sort_as_an_activation_function_fixes/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "I built a free ML practice platform - would love your feedback [P]",
+          "desc": "After completing Andrew Ng's course, CS229, various math and ML stuff and also CS231n, I struggled to find quality practice problems. So I built Neural Forge: - Currently, 73 questions across all ML t...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qvj773/i_built_a_free_ml_practice_platform_would_love/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R]Better alternatives to CatBoost for credit risk explainability (not LightGBM)?",
+          "desc": "I’m working on a credit risk / default prediction problem using CatBoost on tabular data (numerical + categorical, imbalanced). here is Dataset I used for catboost: https://www.kaggle.com/datasets/uci...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qvlz54/rbetter_alternatives_to_catboost_for_credit_risk/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] MichiAI: A 530M Full-Duplex Speech LLM with ~75ms Latency using Flow Matching",
+          "desc": "I wanted to see if I could build a full-duplex speech model that avoids the coherence degradation that plagues models of this type while also requiring low compute for training and inference. I don't ...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1quwjt1/p_michiai_a_530m_fullduplex_speech_llm_with_75ms/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] I built an Open-Source Ensemble for Fast, Calibrated Prompt Injection Detection",
+          "desc": "I’m a working on a project called PromptForest, an open-source system for detecting prompt injections in LLMs. The goal is to flag adversarial prompts before they reach a model, while keeping latency ...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qvkh6m/p_i_built_an_opensource_ensemble_for_fast/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Where is modern geometry actually useful in machine learning? (data, architectures, optimization)",
+          "desc": "From April 2025 to January 2026, I worked through Frankel’s \"The Geometry of Physics\". The goal wasn’t to “relearn physics”, but to rebuild a modern geometric toolbox and see which mature ideas from g...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1quehcc/d_where_is_modern_geometry_actually_useful_in/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Optimal Transport for ML",
+          "desc": "Where should one start to learn Optimal Transport for ML? I am finding it hard to follow the math in the book “Computational Optimal Transport”. Any pointers to some simplified versions or even an app...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qufx6b/d_optimal_transport_for_ml/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Your pet peeves in ML research ?",
+          "desc": "For researchers, what parts of academic machine learning environement irritates you the most ? what do you suggest to fix the problem ? submitted by /u/al3arabcoreleone [link] [comments]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qu7voe/d_your_pet_peeves_in_ml_research/",
+          "source": "r/MachineLearning"
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Senior Vibe Coder dealing with security",
+          "desc": "Creator of ClawBot knows that there are malicious skills in his repo, but doesn't know what to do about it... More info here: https://opensourcemalware.com/blog/clawdbot-skills-ganked-your-crypto subm...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvkhuu/senior_vibe_coder_dealing_with_security/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "What web dev trend is clearly disappearing right now?",
+          "desc": "Not something thats overhyped, but something you’ve seen teams quietly stop using in real projects. submitted by /u/No_Honeydew_2453 [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1qw1kn1/what_web_dev_trend_is_clearly_disappearing_right/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "I understand code, but I cannot \"think\" code",
+          "desc": "Writing this because I want to know if others are in the same boat as me. I have never understood instructions. This goes way back to my early childhood. People can give me long detailed explanations,...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qw2cv7/i_understand_code_but_i_cannot_think_code/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Is it true they say there is a ceiling when you understand how frontend and backend communicate, databases, and APIs, most projects are basically the same pattern but with diffrent busniess logic.",
+          "desc": "I mean for example you build CRUD APP to sell cars later you build CRUD APP to sell clothes. a month later user might want AI feature like AI chatbot or AI recommend products. so you connect with OPEN...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvj88x/is_it_true_they_say_there_is_a_ceiling_when_you/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "What website can I use to check domain availability without the risk of that website buys the domain to sell me it for x100 the price?",
+          "desc": "I know GoDaddy does that, who are safe to use for domain checks? submitted by /u/xSypRo [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvpxpq/what_website_can_i_use_to_check_domain/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Website works on every device except one MacBook – images not loading",
+          "desc": "A client is facing a strange issue where the website works perfectly on all devices and browsers except on his MacBook. On his laptop, images do not load, dropdown buttons (such as the profile menu an...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvzqm3/website_works_on_every_device_except_one_macbook/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "TIL: Browsers don't respect your device selection in the permission dialog",
+          "desc": "Well, usually they do, but there are edge cases. For example in this case, selecting \"AirPods Pro\" in Chrome's microphone prompt means that in reality, usually a totally different device will be used ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvhj3n/til_browsers_dont_respect_your_device_selection/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "What part of modern web dev feels over engineered to you?",
+          "desc": "Frameworks, build tools, state management, CI… what feels heavier than it needs to be in the big 2026? submitted by /u/Ambitious-Note-1239 [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1qw1n98/what_part_of_modern_web_dev_feels_over_engineered/",
+          "source": "r/webdev"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "OpenClaw Is What Apple Intelligence Should Have Been",
+          "desc": "Article URL: https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been Comments URL: https://news.ycombinator.com/item?id=46893970 Points: 19 # Comments: 12",
+          "url": "https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Litestream Writable VFS",
+          "desc": "Article URL: https://fly.io/blog/litestream-writable-vfs/ Comments URL: https://news.ycombinator.com/item?id=46893167 Points: 21 # Comments: 18",
+          "url": "https://fly.io/blog/litestream-writable-vfs/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "As Rocks May Think",
+          "desc": "Article URL: https://evjang.com/2026/02/04/rocks.html Comments URL: https://news.ycombinator.com/item?id=46893018 Points: 47 # Comments: 24",
+          "url": "https://evjang.com/2026/02/04/rocks.html",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Debian's Challenge When Its Developers Drift Away",
+          "desc": "Article URL: https://www.phoronix.com/news/Debian-Developers-Quiet-Away Comments URL: https://news.ycombinator.com/item?id=46892861 Points: 27 # Comments: 0",
+          "url": "https://www.phoronix.com/news/Debian-Developers-Quiet-Away",
+          "source": "Hacker News"
+        },
+        {
+          "title": "A real-world benchmark for AI code review",
+          "desc": "Article URL: https://www.qodo.ai/blog/how-we-built-a-real-world-benchmark-for-ai-code-review/ Comments URL: https://news.ycombinator.com/item?id=46891860 Points: 35 # Comments: 14",
+          "url": "https://www.qodo.ai/blog/how-we-built-a-real-world-benchmark-for-ai-code-review/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Morph – Videos of AI testing your PR, embedded in GitHub",
+          "desc": "I review PRs all day and I've basically stopped reading them. Someone opens a 2000-line PR, I scroll, see it's mostly AI-generated React components, leave a comment, merge. I felt bad about it until I...",
+          "url": "https://morphllm.com/products/glance",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Spotlighting the World Factbook as We Bid a Fond Farewell",
+          "desc": "Article URL: https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/ Comments URL: https://news.ycombinator.com/item?id=46891794 Points: 80 # Comments: 63",
+          "url": "https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Interactive California Budget (By Claude Code)",
+          "desc": "There's been a lot of discussion around the california budget and some proposed tax policies, so I asked claude code to research the budget and turn it into an interactive dashboard.Using async subage...",
+          "url": "https://california-budget.com",
+          "source": "Hacker News"
+        },
+        {
+          "title": "The Codex app illustrates the shift left of IDEs and coding GUIs",
+          "desc": "Article URL: https://www.benshoemaker.us/writing/codex-app-launch/ Comments URL: https://news.ycombinator.com/item?id=46891131 Points: 59 # Comments: 126",
+          "url": "https://www.benshoemaker.us/writing/codex-app-launch/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Tell HN: Another round of Zendesk email spam",
+          "desc": "Looks like there's another round of Zendesk email spam happening. I've gotten hundreds over the last half-hour. Comments URL: https://news.ycombinator.com/item?id=46890418 Points: 71 # Comments: 28",
+          "url": "https://news.ycombinator.com/item?id=46890418",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "操作系统",
+      "items": [
+        {
+          "title": "The EU is trying to implement a plan to use AI to scan and report all private encrypted communication. This is insane and breaks the fundamental concepts of privacy and end to end encryption. Don’t sl...",
+          "desc": "submitted by /u/B3_Kind_R3wind_ [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
+          "source": "r/linux"
+        },
+        {
+          "title": "EU is proposing a new mass surveillance law and they are asking the public for feedback",
+          "desc": "submitted by /u/Dry_Row_7050 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
+          "source": "r/linux"
+        },
+        {
+          "title": "LibreOffice 26.2 released today.",
+          "desc": "submitted by /u/Dude_man79 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qvwlaz/libreoffice_262_released_today/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Microsoft's New Open-Source Project: LiteBox As A Rust-Based Sandboxing Library OS",
+          "desc": "submitted by /u/anh0516 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qw4r71/microsofts_new_opensource_project_litebox_as_a/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Intel Driver Disabling Vulkan Video Encode On Newer Hardware Due To Insufficient Testing",
+          "desc": "submitted by /u/anh0516 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qvsjvp/intel_driver_disabling_vulkan_video_encode_on/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Fish 4.4.0 released",
+          "desc": "submitted by /u/syklemil [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qvl5yx/fish_440_released/",
+          "source": "r/linux"
+        },
+        {
+          "title": "How to Make Package Managers Scream (FOSDEM'26)",
+          "desc": "submitted by /u/boegel [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qw1n0p/how_to_make_package_managers_scream_fosdem26/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Fifteen Years of Waterfox: Alex Kontos on Independence, AI, and the Future of Browsers",
+          "desc": "submitted by /u/yoasif [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qvrru3/fifteen_years_of_waterfox_alex_kontos_on/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Office open/closed formats compatibility still a thing in 2026?",
+          "desc": "hello, I sent a DOCX file from Libre Office (Linux Mint Wilma default deb package version, i.e. LTS) to a person over e-mail and he said he is not able to open the document, I had to send him propriet...",
+          "url": "https://www.reddit.com/r/linux/comments/1qvjwea/office_openclosed_formats_compatibility_still_a/",
+          "source": "r/linux"
+        },
+        {
+          "title": "GCompris, KDE's collection of educational activities, publishes version 26.0",
+          "desc": "submitted by /u/Bro666 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qvljoe/gcompris_kdes_collection_of_educational/",
+          "source": "r/linux"
+        }
+      ]
+    }
+  ]
+}
