@@ -277,26 +277,26 @@
       "title": "互联网 / 科技",
       "items": [
         {
+          "title": "Sam Altman responds to Anthropic's \"Ads are coming to AI. But not to Claude\" ads",
+          "desc": "Article URL: https://xcancel.com/sama/status/2019139174339928189 Comments URL: https://news.ycombinator.com/item?id=46894151 Points: 6 # Comments: 2",
+          "url": "https://xcancel.com/sama/status/2019139174339928189",
+          "source": "Hacker News"
+        },
+        {
           "title": "OpenClaw Is What Apple Intelligence Should Have Been",
-          "desc": "Article URL: https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been Comments URL: https://news.ycombinator.com/item?id=46893970 Points: 19 # Comments: 12",
+          "desc": "Article URL: https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been Comments URL: https://news.ycombinator.com/item?id=46893970 Points: 41 # Comments: 25",
           "url": "https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been",
           "source": "Hacker News"
         },
         {
-          "title": "Litestream Writable VFS",
-          "desc": "Article URL: https://fly.io/blog/litestream-writable-vfs/ Comments URL: https://news.ycombinator.com/item?id=46893167 Points: 21 # Comments: 18",
-          "url": "https://fly.io/blog/litestream-writable-vfs/",
-          "source": "Hacker News"
-        },
-        {
           "title": "As Rocks May Think",
-          "desc": "Article URL: https://evjang.com/2026/02/04/rocks.html Comments URL: https://news.ycombinator.com/item?id=46893018 Points: 47 # Comments: 24",
+          "desc": "Article URL: https://evjang.com/2026/02/04/rocks.html Comments URL: https://news.ycombinator.com/item?id=46893018 Points: 49 # Comments: 32",
           "url": "https://evjang.com/2026/02/04/rocks.html",
           "source": "Hacker News"
         },
         {
           "title": "Debian's Challenge When Its Developers Drift Away",
-          "desc": "Article URL: https://www.phoronix.com/news/Debian-Developers-Quiet-Away Comments URL: https://news.ycombinator.com/item?id=46892861 Points: 27 # Comments: 0",
+          "desc": "Article URL: https://www.phoronix.com/news/Debian-Developers-Quiet-Away Comments URL: https://news.ycombinator.com/item?id=46892861 Points: 33 # Comments: 0",
           "url": "https://www.phoronix.com/news/Debian-Developers-Quiet-Away",
           "source": "Hacker News"
         },
@@ -314,7 +314,7 @@
         },
         {
           "title": "Spotlighting the World Factbook as We Bid a Fond Farewell",
-          "desc": "Article URL: https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/ Comments URL: https://news.ycombinator.com/item?id=46891794 Points: 80 # Comments: 63",
+          "desc": "Article URL: https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/ Comments URL: https://news.ycombinator.com/item?id=46891794 Points: 83 # Comments: 69",
           "url": "https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/",
           "source": "Hacker News"
         },
@@ -326,13 +326,13 @@
         },
         {
           "title": "The Codex app illustrates the shift left of IDEs and coding GUIs",
-          "desc": "Article URL: https://www.benshoemaker.us/writing/codex-app-launch/ Comments URL: https://news.ycombinator.com/item?id=46891131 Points: 59 # Comments: 126",
+          "desc": "Article URL: https://www.benshoemaker.us/writing/codex-app-launch/ Comments URL: https://news.ycombinator.com/item?id=46891131 Points: 61 # Comments: 127",
           "url": "https://www.benshoemaker.us/writing/codex-app-launch/",
           "source": "Hacker News"
         },
         {
           "title": "Tell HN: Another round of Zendesk email spam",
-          "desc": "Looks like there's another round of Zendesk email spam happening. I've gotten hundreds over the last half-hour. Comments URL: https://news.ycombinator.com/item?id=46890418 Points: 71 # Comments: 28",
+          "desc": "Looks like there's another round of Zendesk email spam happening. I've gotten hundreds over the last half-hour. Comments URL: https://news.ycombinator.com/item?id=46890418 Points: 72 # Comments: 28",
           "url": "https://news.ycombinator.com/item?id=46890418",
           "source": "Hacker News"
         }
