@@ -1,0 +1,396 @@
+{
+  "date": "2026-02-06",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "WebGPU / WebGL",
+      "items": [
+        {
+          "title": "I wanted a WebGPU playground so I made one - SplitShade",
+          "desc": "Hey everyone. I wanted to share a small project I built while figuring out WebGPU. Sometime last year, I was working on a WebGPU fluid simulation for a class assignment, and was mostly new to shader w...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Running real-time brain-signal decoders in the browser with WebGPU",
+          "desc": "submitted by /u/yelabbassi [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "How can I structure this problem for a compute shader?",
+          "desc": "I need to compute an array, where every column depends on the previous column. The rows are independent. In pseudocode: for i = 0..m: for j = 1..n: A[i][j] = some_function(A[i][j - 1]) How would you s...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU video/VFX prototype – basic 3D integrated into the compositing pipeline",
+          "desc": "Hi everyone, this is a follow-up to a previous post where I shared an early WebGPU-based video/VFX prototype. In this new video I’ve integrated basic 3D rendering (with three.js and WebGPU Renderer) a...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Surfel-based global illumination on the web",
+          "desc": "submitted by /u/neondei [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Mystral Native - A native WebGPU JS runtime (no browser)",
+          "desc": "Hey r/webgpu, I built Mystral Native.js, a WebGPU JS runtime like Node/Deno/Bun but specifically optimized for games: WebGPU, Canvas 2D, Web Audio, fetch, all backed by native implementations (V8, Daw...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qot3qp/mystral_native_a_native_webgpu_js_runtime_no/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "C++ WebGPU Shader Engine Progress (part 1)",
+          "desc": "submitted by /u/SuboptimalEng [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo6l8w/c_webgpu_shader_engine_progress_part_1/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Shadertoy for WebGPU compute shaders - compute.toys",
+          "desc": "It supports WGSL/Slang and is mobile-friendly. Join the project's contributors. submitted by /u/munrocket [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo8yv1/shadertoy_for_webgpu_compute_shaders_computetoys/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU Agent Skill",
+          "desc": "I gave skills.sh a try and created an agent skill for WebGPU with my learnings from implementing caza.la/party, works with all major agents (Claude Code/Codex/Cursor/etc) you can install it via the sk...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qld2c3/webgpu_agent_skill/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Built a weather globe using WebGPU compute shaders - irregular grid sampling, marching squares, streamline tracing",
+          "desc": "Built a browser-based weather visualization that renders ECMWF forecast data (6.6M-point irregular grid) entirely on GPU. Wanted to share what worked and get feedback on the approach. Live demo: https...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qj6yln/built_a_weather_globe_using_webgpu_compute/",
+          "source": "r/webgpu"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Implemented Live TV & Livestreams player insdie my Vulkan engine (hardware accelerated)",
+          "desc": "submitted by /u/Beginning-Safe4282 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qwxp6k/implemented_live_tv_livestreams_player_insdie_my/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Replicating the Shadowglass 3D pixel-art technique",
+          "desc": "submitted by /u/Tesseract-Cat [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qwszkt/replicating_the_shadowglass_3d_pixelart_technique/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Text Rendering Question",
+          "desc": "I was going through the LearnOpenGL text rendering module and I am very confused. The basic idea as I understand it is we ask freetype to give us textures for each letter so we can later when needed j...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qwv49b/text_rendering_question/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Davide Pesare - The Road to Substance Modeler: VR Roots, Desktop Reinvention",
+          "desc": "submitted by /u/corysama [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qwy5z6/davide_pesare_the_road_to_substance_modeler_vr/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Very cheap AO system I made.",
+          "desc": "(This is just an idea so far, and I haven't implemented it yet) I've been looking for a way to make ambient occlusion really cheaply. When you look at a square from the center, the sides are always cl...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qweiv6/very_cheap_ao_system_i_made/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "How Virtual Textures Really Work (end-to-end, no sparse textures)",
+          "desc": "I just published a deep dive on virtual texturing that tries to explain the system end-to-end. The article covers: Why virtual texturing exists (screen space, not “bigger textures”) How mip hierarchie...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvoqbn/how_virtual_textures_really_work_endtoend_no/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Classic computer graphics for modern video games: specification and lean APIs",
+          "desc": "I have written two articles to encourage readers to develop video games with classic graphics that run on an exceptional variety of modern and recent computers, with low resource requirements (say, 64...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qw3scq/classic_computer_graphics_for_modern_video_games/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Almost done with LearnOpenGL, feeling pretty good",
+          "desc": "submitted by /u/Background_Shift5408 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvt7zy/almost_done_with_learnopengl_feeling_pretty_good/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Variable-width analytic-AA polylines in a single WebGL draw call: SDF vs tessellation?",
+          "desc": "I'm trying to render a color gradient along a variable-thickness, semitransparent, analytically anti-aliased polyline in a single WebGL draw call, tessellated on GPU, stable under animation, and witho...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvoizc/variablewidth_analyticaa_polylines_in_a_single/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Send meshes and sprites my way I just found a bunch of fonts tho, sweet, like looking for a microchip in a supercomputer",
+          "desc": "submitted by /u/Timely-Degree7739 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qvrmwi/send_meshes_and_sprites_my_way_i_just_found_a/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "items": [
+        {
+          "title": "[D] Self-Promotion Thread",
+          "desc": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+          "desc": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for j...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] What to do with an ML PhD",
+          "desc": "Hi Folks, Feeling completely lost so thought about turning here for some suggestions. I am 5th year PhD student in a US university and looking to graduate in the next 8 months. Currently I have not be...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwws18/d_what_to_do_with_an_ml_phd/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] How do you usually figure out why a multi-GPU training run is slower than expected?",
+          "desc": "I have been bitten by this a few times recently and realized everyone seems to have a slightly different workflow. Thinking about the last time a multi-GPU (DDP / FSDP) training run was noticeably slo...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwnokr/d_how_do_you_usually_figure_out_why_a_multigpu/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R] \"What data trained this model?\" shouldn't require archeology — EU AI Act Article 10 compliance with versioned training data",
+          "desc": "We build Dolt (database with Git-style version control), and we've been writing about how it applies to EU AI Act compliance. Article 10 requires audit trails for training data and reproducible datase...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwp484/r_what_data_trained_this_model_shouldnt_require/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] CRAFT: thinking agent for image generation and edit",
+          "desc": "We operate an infrastructure startup focused on large-scale image and video generation. Because we run these models in real production pipelines we repeatedly encounter the same issues: fragile prompt...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwhkcg/p_craft_thinking_agent_for_image_generation_and/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R] IDA PhD Forum CfP (deadline Feb 23), get feedback and mentorship on your research",
+          "desc": "Calling all AI/ML PhD students out there, get feedback on your research plus mentorship from senior researchers at the 2026 Symposium on Intelligent Data Analysis. 2 page abstract deadline Feb 23, 202...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwi1ei/r_ida_phd_forum_cfp_deadline_feb_23_get_feedback/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Some ACL 2025 papers not indexed by Google Scholar",
+          "desc": "I have this problem with my paper, where the arXiv version is in Google Scholar but not the ACL proceedings version. I looked up and found that there is at least one other paper with the same problem:...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwazn3/d_some_acl_2025_papers_not_indexed_by_google/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] How to structure an RL solution for a forecasting problem combined with supervised learning",
+          "desc": "I’m working on a sales forecasting task with historical seasonal data. Right now, I can train a supervised model, specifically XGBoost, that works reasonably well. I was told by my supervisor to use R...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwbykz/d_how_to_structure_an_rl_solution_for_a/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P]SROS: Intent-to-Structure OS for agents (planes-based architecture + receipts) - demos + paper",
+          "desc": "Hi r/MachineLearning, I’m releasing SROS (Sovereign Recursive Operating System) publicly. It’s an architecture for building agent systems that treats “prompting” as compilation: intent becomes structu...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qwsp5y/psros_intenttostructure_os_for_agents_planesbased/",
+          "source": "r/MachineLearning"
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "The math behind making mismatched brand logos look visually balanced (and a React library that does it for you)",
+          "desc": "You know the drill. You get a folder of partner logos. Some are SVGs, some are PNGs with mysterious padding. Aspect ratios range from 1:1 to 15:1. You line them up and spend way too long tweaking size...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qwuh1r/the_math_behind_making_mismatched_brand_logos/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "People who sell websites to small businesses — what actually made your projects successful?",
+          "desc": "I’ll be building client websites using WordPress + Elementor (and WooCommerce when needed), mainly for small businesses and local services. I’m comfortable handling layout, mobile responsiveness, basi...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qwp2oc/people_who_sell_websites_to_small_businesses_what/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Tabnine just cancelled my Pro account",
+          "desc": "Tabnine just cancelled my Pro account and issued a full refund for the year. I had an open support ticket because I noticed that no matter which Claude model you select in Tabnine, it seems to always ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qwz8to/tabnine_just_cancelled_my_pro_account/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "How are you guys finding contracts / side gigs?",
+          "desc": "I am from Europe, I've over 7 years of experience as software engineer with finished computer science bachelor and master degree, at the moment I have a contract that will end in one month, and I real...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qwkoee/how_are_you_guys_finding_contracts_side_gigs/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "'Top class' website examples",
+          "desc": "Hi all. Got a client (UK) asking for examples of what I'd consider \"excellent\" websites in terms of super clear UX/UI, great performance and very secure. Their site is going to be very informational, ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qwhpgq/top_class_website_examples/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Senior Vibe Coder dealing with security",
+          "desc": "Creator of ClawBot knows that there are malicious skills in his repo, but doesn't know what to do about it... More info here: https://opensourcemalware.com/blog/clawdbot-skills-ganked-your-crypto subm...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qvkhuu/senior_vibe_coder_dealing_with_security/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "What makes a website feel trustworthy within the first 5 seconds?",
+          "desc": "When you land on a website, what’s the first thing that makes you trust it? Design? Copy? Reviews? Something else? Curious what stands out to you as a user. submitted by /u/Such_Card_1300 [link] [comm...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qwg4so/what_makes_a_website_feel_trustworthy_within_the/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "What web dev trend is clearly disappearing right now?",
+          "desc": "Not something thats overhyped, but something you’ve seen teams quietly stop using in real projects. submitted by /u/No_Honeydew_2453 [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1qw1kn1/what_web_dev_trend_is_clearly_disappearing_right/",
+          "source": "r/webdev"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "C Isn't a Language",
+          "desc": "Article URL: https://faultlore.com/blah/c-isnt-a-language/ Comments URL: https://news.ycombinator.com/item?id=46907350 Points: 4 # Comments: 3",
+          "url": "https://faultlore.com/blah/c-isnt-a-language/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "The RCE that AMD won't fix",
+          "desc": "Article URL: https://mrbruh.com/amd/ Comments URL: https://news.ycombinator.com/item?id=46906947 Points: 9 # Comments: 2",
+          "url": "https://mrbruh.com/amd/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Cubans rendered powerless as outages persist and tensions with US escalate",
+          "desc": "Article URL: https://apnews.com/article/cuba-us-oil-power-outages-electricity-trump-ccab32796f7b57353adedc380181c68f Comments URL: https://news.ycombinator.com/item?id=46906655 Points: 47 # Comments: ...",
+          "url": "https://apnews.com/article/cuba-us-oil-power-outages-electricity-trump-ccab32796f7b57353adedc380181c68f",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Jane Street Blog – What if writing tests was a joyful experience?",
+          "desc": "Article URL: https://blog.janestreet.com/the-joy-of-expect-tests/ Comments URL: https://news.ycombinator.com/item?id=46905896 Points: 19 # Comments: 3",
+          "url": "https://blog.janestreet.com/the-joy-of-expect-tests/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Review of 1984 by Isaac Asimov (1980)",
+          "desc": "Article URL: https://www.newworker.org/ncptrory/1984.htm Comments URL: https://news.ycombinator.com/item?id=46905761 Points: 74 # Comments: 28",
+          "url": "https://www.newworker.org/ncptrory/1984.htm",
+          "source": "Hacker News"
+        },
+        {
+          "title": "It's 2026, Just Use Postgres",
+          "desc": "Article URL: https://www.tigerdata.com/blog/its-2026-just-use-postgres Comments URL: https://news.ycombinator.com/item?id=46905555 Points: 307 # Comments: 183",
+          "url": "https://www.tigerdata.com/blog/its-2026-just-use-postgres",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Claude Opus 4.6 extra usage promo",
+          "desc": "Article URL: https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo Comments URL: https://news.ycombinator.com/item?id=46904569 Points: 92 # Comments: 26",
+          "url": "https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo",
+          "source": "Hacker News"
+        },
+        {
+          "title": "LinkedIn checks for 2953 browser extensions",
+          "desc": "Article URL: https://github.com/mdp/linkedin-extension-fingerprinting Comments URL: https://news.ycombinator.com/item?id=46904361 Points: 264 # Comments: 130",
+          "url": "https://github.com/mdp/linkedin-extension-fingerprinting",
+          "source": "Hacker News"
+        },
+        {
+          "title": "We tasked Opus 4.6 using agent teams to build a C Compiler",
+          "desc": "Article URL: https://www.anthropic.com/engineering/building-c-compiler Comments URL: https://news.ycombinator.com/item?id=46903616 Points: 345 # Comments: 325",
+          "url": "https://www.anthropic.com/engineering/building-c-compiler",
+          "source": "Hacker News"
+        },
+        {
+          "title": "My AI Adoption Journey",
+          "desc": "Article URL: https://mitchellh.com/writing/my-ai-adoption-journey Comments URL: https://news.ycombinator.com/item?id=46903558 Points: 293 # Comments: 76",
+          "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "操作系统",
+      "items": [
+        {
+          "title": "The EU is trying to implement a plan to use AI to scan and report all private encrypted communication. This is insane and breaks the fundamental concepts of privacy and end to end encryption. Don’t sl...",
+          "desc": "submitted by /u/B3_Kind_R3wind_ [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
+          "source": "r/linux"
+        },
+        {
+          "title": "EU is proposing a new mass surveillance law and they are asking the public for feedback",
+          "desc": "submitted by /u/Dry_Row_7050 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Linux 7.0 Should Fix Nouveau For The Large Pages Support For Better NVK Performance",
+          "desc": "submitted by /u/kingsaso9 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qwk9sx/linux_70_should_fix_nouveau_for_the_large_pages/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Valve explains why it hasn’t announced release dates for its new hardware, now plans for “first half of the year”",
+          "desc": "submitted by /u/Tiny-Independent273 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qwhh1b/valve_explains_why_it_hasnt_announced_release/",
+          "source": "r/linux"
+        },
+        {
+          "title": "wayland \"ext-zones\" has been merged as an experiment under \"xx-zones\"",
+          "desc": "submitted by /u/Misicks0349 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qws19w/wayland_extzones_has_been_merged_as_an_experiment/",
+          "source": "r/linux"
+        },
+        {
+          "title": "First beta for Krita 5.3 and Krita 6.0 - Wayland color management and HDR for 6.0",
+          "desc": "submitted by /u/dbcoopernz [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qwifbl/first_beta_for_krita_53_and_krita_60_wayland/",
+          "source": "r/linux"
+        },
+        {
+          "title": "I built a SQL Server, PostgreSQL & SQLite client that runs on Linux - Jam SQL Studio",
+          "desc": "I've been working on a database client that runs on Linux (and macOS). Sharing it here because a lot of the SQL Server tooling situation on Linux has been rough - SSMS is Windows-only, Azure Data Stud...",
+          "url": "https://www.reddit.com/r/linux/comments/1qx26xf/i_built_a_sql_server_postgresql_sqlite_client/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Orbitiny Desktop Pilot 9 Released - Another Super Massive Release – Qt6 Upgrade + 4 New Exclusive Innovations + 5 New Programs + Many More New Features and Bug Fixes and Orbitiny's Official Website La...",
+          "desc": "Orbitiny Desktop, a Qt/C++ based desktop full of real innovations has seen a new release - Orbitiny Desktop Pilot 9. Orbitiny Desktop is a new Qt/C++ desktop environment for Linux built from the groun...",
+          "url": "https://www.reddit.com/r/linux/comments/1qwzdqk/orbitiny_desktop_pilot_9_released_another_super/",
+          "source": "r/linux"
+        },
+        {
+          "title": "WhatsApp Web can call now !",
+          "desc": "We’ve been waiting for WhatsApp calls on Linux for a long time, and now it’s finally here. It feels great to use voice and video calls without any hacks or workarounds. Small thing maybe, but great ne...",
+          "url": "https://www.reddit.com/r/linux/comments/1qw8hyv/whatsapp_web_can_call_now/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Microsoft's New Open-Source Project: LiteBox As A Rust-Based Sandboxing Library OS",
+          "desc": "submitted by /u/anh0516 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qw4r71/microsofts_new_opensource_project_litebox_as_a/",
+          "source": "r/linux"
+        }
+      ]
+    }
+  ]
+}
