@@ -1,0 +1,396 @@
+{
+  "date": "2026-02-08",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "WebGPU / WebGL",
+      "items": [
+        {
+          "title": "我做了个 WebGPU 游乐场 - SplitShade",
+          "desc": "作者在学习 WebGPU 时做了一个 shader 在线编辑器 SplitShade，起因是课程作业中的流体模拟项目，对 shader 编程还比较陌生。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "用 WebGPU 在浏览器中实时解码脑信号",
+          "desc": "在浏览器中利用 WebGPU 运行实时脑信号解码器，将神经科学与 Web GPU 计算结合。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "如何为 compute shader 组织列依赖的计算问题？",
+          "desc": "讨论如何在 compute shader 中处理每列依赖前一列、行之间独立的数组计算问题。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU 视频/VFX 原型 - 将基础 3D 集成到合成管线中",
+          "desc": "后续更新：在早期 WebGPU 视频特效原型基础上，集成了 three.js WebGPU 渲染器的基础 3D 渲染到合成管线中。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "基于 Surfel 的 Web 端全局光照",
+          "desc": "在 Web 上实现基于 Surfel（表面元素）的全局光照技术。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Mystral Native - 无需浏览器的原生 WebGPU JS 运行时",
+          "desc": "类似 Node/Deno/Bun 但专为游戏优化的 JS 运行时，内置 WebGPU、Canvas 2D、Web Audio 等原生实现。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qot3qp/mystral_native_a_native_webgpu_js_runtime_no/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "C++ WebGPU Shader 引擎开发进展（第一部分）",
+          "desc": "展示用 C++ 构建 WebGPU shader 引擎的开发进度。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo6l8w/c_webgpu_shader_engine_progress_part_1/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "compute.toys - WebGPU compute shader 版 Shadertoy",
+          "desc": "支持 WGSL/Slang 语言，移动端友好的 WebGPU compute shader 在线编辑平台。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo8yv1/shadertoy_for_webgpu_compute_shaders_computetoys/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU Agent Skill - AI 编程助手的 WebGPU 技能包",
+          "desc": "作者基于实际 WebGPU 项目经验，为 Claude Code/Codex/Cursor 等 AI 编程助手创建了 WebGPU 技能包。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qld2c3/webgpu_agent_skill/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "用 WebGPU compute shader 构建天气地球仪",
+          "desc": "在浏览器中用 GPU 渲染 ECMWF 预报数据（660 万点不规则网格），涉及不规则网格采样、Marching Squares 和流线追踪。",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qj6yln/built_a_weather_globe_using_webgpu_compute/",
+          "source": "r/webgpu"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "基于物理驱动的图像点画工具",
+          "desc": "用物理模拟驱动的图像点画（stippling）生成工具。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qyh9vm/a_physicsdriven_image_stippling_tool/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "用 BVH8 加速碰撞检测剪枝",
+          "desc": "作者在自研引擎中加入刚体后发现碰撞检测极慢，改用 8 叉 BVH 进行碰撞剪枝，大幅提升性能。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qycsd7/bvh8_for_collision_pruning/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "在渲染器中处理万亿级三角形",
+          "desc": "WIP 项目展示：渲染器如何处理万亿量级的三角形数据。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qya6dd/handling_a_trillion_triangles_in_my_renderer/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "2D 精灵批量渲染建议",
+          "desc": "寻求 OpenGL 精灵批量渲染的优化建议和学习资源。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qyt0ea/2d_batching_recommandations/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "shade_it：仅 28KB 的 C89 无标准库 OpenGL shader 实时编辑器",
+          "desc": "用纯 C89 无标准库实现的 OpenGL 实时 shader 编辑器，体积仅约 28KB。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qypepr/shade_it_c89_nostdlib_opengl_live_shader/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "helmer 游戏引擎 pre-alpha 演示",
+          "desc": "helmer 游戏引擎的早期 pre-alpha 阶段演示视频。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qynsr5/helmer_late_prealpha_demo/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Quasar 引擎 - 射击弹道与 Python 脚本引擎",
+          "desc": "Quasar 引擎的 Python 脚本引擎已可用于编写移动和弹道行为，性能仍由编译的 C++ 引擎保证。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qy73yf/shooting_projectiles_python_script_engine_quasar/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Radiance Cascade 全局光照的硬件要求",
+          "desc": "讨论 Radiance Cascade 全局光照技术的实现要求和适用场景。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qyiuo9/radiance_cascade_gi_requirements/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "事件系统设计",
+          "desc": "图形引擎中事件系统的设计与实现讨论。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qypi63/event_system/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "光线追踪器的光照出了问题，不知从何调试",
+          "desc": "跟着 Ray Tracer in a Weekend 系列做发光体，结果不对，求助调试方向。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qybe3n/my_lighting_is_off_i_dont_even_know_where_to/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "items": [
+        {
+          "title": "[D] 自我推广帖",
+          "desc": "机器学习社区月度自我推广帖，分享个人项目、创业产品、博客等。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] 月度招聘与求职帖",
+          "desc": "机器学习领域月度招聘信息和求职信息汇总。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] ML 架构图是否需要「标准语法」？",
+          "desc": "讨论 CVPR/NeurIPS 论文中 ML 架构图的表示方式是否应该标准化，目前颜色、形状等仍很碎片化。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qyhh04/d_is_there_a_push_toward_a_standard_grammar_for/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] 实体火柴盒机器学习模型 MENACE",
+          "desc": "作者复刻了 1960 年代 Donald Michie 发明的火柴盒强化学习模型 MENACE，用实体火柴盒玩井字棋。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R] 开源美学图像变体数据集（Apache 2.0）",
+          "desc": "发布了一个 Apache 2.0 许可的美学图像变体开源数据集，附论文和 HuggingFace 链接。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qyme3k/r_an_open_source_dataset_of_aesthetic_image/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] 用 JAX 实现 word2vec",
+          "desc": "用 JAX 框架重新实现经典的 word2vec 词向量模型。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qyvy66/p_word2vec_in_jax/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] 生成合成气象年数据的最佳架构？VAE 在风速上表现不佳",
+          "desc": "用条件 VAE 生成年度气候数据（太阳能、风速、温度，8760 小时），但风速建模效果差，寻求更好的架构建议。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qykq5n/d_best_architecture_for_generating_synthetic/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R] 首次通过 OpenReview 投稿的指南",
+          "desc": "首次通过 OpenReview 向 KDD 投稿，询问流程是否完整。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qytpkl/r_guidance_for_first_time_submission_through/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] 看模型训练收敛真的很爽",
+          "desc": "分享 ML 挑战赛中模型训练的进展图表，任务是将儿童语音映射到某种表示。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qy0g29/pseeing_models_work_is_so_satisfying/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] 当「正确性」模糊时，如何对 ML 系统做回归测试？",
+          "desc": "ML/NLP 系统往往没有唯一正确答案，小改动可能引发意外退化。作者开源了一个解决此问题的工具。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qy7afx/p_how_do_you_regressiontest_ml_systems_when/",
+          "source": "r/MachineLearning"
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "title": "月度新手入门 / Web 开发职业帖",
+          "desc": "Web 开发新手入门和职业发展月度讨论帖。",
+          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "月度新手入门 / Web 开发职业帖（二月）",
+          "desc": "二月份 Web 开发新手入门和职业发展讨论帖。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Postman 免费版 RIP，这是我们做了一年多的开源本地优先替代品",
+          "desc": "Postman 宣布收费变更后，团队推出 DevTools Studio--开源、本地优先的 API 调试工具。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qyi3wz/rip_postman_free_tier_heres_an_opensource/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "有哪些不到 1000 行代码却令人印象深刻的库？",
+          "desc": "征集体积小但功能强大的代码库推荐。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qyq4wa/what_are_some_of_the_most_impressive_libraries/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "用纯 HTML+CSS 复刻了一个酷炫的导航揭示动画",
+          "desc": "用两个 clip-path（圆形 + 多边形射线）实现的导航菜单展开动画效果。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qykvrc/i_saw_this_cool_navigation_reveal_so_i_made_a/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "试用转付费率 23%，但大多数用户从未触达「顿悟时刻」",
+          "desc": "数据显示完成特定操作的试用用户转化率 23%，未完成的仅 5%，但如何引导更多用户到达那个关键动作是难题。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qy9jt4/trial_to_paid_conversion_is_23_for_users_who_hit/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "用 React 做了个开源 DAW，作为 Windows 上的 GarageBand 替代",
+          "desc": "Windows 缺少易用的入门级 DAW，作者用 React 自己写了一个开源数字音频工作站。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qyafov/i_built_an_opensource_daw_using_react_as_a/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "200 次提交，还在磨。3D 建模 Web 应用进展",
+          "desc": "开源 3D 建模 Web 应用 kokraf 的开发进展展示。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qy8r4p/200_commits_still_grinding_heres_the_progress_on/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "把病毒式传播的「IDE 简历」做成了真正可用的 Web 应用",
+          "desc": "看到 IDE 风格简历概念走红但没有好用的工具，于是周末自己做了一个。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qyhps7/i_turned_that_viral_ide_resume_into_a_real/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "做了个园艺追踪器来管理种植计划",
+          "desc": "找不到合适的在线园艺管理工具，于是自己做了一个，可以添加植物、追踪种植进度。",
+          "url": "https://www.reddit.com/r/webdev/comments/1qyse3z/i_built_a_gardening_tracker_to_help_keep_things/",
+          "source": "r/webdev"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "FDA 拟对未经批准的 GLP-1 药物采取行动",
+          "desc": "美国 FDA 宣布将打击未经 FDA 批准的 GLP-1 类减肥药物。",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Tiny C Compiler（TCC）",
+          "desc": "Fabrice Bellard 的经典项目 TCC 再次引发讨论，一个极小的 C 编译器。",
+          "url": "https://bellard.org/tcc/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "微软账户 Bug 把我锁在记事本外面了--瘦客户端正在毁掉 PC？",
+          "desc": "Windows 11 的微软账户问题导致连记事本都无法使用，引发对瘦客户端趋势的反思。",
+          "url": "https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs",
+          "source": "Hacker News"
+        },
+        {
+          "title": "布鲁克海文实验室 RHIC 完成 25 年运行的最后一次碰撞",
+          "desc": "相对论重离子对撞机（RHIC）在运行 25 年后完成最终碰撞实验，正式退役。",
+          "url": "https://www.hpcwire.com/off-the-wire/brookhaven-labs-rhic-concludes-25-year-run-with-final-collisions/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Claude Code 推出 Fast Mode 加速响应",
+          "desc": "Anthropic 的 Claude Code CLI 推出快速模式，可加速代码生成响应。",
+          "url": "https://code.claude.com/docs/en/fast-mode",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN：用纯 HTML+CSS 复刻酷炫导航揭示动画",
+          "desc": "用两个 clip-path 实现的导航菜单展开动画，同时在 HN 和 r/webdev 上火了。",
+          "url": "https://github.com/Momciloo/fun-with-clip-path",
+          "source": "Hacker News"
+        },
+        {
+          "title": "我用 C 语言写游戏（2016）",
+          "desc": "2016 年的经典文章重新引发讨论：为什么选择纯 C 而非 C++ 来开发游戏。",
+          "url": "https://jonathanwhiting.com/writing/blog/games_in_c/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "SectorC：512 字节的 C 编译器",
+          "desc": "在仅 512 字节内实现了一个 C 编译器，极致的代码高尔夫。",
+          "url": "https://xorvoid.com/sectorc.html",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Sierra 老兵 Al Lowe 谈模型火车、搞笑死法和与迪士尼合作",
+          "desc": "对 Sierra 游戏公司元老 Al Lowe 的访谈，聊了他的爱好和职业生涯。",
+          "url": "https://spillhistorie.no/2026/02/06/interview-with-sierra-veteran-al-lowe/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "First Proof - 首个证明",
+          "desc": "一篇引发热议的 arXiv 论文，获得 100 分和 67 条评论。",
+          "url": "https://arxiv.org/abs/2602.05192",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "操作系统",
+      "items": [
+        {
+          "title": "欧盟试图用 AI 扫描所有私人加密通信，这太疯狂了",
+          "desc": "欧盟计划用 AI 扫描和举报所有端到端加密通信，引发隐私权争议。",
+          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
+          "source": "r/linux"
+        },
+        {
+          "title": "欧盟提议新的大规模监控法案，正在征求公众意见",
+          "desc": "欧盟新的大规模监控法案提案，目前开放公众反馈。",
+          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Linux 6.19 为 Intel 和 AMD 用户带来诸多改进",
+          "desc": "Linux 6.19 内核新特性，对 Intel 和 AMD 硬件用户有大量优化。",
+          "url": "https://www.reddit.com/r/linux/comments/1qyqo6s/linux_619_features_include_many_benefits_for/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Linux 显示驱动的 KMS 恢复机制正在开发中",
+          "desc": "Linux 显示驱动正在开发 KMS（内核模式设置）恢复机制，提升显示稳定性。",
+          "url": "https://www.reddit.com/r/linux/comments/1qynifh/kms_recovery_mechanism_being_worked_on_for_linux/",
+          "source": "r/linux"
+        },
+        {
+          "title": "KDE Linux 忙碌的几个月",
+          "desc": "KDE 桌面环境近几个月的开发进展和冒险记录。",
+          "url": "https://www.reddit.com/r/linux/comments/1qye8xc/busy_months_in_kde_linux_adventures_in_linux_and/",
+          "source": "r/linux"
+        },
+        {
+          "title": "GNOME Glycin 2.1 Beta 默认启用 JPEG 2000 支持",
+          "desc": "GNOME 的图像解码库 Glycin 2.1 Beta 版默认开启 JPEG 2000 格式支持。",
+          "url": "https://www.reddit.com/r/linux/comments/1qyrvm9/gnomes_glycin_21_beta_enables_jpeg_2000_support/",
+          "source": "r/linux"
+        },
+        {
+          "title": "如何让 4K 144Hz USB 采集卡在 Linux 上工作（内核补丁！）",
+          "desc": "作者通过编写内核补丁，让 4K 144Hz USB 采集卡在 Linux 上正常工作。",
+          "url": "https://www.reddit.com/r/linux/comments/1qydjsr/how_i_made_a_4k_144hz_usb_capture_cards_work_on/",
+          "source": "r/linux"
+        },
+        {
+          "title": "GOG Galaxy 原生 Linux 支持「已开始开发」",
+          "desc": "GOG 联合创始人表示原生 Linux 版 GOG Galaxy 已开始开发，称自己是「Linux 的忠实粉丝」。",
+          "url": "https://www.reddit.com/r/linux/comments/1qxmazn/work_has_started_on_native_linux_support_for_gog/",
+          "source": "r/linux"
+        },
+        {
+          "title": "NetBSD 11.0-RC1 发布，增强 Linux 模拟层",
+          "desc": "NetBSD 11.0 首个 RC 版本可供测试，改进了 Linux 兼容层。",
+          "url": "https://www.reddit.com/r/linux/comments/1qynmqz/netbsd_110rc1_available_for_testing_with_enhanced/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Mouse Tiler v5.0.0 发布！现在也是全功能自动平铺器",
+          "desc": "KDE Plasma 6+ 的鼠标平铺工具 v5.0.0 发布，新增 16 种默认自动平铺布局，高度可定制。",
+          "url": "https://www.reddit.com/r/linux/comments/1qygme0/mouse_tiler_v500_available_now_also_a_fully/",
+          "source": "r/linux"
+        }
+      ]
+    }
+  ]
+}
