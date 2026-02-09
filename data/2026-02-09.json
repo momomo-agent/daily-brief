@@ -1,0 +1,396 @@
+{
+  "date": "2026-02-09",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "WebGPU / WebGL",
+      "items": [
+        {
+          "title": "Skill i've been using for Threejs Procedural Clouds with WebGPU",
+          "desc": "Skill I've been using to help Claude make beautiful organic clouds with gorgeous lighting. Volumetric Raymarching (WebGPU) - fullscreen quad, ray-slab intersection into cloud layer, density sampling v...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qzl3ux/skill_ive_been_using_for_threejs_procedural/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "I wanted a WebGPU playground so I made one - SplitShade",
+          "desc": "Hey everyone. I wanted to share a small project I built while figuring out WebGPU. Sometime last year, I was working on a WebGPU fluid simulation for a class assignment, and was mostly new to shader w...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Running real-time brain-signal decoders in the browser with WebGPU",
+          "desc": "submitted by /u/yelabbassi [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "How can I structure this problem for a compute shader?",
+          "desc": "I need to compute an array, where every column depends on the previous column. The rows are independent. In pseudocode: for i = 0..m: for j = 1..n: A[i][j] = some_function(A[i][j - 1]) How would you s...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU video/VFX prototype – basic 3D integrated into the compositing pipeline",
+          "desc": "Hi everyone, this is a follow-up to a previous post where I shared an early WebGPU-based video/VFX prototype. In this new video I’ve integrated basic 3D rendering (with three.js and WebGPU Renderer) a...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Surfel-based global illumination on the web",
+          "desc": "submitted by /u/neondei [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Mystral Native - A native WebGPU JS runtime (no browser)",
+          "desc": "Hey r/webgpu, I built Mystral Native.js, a WebGPU JS runtime like Node/Deno/Bun but specifically optimized for games: WebGPU, Canvas 2D, Web Audio, fetch, all backed by native implementations (V8, Daw...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qot3qp/mystral_native_a_native_webgpu_js_runtime_no/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "C++ WebGPU Shader Engine Progress (part 1)",
+          "desc": "submitted by /u/SuboptimalEng [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo6l8w/c_webgpu_shader_engine_progress_part_1/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Shadertoy for WebGPU compute shaders - compute.toys",
+          "desc": "It supports WGSL/Slang and is mobile-friendly. Join the project's contributors. submitted by /u/munrocket [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo8yv1/shadertoy_for_webgpu_compute_shaders_computetoys/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU Agent Skill",
+          "desc": "I gave skills.sh a try and created an agent skill for WebGPU with my learnings from implementing caza.la/party, works with all major agents (Claude Code/Codex/Cursor/etc) you can install it via the sk...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qld2c3/webgpu_agent_skill/",
+          "source": "r/webgpu"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Path-traced Doom 3 CUDA Monte Carlo renderer built on dhewm3",
+          "desc": "Inspired by the Quake 2 PT VK implementation, I spent the last few weeks building a Monte Carlo path tracer on top of dhewm3. It hooks into the engine's existing rendering pipeline and replaces the Op...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzmxlz/pathtraced_doom_3_cuda_monte_carlo_renderer_built/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Built a real-time fluid simulation",
+          "desc": "Live demo: https://conclusive-form-676715.framer.app/home Three.js → GLSL → Shaders 🌊 submitted by /u/FriendshipNo9222 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzdmde/built_a_realtime_fluid_simulation/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Mid level resources for getting into graphics programming.",
+          "desc": "I'm coming into graphics programming from an engineering background. I've got strong math skills and mid level programming skills in C++ with a focus in aero/fluid dynamics. Right now I'm making my wa...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzqdpv/mid_level_resources_for_getting_into_graphics/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Kuwahara filter",
+          "desc": "https://pure.rug.nl/ws/files/2821679/2007IEEETIPPapari.pdf?utm generalised kuwahara filter paper ^ thoughts on how my implementation looks? trying for a painterly look and im not sure if im getting it...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzqtxx/kuwahara_filter/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Relationship of game shaders to graphics APIs?",
+          "desc": "I'm a solo game dev and I have varying degrees of knowledge of all aspects of it. I'm especially fascinated by shaders. I also work as a vfx/tech artist in a small indie team (we're going to kickstart...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qz7uai/relationship_of_game_shaders_to_graphics_apis/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "A physics-driven image stippling tool",
+          "desc": "submitted by /u/Rayterex [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qyh9vm/a_physicsdriven_image_stippling_tool/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "paniq - i cry about you every day: whos singing in the background?",
+          "desc": "hey! I was listening to this song: i cry about you every day by paniq I THINK the album is named 2006 - Lost Known Good Configuration [vorbis224] but I am not sure. I really like the man \"singing\" in ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qznd5h/paniq_i_cry_about_you_every_day_whos_singing_in/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Making video editor in cpp",
+          "desc": "So how and where to start if I want to try to build a video editor from scratch in cpp... I just got the idea and I think it deserves to spend some time and effort on it submitted by /u/Classic-Villag...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qz9gtq/making_video_editor_in_cpp/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "I can’t understand shaders",
+          "desc": "Guys why shaders and shader Implementation so hard to do and so hard to understand I Learn OpenGL and I feel I can’t understand it it’s so stressful submitted by /u/Bashar-nuts [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qznxlt/i_cant_understand_shaders/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "BVH8 for collision pruning",
+          "desc": "Hey r/GraphicsProgramming, So I decided to drop some rigid bodies in my game (running on bespoke engine), and I immediately noticed how damn slow collision detection was. I was pruning loose rigid bod...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qycsd7/bvh8_for_collision_pruning/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "items": [
+        {
+          "title": "[D] Self-Promotion Thread",
+          "desc": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+          "desc": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for j...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] [Torchvista] Interactive visualisation of PyTorch models from notebooks - updates",
+          "desc": "submitted by /u/Dev-Table [link] [comments]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qz831h/p_torchvista_interactive_visualisation_of_pytorch/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] What is your main gripe about ML environments like Colab?",
+          "desc": "I’ve used Colab a lot over the years and like how easy it is to spin something up. But once I have a few notebooks going, or I try to do anything slightly more serious, it starts feeling messy. I lose...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qznfxf/d_what_is_your_main_gripe_about_ml_environments/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] Built a real-time video translator that clones your voice while translating",
+          "desc": "What it does: You speak Spanish → Your friend hears English... in YOUR voice. All in real-time during video calls. Demo video Tech: WebRTC + Google Speech-to-Text + Gemini AI + Qwen3-TTS + Redis Pub/S...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qz6m2t/p_built_a_realtime_video_translator_that_clones/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[N] Benchmarking GGUF Quantization for LLaMA-3.2-1B: 68% Size Reduction with <0.4pp Accuracy Loss on SNIPS",
+          "desc": "submitted by /u/mr_ocotopus [link] [comments]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qz1kmq/n_benchmarking_gguf_quantization_for_llama321b_68/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Is there a push toward a \"Standard Grammar\" for ML architecture diagrams?",
+          "desc": "Looking through recent CVPR and NeurIPS papers, there seems to be an unofficial consensus on how to represent layers (colors, shapes, etc.), but it still feels very fragmented. Is there a specific des...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qyhh04/d_is_there_a_push_toward_a_standard_grammar_for/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R] An open source dataset of aesthetic image variations (Apache 2.0)",
+          "desc": "Paper: https://arxiv.org/pdf/2602.01666 Dataset: https://huggingface.co/datasets/moonworks/lunara-aesthetic-image-variations Colab notebook: https://colab.research.google.com/drive/1xrtJNS4rljgVa_6UKC...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qyme3k/r_an_open_source_dataset_of_aesthetic_image/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] A Matchbox Machine Learning model",
+          "desc": "Hi everyone! I wanted to share a project I’ve been working on: I built a physical MENACE, the matchbox-based reinforcement learning model invented by Donald Michie in the 1960s to play tic‑tac‑toe. Th...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qyhi8k/p_a_matchbox_machine_learning_model/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Best architecture for generating synthetic weather years (8760h)? My VAE is struggling with wind.",
+          "desc": "Working on a generator for annual climate profiles (solar, wind, temp) at hourly resolution (8760 steps). I’m currently using a Conditional VAE with 1D ResNet blocks and some physics-informed loss fun...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qykq5n/d_best_architecture_for_generating_synthetic/",
+          "source": "r/MachineLearning"
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "What's a widely accepted \"best practice\" you've quietly stopped following?",
+          "desc": "I've been building web apps for about 8 years now and there are a few \"rules\" I used to follow religiously that I've slowly stopped caring about. The biggest one for me: 100% test coverage. I used to ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzo2na/whats_a_widely_accepted_best_practice_youve/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Is there any reason to keep any of these books other than nostalgia?",
+          "desc": "This is how I originally taught myself all those years ago. Sometimes it's interesting to remind myself of the original implementations of CSS and early HTML, and the foundations of JS before framewor...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzd1g3/is_there_any_reason_to_keep_any_of_these_books/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Are web components popular and I have my head in the sand, or why aren't they more popular?",
+          "desc": "I have known about web computers for several years and built a few small ones, but it was not until recently that I built an entire app with a web component library, and wow these things are very cool...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qz7nbr/are_web_components_popular_and_i_have_my_head_in/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Currency Rates as GitHub Pages",
+          "desc": "submitted by /u/Elfet [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzj1ta/currency_rates_as_github_pages/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Got bored... now script kidies will think my server have an identity crisis",
+          "desc": "Not sure if it was a good idea or not, maybe this sub can tell me I got bored to see bots trying to \"hack\" my server, it litteraly trashed my logs And since I was bored and a bit childish... I just ad...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzobs7/got_bored_now_script_kidies_will_think_my_server/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "I never understood justify-content vs align-items so I built an interactive Flexbox guide with smooth animations",
+          "desc": "I constantly spent a lot of time with flexbox and I realized how less I really understood from the flexbox concepts, so I made a visual learning tool for CSS Flexbox. I would like to hear your feedbac...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qza6d8/i_never_understood_justifycontent_vs_alignitems/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Correct way to model / type relational data from a DB",
+          "desc": "I'm building an app right now that involves restaurant men. So the DB model has 3 tables related to menus: menus (e.g. \"Lunch\", \"Dinner\", \"Drinks\") menu_categories (e.g. \"Enchiladas\", \"Tacos\", etc.), ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzlw0r/correct_way_to_model_type_relational_data_from_a/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "RIP Postman free tier. Here's an open-source local-first alternative we've been building for over a year",
+          "desc": "Hello r/rwebdev, A bit over a year ago, u/moosebay1, u/electwix, and me set out to build DevTools Studio - an open-source local-first alternative to Postman, and with them announcing pricing changes o...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qyi3wz/rip_postman_free_tier_heres_an_opensource/",
+          "source": "r/webdev"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Microsoft Outlook thinks Microsoft Azure emails are spam",
+          "desc": "Article URL: https://twitter.com/OrganicGPT/status/2020327350379196602 Comments URL: https://news.ycombinator.com/item?id=46940065 Points: 9 # Comments: 0",
+          "url": "https://twitter.com/OrganicGPT/status/2020327350379196602",
+          "source": "Hacker News"
+        },
+        {
+          "title": "AI makes the easy part easier and the hard part harder",
+          "desc": "Article URL: https://www.blundergoat.com/articles/ai-makes-the-easy-part-easier-and-the-hard-part-harder Comments URL: https://news.ycombinator.com/item?id=46939593 Points: 116 # Comments: 101",
+          "url": "https://www.blundergoat.com/articles/ai-makes-the-easy-part-easier-and-the-hard-part-harder",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Toma (YC W24) Is Hiring Founding Engineers",
+          "desc": "Article URL: https://www.ycombinator.com/companies/toma/jobs/oONUnCf-founding-engineer-ai-products Comments URL: https://news.ycombinator.com/item?id=46939298 Points: 0 # Comments: 0",
+          "url": "https://www.ycombinator.com/companies/toma/jobs/oONUnCf-founding-engineer-ai-products",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Reverse Engineering the Prom for the SGI O2",
+          "desc": "Article URL: https://mattst88.com/blog/2026/02/08/Reverse_Engineering_the_PROM_for_the_SGI_O2/ Comments URL: https://news.ycombinator.com/item?id=46939187 Points: 39 # Comments: 8",
+          "url": "https://mattst88.com/blog/2026/02/08/Reverse_Engineering_the_PROM_for_the_SGI_O2/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Stop Generating, Start Thinking",
+          "desc": "Article URL: https://localghost.dev/blog/stop-generating-start-thinking/ Comments URL: https://news.ycombinator.com/item?id=46938958 Points: 6 # Comments: 1",
+          "url": "https://localghost.dev/blog/stop-generating-start-thinking/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Shifts in U.S. Social Media Use, 2020–2024: Decline, Fragmentation, Polarization (2025)",
+          "desc": "Article URL: https://arxiv.org/abs/2510.25417 Comments URL: https://news.ycombinator.com/item?id=46938903 Points: 122 # Comments: 109",
+          "url": "https://arxiv.org/abs/2510.25417",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Everything – Locate files and folders by name instantly",
+          "desc": "Article URL: https://www.voidtools.com/ Comments URL: https://news.ycombinator.com/item?id=46938615 Points: 102 # Comments: 43",
+          "url": "https://www.voidtools.com/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "More Mac malware from Google search",
+          "desc": "Article URL: https://eclecticlight.co/2026/01/30/more-malware-from-google-search/ Comments URL: https://news.ycombinator.com/item?id=46938398 Points: 71 # Comments: 37",
+          "url": "https://eclecticlight.co/2026/01/30/more-malware-from-google-search/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Apple XNU: Clutch Scheduler",
+          "desc": "Article URL: https://github.com/apple-oss-distributions/xnu/blob/main/doc/scheduler/sched_clutch_edge.md Comments URL: https://news.ycombinator.com/item?id=46938280 Points: 82 # Comments: 13",
+          "url": "https://github.com/apple-oss-distributions/xnu/blob/main/doc/scheduler/sched_clutch_edge.md",
+          "source": "Hacker News"
+        },
+        {
+          "title": "A GTA modder has got the 1997 original working on modern PCs and Steam Deck",
+          "desc": "Article URL: https://gtaforums.com/topic/986492-grand-theft-auto-ready2play-full-game-windows-version/ Comments URL: https://news.ycombinator.com/item?id=46938241 Points: 122 # Comments: 49",
+          "url": "https://gtaforums.com/topic/986492-grand-theft-auto-ready2play-full-game-windows-version/",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "操作系统",
+      "items": [
+        {
+          "title": "The EU is trying to implement a plan to use AI to scan and report all private encrypted communication. This is insane and breaks the fundamental concepts of privacy and end to end encryption. Don’t sl...",
+          "desc": "submitted by /u/B3_Kind_R3wind_ [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
+          "source": "r/linux"
+        },
+        {
+          "title": "EU is proposing a new mass surveillance law and they are asking the public for feedback",
+          "desc": "submitted by /u/Dry_Row_7050 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
+          "source": "r/linux"
+        },
+        {
+          "title": "The 6.19 kernel has been released",
+          "desc": "submitted by /u/corbet [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qzlkrc/the_619_kernel_has_been_released/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Linus Torvalds Confirms The Next Kernel Is Linux 7.0",
+          "desc": "submitted by /u/SAJewers [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qzqbqm/linus_torvalds_confirms_the_next_kernel_is_linux/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Linux Kernel 6.19 has been released!",
+          "desc": "submitted by /u/unixbhaskar [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qzn6y1/linux_kernel_619_has_been_released/",
+          "source": "r/linux"
+        },
+        {
+          "title": "What piece of Linux abandonware do you still use or at least miss?",
+          "desc": "submitted by /u/Sataniel98 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qzg95x/what_piece_of_linux_abandonware_do_you_still_use/",
+          "source": "r/linux"
+        },
+        {
+          "title": "LibreOffice 26.2 – New features (video)",
+          "desc": "submitted by /u/themikeosguy [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qz7ky6/libreoffice_262_new_features_video/",
+          "source": "r/linux"
+        },
+        {
+          "title": "What would it take for Linux to support TPM-backed biometric keyring unlocks?",
+          "desc": "After using Linux for the better part of a decade, I've recently had to start using Windows for work - and one of the things that I've gotten used to really quickly is using my face to log in with Win...",
+          "url": "https://www.reddit.com/r/linux/comments/1qzo6yc/what_would_it_take_for_linux_to_support_tpmbacked/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Linux gets exposure in OpenAI Super Bowl TV Ad",
+          "desc": "https://www.youtube.com/watch?v=aCN9iCXNJqQ You can see a generic Linux CD/DVD inserted in an old PC at the 0:19 mark of the video. Any visibility for Linux is good I guess. submitted by /u/WickedDeit...",
+          "url": "https://www.reddit.com/r/linux/comments/1qzpnjs/linux_gets_exposure_in_openai_super_bowl_tv_ad/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Igalia.com - Opensource company",
+          "desc": "I was wondering if anyone knew anything about this company.They seem to have alot going on when it comes to open-source.I see that they are EU based. Is anyone from the sub working for them or have wo...",
+          "url": "https://www.reddit.com/r/linux/comments/1qzigqy/igaliacom_opensource_company/",
+          "source": "r/linux"
+        }
+      ]
+    }
+  ]
+}
