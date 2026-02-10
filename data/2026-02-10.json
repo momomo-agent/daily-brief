@@ -1,0 +1,516 @@
+{
+  "date": "2026-02-10",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "WebGPU / WebGL",
+      "items": [
+        {
+          "title": "Image/video effects infinite canvas",
+          "desc": "built a tool for fun to learn webgpu. it has different shaders with some nice effects, all local of course, and works really well on mobile as well. Check it out and lmk what you think: danielwargh.co...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1r0ckn1/imagevideo_effects_infinite_canvas/",
+          "source": "r/webgpu",
+          "title_zh": "WebGPU 图片/视频特效无限画布",
+          "desc_zh": "开发者用 WebGPU 构建了一个本地运行的特效工具，支持多种 shader 效果，移动端表现也很好。"
+        },
+        {
+          "title": "Skill i've been using for Threejs Procedural Clouds with WebGPU",
+          "desc": "Skill I've been using to help Claude make beautiful organic clouds with gorgeous lighting. Volumetric Raymarching (WebGPU) - fullscreen quad, ray-slab intersection into cloud layer, density sampling v...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qzl3ux/skill_ive_been_using_for_threejs_procedural/",
+          "source": "r/webgpu",
+          "title_zh": "Three.js + WebGPU 程序化云层生成技巧",
+          "desc_zh": "分享了用 Claude 辅助生成体积光线步进云层的 Skill，效果非常有机自然。"
+        },
+        {
+          "title": "I wanted a WebGPU playground so I made one - SplitShade",
+          "desc": "Hey everyone. I wanted to share a small project I built while figuring out WebGPU. Sometime last year, I was working on a WebGPU fluid simulation for a class assignment, and was mostly new to shader w...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/",
+          "source": "r/webgpu",
+          "title_zh": "SplitShade — WebGPU 在线 Playground",
+          "desc_zh": "开发者在做流体模拟课程作业时，顺手做了一个 WebGPU shader 在线编辑器。"
+        },
+        {
+          "title": "Running real-time brain-signal decoders in the browser with WebGPU",
+          "desc": "submitted by /u/yelabbassi [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/",
+          "source": "r/webgpu",
+          "title_zh": "浏览器中用 WebGPU 实时解码脑信号",
+          "desc_zh": "将脑机接口信号解码器搬到浏览器中，利用 WebGPU 实现实时运算。"
+        },
+        {
+          "title": "How can I structure this problem for a compute shader?",
+          "desc": "I need to compute an array, where every column depends on the previous column. The rows are independent. In pseudocode: for i = 0..m: for j = 1..n: A[i][j] = some_function(A[i][j - 1]) How would you s...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/",
+          "source": "r/webgpu",
+          "title_zh": "Compute Shader 中如何处理列依赖问题？",
+          "desc_zh": "讨论当数组每列依赖前一列时，如何在 compute shader 中高效并行化。"
+        },
+        {
+          "title": "WebGPU video/VFX prototype – basic 3D integrated into the compositing pipeline",
+          "desc": "Hi everyone, this is a follow-up to a previous post where I shared an early WebGPU-based video/VFX prototype. In this new video I’ve integrated basic 3D rendering (with three.js and WebGPU Renderer) a...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/",
+          "source": "r/webgpu",
+          "title_zh": "WebGPU 视频/VFX 原型 — 3D 集成到合成管线",
+          "desc_zh": "后续更新：将 three.js WebGPU 渲染器集成到视频合成管线中，实现基础 3D 渲染。"
+        },
+        {
+          "title": "Surfel-based global illumination on the web",
+          "desc": "submitted by /u/neondei [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/",
+          "source": "r/webgpu",
+          "title_zh": "基于 Surfel 的 Web 端全局光照",
+          "desc_zh": "在浏览器中实现了基于 surfel 的全局光照技术。"
+        },
+        {
+          "title": "Mystral Native - A native WebGPU JS runtime (no browser)",
+          "desc": "Hey r/webgpu, I built Mystral Native.js, a WebGPU JS runtime like Node/Deno/Bun but specifically optimized for games: WebGPU, Canvas 2D, Web Audio, fetch, all backed by native implementations (V8, Daw...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qot3qp/mystral_native_a_native_webgpu_js_runtime_no/",
+          "source": "r/webgpu",
+          "title_zh": "Mystral Native — 原生 WebGPU JS 运行时（无需浏览器）",
+          "desc_zh": "类似 Node/Deno/Bun 的 JS 运行时，但专为游戏优化，内置 WebGPU、Canvas 2D、Web Audio。"
+        },
+        {
+          "title": "C++ WebGPU Shader Engine Progress (part 1)",
+          "desc": "submitted by /u/SuboptimalEng [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo6l8w/c_webgpu_shader_engine_progress_part_1/",
+          "source": "r/webgpu",
+          "title_zh": "C++ WebGPU Shader 引擎开发进展（第一部分）",
+          "desc_zh": "用 C++ 构建 WebGPU shader 引擎的开发日志。"
+        },
+        {
+          "title": "Shadertoy for WebGPU compute shaders - compute.toys",
+          "desc": "It supports WGSL/Slang and is mobile-friendly. Join the project's contributors. submitted by /u/munrocket [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo8yv1/shadertoy_for_webgpu_compute_shaders_computetoys/",
+          "source": "r/webgpu",
+          "title_zh": "compute.toys — WebGPU 版 Shadertoy",
+          "desc_zh": "支持 WGSL/Slang 的 WebGPU compute shader 在线编辑器，移动端友好。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Ray marching optimization questions",
+          "desc": "Hello everyone! I have to create an efficient 3D fractal renderer using ray marching in Godot for my bachelor's thesis. Maybe some of you have experience with ray marching optimization and could help ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r0ghof/ray_marching_optimization_questions/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "Ray Marching 优化问题讨论",
+          "desc_zh": "学生为毕业论文在 Godot 中做 3D 分形渲染器，寻求 ray marching 优化建议。"
+        },
+        {
+          "title": "CS senior here: Is it realistic to pursue a career in graphics programming this late?",
+          "desc": "Hey everyone, I’m a CS senior in my final semester, and I’m looking for some advice. Up until last year, I was basically just trying to finish my degree. No specialization, no clear direction just doi...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r094j6/cs_senior_here_is_it_realistic_to_pursue_a_career/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "CS 大四生：现在转图形编程还来得及吗？",
+          "desc_zh": "即将毕业的 CS 学生询问转向图形编程方向的可行性。"
+        },
+        {
+          "title": "i am splicing in new vertex data into a VBO to create an \"animation\", is this animation?",
+          "desc": "i am trying to create a primitive \"animation\" where each frame refresh i am splicing in new geometry, to create a laser... so each frame, a new quad -- in triangle data -- is added to the VBO, in a ce...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r0gmt3/i_am_splicing_in_new_vertex_data_into_a_vbo_to/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "通过拼接 VBO 顶点数据实现「动画」",
+          "desc_zh": "每帧向 VBO 中插入新的四边形几何数据来模拟激光动画效果。"
+        },
+        {
+          "title": "I'm a College Freshman Interested in Computer Graphics",
+          "desc": "I'm currently a freshman in college and in an undergraduate research lab regarding computer graphics/computer vision and I was just overall curious about the realm of computer graphics and if anyone c...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r00jek/im_a_college_freshman_interested_in_computer/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "大一新生对计算机图形学的兴趣",
+          "desc_zh": "大一学生加入了图形学/计算机视觉实验室，寻求入门建议。"
+        },
+        {
+          "title": "Share your favorite research papers!",
+          "desc": "submitted by /u/ovenmittheels [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r052bw/share_your_favorite_research_papers/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "分享你最喜欢的图形学论文！",
+          "desc_zh": "社区征集最喜爱的图形学研究论文。"
+        },
+        {
+          "title": "Path-traced Doom 3 CUDA Monte Carlo renderer built on dhewm3",
+          "desc": "Inspired by the Quake 2 PT VK implementation, I spent the last few weeks building a Monte Carlo path tracer on top of dhewm3. It hooks into the engine's existing rendering pipeline and replaces the Op...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzmxlz/pathtraced_doom_3_cuda_monte_carlo_renderer_built/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "基于 CUDA 蒙特卡洛的 Doom 3 路径追踪渲染器",
+          "desc_zh": "在 dhewm3 引擎上构建了蒙特卡洛路径追踪器，替换原有 OpenGL 管线。"
+        },
+        {
+          "title": "Mid level resources for getting into graphics programming.",
+          "desc": "I'm coming into graphics programming from an engineering background. I've got strong math skills and mid level programming skills in C++ with a focus in aero/fluid dynamics. Right now I'm making my wa...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzqdpv/mid_level_resources_for_getting_into_graphics/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "图形编程中级学习资源推荐",
+          "desc_zh": "有工程背景的开发者寻求从流体力学转向图形编程的中级资源。"
+        },
+        {
+          "title": "Kuwahara filter",
+          "desc": "https://pure.rug.nl/ws/files/2821679/2007IEEETIPPapari.pdf?utm generalised kuwahara filter paper ^ thoughts on how my implementation looks? trying for a painterly look and im not sure if im getting it...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzqtxx/kuwahara_filter/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "Kuwahara 滤波器实现",
+          "desc_zh": "实现了广义 Kuwahara 滤波器，追求油画风格的渲染效果。"
+        },
+        {
+          "title": "Built a real-time fluid simulation",
+          "desc": "Live demo: https://conclusive-form-676715.framer.app/home Three.js → GLSL → Shaders 🌊 submitted by /u/FriendshipNo9222 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qzdmde/built_a_realtime_fluid_simulation/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "实时流体模拟 Demo",
+          "desc_zh": "用 Three.js + GLSL shader 构建的实时流体模拟，有在线演示。"
+        },
+        {
+          "title": "Relationship of game shaders to graphics APIs?",
+          "desc": "I'm a solo game dev and I have varying degrees of knowledge of all aspects of it. I'm especially fascinated by shaders. I also work as a vfx/tech artist in a small indie team (we're going to kickstart...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1qz7uai/relationship_of_game_shaders_to_graphics_apis/",
+          "source": "r/GraphicsProgramming",
+          "title_zh": "游戏 Shader 与图形 API 的关系",
+          "desc_zh": "独立游戏开发者探讨 shader 编写与底层图形 API 之间的关系。"
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "items": [
+        {
+          "title": "[D] Self-Promotion Thread",
+          "desc": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
+          "source": "r/MachineLearning",
+          "title_zh": "自我推广帖",
+          "desc_zh": "r/MachineLearning 月度自我推广帖，分享个人项目和产品。"
+        },
+        {
+          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+          "desc": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for j...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "source": "r/MachineLearning",
+          "title_zh": "月度招聘/求职帖",
+          "desc_zh": "ML 社区月度招聘信息汇总。"
+        },
+        {
+          "title": "[P] A Python library processing geospatial data for GNNs with PyTorch Geometric",
+          "desc": "I'd like to introduce City2Graph, a Python library that converts geospatial data into tensors for GNNs in PyTorch Geometric. This library can construct heterogeneous graphs from multiple data domains,...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r02y6y/p_a_python_library_processing_geospatial_data_for/",
+          "source": "r/MachineLearning",
+          "title_zh": "City2Graph — 地理空间数据转 GNN 的 Python 库",
+          "desc_zh": "将地理空间数据转换为 PyTorch Geometric 的异构图张量，支持多数据域。"
+        },
+        {
+          "title": "[D] Mistral AI Applied Scientist/ Research Engineer Interview",
+          "desc": "Hi Everyone Hope you all are doing well. I got shortlisted for the Applied Scientist/ Research Engineer role at Mistral Singapore. They contacted me today and told me they will be having a phone call ...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r08rrw/d_mistral_ai_applied_scientist_research_engineer/",
+          "source": "r/MachineLearning",
+          "title_zh": "Mistral AI 新加坡面试经验",
+          "desc_zh": "分享 Mistral AI 应用科学家/研究工程师岗位的面试流程。"
+        },
+        {
+          "title": "[D] Are autoregressive video world models actually the right foundation for robot control, or are we overcomplicating things?",
+          "desc": "I've been spending a lot of time thinking about the role of world models in robot learning, and the LingBot-VA paper (arxiv.org/abs/2601.21998) crystallized something I've been going back and forth on...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r086mv/d_are_autoregressive_video_world_models_actually/",
+          "source": "r/MachineLearning",
+          "title_zh": "自回归视频世界模型真的适合机器人控制吗？",
+          "desc_zh": "深度讨论世界模型在机器人学习中的角色，质疑当前方向是否过度复杂化。"
+        },
+        {
+          "title": "Built a site that makes your write code for papers using Leetcode type questions [P]",
+          "desc": "Hello guys and girls! I am neuralnets :) Me and my friend have built this site papercode.in We started it a month back and it has grown to 1.75k users in a month! So I wanted to share this with the re...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r0ezj9/built_a_site_that_makes_your_write_code_for/",
+          "source": "r/MachineLearning",
+          "title_zh": "PaperCode — 用 LeetCode 式题目练习论文代码",
+          "desc_zh": "一个月内增长到 1750 用户的网站，通过编程题帮助理解 ML 论文。"
+        },
+        {
+          "title": "[D] Rules for High-Perfomamce Embedding model training?",
+          "desc": "Hi, I'm thinking about using b200 with spot prices and learning Qwen3-embedding for my native language (Polish). Now I'm in the process of data gathering, but also meanwhile I started thinking about h...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r0a6ju/d_rules_for_highperfomamce_embedding_model/",
+          "source": "r/MachineLearning",
+          "title_zh": "高性能 Embedding 模型训练规则讨论",
+          "desc_zh": "讨论用 B200 训练波兰语 Qwen3-embedding 模型的最佳实践。"
+        },
+        {
+          "title": "[D] Subreddit on Scientific Deep Learning",
+          "desc": "[Hope this post is okay, mods, trying to create a related subreddit for this niche, please remove if not] Hi all, I've recently created a subreddit focused on posts about scientific ML research and di...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r04kf5/d_subreddit_on_scientific_deep_learning/",
+          "source": "r/MachineLearning",
+          "title_zh": "科学深度学习子版块",
+          "desc_zh": "新建了专注于科学 ML 研究和讨论的 subreddit。"
+        },
+        {
+          "title": "[D] Benchmarking deterministic schema enforcement vs. long-context prompting for SOP adherence in 8B models",
+          "desc": "I’ve been benchmarking the reliability of \"reasoning\" for following complex technical manuals using Llama-3-8B and Mistral-v0.3. Even with a high-quality system prompt and 128k context, I’m seeing a 1...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r0eau4/d_benchmarking_deterministic_schema_enforcement/",
+          "source": "r/MachineLearning",
+          "title_zh": "确定性 Schema 约束 vs 长上下文提示的基准测试",
+          "desc_zh": "对比 8B 模型在遵循复杂技术手册时，schema 约束和长上下文提示的可靠性。"
+        },
+        {
+          "title": "[P] arXiv at Home - self-hosted search engine for academic papers",
+          "desc": "submitted by /u/mrAppleXZ [link] [comments]",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qzrty0/p_arxiv_at_home_selfhosted_search_engine_for/",
+          "source": "r/MachineLearning",
+          "title_zh": "arXiv at Home — 自托管学术论文搜索引擎",
+          "desc_zh": "开源的本地部署学术论文搜索引擎。"
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev",
+          "title_zh": "月度入门/Web 开发职业帖",
+          "desc_zh": "r/webdev 月度职业讨论帖。"
+        },
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev",
+          "title_zh": "月度入门/Web 开发职业帖（2月）",
+          "desc_zh": "2月份的 Web 开发职业讨论。"
+        },
+        {
+          "title": "I just implemented social auth in my app. Rate my oauth.",
+          "desc": "submitted by /u/ixartz [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1r051dw/i_just_implemented_social_auth_in_my_app_rate_my/",
+          "source": "r/webdev",
+          "title_zh": "我的 OAuth 社交登录实现，来评分",
+          "desc_zh": "开发者展示自己实现的社交认证方案，征求反馈。"
+        },
+        {
+          "title": "Jmail was developed in five hours",
+          "desc": "src: https://www.standard.co.uk/news/world/jmail-website-jeffrey-epsteins-emails-b1260026.html The only way I see this being possible is AI mostly one shot it or code for most of it was already lying ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r0lhwu/jmail_was_developed_in_five_hours/",
+          "source": "r/webdev",
+          "title_zh": "Jmail 网站五小时开发完成",
+          "desc_zh": "Epstein 邮件公开网站据称五小时内完成，引发 AI 辅助开发讨论。"
+        },
+        {
+          "title": "Companies are making it hard to hire junior developers.",
+          "desc": "I recently came across u/UseApart2127’s (EDIT: now-deleted) post about how AI is supposedly making it harder for recruiters to hire junior developers (even those with strong portfolios), because some ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r03ypw/companies_are_making_it_hard_to_hire_junior/",
+          "source": "r/webdev",
+          "title_zh": "企业正在让招聘初级开发者变得更难",
+          "desc_zh": "讨论 AI 时代下初级开发者求职困境，即使有优秀作品集也难以脱颖而出。"
+        },
+        {
+          "title": "I'm anxious everyday at the idea of losing my job to AI",
+          "desc": "I've been a fullstack dev for three years, and even if I read good reasons that I have another few years before I get replaced, I still get really anxious. Am i the only one ? Sorry I had to share sub...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzyiqp/im_anxious_everyday_at_the_idea_of_losing_my_job/",
+          "source": "r/webdev",
+          "title_zh": "每天都在焦虑被 AI 取代",
+          "desc_zh": "三年全栈开发者分享对 AI 取代工作的焦虑感。"
+        },
+        {
+          "title": "What is your favourite static site generator?",
+          "desc": "I want to move away from WordPress and I’m looking for a good static site generator. Back in the days, I used Jekyll. But I think it’s not that popular anymore. I’d be also interested in one that has ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r03uhe/what_is_your_favourite_static_site_generator/",
+          "source": "r/webdev",
+          "title_zh": "你最喜欢的静态网站生成器是什么？",
+          "desc_zh": "从 WordPress 迁移，征集静态网站生成器推荐。"
+        },
+        {
+          "title": "What's a widely accepted \"best practice\" you've quietly stopped following?",
+          "desc": "I've been building web apps for about 8 years now and there are a few \"rules\" I used to follow religiously that I've slowly stopped caring about. The biggest one for me: 100% test coverage. I used to ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzo2na/whats_a_widely_accepted_best_practice_youve/",
+          "source": "r/webdev",
+          "title_zh": "你悄悄放弃了哪些「最佳实践」？",
+          "desc_zh": "8年开发者分享不再追求 100% 测试覆盖率等经验。"
+        },
+        {
+          "title": "Anyone else miss the simplicity of just writing HTML without 50 config files?",
+          "desc": "Maybe I'm old school, but sometimes I just want to make a quick page with some dynamic content without setting up a whole project. So I made this - it's basically templating that lives in your HTML: F...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qzysqt/anyone_else_miss_the_simplicity_of_just_writing/",
+          "source": "r/webdev",
+          "title_zh": "有人怀念只写 HTML 不用 50 个配置文件的日子吗？",
+          "desc_zh": "开发者做了一个轻量模板方案，回归简单的 HTML 开发体验。"
+        },
+        {
+          "title": "How to populate state when using DTOs?",
+          "desc": "When populating the state in the frontend, what is the general rule in doing so? Do you populate certain parts of it it as pages are visited and therefore calls to the API are made? Or do you make one...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r0jf69/how_to_populate_state_when_using_dtos/",
+          "source": "r/webdev",
+          "title_zh": "使用 DTO 时如何填充前端状态？",
+          "desc_zh": "讨论前端状态管理中 DTO 数据的加载策略。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "What Functional Programmers Get Wrong About Systems",
+          "desc": "Article URL: https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/ Comments URL: https://news.ycombinator.com/item?id=46953491 Points: 11 # Comments: 1",
+          "url": "https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/",
+          "source": "Hacker News",
+          "title_zh": "函数式程序员对系统的误解",
+          "desc_zh": "探讨函数式编程思维在系统设计中的常见盲区。"
+        },
+        {
+          "title": "Is particle physics dead, dying, or just hard?",
+          "desc": "Article URL: https://www.quantamagazine.org/is-particle-physics-dead-dying-or-just-hard-20260126/ Comments URL: https://news.ycombinator.com/item?id=46953136 Points: 41 # Comments: 50",
+          "url": "https://www.quantamagazine.org/is-particle-physics-dead-dying-or-just-hard-20260126/",
+          "source": "Hacker News",
+          "title_zh": "粒子物理学是死了、垂死还是只是太难了？",
+          "desc_zh": "Quanta Magazine 深度文章，讨论粒子物理学的现状与未来。"
+        },
+        {
+          "title": "The shadowy world of abandoned oil tankers",
+          "desc": "Article URL: https://www.bbc.com/news/articles/cddg885344do Comments URL: https://news.ycombinator.com/item?id=46952987 Points: 38 # Comments: 7",
+          "url": "https://www.bbc.com/news/articles/cddg885344do",
+          "source": "Hacker News",
+          "title_zh": "废弃油轮的灰色世界",
+          "desc_zh": "BBC 报道废弃油轮的隐秘产业链。"
+        },
+        {
+          "title": "LiftKit – UI where \"everything derives from the golden ratio\"",
+          "desc": "Article URL: https://www.chainlift.io/liftkit Comments URL: https://news.ycombinator.com/item?id=46952118 Points: 41 # Comments: 13",
+          "url": "https://www.chainlift.io/liftkit",
+          "source": "Hacker News",
+          "title_zh": "LiftKit — 一切源自黄金比例的 UI 框架",
+          "desc_zh": "基于黄金比例设计的 UI 组件库，引发 HN 热议。"
+        },
+        {
+          "title": "America has a tungsten problem",
+          "desc": "Article URL: https://www.noleary.com/blog/posts/1 Comments URL: https://news.ycombinator.com/item?id=46951057 Points: 117 # Comments: 118",
+          "url": "https://www.noleary.com/blog/posts/1",
+          "source": "Hacker News",
+          "title_zh": "美国的钨问题",
+          "desc_zh": "深度分析美国在钨资源供应链上的战略困境，HN 117 分热帖。"
+        },
+        {
+          "title": "Super Bowl Ad for Ring Cameras Touted AI Surveillance Network",
+          "desc": "Article URL: https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/ Comments URL: https://news.ycombinator.com/item?id=46950915 Points: 152 # Comments: 79",
+          "url": "https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/",
+          "source": "Hacker News",
+          "title_zh": "Ring 摄像头超级碗广告宣传 AI 监控网络",
+          "desc_zh": "Ring 在超级碗投放广告推广 AI 监控网络，引发隐私争议，HN 152 分。"
+        },
+        {
+          "title": "Game Theory Patterns at Work (2016)",
+          "desc": "Article URL: https://daeus.blog/2026/01/18/game-theory-patterns-at-work/ Comments URL: https://news.ycombinator.com/item?id=46950756 Points: 20 # Comments: 0",
+          "url": "https://daeus.blog/2026/01/18/game-theory-patterns-at-work/",
+          "source": "Hacker News",
+          "title_zh": "职场中的博弈论模式",
+          "desc_zh": "将博弈论应用于职场场景的分析文章。"
+        },
+        {
+          "title": "Data exfil from agents in messaging apps",
+          "desc": "Article URL: https://www.promptarmor.com/resources/llm-data-exfiltration-via-url-previews-(with-openclaw-example-and-test) Comments URL: https://news.ycombinator.com/item?id=46950634 Points: 8 # Comme...",
+          "url": "https://www.promptarmor.com/resources/llm-data-exfiltration-via-url-previews-(with-openclaw-example-and-test)",
+          "source": "Hacker News",
+          "title_zh": "消息应用中 Agent 的数据泄露风险",
+          "desc_zh": "安全研究：通过 URL 预览从消息应用中的 LLM Agent 窃取数据（含 OpenClaw 示例）。"
+        },
+        {
+          "title": "Another GitHub outage in the same day",
+          "desc": "Article URL: https://www.githubstatus.com/incidents/lcw3tg2f6zsd Comments URL: https://news.ycombinator.com/item?id=46949452 Points: 260 # Comments: 189",
+          "url": "https://www.githubstatus.com/incidents/lcw3tg2f6zsd",
+          "source": "Hacker News",
+          "title_zh": "GitHub 同一天再次宕机",
+          "desc_zh": "GitHub 一天内第二次服务中断，HN 260 分，189 条评论。"
+        },
+        {
+          "title": "Everyone’s building “async agents,” but almost no one can define them",
+          "desc": "Article URL: https://www.omnara.com/blog/what-is-an-async-agent-really Comments URL: https://news.ycombinator.com/item?id=46948533 Points: 18 # Comments: 16",
+          "url": "https://www.omnara.com/blog/what-is-an-async-agent-really",
+          "source": "Hacker News",
+          "title_zh": "人人都在做「异步 Agent」，但几乎没人能定义它",
+          "desc_zh": "探讨异步 Agent 概念的模糊性和行业炒作。"
+        }
+      ]
+    },
+    {
+      "title": "操作系统",
+      "items": [
+        {
+          "title": "The EU is trying to implement a plan to use AI to scan and report all private encrypted communication. This is insane and breaks the fundamental concepts of privacy and end to end encryption. Don’t sl...",
+          "desc": "submitted by /u/B3_Kind_R3wind_ [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
+          "source": "r/linux",
+          "title_zh": "EU 计划用 AI 扫描所有加密通信",
+          "desc_zh": "欧盟提议用 AI 监控端到端加密通信，引发隐私权争议。"
+        },
+        {
+          "title": "EU is proposing a new mass surveillance law and they are asking the public for feedback",
+          "desc": "submitted by /u/Dry_Row_7050 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
+          "source": "r/linux",
+          "title_zh": "EU 提议新的大规模监控法案并征求公众意见",
+          "desc_zh": "欧盟新监控法案公开征求意见。"
+        },
+        {
+          "title": "Linux 7.0 Officially Concluding The Rust Experiment",
+          "desc": "submitted by /u/kingsaso9 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r043wt/linux_70_officially_concluding_the_rust_experiment/",
+          "source": "r/linux",
+          "title_zh": "Linux 7.0 正式结束 Rust 实验阶段",
+          "desc_zh": "Rust 在 Linux 内核中从实验性质转为正式支持。"
+        },
+        {
+          "title": "Linus Torvalds Confirms The Next Kernel Is Linux 7.0",
+          "desc": "submitted by /u/SAJewers [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qzqbqm/linus_torvalds_confirms_the_next_kernel_is_linux/",
+          "source": "r/linux",
+          "title_zh": "Linus Torvalds 确认下一个内核版本为 Linux 7.0",
+          "desc_zh": "版本号从 6.x 跳到 7.0，标志性里程碑。"
+        },
+        {
+          "title": "Intel Recently Shelved Numerous Open-Source Projects",
+          "desc": "submitted by /u/anh0516 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r052g8/intel_recently_shelved_numerous_opensource/",
+          "source": "r/linux",
+          "title_zh": "Intel 近期搁置了大量开源项目",
+          "desc_zh": "Intel 砍掉多个开源项目，引发社区关注。"
+        },
+        {
+          "title": "vault-conductor - An SSH Agent that provides SSH keys stored in Bitwarden Secret Manager",
+          "desc": "I’ve been working on an open-source CLI tool called vault-conductor. It’s an SSH agent that retrieves private keys directly from Bitwarden Secrets Manager instead of reading them from the local filesy...",
+          "url": "https://www.reddit.com/r/linux/comments/1r0m3d1/vaultconductor_an_ssh_agent_that_provides_ssh/",
+          "source": "r/linux",
+          "title_zh": "vault-conductor — 从 Bitwarden 获取 SSH 密钥的 Agent",
+          "desc_zh": "开源 SSH Agent，直接从 Bitwarden Secrets Manager 读取私钥。"
+        },
+        {
+          "title": "os-prober not finding Windows Boot Manager",
+          "desc": "Since I couldn't find this solution anywhere on the internet, I want to share my solution, hoping it could be useful for someone else. Context I have a dual boot with Ubuntu + Windows 11 on my laptop,...",
+          "url": "https://www.reddit.com/r/linux/comments/1r0k45z/osprober_not_finding_windows_boot_manager/",
+          "source": "r/linux",
+          "title_zh": "os-prober 找不到 Windows 启动管理器的解决方案",
+          "desc_zh": "Ubuntu + Windows 双启动问题的排查和修复方案。"
+        },
+        {
+          "title": "The 6.19 kernel has been released",
+          "desc": "submitted by /u/corbet [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qzlkrc/the_619_kernel_has_been_released/",
+          "source": "r/linux",
+          "title_zh": "Linux 内核 6.19 正式发布",
+          "desc_zh": "Linux 6.19 内核发布。"
+        },
+        {
+          "title": "Linux Kernel 6.19 has been released!",
+          "desc": "submitted by /u/unixbhaskar [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1qzn6y1/linux_kernel_619_has_been_released/",
+          "source": "r/linux",
+          "title_zh": "Linux 内核 6.19 发布！",
+          "desc_zh": "同上，社区讨论帖。"
+        },
+        {
+          "title": "Guide: Getting OpenWhispr voice dictation auto-paste working on GNOME Wayland (Ubuntu 24.04)",
+          "desc": "I spent a while debugging why OpenWhispr (open-source Wispr Flow alternative) transcribes speech perfectly on GNOME/Wayland but never auto-pastes into the target window. Figured I'd document the fix s...",
+          "url": "https://www.reddit.com/r/linux/comments/1r0mgn1/guide_getting_openwhispr_voice_dictation/",
+          "source": "r/linux",
+          "title_zh": "GNOME Wayland 下 OpenWhispr 语音输入自动粘贴指南",
+          "desc_zh": "解决 OpenWhispr 在 GNOME/Wayland 下无法自动粘贴的问题。"
+        }
+      ]
+    }
+  ]
+}
