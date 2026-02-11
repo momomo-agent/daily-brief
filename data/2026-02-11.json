@@ -1,0 +1,407 @@
+{
+  "date": "2026-02-11",
+  "title": "每日科技速览",
+  "sections": [
+    {
+      "title": "WebGPU / WebGL",
+      "items": [
+        {
+          "title": "Real-time 3D CT volume visualization in the browser",
+          "desc": "submitted by /u/IBets [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1r0p2kw/realtime_3d_ct_volume_visualization_in_the_browser/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Image/video effects infinite canvas",
+          "desc": "built a tool for fun to learn webgpu. it has different shaders with some nice effects, all local of course, and works really well on mobile as well. Check it out and lmk what you think: danielwargh.co...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1r0ckn1/imagevideo_effects_infinite_canvas/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Skill i've been using for Threejs Procedural Clouds with WebGPU",
+          "desc": "Skill I've been using to help Claude make beautiful organic clouds with gorgeous lighting. Volumetric Raymarching (WebGPU) - fullscreen quad, ray-slab intersection into cloud layer, density sampling v...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qzl3ux/skill_ive_been_using_for_threejs_procedural/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "I wanted a WebGPU playground so I made one - SplitShade",
+          "desc": "Hey everyone. I wanted to share a small project I built while figuring out WebGPU. Sometime last year, I was working on a WebGPU fluid simulation for a class assignment, and was mostly new to shader w...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Running real-time brain-signal decoders in the browser with WebGPU",
+          "desc": "submitted by /u/yelabbassi [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "How can I structure this problem for a compute shader?",
+          "desc": "I need to compute an array, where every column depends on the previous column. The rows are independent. In pseudocode: for i = 0..m: for j = 1..n: A[i][j] = some_function(A[i][j - 1]) How would you s...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "WebGPU video/VFX prototype – basic 3D integrated into the compositing pipeline",
+          "desc": "Hi everyone, this is a follow-up to a previous post where I shared an early WebGPU-based video/VFX prototype. In this new video I’ve integrated basic 3D rendering (with three.js and WebGPU Renderer) a...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Surfel-based global illumination on the web",
+          "desc": "submitted by /u/neondei [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "Mystral Native - A native WebGPU JS runtime (no browser)",
+          "desc": "Hey r/webgpu, I built Mystral Native.js, a WebGPU JS runtime like Node/Deno/Bun but specifically optimized for games: WebGPU, Canvas 2D, Web Audio, fetch, all backed by native implementations (V8, Daw...",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qot3qp/mystral_native_a_native_webgpu_js_runtime_no/",
+          "source": "r/webgpu"
+        },
+        {
+          "title": "C++ WebGPU Shader Engine Progress (part 1)",
+          "desc": "submitted by /u/SuboptimalEng [link] [comments]",
+          "url": "https://www.reddit.com/r/webgpu/comments/1qo6l8w/c_webgpu_shader_engine_progress_part_1/",
+          "source": "r/webgpu"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Built a WebGPU 4D Weather Globe - some shader tricks I learned along the way",
+          "desc": "Hey all, Been working on a weather visualization project for a while now. It's a globe that shows current and forecast temperature, wind, and pressure data using WebGPU. Wanted to share some of the gr...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r14ifo/built_a_webgpu_4d_weather_globe_some_shader/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "My raylib 3D renderer, now in pre-release 0.8!",
+          "desc": "submitted by /u/Bogossito71 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r15oaq/my_raylib_3d_renderer_now_in_prerelease_08/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Constellation: Frame Buffer State Sand Particles (CPU 2.5D Cellular Automata)",
+          "desc": "Hello again, I wanted to share another part of my no-std integer based CPU graphics engine Constellation. I am currently working on the particle system. My approach is making the frame buffer itself a...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r0z5tv/constellation_frame_buffer_state_sand_particles/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Everything is Better with a Fisheye Lens--Including Tax Papers",
+          "desc": "Blog post about how I did this in Vulkan (including github link!) submitted by /u/uuqstrings [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r18sxo/everything_is_better_with_a_fisheye_lensincluding/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Since there aren't any double precision level editors, I'm building my own",
+          "desc": "My wife and I are building a game engine for narrow but long levels, meaning level streaming isn't necessary as the memory usage is low, but we need to do chunked origin rebasing. Typically there is n...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r18rr5/since_there_arent_any_double_precision_level/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "State of HLSL: February 2026",
+          "desc": "submitted by /u/thegreatbeanz [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r1bat4/state_of_hlsl_february_2026/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "SDL3 GPU Spinning Prism",
+          "desc": "Been making my own game engine using the SDL3 GPU API and am now happy with my scene/ECS functionality. submitted by /u/rejamaco [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r0w7tv/sdl3_gpu_spinning_prism/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Looking to switch fields, should I get a degree?",
+          "desc": "TL; DR: Would you recommend a mid-level web dev (no degree) to pursue a Master’s if their dream role is in the realm of 3D computer vision/graphics? I’m a SWE with 5YOE doing web dev at a popular comp...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r1cf1p/looking_to_switch_fields_should_i_get_a_degree/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "«lmath» library extensions",
+          "desc": "The «lmath» library is currently under development, but its core functionality is available and tested. At the moment, the main prospect is to improve the library through extensions The main part of t...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r1iw7d/lmath_library_extensions/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "API suggestions",
+          "desc": "I’m looking for a graphics API that offers the simplicity of OpenGL but includes the modern capabilities of Vulkan. I don’t want to use Vulkan itself because it feels overly verbose and complex for my...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r12yqj/api_suggestions/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "Bluesky 图形学",
+      "items": [
+        {
+          "title": "Great tool! Looks like I am in great company. :) M...",
+          "desc": "Great tool! Looks like I am in great company. :) Made several new contacts too today! [contains quote post or other embedded content]",
+          "url": "https://bsky.app/profile/jbikker.bsky.social/post/3meixwtmrqk2o",
+          "source": "Jacco Bikker"
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "items": [
+        {
+          "title": "[D] Self-Promotion Thread",
+          "desc": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+          "desc": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for j...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Ph.D. from a top Europe university, 10 papers at NeurIPS/ICML, ECML— 0 Interviews Big tech",
+          "desc": "I just wrapped up my CS Ph.D on anomaly detection. Here's my profile in a nutshell: Research: 8 publications, 5 first-author at top ML venues (ICML, NeurIPS, ECML). 2 A* ICML, NeurIPS (both first auth...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r0tw3e/d_phd_from_a_top_europe_university_10_papers_at/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Am I wrong to think that contemporary most machine learning reseach is just noise?",
+          "desc": "Hi! I'm currently a high school senior (so not an expert) with a decent amount of interest in machine learning. This is my first time writing such a post, and I will be expressing a lot of opinions th...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r12nb0/d_am_i_wrong_to_think_that_contemporary_most/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R] The Post-Transformer Era: State Space Models, Mamba, and What Comes After Attention",
+          "desc": "A practitioner's guide to Mamba and State Space Models — how selective state spaces achieve linear scaling, when to use SSMs vs Transformers vs hybrids, and production-ready models. 🔗 https://blog.ser...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r19jnu/r_the_posttransformer_era_state_space_models/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] For those of you who secured research scientist roles at faang in the last few years what is your profile like?",
+          "desc": "I’m seeing a ridiculous amount of posts from people in PhD programs with multiple first author A* conference papers saying they can’t get an interview for research scientist roles at FAANG. I’m about ...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r0xtzd/d_for_those_of_you_who_secured_research_scientist/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Research Intern and SWE intern PhD positions at Google",
+          "desc": "Hi folks, I’m a 4th-year PhD student at USC (graduating next year) with 5+ first-author publications at top-tier venues like ICLR and ACL. This year I applied to both Research Intern/Student Researche...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r0vpwv/d_research_intern_and_swe_intern_phd_positions_at/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[D] Tired of not having Compute...",
+          "desc": "Hey there, I am an undergrad working with Computer Vision for over an year now. I will put things straight over here, the Lab that I was primarily working with (one of the biggest CV Labs in my Countr...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r10c0b/d_tired_of_not_having_compute/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[R] LLaDA2.1 vs Qwen3 30B A3B: Benchmarking discrete diffusion LLMs against autoregressive MoE models",
+          "desc": "Been digging into the LLaDA2.1 paper (arXiv:2602.08676) and ran some comparisons that I think are worth discussing. The core claim is that discrete diffusion language models can now compete with AR mo...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r1694q/r_llada21_vs_qwen3_30b_a3b_benchmarking_discrete/",
+          "source": "r/MachineLearning"
+        },
+        {
+          "title": "[P] My notes for The Elements of Statistical Learning",
+          "desc": "Hi, I have fairly successful repository https://github.com/maitbayev/the-elements-of-statistical-learning that contains my notes for the book via a series of Jupyter notebooks. To make the notes easie...",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1r14z5r/p_my_notes_for_the_elements_of_statistical/",
+          "source": "r/MachineLearning"
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Monthly Getting Started / Web Dev Career Thread",
+          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
+          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "UI Designers, please, for the love of all that is holy, learn some basic web constraints! You're making our lives hell.",
+          "desc": "​I belive we need to talk this, and I know I'm not alone in this. It feels like a growing number of UI designers out there are completely oblivious to how their designs actually translate into working...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r14g35/ui_designers_please_for_the_love_of_all_that_is/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "I wanted to show you guys my rack simulation created with React, TypeScript, Zustand, SVG, CSS, running entirely in the browser.",
+          "desc": "Hey, first time posting in this sub. This project started out as pure curiosity. I shared an early version in a homelab sub and it kind of took off, which honestly surprised me, so I decided to go ful...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r197ec/i_wanted_to_show_you_guys_my_rack_simulation/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Jmail was developed in five hours",
+          "desc": "src: https://www.standard.co.uk/news/world/jmail-website-jeffrey-epsteins-emails-b1260026.html The only way I see this being possible is AI mostly one shot it or code for most of it was already lying ...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r0lhwu/jmail_was_developed_in_five_hours/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "I built a single-file, no-dependency Web Component that turns mouse movements into physics-based CSS variables.",
+          "desc": "I wanted to share a small, open-source Web Component I just released to help make UI interactions feel more \"alive\" without bloating your project. Click here to read more and see some cool demos Gimli...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r10ss5/i_built_a_singlefile_nodependency_web_component/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Constant Breakdowns as a Junior Dev",
+          "desc": "Hi everyone, I’m a junior web developer with about a year of experience and I recently joined a small startup after 5 months of being unemployed. I work remotely from my parents’ home and I’m alone al...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r0nh0c/constant_breakdowns_as_a_junior_dev/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "Serious question: Where do I sign up to receive the maximum possible amount of “Hey sir, I redesign websites” emails or whatsapp?",
+          "desc": "I currently get around 2–5 per day. But I feel that’s rookie numbers. Ideally I’m looking for: – broken English – vague compliments about my website – unsolicited audits – absolute confidence Bonus po...",
+          "url": "https://www.reddit.com/r/webdev/comments/1r1enyg/serious_question_where_do_i_sign_up_to_receive/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "A tag read the consent state before a default was set. Can anyone tell me how to fix this? Google tag manager",
+          "desc": "submitted by /u/Confident_Mud_2013 [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1r1celi/a_tag_read_the_consent_state_before_a_default_was/",
+          "source": "r/webdev"
+        },
+        {
+          "title": "I just implemented social auth in my app. Rate my oauth.",
+          "desc": "submitted by /u/ixartz [link] [comments]",
+          "url": "https://www.reddit.com/r/webdev/comments/1r051dw/i_just_implemented_social_auth_in_my_app_rate_my/",
+          "source": "r/webdev"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "The Day the Telnet Died",
+          "desc": "Article URL: https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/ Comments URL: https://news.ycombinator.com/item?id=46967772 Points: 138 # Comments: 75",
+          "url": "https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "The Falkirk Wheel",
+          "desc": "Article URL: https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel Comments URL: https://news.ycombinator.com/item?id=46966605 Points: 41 # Comments: ...",
+          "url": "https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Tambo 1.0: Open-source toolkit for agents that render React components",
+          "desc": "Hi HN — cofounder Michael here.We've been building Tambo for about a year, and just released our 1.0.We make are making it easier to register React components with Zod schemas, a build an agent picks ...",
+          "url": "https://github.com/tambo-ai/tambo",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Sol LeWitt-style instruction-based drawings in the browser",
+          "desc": "Sol LeWitt was a conceptual artist who never touched his own walls.He wrote instructions and other people executed them, the original prompt engineer!I bookmarked a project called \"Solving Sol\" seven ...",
+          "url": "https://intervolz.com/sollewitt/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "How did Windows 95 get permission to put the Weezer video Buddy Holly on the CD?",
+          "desc": "Article URL: https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052 Comments URL: https://news.ycombinator.com/item?id=46965440 Points: 109 # Comments: 79",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Multimodal perception system for real-time conversation",
+          "desc": "I work on real-time voice/video AI at Tavus and for the past few years, I’ve mostly focused on how machines respond in a conversation.One thing that’s always bothered me is that almost all conversatio...",
+          "url": "https://raven.tavuslabs.org",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: Livedocs (YC W22) – An AI-native notebook for data analysis",
+          "desc": "Hi HN, I'm Arsalan, founder of LiveDocs (https://livedocs.com). We're building an AI-native data workspace that lets teams ask questions of their real data and have the system plan, execute, and maint...",
+          "url": "https://livedocs.com",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Markdown CLI viewer with VI keybindings",
+          "desc": "Article URL: https://github.com/taf2/mdvi Comments URL: https://news.ycombinator.com/item?id=46963865 Points: 55 # Comments: 21",
+          "url": "https://github.com/taf2/mdvi",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Google handed ICE student journalist's bank and credit card numbers",
+          "desc": "Article URL: https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/ Comments URL: https://news.ycombinator.com/item?id=46963804 Points: 642 # Comments: 257",
+          "url": "https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Stripe-no-webhooks – Sync your Stripe data to your Postgres DB",
+          "desc": "Hey HN, stripe-no-webhooks is an open-source library that syncs your Stripe payments data to your own Postgres database: https://github.com/pretzelai/stripe-no-webhooks.Here's a demo video: https://yo...",
+          "url": "https://github.com/pretzelai/stripe-no-webhooks",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "操作系统",
+      "items": [
+        {
+          "title": "The EU is trying to implement a plan to use AI to scan and report all private encrypted communication. This is insane and breaks the fundamental concepts of privacy and end to end encryption. Don’t sl...",
+          "desc": "submitted by /u/B3_Kind_R3wind_ [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
+          "source": "r/linux"
+        },
+        {
+          "title": "EU is proposing a new mass surveillance law and they are asking the public for feedback",
+          "desc": "submitted by /u/Dry_Row_7050 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Experimental Zones Protocol Merged To Wayland After 2+ Years, 620+ Comments",
+          "desc": "submitted by /u/anh0516 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r14snh/experimental_zones_protocol_merged_to_wayland/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Sony's introduction of the PS2 Linux Kit caught the attention of researchers at NCSA. They combined 70 PS2 consoles in 2003 to form a supercomputer, highlighting its ability to perform complex scienti...",
+          "desc": "submitted by /u/Economy-Specialist38 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r1fss6/sonys_introduction_of_the_ps2_linux_kit_caught/",
+          "source": "r/linux"
+        },
+        {
+          "title": "My friend got fed up with protontricks being slow, so he built an alternative (up to 40x faster)",
+          "desc": "What it says in the title. Since protontricks (winetricks in general) is a slow shell script that has existed for over 15 years, my friend made a modular alternative in Python with more UX. The GitHub...",
+          "url": "https://www.reddit.com/r/linux/comments/1r0zmor/my_friend_got_fed_up_with_protontricks_being_slow/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Redox OS Gets Cargo & The Rust Compiler Running On This Open-Source OS",
+          "desc": "submitted by /u/anh0516 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r152pk/redox_os_gets_cargo_the_rust_compiler_running_on/",
+          "source": "r/linux"
+        },
+        {
+          "title": "The BB Demo: I installed Mandrake Linux circa 2005. I had no internet, found this ASCII demo pre-installed, and never looked back",
+          "desc": "submitted by /u/Ori_553 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r1e629/the_bb_demo_i_installed_mandrake_linux_circa_2005/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Just used Ghostscript today for the first time. Wut in tarnation.",
+          "desc": "So I have always known about it but never actually used it before. Today I needed to merge a bunch of pdfs into a single document and to my surprise this is a paid feature on most pdf editor tools. Bu...",
+          "url": "https://www.reddit.com/r/linux/comments/1r1h7r7/just_used_ghostscript_today_for_the_first_time/",
+          "source": "r/linux"
+        },
+        {
+          "title": "Error handling in bash",
+          "desc": "submitted by /u/Aerosherm [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r1b0oq/error_handling_in_bash/",
+          "source": "r/linux"
+        },
+        {
+          "title": "btrfs kind of blows my mind... it was so easy to setup a dual NVMe pooled volume... took like 15 seconds!",
+          "desc": "submitted by /u/i-am-a-cat-6 [link] [comments]",
+          "url": "https://www.reddit.com/r/linux/comments/1r1775e/btrfs_kind_of_blows_my_mind_it_was_so_easy_to/",
+          "source": "r/linux"
+        }
+      ]
+    }
+  ]
+}
