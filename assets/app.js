@@ -25,6 +25,16 @@ function renderPaper(data, index) {
   paper.className = 'newspaper';
   paper.dataset.index = index;
   
+  let headlineHtml = '';
+  if (data.headline) {
+    headlineHtml = `
+      <div class="headline-banner">
+        <h2 class="headline-title"><a href="${data.headline.url}" target="_blank">${data.headline.title}</a></h2>
+        <p class="headline-desc">${data.headline.desc}</p>
+        ${data.headline.momo ? `<p class="headline-momo">✨ ${data.headline.momo}</p>` : ''}
+      </div>`;
+  }
+
   let sectionsHtml = '';
   data.sections.forEach(section => {
     sectionsHtml += `<h2 class="section-title">${section.title}</h2>`;
@@ -45,7 +55,7 @@ function renderPaper(data, index) {
       <h1 class="paper-title">${data.title}</h1>
       <div class="paper-tagline">AI · Policy · Tech</div>
     </header>
-    <div class="paper-content">${sectionsHtml}</div>
+    <div class="paper-content">${headlineHtml}${sectionsHtml}</div>
   `;
   return paper;
 }
