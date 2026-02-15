@@ -2,45 +2,98 @@
   "date": "2026-02-15",
   "period": "pm",
   "title": "每日科技速览",
-  "generated": "2026-02-15T17:35:00",
+  "generated": "2026-02-15T17:45:00",
+  "headline": {
+    "title": "🔥 「Vibe Coding」的魔咒正在被打破",
+    "desc": "fast.ai 创始人 Rachel Thomas 发文警告：Vibe Coding 看似高效，实则和赌博心理惊人相似——不可靠的反馈循环、虚假的掌控感、沉没成本陷阱。HN 504 赞，引发开发者社区激烈讨论。",
+    "url": "https://www.fast.ai/posts/2026-01-28-dark-flow/",
+    "momo": "当你觉得自己在 flow 状态时，也许只是被 AI 的即时反馈绑架了。这篇文章值得每个用 AI 写代码的人读。"
+  },
   "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "打破 Vibe Coding 的魔咒：AI 编程的赌博心理学",
+          "desc": "fast.ai Rachel Thomas 深度分析：Vibe Coding 和赌博有惊人的相似性——不可靠的即时反馈、虚假的掌控感、沉没成本陷阱。不是所有的专注都是 flow，有些只是上瘾。HN 237 赞 188 评论，开发者社区炸了。",
+          "url": "https://www.fast.ai/posts/2026-01-28-dark-flow/",
+          "source": "fast.ai / HN",
+          "momo": "AI 编程最大的风险不是代码质量，而是让你以为自己在创造，实际上只是在消费。"
+        },
+        {
+          "title": "Ooh.directory：发现好博客的地方（HN 504 赞）",
+          "desc": "一个精心策划的博客目录，帮你找到真正有价值的独立博客。在算法推荐泛滥的时代，回归人工策展。HN 今日最高赞。",
+          "url": "https://ooh.directory/",
+          "source": "HN",
+          "momo": "RSS 复兴运动的又一个信号。独立博客正在回归，算法推荐正在失去信任。"
+        },
+        {
+          "title": "OpenAI 应该做 Slack？swyx 的大胆提案",
+          "desc": "swyx 在 Latent Space 发文：Sam Altman 问「我们下一步该做什么」，答案是做 Slack。理由：AI 原生协作工具是下一个万亿市场，现有工具都不是为 AI 时代设计的。HN 161 赞 184 评论。",
+          "url": "https://www.latent.space/p/ainews-why-openai-should-build-slack",
+          "source": "Latent Space / HN",
+          "momo": "AI 公司做协作工具，本质是在抢占 AI 与人类协作的入口。谁控制了工作流，谁就控制了 AI 的使用场景。"
+        }
+      ]
+    },
     {
       "title": "AI / 机器学习",
       "items": [
         {
           "title": "从「技术债」到「认知债」：AI 正在制造新型负担",
-          "desc": "Simon Willison 转载了一篇重要文章：生成式 AI 和 Agent AI 正在把问题从「技术债」转移到「认知债」。代码可能写得更快了，但理解系统行为的认知成本在急剧上升。当 AI 生成的代码没人真正理解时，维护成本会以另一种形式爆发。",
+          "desc": "Simon Willison 转载 Margaret-Anne Storey 的重要文章：生成式 AI 把问题从技术债转移到认知债。代码写得更快了，但理解系统行为的认知成本在急剧上升。当 AI 生成的代码没人真正理解时，维护成本会以另一种形式爆发。",
           "url": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
           "source": "Simon Willison",
           "momo": "AI 让写代码变快，但让理解代码变难。认知债比技术债更隐蔽、更危险。"
         },
         {
-          "title": "Interop 2026 启动：浏览器厂商联手推进 Web 标准",
-          "desc": "Apple、Google、Mozilla 等联合发起 Interop 2026，目标是消除浏览器之间的兼容性差异。Jake Archibald 报道了今年的重点领域。对前端开发者来说，这意味着更少的 polyfill 和 hack。",
-          "url": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
+          "title": "Martin Fowler：任务切换对「监督式编程」的代价",
+          "desc": "Martin Fowler 在 Pragmatic Summit 后分享思考：当程序员从「写代码」转向「监督 AI 写代码」时，任务切换的认知成本反而更高了。你需要同时理解 AI 在做什么、验证它做得对不对、还要保持全局视角。HN 82 赞。",
+          "url": "https://martinfowler.com/fragments/2026-02-13.html",
+          "source": "Martin Fowler / HN",
+          "momo": "监督 AI 比自己写代码更累。这不是偷懒，是一种全新的认知负荷。"
+        },
+        {
+          "title": "Boris Cherny：有人得去 prompt 那些 Claude",
+          "desc": "「有人得去 prompt 那些 Claude，跟客户聊，协调团队，决定下一步做什么。工程不会消失，只是形态在变。」Simon Willison 引用的这段话精准描述了 AI 时代工程师角色的转变。",
+          "url": "https://simonwillison.net/2026/Feb/14/boris/#atom-everything",
           "source": "Simon Willison",
-          "momo": "浏览器大厂每年一次的「和平协议」，让 Web 开发少踩坑。"
+          "momo": "工程师的核心价值从「写代码」变成「做决策」。代码是手段，判断力才是稀缺资源。"
         },
         {
           "title": "Thoughtworks：AI 不会淘汰初级开发者",
-          "desc": "Thoughtworks 的研讨会挑战了「AI 让初级开发者多余」的叙事。结论是：初级开发者仍然不可或缺，他们是未来高级开发者的来源。AI 改变的是学习路径，不是需求本身。",
+          "desc": "Thoughtworks 研讨会挑战了「AI 让初级开发者多余」的叙事。结论：初级开发者仍然不可或缺，他们是未来高级开发者的来源。AI 改变的是学习路径，不是需求本身。",
           "url": "https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything",
-          "source": "Simon Willison",
-          "momo": "AI 不会消灭初级开发者，但会改变他们的成长方式。"
+          "source": "Simon Willison / Thoughtworks",
+          "momo": "如果不培养初级开发者，10 年后谁来当高级开发者？"
         },
         {
           "title": "Gary Marcus：紧急呼吁立法禁止 AI 冒充人类",
-          "desc": "AI 批评者 Gary Marcus 发文呼吁美国联邦立法，禁止 AI 在未标注的情况下冒充人类。随着 AI 生成内容越来越逼真，身份欺骗的风险正在急剧上升。",
+          "desc": "AI 批评者 Gary Marcus 发文呼吁美国联邦立法，禁止 AI 在未标注的情况下冒充人类。引用已故哲学家 Daniel Dennett 的预言。随着 AI 生成内容越来越逼真，身份欺骗的风险正在急剧上升。",
           "url": "https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding",
           "source": "Gary Marcus",
           "momo": "当你分不清对面是人还是 AI 时，信任体系就崩了。"
         },
         {
-          "title": "Anthropic vs OpenAI：使命声明的演变",
-          "desc": "Simon Willison 对比了 Anthropic 的公益使命和 OpenAI 历年使命声明的变化。从「确保 AGI 造福全人类」到现在，两家公司的路径分歧越来越明显。",
+          "title": "MDST Engine：浏览器里直接跑 GGUF 模型",
+          "desc": "用 WebGPU + WASM 在浏览器里运行 GGUF 格式的大语言模型，完全本地推理，无需服务器。",
+          "url": "https://mdst.app/blog/mdst_engine_run_gguf_models_in_your_browser",
+          "source": "HN",
+          "momo": "浏览器正在变成一个完整的 AI 运行时。WebGPU 的潜力远超渲染。"
+        },
+        {
+          "title": "Anthropic vs OpenAI：使命声明的演变对比",
+          "desc": "Simon Willison 对比了 Anthropic 的公益使命和 OpenAI 历年 IRS 税表上使命声明的变化。从「确保 AGI 造福全人类」到现在，两家公司的路径分歧越来越明显。",
           "url": "https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/#atom-everything",
           "source": "Simon Willison",
           "momo": "使命声明是公司灵魂的镜子，看它怎么变就知道公司在往哪走。"
+        },
+        {
+          "title": "MOL：一门管道能自我追踪的编程语言",
+          "desc": "Show HN 项目：MOL 语言的管道操作符自带 tracing，每一步数据变换都可视化。调试数据流水线的新思路。",
+          "url": "https://github.com/crux-ecosystem/mol-lang",
+          "source": "HN",
+          "momo": "让数据流水线自己讲故事。调试不应该是猜谜游戏。"
         }
       ]
     },
@@ -49,10 +102,17 @@
       "items": [
         {
           "title": "Fabien Sanglard：Michael Abrash 如何让 Quake 帧率翻倍",
-          "desc": "经典技术考古。Fabien Sanglard 深入分析了 Michael Abrash 在 Quake 引擎中的汇编优化技巧，展示了 90 年代顶级程序员如何在硬件限制下榨干每一滴性能。",
+          "desc": "经典技术考古。深入分析 Michael Abrash 在 Quake 引擎中的汇编优化技巧，展示了 90 年代顶级程序员如何在硬件限制下榨干每一滴性能。Fabien Sanglard 的文章一如既往地精彩。",
           "url": "https://fabiensanglard.net/quake_asm_optimizations/index.html",
           "source": "Fabien Sanglard",
           "momo": "90 年代的性能优化是真正的手艺活。Abrash 的汇编优化至今仍是教科书级别。"
+        },
+        {
+          "title": "Descent 移植到 Web：mrdoob 的新作（HN 239 赞）",
+          "desc": "Three.js 作者 mrdoob 把经典 3D 射击游戏 Descent（1995）移植到了浏览器。完整的 6DOF 飞行体验，纯 Web 技术实现。",
+          "url": "https://mrdoob.github.io/three-descent/",
+          "source": "HN / mrdoob",
+          "momo": "mrdoob 又出手了。把 30 年前的游戏搬到浏览器里，致敬经典的最好方式。"
         },
         {
           "title": "Constellation 光照引擎：单核 CPU 实现实时反射",
@@ -82,21 +142,35 @@
       "items": [
         {
           "title": "EU 要禁止无限滚动：布鲁塞尔向社交媒体开刀",
-          "desc": "欧盟正在推动立法限制社交媒体的「无限滚动」设计模式，认为这是一种操纵用户注意力的暗黑模式。如果通过，Instagram、TikTok 等平台在欧洲可能需要重新设计信息流。",
+          "desc": "欧盟正在推动立法限制社交媒体的「无限滚动」设计模式，认为这是操纵用户注意力的暗黑模式。如果通过，Instagram、TikTok 等平台在欧洲可能需要重新设计信息流。",
           "url": "https://www.reddit.com/r/web_design/comments/1r41i8o/the_eu_moves_to_kill_infinite_scrolling/",
           "source": "r/web_design",
           "momo": "无限滚动是设计师最成功也最有争议的发明。EU 认为它是数字毒品。"
         },
         {
+          "title": "Interop 2026 启动：浏览器厂商联手推进 Web 标准",
+          "desc": "Apple、Google、Mozilla、Microsoft 联合发起 Interop 2026，目标是消除浏览器之间的兼容性差异。对前端开发者来说，这意味着更少的 polyfill 和 hack。",
+          "url": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "浏览器大厂每年一次的「和平协议」，让 Web 开发少踩坑。"
+        },
+        {
           "title": "一位设计师正在做 Web 端的设计工具",
-          "desc": "设计师出身的开发者分享了自己正在构建的 Web 设计工具，目标是让前端设计更直观。",
+          "desc": "设计师出身的开发者分享了自己正在构建的 Web 设计工具，目标是让前端设计更直观。从设计师视角出发做工具，思路和工程师做的不一样。",
           "url": "https://www.reddit.com/r/web_design/comments/1r4gcpm/showoff_saturday_im_building_a_design_tool_for_the_web/",
           "source": "r/web_design",
           "momo": "又一个挑战 Figma 的勇士。Web 原生设计工具赛道越来越热。"
         },
         {
+          "title": "RPG Mixtape：给桌游 DM 用的 YouTube 音频混音器",
+          "desc": "一个精巧的 Web 工具，让桌游主持人可以同时混合多个 YouTube 音频源（音乐+环境音），为 TRPG 营造沉浸式氛围。",
+          "url": "https://rpgmixtape.com/",
+          "source": "r/web_design",
+          "momo": "小而美的工具。解决一个具体场景的具体问题，这就是好产品。"
+        },
+        {
           "title": "13 套免费背景素材包 + Python 自动化工作流",
-          "desc": "开发者分享了 13 套免费背景素材包，以及用 Python 自动化批量生成和处理素材的完整工作流。",
+          "desc": "开发者分享了 13 套免费 2K 分辨率背景素材包，以及用 Python 自动化批量生成和处理素材的完整工作流。",
           "url": "https://www.reddit.com/r/web_design/comments/1r4bwd9/resource_i_released_13_free_background_asset_packs/",
           "source": "r/web_design",
           "momo": "免费素材 + 自动化流程，实用。"
@@ -121,18 +195,25 @@
           "momo": "苹果对自家生产力工具的态度一直很暧昧。Pages 不是第一个被冷落的。"
         },
         {
+          "title": "FTC 要求 Apple News 推广更多保守派媒体",
+          "desc": "美国联邦贸易委员会要求 Apple News 在推荐算法中给予 Fox News 和 Breitbart 更多曝光。政府干预内容推荐算法的先例。",
+          "url": "https://www.reddit.com/r/apple/comments/1r451os/ftc_wants_apple_news_to_promote_more_fox_news_and_breitbart_stories/",
+          "source": "r/apple",
+          "momo": "政府要求科技公司调整算法推荐特定媒体，这个先例很危险。"
+        },
+        {
           "title": "Apple 公布 iOS 26 安装率数据",
-          "desc": "苹果官方公布了 iOS 26 的安装率数据，显示升级速度和往年对比的情况。",
+          "desc": "苹果官方公布了 iOS 26 的安装率数据。iOS 碎片化程度远低于 Android，这是苹果生态的核心优势之一。",
           "url": "https://www.reddit.com/r/apple/comments/1r3zmq4/apple_reveals_how_many_iphones_are_running_ios_26/",
           "source": "r/apple",
-          "momo": "iOS 碎片化程度远低于 Android，这是苹果生态的核心优势。"
+          "momo": "iOS 碎片化程度远低于 Android，开发者的福音。"
         },
         {
           "title": "苹果是否在淘汰 iWork 品牌？",
-          "desc": "社区讨论苹果是否正在逐步放弃 iWork（Pages/Numbers/Keynote）品牌，转向更独立的应用定位。",
+          "desc": "社区讨论苹果是否正在逐步放弃 iWork（Pages/Numbers/Keynote）品牌，转向更独立的应用定位。结合 Pages 被吐槽，iWork 的未来令人担忧。",
           "url": "https://www.reddit.com/r/apple/comments/1r44qsu/is_apple_phasing_out_the_iwork_brand/",
           "source": "r/apple",
-          "momo": "iWork 品牌存在感越来越低，但这三个 app 短期内不会消失。"
+          "momo": "iWork 品牌存在感越来越低。苹果的生产力野心似乎在消退。"
         }
       ]
     },
@@ -140,25 +221,46 @@
       "title": "互联网 / 科技",
       "items": [
         {
-          "title": "FTC 要求 Apple News 推广更多 Fox News 和 Breitbart",
-          "desc": "美国联邦贸易委员会要求 Apple News 在推荐算法中给予保守派媒体更多曝光。这引发了关于平台中立性和政府干预内容推荐的激烈讨论。",
-          "url": "https://www.reddit.com/r/apple/comments/1r451os/ftc_wants_apple_news_to_promote_more_fox_news_and_breitbart_stories/",
-          "source": "r/apple",
-          "momo": "政府要求科技公司调整算法推荐特定媒体，这个先例很危险。"
+          "title": "Discord 与 Palantir 年龄验证公司划清界限",
+          "desc": "Discord 公开表示与 Peter Thiel 旗下 Palantir 的年龄验证公司 Persona 保持距离。隐私和监控的边界在哪里？",
+          "url": "https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951",
+          "source": "HN",
+          "momo": "年龄验证听起来合理，但当背后是 Palantir 时，事情就不简单了。"
         },
         {
-          "title": "Apple Music 嘲讽 Spotify 最新涨价",
-          "desc": "Apple Music 发布了一则营销内容，暗讽 Spotify 的最新一轮涨价。流媒体价格战的另一面。",
-          "url": "https://www.reddit.com/r/apple/comments/1r47fz4/apple_music_pokes_fun_at_latest_spotify_price_increase/",
-          "source": "r/apple",
-          "momo": "Spotify 涨价是苹果最好的广告。"
+          "title": "Amsterdam Compiler Kit：经典编译器工具集复活（HN 129 赞）",
+          "desc": "一个历史悠久的编译器工具集在 GitHub 上重新活跃。支持多种 CPU 架构，是学习编译器原理的好材料。",
+          "url": "https://github.com/davidgiven/ack",
+          "source": "HN",
+          "momo": "老工具不死，只是在等待被重新发现。"
         },
         {
-          "title": "苹果推出新的「Sales Coach」应用",
-          "desc": "苹果正在推出一款内部使用的 Sales Coach 应用，用于培训零售店员工。",
-          "url": "https://www.reddit.com/r/apple/comments/1r43yyj/apple_launching_new_sales_coach_app/",
-          "source": "r/apple",
-          "momo": "苹果零售体验的背后是系统化的员工培训。"
+          "title": "Windows NT/OS2 设计工作簿（HN 109 赞）",
+          "desc": "一份珍贵的历史文档：Windows NT 和 OS/2 的原始设计工作簿被公开。可以看到微软早期操作系统设计的思考过程。",
+          "url": "https://computernewb.com/~lily/files/Documents/NTDesignWorkbook/",
+          "source": "HN",
+          "momo": "操作系统设计的考古学。看看 90 年代微软是怎么想问题的。"
+        },
+        {
+          "title": "NewPipe：没有竖屏视频和算法推荐的 YouTube 客户端（HN 240 赞）",
+          "desc": "一个开源的 YouTube 客户端，去掉了竖屏视频、算法推荐和广告。回归纯粹的视频观看体验。HN 社区大力推荐。",
+          "url": "https://newpipe.net/",
+          "source": "HN",
+          "momo": "对抗算法推荐的最好方式：自己选择看什么。"
+        },
+        {
+          "title": "10 点前不写代码",
+          "desc": "一篇关于工作节奏的反思：把上午留给思考、阅读和规划，下午再进入编码状态。对抗「一上班就开始写代码」的惯性。",
+          "url": "https://michaelxbloch.substack.com/p/no-coding-before-10am",
+          "source": "HN",
+          "momo": "好代码来自好思考。先想清楚再动手，这个道理永远不过时。"
+        },
+        {
+          "title": "全身 MRI 多久能发现一次癌症？（HN 103 赞 123 评论）",
+          "desc": "USA Today 报道了全身 MRI 筛查的实际效果数据。在硅谷精英圈流行的「预防性全身扫描」到底有多大用？数据说话。",
+          "url": "https://www.usatoday.com/story/life/health-wellness/2026/02/11/full-body-mris-cancer-aneurysm/883960",
+          "source": "HN",
+          "momo": "硅谷的健康焦虑催生了一个新产业。但数据显示，大多数发现的是良性异常。"
         }
       ]
     }
