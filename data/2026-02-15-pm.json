@@ -1,0 +1,273 @@
+{
+  "date": "2026-02-15",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-15T17:35:06.408662",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt",
+          "desc": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt This piece by Margaret-Anne Storey is the best explanation of the term cognitive debt I've seen so far. Cognitive debt, a term gaining traction recently, instead communicates the notion that the debt compounded from go...",
+          "url": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Launching Interop 2026",
+          "desc": "Launching Interop 2026 Jake Archibald reports on Interop 2026, the initiative between Apple, Google, Igalia, Microsoft, and Mozilla to collaborate on ensuring a targeted set of web platform features reach cross-browser parity over the course of the year. I hadn't realized how influential and success...",
+          "url": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Quoting Boris Cherny",
+          "desc": "Someone has to prompt the Claudes, talk to customers, coordinate with other teams, decide what to build next. Engineering is changing and great engineers are more important than ever. — Boris Cherny, Claude Code creator, on why Anthropic are still hiring developers Tags: careers, anthropic, ai, clau...",
+          "url": "https://simonwillison.net/2026/Feb/14/boris/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Quoting Thoughtworks",
+          "desc": "The retreat challenged the narrative that AI eliminates the need for junior developers. Juniors are more profitable than they have ever been. AI tools get them past the awkward initial net-negative phase faster. They serve as a call option on future productivity. And they are better at AI tools than...",
+          "url": "https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Anthropic's public benefit mission",
+          "desc": "Someone asked if there was an Anthropic equivalent to OpenAI's IRS mission statements over time. Anthropic are a \"public benefit corporation\" but not a non-profit, so they don't have the same requirements to file public documents with the IRS every year. But when I asked Claude it ran a search and d...",
+          "url": "https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "The evolution of OpenAI's mission statement",
+          "desc": "As a USA 501(c)(3) the OpenAI non-profit has to file a tax return each year with the IRS. One of the required fields on that tax return is to \"Briefly describe the organization’s mission or most significant activities\" - this has actual legal weight to it as the IRS can use it to evaluate if the org...",
+          "url": "https://simonwillison.net/2026/Feb/13/openai-mission-statement/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "We URGENTLY need a federal law forbidding AI from impersonating humans",
+          "desc": "Daniel Dennett was right",
+          "url": "https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "Irony, Irony laced with Karma, and Terror",
+          "desc": "Brief updates on some previous stories",
+          "url": "https://garymarcus.substack.com/p/irony-irony-laced-with-karma-and",
+          "source": "Gary Marcus"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "How Michael Abrash doubled Quake framerate",
+          "desc": "",
+          "url": "https://fabiensanglard.net/quake_asm_optimizations/index.html",
+          "source": "Fabien Sanglard"
+        },
+        {
+          "title": "Constellation: Light Engine - Reflections (1 CORE CPU, No ray tracing or marching)",
+          "desc": "Hello once more, I have been taking a break from my particle work and going back to working on the light engine of my no-std integer based CPU graphics engine/framework. And thought I would share the current progress on reflections. Keep in mind that the included GIF shows a prototype that has most ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r4ncqd/constellation_light_engine_reflections_1_core_cpu/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Visual bug in flat shading",
+          "desc": "I've been working on my small project to just get the hang of 3D rendering, minimal graphics programming. I'm honestly totally lost on what this could possibly be, so if anyone recognizes this bug I would be very appreciative. I have tried searching for the answers online/AI, but I'm having difficul...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r50ikb/visual_bug_in_flat_shading/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Help with world to screen space",
+          "desc": "Hello, I'm writing an engine in C++ using wgpu-native (bindings to the rust wgpu library). Currently I'm working on adding gizmos for dragging objects which I'm going to render using ImGui. However, I am experiencing this strange issue trying to convert world space positions to screen space where th...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r53nre/help_with_world_to_screen_space/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Software rendering - Adding UV + texture sampling, 9-patches, and bit fonts to my UI / game engine",
+          "desc": "I've continued working on my completely-from-scratch game engine / software graphics renderer that I am developing to replace the void that Macromedia Flash has left upon my soul and the internet, and I have added a bunch of new things: I implemented bresenham + scanline triangle rasterization for 2...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r47591/software_rendering_adding_uv_texture_sampling/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "How to make Copy-Pasting look real with Poisson Blending",
+          "desc": "submitted by /u/matigekunst [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r4gahi/how_to_make_copypasting_look_real_with_poisson/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Methods for picking wireframe meshes by edge?",
+          "desc": "I'm wondering if you guys know of any decent methods for picking wireframe meshes on mouse click by selected mesh. Selecting by bounding box or some selection handle is trivial using AABB intersections, but let's say I want to go more fine-grained and pick specifically by whichever edge is under the...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r4c371/methods_for_picking_wireframe_meshes_by_edge/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Designers doing photomanipulation, are you using AI?",
+          "desc": "submitted by /u/East-Photograph-5876 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r51e5p/designers_doing_photomanipulation_are_you_using_ai/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "Showoff Saturday: RPG Mixtape, a YouTube audio mixer for TTRPGs",
+          "desc": "https://rpgmixtape.com/ I created this tool because I DM at a table and like to have music and ambience running then have to switch for combats and other scenes - this leads to me having multiple tabs open and getting a little disorganized. With RPG Mixtape, you can build playlists of YouTube videos...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r581g4/showoff_saturday_rpg_mixtape_a_youtube_audio/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "The EU moves to kill infinite scrolling - Brussels is going head-to-head with social media platforms to change addictive design",
+          "desc": "submitted by /u/magenta_placenta [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1r41i8o/the_eu_moves_to_kill_infinite_scrolling_brussels/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "[Showoff Saturday] built a free online photo booth as a designer",
+          "desc": "It takes 4 photos at 3-second intervals with a simple retro filter. Everything runs locally in the browser and nothing is stored. Made this for fun. Reposting as a showoff Saturday, unknowingly breached this rule last time. Use it here: https://www.anshikavijay.com/photobooth submitted by /u/Aglio-o...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4dz66/showoff_saturday_built_a_free_online_photo_booth/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "[Showoff Saturday] I’m building a design tool for the web",
+          "desc": "I’m a designer by trade and I found myself in a position where I needed to do some front end design work for a client. I had success early on with ‘vibecoding’ but it was taking way too long and massively frustrating, especially when I knew I could get a version done in my regular design tools in a ...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4gcpm/showoff_saturday_im_building_a_design_tool_for/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "[Showoff Saturday] Whatsapp expense tracker",
+          "desc": "https://www.habacus.app/ submitted by /u/newtotheworld23 [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4q09s/showoff_saturday_whatsapp_expense_tracker/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Showoff Saturday: I used to run Tech User Groups in my area before covid. Now sites like meetup want too much $$$ so I built my own solution",
+          "desc": "This is a standard no thrills design using tailwind. One could say vanilla. That is I guess the point because I'm trying to focus on the content the users supply rather than distract from that. All that said, I don't assume this is great. So whats your take? What would you do different? What don't y...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4pyq0/showoff_saturday_i_used_to_run_tech_user_groups/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Upselling hosting",
+          "desc": "Hi, i got my 1st client and they need hosting and managing a page for the red cross, also i am making the page myself Yearly fees for mydataknox and elementor pro are 110€, we also agreed for 130€ from them monthly for maintenance, question is did you ever upsell plugins and hosting, so instead of t...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4ordf/upselling_hosting/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "[Resource] I released 13 Free Background Asset Packs. Here is the Python automation workflow I used to build them. you can use these backgrounds freely.",
+          "desc": "Hi Everyone, I wanted to contribute to the community, so I’ve released 13 new asset packs (2K resolution). They are listed as \"Pay What You Want\" on Gumroad, so you can grab them for 0. But I would appreciate it if you can support me. The Build Process & Tools: Instead of manually generating these o...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4bwd9/resource_i_released_13_free_background_asset/",
+          "source": "r/web_design"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "Daily Advice Thread - February 14, 2026",
+          "desc": "Welcome to the Daily Advice Thread for r/Apple. This thread can be used to ask for technical advice regarding Apple software and hardware, to ask questions regarding the buying or selling of Apple products or to post other short questions. Have a question you need answered? Ask away! Please remember...",
+          "url": "https://www.reddit.com/r/apple/comments/1r4xcmz/daily_advice_thread_february_14_2026/",
+          "source": "r/apple"
+        },
+        {
+          "title": "iPhone 17e is reportedly getting Dynamic Island… but still stuck at 60Hz in 2026.",
+          "desc": "submitted by /u/Few_Baseball_3835 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r4tptq/iphone_17e_is_reportedly_getting_dynamic_island/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple has destroyed Pages",
+          "desc": "I have used the Pages app on my iPad for the last five years or so and been so happy with it. Now I go to open two instances of the app so that I can edit a couple of documents. I’m not talking about anything fancy just cutting and pasting a few things from one to the other lo and behold, what I pas...",
+          "url": "https://www.reddit.com/r/apple/comments/1r4pty7/apple_has_destroyed_pages/",
+          "source": "r/apple"
+        },
+        {
+          "title": "FTC wants Apple News to promote more Fox News and Breitbart stories",
+          "desc": "submitted by /u/KingFML [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r451os/ftc_wants_apple_news_to_promote_more_fox_news_and/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Music pokes fun at latest Spotify price increase",
+          "desc": "submitted by /u/Fer65432_Plays [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r47fz4/apple_music_pokes_fun_at_latest_spotify_price/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Is Apple Phasing Out the iWork Brand?",
+          "desc": "submitted by /u/cheesepuff07 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r44qsu/is_apple_phasing_out_the_iwork_brand/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Reveals How Many iPhones Are Running iOS 26",
+          "desc": "submitted by /u/favicondotico [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r3zmq4/apple_reveals_how_many_iphones_are_running_ios_26/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Launching New 'Sales Coach' App",
+          "desc": "\"Sales Coach\" will arrive as an update to Apple's existing \"SEED\" app, and it will continue to provide sales tips and training resources to Apple Store and Apple Authorized Reseller employees around the world. For example, there are articles and videos highlighting everything from reasons to upgrade...",
+          "url": "https://www.reddit.com/r/apple/comments/1r43yyj/apple_launching_new_sales_coach_app/",
+          "source": "r/apple"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Superlinear Returns",
+          "desc": "",
+          "url": "http://www.paulgraham.com/superlinear.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Do Great Work",
+          "desc": "",
+          "url": "http://www.paulgraham.com/greatwork.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Get New Ideas",
+          "desc": "",
+          "url": "http://www.paulgraham.com/getideas.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "The Need to Read",
+          "desc": "",
+          "url": "http://www.paulgraham.com/read.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What You (Want to)* Want",
+          "desc": "",
+          "url": "http://www.paulgraham.com/want.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Alien Truth",
+          "desc": "",
+          "url": "http://www.paulgraham.com/alien.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What I've Learned from Users",
+          "desc": "",
+          "url": "http://www.paulgraham.com/users.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Heresy",
+          "desc": "",
+          "url": "http://www.paulgraham.com/heresy.html",
+          "source": "Paul Graham"
+        }
+      ]
+    }
+  ]
+}

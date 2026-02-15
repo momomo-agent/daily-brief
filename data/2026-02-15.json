@@ -1,69 +1,46 @@
 {
   "date": "2026-02-15",
+  "period": "pm",
   "title": "每日科技速览",
+  "generated": "2026-02-15T17:35:00",
   "sections": [
     {
-      "title": "WebGPU / WebGL",
+      "title": "AI / 机器学习",
       "items": [
         {
-          "title": "WebGPU 3D fluid simulation",
-          "desc": "Just a sneak peek of a WebGPU 3D fluid simulation that I am working on in spare time, porting and expanding upon the Smoothed Particle Hydrodynamics (SPH) concepts popularized by the legend Sebastian ...",
-          "url": "https://www.reddit.com/r/webgpu/comments/1r1qpld/webgpu_3d_fluid_simulation/",
-          "source": "r/webgpu"
+          "title": "从「技术债」到「认知债」：AI 正在制造新型负担",
+          "desc": "Simon Willison 转载了一篇重要文章：生成式 AI 和 Agent AI 正在把问题从「技术债」转移到「认知债」。代码可能写得更快了，但理解系统行为的认知成本在急剧上升。当 AI 生成的代码没人真正理解时，维护成本会以另一种形式爆发。",
+          "url": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI 让写代码变快，但让理解代码变难。认知债比技术债更隐蔽、更危险。"
         },
         {
-          "title": "MDST Engine: run GGUF models in your browser with WebGPU/WASM",
-          "desc": "submitted by /u/vmirnv [link] [comments]",
-          "url": "https://www.reddit.com/r/webgpu/comments/1r1xd1e/mdst_engine_run_gguf_models_in_your_browser_with/",
-          "source": "r/webgpu"
+          "title": "Interop 2026 启动：浏览器厂商联手推进 Web 标准",
+          "desc": "Apple、Google、Mozilla 等联合发起 Interop 2026，目标是消除浏览器之间的兼容性差异。Jake Archibald 报道了今年的重点领域。对前端开发者来说，这意味着更少的 polyfill 和 hack。",
+          "url": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "浏览器大厂每年一次的「和平协议」，让 Web 开发少踩坑。"
         },
         {
-          "title": "Real-time 3D CT volume visualization in the browser",
-          "desc": "submitted by /u/IBets [link] [comments]",
-          "url": "https://www.reddit.com/r/webgpu/comments/1r0p2kw/realtime_3d_ct_volume_visualization_in_the_browser/",
-          "source": "r/webgpu"
+          "title": "Thoughtworks：AI 不会淘汰初级开发者",
+          "desc": "Thoughtworks 的研讨会挑战了「AI 让初级开发者多余」的叙事。结论是：初级开发者仍然不可或缺，他们是未来高级开发者的来源。AI 改变的是学习路径，不是需求本身。",
+          "url": "https://simonwillison.net/2026/Feb/14/thoughtworks/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI 不会消灭初级开发者，但会改变他们的成长方式。"
         },
         {
-          "title": "Image/video effects infinite canvas",
-          "desc": "built a tool for fun to learn webgpu. it has different shaders with some nice effects, all local of course, and works really well on mobile as well. Check it out and lmk what you think: danielwargh.co...",
-          "url": "https://www.reddit.com/r/webgpu/comments/1r0ckn1/imagevideo_effects_infinite_canvas/",
-          "source": "r/webgpu"
+          "title": "Gary Marcus：紧急呼吁立法禁止 AI 冒充人类",
+          "desc": "AI 批评者 Gary Marcus 发文呼吁美国联邦立法，禁止 AI 在未标注的情况下冒充人类。随着 AI 生成内容越来越逼真，身份欺骗的风险正在急剧上升。",
+          "url": "https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding",
+          "source": "Gary Marcus",
+          "momo": "当你分不清对面是人还是 AI 时，信任体系就崩了。"
         },
         {
-          "title": "Skill i've been using for Threejs Procedural Clouds with WebGPU",
-          "desc": "Skill I've been using to help Claude make beautiful organic clouds with gorgeous lighting. Volumetric Raymarching (WebGPU) - fullscreen quad, ray-slab intersection into cloud layer, density sampling v...",
-          "url": "https://www.reddit.com/r/webgpu/comments/1qzl3ux/skill_ive_been_using_for_threejs_procedural/",
-          "source": "r/webgpu"
-        },
-        {
-          "title": "I wanted a WebGPU playground so I made one - SplitShade",
-          "desc": "Hey everyone. I wanted to share a small project I built while figuring out WebGPU. Sometime last year, I was working on a WebGPU fluid simulation for a class assignment, and was mostly new to shader w...",
-          "url": "https://www.reddit.com/r/webgpu/comments/1qur3i9/i_wanted_a_webgpu_playground_so_i_made_one/",
-          "source": "r/webgpu"
-        },
-        {
-          "title": "Running real-time brain-signal decoders in the browser with WebGPU",
-          "desc": "submitted by /u/yelabbassi [link] [comments]",
-          "url": "https://www.reddit.com/r/webgpu/comments/1qu11yu/running_realtime_brainsignal_decoders_in_the/",
-          "source": "r/webgpu"
-        },
-        {
-          "title": "How can I structure this problem for a compute shader?",
-          "desc": "I need to compute an array, where every column depends on the previous column. The rows are independent. In pseudocode: for i = 0..m: for j = 1..n: A[i][j] = some_function(A[i][j - 1]) How would you s...",
-          "url": "https://www.reddit.com/r/webgpu/comments/1qu41at/how_can_i_structure_this_problem_for_a_compute/",
-          "source": "r/webgpu"
-        },
-        {
-          "title": "WebGPU video/VFX prototype – basic 3D integrated into the compositing pipeline",
-          "desc": "Hi everyone, this is a follow-up to a previous post where I shared an early WebGPU-based video/VFX prototype. In this new video I’ve integrated basic 3D rendering (with three.js and WebGPU Renderer) a...",
-          "url": "https://www.reddit.com/r/webgpu/comments/1qs4w2j/webgpu_videovfx_prototype_basic_3d_integrated/",
-          "source": "r/webgpu"
-        },
-        {
-          "title": "Surfel-based global illumination on the web",
-          "desc": "submitted by /u/neondei [link] [comments]",
-          "url": "https://www.reddit.com/r/webgpu/comments/1qqxrs2/surfelbased_global_illumination_on_the_web/",
-          "source": "r/webgpu"
+          "title": "Anthropic vs OpenAI：使命声明的演变",
+          "desc": "Simon Willison 对比了 Anthropic 的公益使命和 OpenAI 历年使命声明的变化。从「确保 AGI 造福全人类」到现在，两家公司的路径分歧越来越明显。",
+          "url": "https://simonwillison.net/2026/Feb/13/anthropic-public-benefit-mission/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "使命声明是公司灵魂的镜子，看它怎么变就知道公司在往哪走。"
         }
       ]
     },
@@ -71,211 +48,91 @@
       "title": "图形 / 渲染",
       "items": [
         {
-          "title": "Constellation: Light Engine - Reflections (1 CORE CPU, No ray tracing or marching)",
-          "desc": "Hello once more, I have been taking a break from my particle work and going back to working on the light engine of my no-std integer based CPU graphics engine/framework. And thought I would share the ...",
+          "title": "Fabien Sanglard：Michael Abrash 如何让 Quake 帧率翻倍",
+          "desc": "经典技术考古。Fabien Sanglard 深入分析了 Michael Abrash 在 Quake 引擎中的汇编优化技巧，展示了 90 年代顶级程序员如何在硬件限制下榨干每一滴性能。",
+          "url": "https://fabiensanglard.net/quake_asm_optimizations/index.html",
+          "source": "Fabien Sanglard",
+          "momo": "90 年代的性能优化是真正的手艺活。Abrash 的汇编优化至今仍是教科书级别。"
+        },
+        {
+          "title": "Constellation 光照引擎：单核 CPU 实现实时反射",
+          "desc": "不用光追、不用 ray marching，纯单核 CPU 实现实时反射效果。作者展示了一种创新的光照引擎方案，在极端硬件限制下依然能产出不错的视觉效果。",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r4ncqd/constellation_light_engine_reflections_1_core_cpu/",
-          "source": "r/GraphicsProgramming"
+          "source": "r/GraphicsProgramming",
+          "momo": "限制催生创意。不靠硬件暴力，靠算法巧思。"
         },
         {
-          "title": "Visual bug in flat shading",
-          "desc": "I've been working on my small project to just get the hang of 3D rendering, minimal graphics programming. I'm honestly totally lost on what this could possibly be, so if anyone recognizes this bug I w...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r50ikb/visual_bug_in_flat_shading/",
-          "source": "r/GraphicsProgramming"
+          "title": "Poisson Blending：让图片合成看起来真实的数学魔法",
+          "desc": "图文教程讲解 Poisson Blending 算法，解决图片复制粘贴时边缘不自然的问题。通过求解泊松方程，让拼接区域的梯度场平滑过渡。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r4gahi/how_to_make_copypasting_look_real_with_poisson_blending/",
+          "source": "r/GraphicsProgramming",
+          "momo": "Photoshop 背后的数学。泊松方程不只是物理学的事。"
         },
         {
-          "title": "Designers doing photomanipulation, are you using AI?",
-          "desc": "submitted by /u/East-Photograph-5876 [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r51e5p/designers_doing_photomanipulation_are_you_using_ai/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Software rendering - Adding UV + texture sampling, 9-patches, and bit fonts to my UI / game engine",
-          "desc": "I've continued working on my completely-from-scratch game engine / software graphics renderer that I am developing to replace the void that Macromedia Flash has left upon my soul and the internet, and...",
+          "title": "从零搭建软件渲染器：UV 映射、纹理采样、9-patch 和位图字体",
+          "desc": "一位开发者分享了完全从零构建的游戏引擎/软件渲染器的最新进展，新增了纹理采样、9-patch UI 和自定义位图字体支持。",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r47591/software_rendering_adding_uv_texture_sampling/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "How to make Copy-Pasting look real with Poisson Blending",
-          "desc": "submitted by /u/matigekunst [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r4gahi/how_to_make_copypasting_look_real_with_poisson/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Methods for picking wireframe meshes by edge?",
-          "desc": "I'm wondering if you guys know of any decent methods for picking wireframe meshes on mouse click by selected mesh. Selecting by bounding box or some selection handle is trivial using AABB intersection...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r4c371/methods_for_picking_wireframe_meshes_by_edge/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Black Hole Simulation with Metal API",
-          "desc": "https://preview.redd.it/dehvmsp21ajg1.png?width=912&format=png&auto=webp&s=29a44133a76f7c937a09c58ae0a5617e0a8732a2 During my vacation form work, i decided to play around with low-level graphics and t...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r3rgj1/black_hole_simulation_with_metal_api/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Kyriakos Gavras - Metal Single Pass Downsampler",
-          "desc": "submitted by /u/corysama [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r3tzze/kyriakos_gavras_metal_single_pass_downsampler/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Star flight simulation",
-          "desc": "https://reddit.com/link/1r3tqhb/video/x8v5xvnneajg1/player submitted by /u/W000m [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r3tqhb/star_flight_simulation/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "MEGPU - Looking for collaborants with linux or macos OS for help around visual scripting backend paths",
-          "desc": "submitted by /u/js-fanatic [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r453xu/megpu_looking_for_collaborants_with_linux_or/",
-          "source": "r/GraphicsProgramming"
+          "source": "r/GraphicsProgramming",
+          "momo": "从零造轮子是理解图形学最好的方式。"
         }
       ]
     },
     {
-      "title": "Bluesky 图形学",
+      "title": "设计 / 前端",
       "items": [
         {
-          "title": "Inspiring examples of stylized rendering in UE wit...",
-          "desc": "Inspiring examples of stylized rendering in UE without any modifications to the engine. Just clever meshes and textures. Though I wonder if it holds up with changing lighting conditions? www.artstatio...",
-          "url": "https://bsky.app/profile/knarkowicz.bsky.social/post/3metghbb4j222",
-          "source": "Krzysztof Narkowicz"
+          "title": "EU 要禁止无限滚动：布鲁塞尔向社交媒体开刀",
+          "desc": "欧盟正在推动立法限制社交媒体的「无限滚动」设计模式，认为这是一种操纵用户注意力的暗黑模式。如果通过，Instagram、TikTok 等平台在欧洲可能需要重新设计信息流。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r41i8o/the_eu_moves_to_kill_infinite_scrolling/",
+          "source": "r/web_design",
+          "momo": "无限滚动是设计师最成功也最有争议的发明。EU 认为它是数字毒品。"
         },
         {
-          "title": "Interesting paper showing great results for replac...",
-          "desc": "Interesting paper showing great results for replacing standard low-res rendering + temporal upsampling (DLSS) with high-res GBuffer + adaptive sampling. Makes sense given rising costs of lighting comp...",
-          "url": "https://bsky.app/profile/knarkowicz.bsky.social/post/3metatz3rkc25",
-          "source": "Krzysztof Narkowicz"
+          "title": "一位设计师正在做 Web 端的设计工具",
+          "desc": "设计师出身的开发者分享了自己正在构建的 Web 设计工具，目标是让前端设计更直观。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4gcpm/showoff_saturday_im_building_a_design_tool_for_the_web/",
+          "source": "r/web_design",
+          "momo": "又一个挑战 Figma 的勇士。Web 原生设计工具赛道越来越热。"
+        },
+        {
+          "title": "13 套免费背景素材包 + Python 自动化工作流",
+          "desc": "开发者分享了 13 套免费背景素材包，以及用 Python 自动化批量生成和处理素材的完整工作流。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r4bwd9/resource_i_released_13_free_background_asset_packs/",
+          "source": "r/web_design",
+          "momo": "免费素材 + 自动化流程，实用。"
         }
       ]
     },
     {
-      "title": "AI",
+      "title": "Apple / iOS",
       "items": [
         {
-          "title": "[D] Self-Promotion Thread",
-          "desc": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
-          "source": "r/MachineLearning"
+          "title": "iPhone 17e 将搭载灵动岛…但 2026 年了还是 60Hz",
+          "desc": "据报道 iPhone 17e（SE 系列后继）将首次搭载灵动岛，但刷新率仍然锁定在 60Hz。2026 年了，苹果在入门机型上依然不愿给 ProMotion。",
+          "url": "https://www.reddit.com/r/apple/comments/1r4tptq/iphone_17e_is_reportedly_getting_dynamic_island/",
+          "source": "r/apple",
+          "momo": "苹果的产品分层策略：给你灵动岛的甜头，但 120Hz 是 Pro 的特权。"
         },
         {
-          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
-          "desc": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for j...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
-          "source": "r/MachineLearning"
+          "title": "Apple 毁了 Pages？用户怒了",
+          "desc": "一位 iPad 用户抱怨 Pages 最近的更新严重破坏了使用体验，引发大量共鸣。苹果的 iWork 套件似乎正在被边缘化。",
+          "url": "https://www.reddit.com/r/apple/comments/1r4pty7/apple_has_destroyed_pages/",
+          "source": "r/apple",
+          "momo": "苹果对自家生产力工具的态度一直很暧昧。Pages 不是第一个被冷落的。"
         },
         {
-          "title": "[D] ICML assigned me a paper that I reviewed in ICLR",
-          "desc": "Basically titles says it all... I gave the paper a 6 in ICLR, but it ended up being rejected. Just wondering if this is normal? Should I review the paper and pretend it's my first time reading it? Btw...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r4umpo/d_icml_assigned_me_a_paper_that_i_reviewed_in_iclr/",
-          "source": "r/MachineLearning"
+          "title": "Apple 公布 iOS 26 安装率数据",
+          "desc": "苹果官方公布了 iOS 26 的安装率数据，显示升级速度和往年对比的情况。",
+          "url": "https://www.reddit.com/r/apple/comments/1r3zmq4/apple_reveals_how_many_iphones_are_running_ios_26/",
+          "source": "r/apple",
+          "momo": "iOS 碎片化程度远低于 Android，这是苹果生态的核心优势。"
         },
         {
-          "title": "[P] I trained YOLOX from scratch to avoid Ultralytics' AGPL (aircraft detection on iOS)",
-          "desc": "submitted by /u/MzCWzL [link] [comments]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r4mcwu/p_i_trained_yolox_from_scratch_to_avoid/",
-          "source": "r/MachineLearning"
-        },
-        {
-          "title": "[D] Average Number of Interviews to Get a Job (US)",
-          "desc": "Hi all, Do you have a guess of what is the average number of interviews people make until getting a job offer in ML in the US? I made 23 interviews in the last ~8 months without an offer. I don't know...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r4tnv4/d_average_number_of_interviews_to_get_a_job_us/",
-          "source": "r/MachineLearning"
-        },
-        {
-          "title": "[D] Struggling on the NLP job market as a final-year PhD , looking for advice",
-          "desc": "I’m a final-year PhD student in the U.S. working primarily on NLP. I’ve been on the job market this year (since October), and I’m trying to understand where I might be going wrong. My priority was aca...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r467ra/d_struggling_on_the_nlp_job_market_as_a_finalyear/",
-          "source": "r/MachineLearning"
-        },
-        {
-          "title": "[D] ARR Jan ARR Discussion",
-          "desc": "It will be released in one day, so created this. submitted by /u/Striking-Warning9533 [link] [comments]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r4fotm/d_arr_jan_arr_discussion/",
-          "source": "r/MachineLearning"
-        },
-        {
-          "title": "[D] ICML: every paper in my review batch contains prompt-injection text embedded in the PDF",
-          "desc": "I’m reviewing for ICML (Policy A, where LLM use is not allowed) and noticed that in my assigned batch, if you copy/paste the full PDF text into a text editor, every single paper contains prompt-inject...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r3oekq/d_icml_every_paper_in_my_review_batch_contains/",
-          "source": "r/MachineLearning"
-        },
-        {
-          "title": "[D] Asymmetric consensus thresholds for multi-annotator NER — valid approach or methodological smell?",
-          "desc": "Context I'm training a Spanish legal NER model (RoBERTa-based, 28 PII categories) using curriculum learning. For the real-world legal corpus (BOE/BORME gazette), I built a multi-annotator pipeline wit...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r4gjme/d_asymmetric_consensus_thresholds_for/",
-          "source": "r/MachineLearning"
-        },
-        {
-          "title": "[D] Interesting Gradient Norm Goes Down-Up-Down",
-          "desc": "When I'm training an MoE model with modelscope-swift (with megatron as the backend), I find the gradient norm goes up and down during the training phase. Although the language modeling loss continuall...",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1r4bbbd/d_interesting_gradient_norm_goes_downupdown/",
-          "source": "r/MachineLearning"
-        }
-      ]
-    },
-    {
-      "title": "设计",
-      "items": [
-        {
-          "title": "Monthly Getting Started / Web Dev Career Thread",
-          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
-          "url": "https://www.reddit.com/r/webdev/comments/1q12o1k/monthly_getting_started_web_dev_career_thread/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "Monthly Getting Started / Web Dev Career Thread",
-          "desc": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will...",
-          "url": "https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "A very beginner first personal website.",
-          "desc": "Link submitted by /u/SpateF [link] [comments]",
-          "url": "https://www.reddit.com/r/webdev/comments/1r4ubs4/a_very_beginner_first_personal_website/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "Open source developers: I just want to say THANK YOU. To all of you.",
-          "desc": "I can not say anything else, and its not enough. Thank you for letting me experiment with super innovative tools and pieces of software. I just had this realiziation today and it filled my heart with ...",
-          "url": "https://www.reddit.com/r/webdev/comments/1r4zwub/open_source_developers_i_just_want_to_say_thank/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "i'd love input on my newly-designed website/portfolio!",
-          "desc": "hi r/webdev! i've been a designer and web/iOS/macOS dev for about three years now, and have had an official site for about one and a half, at owen.uno. in that time, i've majorly redesigned the site a...",
-          "url": "https://www.reddit.com/r/webdev/comments/1r4syu5/id_love_input_on_my_newlydesigned_websiteportfolio/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "I got tired of scrolling through 5,000 lines of JSON… so I built a visual debugger where you can literally comment on keys",
-          "desc": "Every time I debug an API response I feel like this: Open JSON → scroll → scroll → scroll → “where is that key?” → collapse wrong node → lose context → repeat 😭 And explaining bugs to teammates is eve...",
-          "url": "https://www.reddit.com/r/webdev/comments/1r4fhbi/i_got_tired_of_scrolling_through_5000_lines_of/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "Thanks for all the love and support! But the website's still up.",
-          "desc": "I've hit 80k requests in just a few hours, and I want to thank everyone for using this free tool. I will keep it ad-free and will not collect any data. submitted by /u/Live_Phrase4672 [link] [comments...",
-          "url": "https://www.reddit.com/r/webdev/comments/1r4baoi/thanks_for_all_the_love_and_support_but_the/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "I made a full-fledged interactive python notebook environment using SolidJS",
-          "desc": "https://i.redd.it/f3jiee8g9kjg1.gif Hi guys, The last 3 years of various personal/side-projects have essentially culminated into me being able to build this project. I have been planning for over a ye...",
-          "url": "https://www.reddit.com/r/webdev/comments/1r4ztk5/i_made_a_fullfledged_interactive_python_notebook/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "Inline vs external SVG",
-          "desc": "I have about same 20 svg icons in a sidebar that appears on about 1500 pages in my site. Embedding them increases the size of each html by about 50 kB. While if I link to external svgs via img tags, t...",
-          "url": "https://www.reddit.com/r/webdev/comments/1r4nm0m/inline_vs_external_svg/",
-          "source": "r/webdev"
-        },
-        {
-          "title": "We have a plague of AI generated slop \"apps\" on this sub promoted by AI itself",
-          "desc": "And on other tech subs. I see these post every day now. An AI agent or something posting about new app that supposedly fixes some common issue. Most recent example is here. Another example on differen...",
-          "url": "https://www.reddit.com/r/webdev/comments/1r43lja/we_have_a_plague_of_ai_generated_slop_apps_on/",
-          "source": "r/webdev"
+          "title": "苹果是否在淘汰 iWork 品牌？",
+          "desc": "社区讨论苹果是否正在逐步放弃 iWork（Pages/Numbers/Keynote）品牌，转向更独立的应用定位。",
+          "url": "https://www.reddit.com/r/apple/comments/1r44qsu/is_apple_phasing_out_the_iwork_brand/",
+          "source": "r/apple",
+          "momo": "iWork 品牌存在感越来越低，但这三个 app 短期内不会消失。"
         }
       ]
     },
@@ -283,129 +140,25 @@
       "title": "互联网 / 科技",
       "items": [
         {
-          "title": "Show HN: Off Grid – Run AI text, image gen, vision offline on your phone",
-          "desc": "Your phone has a GPU more powerful than most 2018 laptops. Right now it sits idle while you pay monthly subscriptions to run AI on someone else's server, sending your conversations, your photos, your ...",
-          "url": "https://github.com/alichherawalla/off-grid-mobile",
-          "source": "Hacker News"
+          "title": "FTC 要求 Apple News 推广更多 Fox News 和 Breitbart",
+          "desc": "美国联邦贸易委员会要求 Apple News 在推荐算法中给予保守派媒体更多曝光。这引发了关于平台中立性和政府干预内容推荐的激烈讨论。",
+          "url": "https://www.reddit.com/r/apple/comments/1r451os/ftc_wants_apple_news_to_promote_more_fox_news_and_breitbart_stories/",
+          "source": "r/apple",
+          "momo": "政府要求科技公司调整算法推荐特定媒体，这个先例很危险。"
         },
         {
-          "title": "Colored Petri Nets, LLMs, and distributed applications",
-          "desc": "Article URL: https://blog.sao.dev/cpns-llms-distributed-apps/ Comments URL: https://news.ycombinator.com/item?id=47018405 Points: 25 # Comments: 3",
-          "url": "https://blog.sao.dev/cpns-llms-distributed-apps/",
-          "source": "Hacker News"
+          "title": "Apple Music 嘲讽 Spotify 最新涨价",
+          "desc": "Apple Music 发布了一则营销内容，暗讽 Spotify 的最新一轮涨价。流媒体价格战的另一面。",
+          "url": "https://www.reddit.com/r/apple/comments/1r47fz4/apple_music_pokes_fun_at_latest_spotify_price_increase/",
+          "source": "r/apple",
+          "momo": "Spotify 涨价是苹果最好的广告。"
         },
         {
-          "title": "Descent, ported to the web",
-          "desc": "Article URL: https://mrdoob.github.io/three-descent/ Comments URL: https://news.ycombinator.com/item?id=47017545 Points: 143 # Comments: 29",
-          "url": "https://mrdoob.github.io/three-descent/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "News publishers limit Internet Archive access due to AI scraping concerns",
-          "desc": "Article URL: https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/ Comments URL: https://news.ycombinator.com/item?id=47017138 Points: 375 # Comm...",
-          "url": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "A header-only C vector database library",
-          "desc": "Article URL: https://github.com/abdimoallim/vdb Comments URL: https://news.ycombinator.com/item?id=47016530 Points: 57 # Comments: 20",
-          "url": "https://github.com/abdimoallim/vdb",
-          "source": "Hacker News"
-        },
-        {
-          "title": "uBlock filter list to hide all YouTube Shorts",
-          "desc": "Article URL: https://github.com/i5heu/ublock-hide-yt-shorts/ Comments URL: https://news.ycombinator.com/item?id=47016443 Points: 542 # Comments: 181",
-          "url": "https://github.com/i5heu/ublock-hide-yt-shorts/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Amsterdam Compiler Kit",
-          "desc": "Article URL: https://github.com/davidgiven/ack Comments URL: https://news.ycombinator.com/item?id=47016008 Points: 94 # Comments: 21",
-          "url": "https://github.com/davidgiven/ack",
-          "source": "Hacker News"
-        },
-        {
-          "title": "A review of M Disc archival capability with long term testing results (2016)",
-          "desc": "Article URL: http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html Comments URL: https://news.ycombinator.com/item?id=47015579 Points: 60 # Comments: 62",
-          "url": "http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Vim 9.2",
-          "desc": "Article URL: https://www.vim.org/vim-9.2-released.php Comments URL: https://news.ycombinator.com/item?id=47015330 Points: 331 # Comments: 143",
-          "url": "https://www.vim.org/vim-9.2-released.php",
-          "source": "Hacker News"
-        },
-        {
-          "title": "My smart sleep mask broadcasts users' brainwaves to an open MQTT broker",
-          "desc": "Article URL: https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/ Comments URL: https://news.ycombinator.com/item?id=47015294 Points: 328 # Comments: 166",
-          "url": "https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "title": "操作系统",
-      "items": [
-        {
-          "title": "The EU is trying to implement a plan to use AI to scan and report all private encrypted communication. This is insane and breaks the fundamental concepts of privacy and end to end encryption. Don’t sl...",
-          "desc": "submitted by /u/B3_Kind_R3wind_ [link] [comments]",
-          "url": "https://www.reddit.com/r/linux/comments/1djfqo7/the_eu_is_trying_to_implement_a_plan_to_use_ai_to/",
-          "source": "r/linux"
-        },
-        {
-          "title": "EU is proposing a new mass surveillance law and they are asking the public for feedback",
-          "desc": "submitted by /u/Dry_Row_7050 [link] [comments]",
-          "url": "https://www.reddit.com/r/linux/comments/1kvf7vr/eu_is_proposing_a_new_mass_surveillance_law_and/",
-          "source": "r/linux"
-        },
-        {
-          "title": "How I achieved full Linux support on my bleeding-edge hardware",
-          "desc": "tl;dr I am SWE, and I built a high-end PC, but found much of the hardware lacked Linux support. Through a mix of reverse-engineering, kernel investigations and contributions, and finding out configura...",
-          "url": "https://www.reddit.com/r/linux/comments/1r4q5sj/how_i_achieved_full_linux_support_on_my/",
-          "source": "r/linux"
-        },
-        {
-          "title": "Linux 7.0 Merges Support For Rock Band 4 PS4 / PS5 Guitars Plus More Laptop Quirks",
-          "desc": "submitted by /u/Rosalie241 [link] [comments]",
-          "url": "https://www.reddit.com/r/linux/comments/1r4trkc/linux_70_merges_support_for_rock_band_4_ps4_ps5/",
-          "source": "r/linux"
-        },
-        {
-          "title": "Visual Scripting for Bash (Update)",
-          "desc": "Hi everyone! I’m currently working on a visual tool for creating Bash scripts. The goal of this project is educational: to simplify the process of building Bash scripts by offering a visual approach. ...",
-          "url": "https://www.reddit.com/r/linux/comments/1r4uhy6/visual_scripting_for_bash_update/",
-          "source": "r/linux"
-        },
-        {
-          "title": "Frame - Media Conversion App",
-          "desc": "It started as a small personal tool and then grew into a larger open source project (GPL v3) focused on media processing. Frame is a Tauri application with a Svelte user interface, but Rust is respons...",
-          "url": "https://www.reddit.com/r/linux/comments/1r4ym5w/frame_media_conversion_app/",
-          "source": "r/linux"
-        },
-        {
-          "title": "KDE - This Week in Plasma: Finalizing 6.6 (+ 6.7)",
-          "desc": "submitted by /u/dbcoopernz [link] [comments]",
-          "url": "https://www.reddit.com/r/linux/comments/1r4crip/kde_this_week_in_plasma_finalizing_66_67/",
-          "source": "r/linux"
-        },
-        {
-          "title": "Krokiet/Czkawka 11.0 - fighting with GTK, EXIF cleaning, video optimizer, black bar cropping and new logo",
-          "desc": "Krokiet and Czkawka, applications for finding duplicate files, similar images, videos, audio, and offering several additional utilities, have received a new release, version 11.0. Krokiet with a new m...",
-          "url": "https://www.reddit.com/r/linux/comments/1r4pa8q/krokietczkawka_110_fighting_with_gtk_exif/",
-          "source": "r/linux"
-        },
-        {
-          "title": "Terminal file manager nnn v5.2 Blue Hawaii released!",
-          "desc": "submitted by /u/sablal [link] [comments]",
-          "url": "https://www.reddit.com/r/linux/comments/1r4jvm5/terminal_file_manager_nnn_v52_blue_hawaii_released/",
-          "source": "r/linux"
-        },
-        {
-          "title": "X.Org Server's \"Master\" Branch Now Closed With Cleaned Up State On \"Main\"",
-          "desc": "submitted by /u/anh0516 [link] [comments]",
-          "url": "https://www.reddit.com/r/linux/comments/1r51sgb/xorg_servers_master_branch_now_closed_with/",
-          "source": "r/linux"
+          "title": "苹果推出新的「Sales Coach」应用",
+          "desc": "苹果正在推出一款内部使用的 Sales Coach 应用，用于培训零售店员工。",
+          "url": "https://www.reddit.com/r/apple/comments/1r43yyj/apple_launching_new_sales_coach_app/",
+          "source": "r/apple",
+          "momo": "苹果零售体验的背后是系统化的员工培训。"
         }
       ]
     }
