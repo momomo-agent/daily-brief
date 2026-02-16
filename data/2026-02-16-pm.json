@@ -1,0 +1,267 @@
+{
+  "date": "2026-02-16",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-16T21:30:06.098589",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "The AI Vampire",
+          "desc": "The AI Vampire Steve Yegge's take on agent fatigue, and its relationship to burnout. Let's pretend you're the only person at your company using AI. In Scenario A, you decide you're going to impress your employer, and work for 8 hours a day at 10x productivity. You knock it out of the park and make e...",
+          "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Em dash",
+          "desc": "I'm occasionally accused of using LLMs to write the content on my blog. I don't do that, and I don't think my writing has much of an LLM smell to it... with one notable exception: # Finally, do em dashes s = s.replace(' - ', u'\\u2014') That code to add em dashes to my posts dates back to at least 20...",
+          "url": "https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Deep Blue",
+          "desc": "We coined a new term on the Oxide and Friends podcast last month (primary credit to Adam Leventhal) covering the sense of psychological ennui leading into existential dread that many software developers are feeling thanks to the encroachment of generative AI into their field of work. We're calling i...",
+          "url": "https://simonwillison.net/2026/Feb/15/deep-blue/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Gwtar: a static efficient single-file HTML format",
+          "desc": "Gwtar: a static efficient single-file HTML format Fascinating new project from Gwern Branwen and Said Achmiz that targets the challenge of combining large numbers of assets into a single archived HTML file without that file being inconvenient to view in a browser. The key trick it uses is to fire wi...",
+          "url": "https://simonwillison.net/2026/Feb/15/gwtar/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Three months of OpenClaw",
+          "desc": "It's wild that the first commit to OpenClaw was on November 25th 2025, and less than three months later it's hit 10,000 commits from 600 contributors, attracted 196,000 GitHub stars and sort-of been featured in an extremely vague Super Bowl commercial for AI.com. Quoting AI.com founder Kris Marszale...",
+          "url": "https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Quoting Eric Meyer",
+          "desc": "I saw yet another “CSS is a massively bloated mess” whine and I’m like. My dude. My brother in Chromium. It is trying as hard as it can to express the totality of visual presentation and layout design and typography and animation and digital interactivity and a few other things in a human-readable t...",
+          "url": "https://simonwillison.net/2026/Feb/15/eric-meyer/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt",
+          "desc": "How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt This piece by Margaret-Anne Storey is the best explanation of the term cognitive debt I've seen so far. Cognitive debt, a term gaining traction recently, instead communicates the notion that the debt compounded from go...",
+          "url": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Launching Interop 2026",
+          "desc": "Launching Interop 2026 Jake Archibald reports on Interop 2026, the initiative between Apple, Google, Igalia, Microsoft, and Mozilla to collaborate on ensuring a targeted set of web platform features reach cross-browser parity over the course of the year. I hadn't realized how influential and success...",
+          "url": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
+          "source": "Simon Willison"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "ELI5 Does graphical fidelity improve on older hardware",
+          "desc": "I'm a complete noob to gfx programming. I do have some app dev experience in enterprise Java. This is an idea that's been eating my head for some time now. Mostly video game related but not necessarily. Why do we not see \"improved graphics\" on older hardware, if algos improve. Wanted to know how rea...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r61equ/eli5_does_graphical_fidelity_improve_on_older/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Made my first game using Raylib and C",
+          "desc": "The game is arcade style and consists of a red ball, a blue ball and a paddle with the goal to ensure that the red ball hits only the red wall and the blue ball hits the blue wall, now there are red and blue ghost balls which which are faint at first but gradually turn more opaque and harder to dist...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r5gylh/made_my_first_game_using_raylib_and_c/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Tiny webgpu charts",
+          "desc": "In my day job my boss linked a web gpu charting library that was all the hotness. I considered it for work and found it lacking. We needed to draw charts. Lots of charts like 30-40 on a page. And these charts needed to have potentially millions of data points. Oh and all the charts can be synced whe...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r5ynba/tiny_webgpu_charts/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Does anyone know of a repository of test images for various file formats?",
+          "desc": "I'm trying to implement from scratch image loading of various formats such as TGA, PNG, TIFF, etc. I was wondering if there are any sets of images of all possible formats/encodings that I can use for testing. For example, PNG files can be indexed, grayscale (1,2,4,8,16-bit, with and without alpha), ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r5dzg4/does_anyone_know_of_a_repository_of_test_images/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "3D has Blender, Coding has VsCode, why does GFX programming have no specific software?",
+          "desc": "Is there a need for a specific software for graphics programming with Live Previews? submitted by /u/HalfNo8161 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r62bbb/3d_has_blender_coding_has_vscode_why_does_gfx/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Visual bug in flat shading",
+          "desc": "SOLVED The issue is that I'm using painters algorithm so some faces get drawn over others even though they shouldn't. I switched to ordered rendering based on depth and that fixed it. I've been working on my small project to just get the hang of 3D rendering, minimal graphics programming. I'm honest...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r50ikb/visual_bug_in_flat_shading/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Most realistic black hole simulation to date (watch until end)",
+          "desc": "submitted by /u/reverse_stonks [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r5tj0g/most_realistic_black_hole_simulation_to_date/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Help with world to screen space",
+          "desc": "Hello, I'm writing an engine in C++ using wgpu-native (bindings to the rust wgpu library). Currently I'm working on adding gizmos for dragging objects which I'm going to render using ImGui. However, I am experiencing this strange issue trying to convert world space positions to screen space where th...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r53nre/help_with_world_to_screen_space/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "Your multi-step forms are killing conversions",
+          "desc": "The main stats from the IvyForms article for people who don't want to click: Completion Rates: 66% of users who start a form complete it (Zuko Analytics) 34% abandon mid-process Average checkout has 11.3 form fields but only needs 8 (Baymard Institute) Desktop vs Mobile Performance: Desktop completi...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r64vkh/your_multistep_forms_are_killing_conversions/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Which “must-follow” design principle feels outdated in 2026?",
+          "desc": "Real user behavior seems very different from what guides say. What have you reconsidered recently? submitted by /u/Gullible_Prior9448 [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1r65oyd/which_mustfollow_design_principle_feels_outdated/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Free Design Resources list",
+          "desc": "'ve been designing for over 20 years. I've put together a resource list for any designer coming up right now. Not promoting myself. I just want to give back to the community. I hope these resources help at least one designer like they've helped me. https://www.notion.so/drewwilliams/Designer-Heist-D...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r5j54r/free_design_resources_list/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Guys any suggestions how make more attractive please give suggestions",
+          "desc": "submitted by /u/Psycho_Buddy [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1r66xv3/guys_any_suggestions_how_make_more_attractive/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Help. i lied during job interview…",
+          "desc": "I panicked and i lied how i took in charge of a website design project.. now they want my reference contact details which means at the final stage of the hiring process Yes i was involved in the project from beginning to end but my manager was there conducting interviews and research. And i initiall...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r64syv/help_i_lied_during_job_interview/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Launching ChromaPick Soon -Extension Built For UI Designers",
+          "desc": "Chroma Pick Chrome Extension to get the Website UI Elements ( Colors, Linear Gradient and Fonts ) and Paste Directly In Figma, and start Using It, Always had problem getting the font names and colors of the websites so I am building an extension for it. Join the waitlist: https://chromapick.click/ s...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r5kixi/launching_chromapick_soon_extension_built_for_ui/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Showoff Saturday: RPG Mixtape, a YouTube audio mixer for TTRPGs",
+          "desc": "https://rpgmixtape.com/ I created this tool because I DM at a table and like to have music and ambience running then have to switch for combats and other scenes - this leads to me having multiple tabs open and getting a little disorganized. With RPG Mixtape, you can build playlists of YouTube videos...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r581g4/showoff_saturday_rpg_mixtape_a_youtube_audio/",
+          "source": "r/web_design"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "Daily Advice Thread - February 16, 2026",
+          "desc": "Welcome to the Daily Advice Thread for r/Apple. This thread can be used to ask for technical advice regarding Apple software and hardware, to ask questions regarding the buying or selling of Apple products or to post other short questions. Have a question you need answered? Ask away! Please remember...",
+          "url": "https://www.reddit.com/r/apple/comments/1r66pz6/daily_advice_thread_february_16_2026/",
+          "source": "r/apple"
+        },
+        {
+          "title": "iOS 27 'Rave' Update to Clean Up Code, Could Boost Battery Life",
+          "desc": "submitted by /u/InsaneSnow45 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r68z9n/ios_27_rave_update_to_clean_up_code_could_boost/",
+          "source": "r/apple"
+        },
+        {
+          "title": "A message to our customers (One decade ago)",
+          "desc": "submitted by /u/favicondotico [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r5rf4m/a_message_to_our_customers_one_decade_ago/",
+          "source": "r/apple"
+        },
+        {
+          "title": "iOS 27 to include code cleanup and interface tweaks in hopes to boost battery life: report",
+          "desc": "Archive link: https://archive.ph/hq0UX#selection-1843.0-1885.317 submitted by /u/iMacmatician [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r5epo3/ios_27_to_include_code_cleanup_and_interface/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple privacy labels often don't match what Chinese smart home apps do",
+          "desc": "New research examined 49 apps available in Apple’s App Store in mainland China and found consistent gaps in bystander privacy, along with frequent inconsistencies between privacy policies, in-app settings, and App Store privacy labels. submitted by /u/tekz [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r63dak/apple_privacy_labels_often_dont_match_what/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Low-Cost MacBook Colors Tipped Ahead of Possible March Launch",
+          "desc": "submitted by /u/WPHero [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r5jb1t/apple_lowcost_macbook_colors_tipped_ahead_of/",
+          "source": "r/apple"
+        },
+        {
+          "title": "[Omdia] Future MacBooks May Hide Your Screen From Strangers",
+          "desc": "The technology Apple is planning to adopt restricts off-axis viewing angles so only someone sitting directly in front of the display can see its contents, while onlookers to the side see a darkened or obscured image. It's similar to the concept behind Samsung's upcoming privacy display feature, whic...",
+          "url": "https://www.reddit.com/r/apple/comments/1r68mab/omdia_future_macbooks_may_hide_your_screen_from/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple store experience has gone downhill",
+          "desc": "I feel like a lot of people would have to have experienced this thought as well. I always kinda thought the whole “apple genius bar” appointments were kinda gimmicky, and just the whole apple store experience. When i was a kid it was really unique compared to any other retail experience but when you...",
+          "url": "https://www.reddit.com/r/apple/comments/1r5wswr/apple_store_experience_has_gone_downhill/",
+          "source": "r/apple"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Superlinear Returns",
+          "desc": "",
+          "url": "http://www.paulgraham.com/superlinear.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Do Great Work",
+          "desc": "",
+          "url": "http://www.paulgraham.com/greatwork.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Get New Ideas",
+          "desc": "",
+          "url": "http://www.paulgraham.com/getideas.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "The Need to Read",
+          "desc": "",
+          "url": "http://www.paulgraham.com/read.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What You (Want to)* Want",
+          "desc": "",
+          "url": "http://www.paulgraham.com/want.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Alien Truth",
+          "desc": "",
+          "url": "http://www.paulgraham.com/alien.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What I've Learned from Users",
+          "desc": "",
+          "url": "http://www.paulgraham.com/users.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Heresy",
+          "desc": "",
+          "url": "http://www.paulgraham.com/heresy.html",
+          "source": "Paul Graham"
+        }
+      ]
+    }
+  ]
+}

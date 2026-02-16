@@ -1,0 +1,217 @@
+{
+  "date": "2026-02-16",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-16T21:30:00",
+  "headline": {
+    "title": "🔥 Qwen3.5 发布：原生多模态 Agent 时代来了",
+    "desc": "阿里通义千问发布 Qwen3.5，主打「原生多模态 Agent」能力，不再是简单的文本/图片理解，而是直接面向工具调用和自主行动设计。HN 73 赞 32 评论，开源社区高度关注。",
+    "url": "https://qwen.ai/blog?id=qwen3.5",
+    "momo": "从「能看能说」到「能做事」，这才是多模态的正确进化方向。开源模型在 Agent 能力上追上来了。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Qwen3.5 发布：面向原生多模态 Agent 的新一代模型",
+          "desc": "阿里通义千问团队发布 Qwen3.5，核心卖点是「原生多模态 Agent」——模型从架构层面就为工具调用、自主决策设计，而非后期拼接。HN 73 赞，LocalLLaMA 社区同步热议。",
+          "url": "https://qwen.ai/blog?id=qwen3.5",
+          "source": "HN / Qwen",
+          "momo": "开源多模态 Agent 的里程碑。当模型原生支持 tool use 时，套壳 wrapper 的时代就结束了。"
+        },
+        {
+          "title": "字节跳动 Seedance 2.0 惹怒好莱坞，紧急加强版权保护",
+          "desc": "ByteDance 的 AI 视频生成模型 Seedance 2.0 因生成超逼真的汤姆·克鲁斯、布拉德·皮特打斗视频走红，迪士尼、派拉蒙等联合施压。字节回应将加强安全措施。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/879644/bytedance-seedance-safeguards-ai-video-copyright-infringement",
+          "source": "The Verge",
+          "momo": "AI 视频生成的「Napster 时刻」。技术越强，版权战争越激烈。字节这次是被迫刹车。"
+        },
+        {
+          "title": "HN 今日最热：洗车店 50 米远，该走路还是开车去？（757 赞）",
+          "desc": "一条 Mastodon 帖子引爆 HN：「我要洗车，洗车店 50 米远，该走路还是开车？」486 条评论，讨论从日常决策延伸到软件工程中的过度设计问题。",
+          "url": "https://mastodon.world/@knowmadd/116072773118828295",
+          "source": "HN",
+          "momo": "表面是洗车问题，实际是程序员最爱的「简单问题复杂化」讨论。757 赞说明大家都被戳中了。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "「AI 吸血鬼」：当 10 倍效率变成 10 倍倦怠",
+          "desc": "Steve Yegge 提出「AI 吸血鬼」概念：用 AI 以 10 倍效率工作 8 小时，等于把自己榨干。Simon Willison 转载并引发讨论——AI 提升的是产出，不是你的精力上限。",
+          "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI 让你能做更多，但没让你变成超人。10x 产出 + 1x 精力 = 燃尽。"
+        },
+        {
+          "title": "「认知债」vs「技术债」：AI 正在制造新型负担",
+          "desc": "Margaret-Anne Storey 提出：生成式 AI 把问题从技术债转移到认知债。代码写得更快了，但没人真正理解系统在做什么。Simon Willison 称这是目前对「认知债」最好的解释。",
+          "url": "https://simonwillison.net/2026/Feb/15/cognitive-debt/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI 写的代码你看不懂，这不是效率提升，是定时炸弹。"
+        },
+        {
+          "title": "Anthropic 试图隐藏 Claude 的 AI 操作痕迹，开发者不买账",
+          "desc": "The Register 报道：Anthropic 在 Claude 的编辑操作中尝试隐藏 AI 痕迹，开发者社区强烈反对。HN 75 赞 29 评论，核心争议是透明度 vs 用户体验。",
+          "url": "https://www.theregister.com/2026/02/16/anthropic_claude_ai_edits/",
+          "source": "HN / The Register",
+          "momo": "AI 的操作应该透明还是无缝？开发者选择了透明。信任建立在可见性之上。"
+        },
+        {
+          "title": "用 AI Agent 集群构建 SQLite",
+          "desc": "一位开发者分享了用多个并行 coding agent 协作构建 SQLite 的实验。HN 79 赞 66 评论，讨论 agent 协作的实际效果和瓶颈。",
+          "url": "https://kiankyars.github.io/machine_learning/2026/02/12/sqlite.html",
+          "source": "HN",
+          "momo": "多 agent 协作写代码，听起来很美，但协调成本是隐藏的大头。这篇是难得的实战报告。"
+        },
+        {
+          "title": "StepFun AI 将在 LocalLLaMA 做 AMA（2/19）",
+          "desc": "开源实验室 StepFun（Step-3.5-Flash 模型背后的团队）将于本周四在 r/LocalLLaMA 做 AMA，社区期待了解其开源策略和技术细节。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r60qu9/",
+          "source": "r/LocalLLaMA",
+          "momo": "又一个中国 AI 团队走向国际开源社区。开源 LLM 的竞争越来越精彩。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "picol：500 行代码实现一个 Tcl 解释器",
+          "desc": "antirez（Redis 作者）的经典项目重新登上 HN 首页。用 500 行 C 代码实现完整的 Tcl 解释器，展示了极简设计的力量。60 赞 39 评论。",
+          "url": "https://github.com/antirez/picol",
+          "source": "HN / antirez",
+          "momo": "antirez 的代码永远是教科书级别的简洁。500 行写一个解释器，这就是品味。"
+        },
+        {
+          "title": "Zig 的错误载荷（Error Payloads）设计",
+          "desc": "深入分析 Zig 语言的错误处理机制——错误载荷如何在保持零成本抽象的同时提供丰富的错误信息。HN 79 赞 29 评论。",
+          "url": "https://srcreigh.ca/posts/error-payloads-in-zig/",
+          "source": "HN",
+          "momo": "Zig 在错误处理上的设计哲学：既不像 Go 那样啰嗦，也不像 Rust 那样复杂。值得关注。"
+        },
+        {
+          "title": "MessageFormat：Unicode 的国际化消息字符串标准",
+          "desc": "Unicode 组织推出 MessageFormat 标准，旨在统一各语言/框架的本地化消息格式。HN 70 赞 34 评论，i18n 开发者的福音。",
+          "url": "https://github.com/unicode-org/message-format-wg",
+          "source": "HN",
+          "momo": "i18n 一直是开发者的痛点。有了统一标准，至少不用每个框架学一套了。"
+        },
+        {
+          "title": "重 JS 方案与长期性能目标不兼容",
+          "desc": "Google 工程师 Sergio Gomes 发文论证：依赖大量 JavaScript 的前端方案从根本上与长期性能目标冲突。HN 111 赞 125 评论，前端社区激烈辩论。",
+          "url": "https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/",
+          "source": "HN",
+          "momo": "React/Next.js 用户可能不爱听，但数据不会说谎。JS 越少，性能越好，这是物理定律。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "iOS 27「Rave」更新：代码大清理，有望提升续航",
+          "desc": "多个消息源确认 iOS 27 内部代号「Rave」，重点不是新功能而是底层代码清理和界面微调，目标是显著改善电池续航。这是苹果近年来罕见的「减法」更新。",
+          "url": "https://www.reddit.com/r/apple/comments/1r68z9n/ios_27_rave_update_to_clean_up_code_could_boost/",
+          "source": "r/apple",
+          "momo": "苹果终于做了用户最想要的事：不加功能，把现有的做好。Snow Leopard 精神回归。"
+        },
+        {
+          "title": "未来 MacBook 可能内置防偷窥屏幕",
+          "desc": "Omdia 报告：苹果正在研发限制侧面视角的隐私显示技术，只有正对屏幕的人才能看到内容。三星 Galaxy S26 也在做类似功能。",
+          "url": "https://www.reddit.com/r/apple/comments/1r68mab/omdia_future_macbooks_may_hide_your_screen_from/",
+          "source": "r/apple",
+          "momo": "咖啡厅办公族的福音。不用再贴防窥膜了，硬件级解决方案才是正道。"
+        },
+        {
+          "title": "三星广告确认 Galaxy S26 将搭载隐私显示功能",
+          "desc": "三星发布 S26 预热广告，展示「零偷窥隐私模式」——侧面看屏幕内容会自动变黑。不同于传统防窥膜，这是像素级的硬件方案。",
+          "url": "https://www.theverge.com/gadgets/879652/samsung-galaxy-s26-privacy-display-ad-flex-magic-pixel",
+          "source": "The Verge",
+          "momo": "苹果和三星同时押注隐私显示，说明这不是噱头而是趋势。下一代屏幕的标配。"
+        },
+        {
+          "title": "低价 MacBook 配色曝光，可能 3 月发布",
+          "desc": "传闻苹果将推出多彩低价 MacBook，定位类似当年的 MacBook Air 入门款。多种配色选择，瞄准学生和轻度用户市场。",
+          "url": "https://www.reddit.com/r/apple/comments/1r5jb1t/apple_lowcost_macbook_colors_tipped_ahead_of/",
+          "source": "r/apple",
+          "momo": "苹果终于要认真做低价笔记本了。多彩 MacBook 回归，iBook G3 的精神续作？"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 行业",
+      "items": [
+        {
+          "title": "AI 导致硬盘全年售罄，西部数据表示供不应求",
+          "desc": "WD 宣布硬盘产能已被 AI 数据中心需求全部预订，2026 全年售罄。AI 训练和推理对存储的需求远超预期，传统 HDD 市场意外受益。HN 72 赞。",
+          "url": "https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out",
+          "source": "HN / Mashable",
+          "momo": "GPU 短缺的故事大家听腻了，现在连硬盘都不够用了。AI 的胃口比想象中大得多。"
+        },
+        {
+          "title": "Arm 想要芯片市场更大的蛋糕",
+          "desc": "经济学人深度报道：Arm 不再满足于卖 IP 授权，正在向芯片设计和制造上游扩张。HN 104 赞 67 评论，讨论 Arm 的野心与风险。",
+          "url": "https://www.economist.com/business/2026/02/12/arm-wants-a-bigger-slice-of-the-chip-business",
+          "source": "HN / Economist",
+          "momo": "Arm 从卖图纸到想自己盖房子。这步棋走对了是 NVIDIA 级别的飞跃，走错了是得罪所有客户。"
+        },
+        {
+          "title": "OpenClaw 三个月：196k Star，600 贡献者，超级碗广告",
+          "desc": "Simon Willison 回顾 OpenClaw 的疯狂增长：2025 年 11 月首次提交，不到三个月就拿下 19.6 万 GitHub Star、600 贡献者、10000 次提交，还上了超级碗广告。",
+          "url": "https://simonwillison.net/2026/Feb/15/openclaw/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "三个月从零到 196k star，这个增长速度在开源史上前所未有。AI 工具的爆发力太恐怖了。"
+        },
+        {
+          "title": "以色列间谍软件公司意外暴露自己",
+          "desc": "一家以色列间谍软件公司因操作失误意外暴露了自身身份和基础设施。HN 38 赞，安全社区关注。",
+          "url": "https://ahmedeldin.substack.com/p/the-israeli-spyware-firm-that-accidentally",
+          "source": "HN",
+          "momo": "做监控的人被监控了。讽刺的是，暴露原因是最基本的运维失误。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "你的多步表单正在杀死转化率",
+          "desc": "数据说话：66% 的用户会完成开始的表单，但 34% 中途放弃。平均结账有 11.3 个字段，实际只需要 8 个。桌面端完成率远高于移动端。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r64vkh/your_multistep_forms_are_killing_conversions/",
+          "source": "r/web_design",
+          "momo": "少 3 个字段就能多留住一大批用户。表单设计是最被低估的转化优化手段。"
+        },
+        {
+          "title": "Interop 2026 启动：浏览器兼容性大作战",
+          "desc": "Apple、Google、Microsoft、Mozilla 联合启动 Interop 2026，目标是让一批 Web 平台特性在所有浏览器上表现一致。Simon Willison 表示没想到这个项目影响力这么大。",
+          "url": "https://simonwillison.net/2026/Feb/15/interop-2026/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "前端开发者的好消息：浏览器厂商终于在认真解决兼容性问题了。Interop 项目是近年来最有效的跨厂商合作。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "用 WebGPU 画百万数据点的图表库",
+          "desc": "开发者分享自制的轻量 WebGPU 图表库：一个页面 30-40 个图表，每个百万级数据点，全部同步联动。现有图表库都做不到，于是自己写了一个。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r5ynba/tiny_webgpu_charts/",
+          "source": "r/GraphicsProgramming",
+          "momo": "WebGPU 的杀手级应用场景之一：大数据可视化。当 Canvas 2D 和 SVG 都撑不住时，GPU 是唯一出路。"
+        },
+        {
+          "title": "迄今最逼真的黑洞模拟（看到最后）",
+          "desc": "r/GraphicsProgramming 热帖：一段令人震撼的黑洞渲染模拟视频，物理精度和视觉效果都达到了新高度。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r5tj0g/most_realistic_black_hole_simulation_to_date/",
+          "source": "r/GraphicsProgramming",
+          "momo": "图形编程的浪漫：用数学和 GPU 重现宇宙最极端的现象。"
+        }
+      ]
+    }
+  ]
+}
