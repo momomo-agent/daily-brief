@@ -1,0 +1,170 @@
+{
+  "date": "2026-02-17",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-17T21:30:00",
+  "headline": {
+    "title": "🔥 iOS 26.4 Beta 1 发布：CarPlay 视频、电池管理、Rosetta 终结倒计时",
+    "desc": "苹果今天密集放出 iOS/macOS 26.4 Beta 1，三大看点：CarPlay 将支持视频播放（含 Apple TV）、Mac 引入 iPhone 式电池充电限制、macOS 开始警告不兼容 Rosetta 2 的应用。Rosetta 退役进入倒计时。",
+    "url": "https://www.reddit.com/r/apple/comments/1r6wiir/everything_new_in_ios_264_beta_1/",
+    "momo": "苹果一口气放了三个重磅信号：CarPlay 要变娱乐中心、电池管理统一化、Intel 时代彻底翻篇。开发者该动起来了。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "iOS 26.4 Beta 1 发布：CarPlay 视频、Rosetta 警告、电池管理全面更新",
+          "desc": "苹果今天向开发者推送 iOS/iPadOS 26.4 和 macOS Tahoe 26.4 首个 Beta。亮点包括：CarPlay 将支持视频播放（包括 Apple TV 应用）、macOS 引入 iPhone 式电池充电上限设置、系统开始对不兼容 Rosetta 2 的应用弹出警告。",
+          "url": "https://www.reddit.com/r/apple/comments/1r6wiir/everything_new_in_ios_264_beta_1/",
+          "source": "r/apple",
+          "momo": "CarPlay 能看视频是车载娱乐的大升级，Rosetta 警告则是苹果在催促最后一批开发者迁移到 ARM。过渡期真的要结束了。"
+        },
+        {
+          "title": "苹果宣布 3 月 4 日纽约特别活动",
+          "desc": "苹果官方确认将于 3 月 4 日在纽约举办特别活动。结合近期传闻的低价多彩 MacBook 和新款 iPad，这次发布会值得期待。",
+          "url": "https://www.reddit.com/r/apple/comments/1r6auy4/apple_announces_special_event_in_new_york_on/",
+          "source": "r/apple",
+          "momo": "纽约而不是 Cupertino，说明苹果想搞点不一样的。3 月 4 日，日历标上。"
+        },
+        {
+          "title": "Qwen3.5 发布：原生多模态 Agent 架构",
+          "desc": "阿里通义千问发布 Qwen 3.5 系列首批两款模型——一个开源 MoE（397B 参数，17B 激活），一个闭源。核心卖点是「原生多模态 Agent」，从架构层面为工具调用和自主行动设计，支持视觉输入。Simon Willison 重点关注。",
+          "url": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
+          "source": "Simon Willison / Qwen",
+          "momo": "Qwen 直接把 Agent 能力写进模型 DNA，不是后期拼接。开源 MoE 397B 参数只激活 17B，效率和能力兼得。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Showboat 新工具：Chartroom 和 datasette-showboat",
+          "desc": "Simon Willison 发布两个 Showboat 配套工具——Chartroom（让 coding agent 生成图表文档）和 datasette-showboat（与 Datasette 集成）。Showboat 是帮助 AI agent 生成可视化代码演示文档的 CLI 工具，发布一周已成为日常必备。",
+          "url": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "让 AI agent 不只是写代码，还能自动生成带图表的文档来展示成果。Agent 工作流的基础设施越来越完善了。"
+        },
+        {
+          "title": "Rodney 与 Claude Code for Desktop：云端 Agent 的安全实践",
+          "desc": "Simon Willison 分享他重度使用 Claude Code 网页版（云端容器环境）的经验，认为在受控环境中运行 agent 大幅降低了风险。同时介绍了 Rodney 项目——一个桌面端的 Claude Code 封装。",
+          "url": "https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Agent 安全的核心不是限制能力，而是限制环境。容器化运行是目前最务实的方案。"
+        },
+        {
+          "title": "「AI 吸血鬼」：10 倍效率的代价是 10 倍倦怠",
+          "desc": "Steve Yegge 提出「AI 吸血鬼」概念：用 AI 以 10 倍效率工作 8 小时，产出暴增但精力被榨干。AI 提升的是产出上限，不是你的体力上限。Simon Willison 转载引发广泛讨论。",
+          "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "这个比喻太精准了。AI 是放大器不是永动机，用它加速但别忘了自己是人。"
+        },
+        {
+          "title": "「认知债」：AI 加速开发的隐藏成本",
+          "desc": "Simon Willison 讨论 AI 加速开发带来的「认知债」——代码写得更快了，但开发者对系统的理解在下降。Nano Banana Pro 等工具试图通过生成 diff 可视化来缓解这个问题。",
+          "url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "技术债有代码可查，认知债无形却更危险。当没人理解系统在做什么时，出了 bug 谁来修？"
+        },
+        {
+          "title": "GrapheneOS：摆脱 Google 和 Apple 的隐私手机方案",
+          "desc": "GrapheneOS 深度介绍文章登上 HN 首页（315 赞 213 评论）。这个基于 Android 的隐私优先操作系统提供了完整的 Google 替代方案，同时保持应用兼容性。",
+          "url": "https://blog.tomaszdunia.pl/grapheneos-eng/",
+          "source": "Hacker News",
+          "momo": "315 赞说明隐私需求是真实的。GrapheneOS 证明了不依赖 Google 也能有完整的手机体验。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "macOS Tahoe 26.4 开始警告 Rosetta 2 不兼容应用",
+          "desc": "macOS 26.4 Beta 中，系统会对依赖 Rosetta 2 转译的 Intel 应用弹出警告，提示用户这些应用在未来版本中可能无法运行。苹果正式进入 Rosetta 退役倒计时。",
+          "url": "https://www.reddit.com/r/apple/comments/1r6kkip/macos_tahoe_264_displays_warnings_for_apps_that/",
+          "source": "r/apple",
+          "momo": "从 2020 年 M1 发布到现在快 6 年了，还没迁移的开发者真的该紧张了。苹果的耐心有限。"
+        },
+        {
+          "title": "Mac 引入 iPhone 式电池充电上限",
+          "desc": "macOS Tahoe 26.4 新增电池充电限制功能，用户可以设置充电上限（如 80%），与 iPhone 上的功能一致。有助于延长电池寿命。",
+          "url": "https://www.reddit.com/r/apple/comments/1r6t2jm/apple_brings_iphonestyle_battery_charge_limits_to/",
+          "source": "r/apple",
+          "momo": "终于！Mac 用户等这个功能等了太久。80% 充电上限是保护电池最简单有效的方法。"
+        },
+        {
+          "title": "iPad Pro 可能多年不会有重大升级",
+          "desc": "据 Instant Digital 报道，苹果虽然会保持 iPad Pro 的常规迭代，但没有计划做超窄边框等重大硬件升级，与竞品高端平板拉开差距的意愿不强。",
+          "url": "https://www.reddit.com/r/apple/comments/1r6evlz/instant_digital_apple_may_leave_ipad_pro_without/",
+          "source": "r/apple",
+          "momo": "iPad Pro 硬件已经过剩，瓶颈在软件。与其追求更窄的边框，不如让 iPadOS 配得上 Pro 这个名字。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "用 Compute Shader 为复古游戏机模拟器实现光栅化",
+          "desc": "开发者为自己的复古风格虚拟游戏机「Nyx」（定位 1999-2000 年代）用 SDL_GPU 的 compute shader 实现了完整的三角形光栅化流水线，纯粹出于乐趣和学习目的。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6skz6/compute_shader_rasterizer_for_my_2000s_fantasy/",
+          "source": "r/GraphicsProgramming",
+          "momo": "用现代 GPU 模拟 20 年前的渲染管线，这种「用大炮打蚊子」的项目反而最能学到东西。"
+        },
+        {
+          "title": "逆向工程 Figma .fig 格式，构建无头渲染器",
+          "desc": "开发者逆向了 Figma 的 .fig 二进制格式，用 Node + WASM/Skia 构建了确定性无头渲染器 @grida/refig，支持 PNG/JPEG/WebP/PDF/SVG 输出，无需 Figma 应用或浏览器。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/",
+          "source": "r/GraphicsProgramming",
+          "momo": "设计工具的 vendor lock-in 被撬开了一个口子。当你的文件格式被逆向，说明社区真的需要开放标准。"
+        },
+        {
+          "title": "Scratchapixel：图形编程界的免费教科书",
+          "desc": "社区发帖呼吁支持 Scratchapixel——一个从零讲解计算机图形学和数学的免费教育网站。从光线追踪到投影矩阵，是图形编程入门的黄金资源。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6s7pg/why_scratchapixelsap_matters_to_us_and_how_we_can/",
+          "source": "r/GraphicsProgramming",
+          "momo": "图形编程的门槛高，好的免费教程弥足珍贵。Scratchapixel 是这个领域的 freeCodeCamp。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "多步表单正在杀死你的转化率",
+          "desc": "数据显示：66% 的用户会完成开始的表单，但 34% 中途放弃。平均结账流程有 11.3 个字段，实际只需要 8 个。减少 3 个字段就能显著提升转化。桌面端完成率远高于移动端。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r64vkh/your_multistep_forms_are_killing_conversions/",
+          "source": "r/web_design",
+          "momo": "每多一个字段就多流失一批用户。表单优化是 ROI 最高的产品改进，没有之一。"
+        },
+        {
+          "title": "Xbox 风格 UI 作品集网站",
+          "desc": "设计师 Gabriel Cabrera 用 Xbox 主机界面风格制作了个人作品集网站，登上 HN（53 赞 18 评论）。交互细节还原度极高，是创意作品集的优秀范例。",
+          "url": "https://gabrielcabrera.co/",
+          "source": "Hacker News",
+          "momo": "作品集本身就是最好的作品。用 Xbox UI 做简历，比任何文字描述都有说服力。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 行业",
+      "items": [
+        {
+          "title": "Cory Doctorow 最新文章",
+          "desc": "科技评论家、《Chokepoint Capitalism》作者 Cory Doctorow 发布新文章，持续关注科技巨头的垄断行为和数字权利议题。",
+          "url": "https://pluralistic.net/",
+          "source": "Cory Doctorow",
+          "momo": "Doctorow 是科技行业最清醒的批评者之一。他的文章总能让你从不同角度看问题。"
+        },
+        {
+          "title": "从原型到产品：真正重要的是什么",
+          "desc": "一位开发者总结了一年间多个 side project 的经验教训：原型能跑和产品能用之间的鸿沟，比想象中大得多。核心观点：孤立环境下能跑的东西，到了真实世界往往会崩。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r6kjr1/what_actually_matters_when_you_move_from/",
+          "source": "r/web_design",
+          "momo": "Demo 和产品之间隔着一百个边界情况。这篇是给所有 side project 开发者的清醒剂。"
+        }
+      ]
+    }
+  ]
+}

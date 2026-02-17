@@ -1,0 +1,261 @@
+{
+  "date": "2026-02-17",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-17T21:30:05.763894",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Nano Banana Pro diff to webcomic",
+          "desc": "Given the threat of cognitive debt brought on by AI-accelerated software development leading to more projects and less deep understanding of how they work and what they actually do, it's interesting to consider artifacts that might be able to help. Nathan Baschez on Twitter: my current favorite tric...",
+          "url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Qwen3.5: Towards Native Multimodal Agents",
+          "desc": "Qwen3.5: Towards Native Multimodal Agents Alibaba's Qwen just released the first two models in the Qwen 3.5 series - one open weights, one proprietary. Both are multi-modal for vision input. The open weight one is a Mixture of Experts model called Qwen3.5-397B-A17B. Interesting to see Qwen call out ...",
+          "url": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Two new Showboat tools: Chartroom and datasette-showboat",
+          "desc": "I introduced Showboat a week ago - my CLI tool that helps coding agents create Markdown documents that demonstrate the code that they have created. I've been finding new ways to use it on a daily basis, and I've just released two new tools to help get the best out of the Showboat pattern. Chartroom ...",
+          "url": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Rodney and Claude Code for Desktop",
+          "desc": "I'm a very heavy user of Claude Code on the web, Anthropic's excellent but poorly named cloud version of Claude Code where everything runs in a container environment managed by them, greatly reducing the risk of anything bad happening to a computer I care about. I don't use the web interface at all ...",
+          "url": "https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "The AI Vampire",
+          "desc": "The AI Vampire Steve Yegge's take on agent fatigue, and its relationship to burnout. Let's pretend you're the only person at your company using AI. In Scenario A, you decide you're going to impress your employer, and work for 8 hours a day at 10x productivity. You knock it out of the park and make e...",
+          "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Em dash",
+          "desc": "I'm occasionally accused of using LLMs to write the content on my blog. I don't do that, and I don't think my writing has much of an LLM smell to it... with one notable exception: # Finally, do em dashes s = s.replace(' - ', u'\\u2014') That code to add em dashes to my posts dates back to at least 20...",
+          "url": "https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "GrapheneOS – Break Free from Google and Apple",
+          "desc": "Article URL: https://blog.tomaszdunia.pl/grapheneos-eng/ Comments URL: https://news.ycombinator.com/item?id=47045612 Points: 315 # Comments: 213",
+          "url": "https://blog.tomaszdunia.pl/grapheneos-eng/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Xbox UI Portfolio Site",
+          "desc": "Article URL: https://gabrielcabrera.co/ Comments URL: https://news.ycombinator.com/item?id=47044179 Points: 53 # Comments: 18",
+          "url": "https://gabrielcabrera.co/",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Compute shader rasterizer for my 2000s fantasy console!",
+          "desc": "Have been working on a fantasy console of mine (currently called \"Nyx\") meant to feel like a game console that could have existed c. 1999 - 2000, and I'm using SDL_GPU to implement the \"emulator\" for it. Anyway I decided, primarily for fun, that I wanted to emulate the entire triangle rasterization ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6skz6/compute_shader_rasterizer_for_my_2000s_fantasy/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Why Scratchapixel(SaP) matters to us (and how we can help it grow)",
+          "desc": "Been using Scratchapixel since I first got into graphics programming. It's one of the few places that actually walks you through the graphics engineering and math, not just \"here's the code, copy it.\" For those who don't know, it provides articles on CG and Math entirely for free. From it’s foundati...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6s7pg/why_scratchapixelsap_matters_to_us_and_how_we_can/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Help me understand the projection matrix",
+          "desc": "https://preview.redd.it/uwd15t1y0yjg1.png?width=1243&format=png&auto=webp&s=69db906253281c41d1958ce22e11d8664055d6c2 What I gathered from my humble reading is that the idea is we want to map this frustum to a cube ranging from [-1,1] (can someone please explain what is the benefit from that), It too...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6q44t/help_me_understand_the_projection_matrix/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "I reverse-engineered Figma’s `.fig` binary and built a deterministic headless renderer (Node + WASM/Skia) — `@grida/refig`",
+          "desc": "Figma exports are easy… until exporting becomes infrastructure. I just shipped @grida/refig (“render figma”) — a headless renderer that turns a Figma document + node id into PNG / JPEG / WebP / PDF / SVG: No Figma app No headless browser Works offline from .fig exports Also works from Figma REST API...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Extensions for Lmath",
+          "desc": "Hello everyone I'm still thinking about implementing extensions for the «Lmath» library. The idea is to add new functionality so that it is compatible with the core implementation, while keeping the implementation itself minimal. Do you have any ideas? Repo: https://github.com/rabbitGraned-Animation...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r72yev/extensions_for_lmath/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Run OpenCL kernels on NVIDIA GPUs using the CUDA runtime",
+          "desc": "submitted by /u/IntrepidAttention56 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6x3ai/run_opencl_kernels_on_nvidia_gpus_using_the_cuda/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Constellation: Sharing Cadent Geometry (Avoiding normalization + geometry derived physics)",
+          "desc": "Hi! I am going to be short: For the first time, I am sharing a bit of code that I developed for my Rust no-std graphics engine. That is not entirely true, the code itself started as my solution for not having to normalize vectors. An attempt to have a unified unit to express everything. Turns out en...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6b9co/constellation_sharing_cadent_geometry_avoiding/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Push & Pull Component",
+          "desc": "submitted by /u/FriendshipNo9222 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6lgoe/push_pull_component/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "Your multi-step forms are killing conversions",
+          "desc": "The main stats from the IvyForms article for people who don't want to click: Completion Rates: 66% of users who start a form complete it (Zuko Analytics) 34% abandon mid-process Average checkout has 11.3 form fields but only needs 8 (Baymard Institute) Desktop vs Mobile Performance: Desktop completi...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r64vkh/your_multistep_forms_are_killing_conversions/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Paying designers",
+          "desc": "I have a newer web design business for small businesses. I offer branding as well as web design. I recently brought on a graphic designer to take part in projects with me and take a lot of the branding off my plate. What she does: Design the graphics, colors, and fonts. What I do: Take all that stra...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r6v9ak/paying_designers/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Designed this time tracking tool to help block your day",
+          "desc": "submitted by /u/Loose_Today_8137 [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1r6yjbe/designed_this_time_tracking_tool_to_help_block/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "what actually matters when you move from prototype to real thing",
+          "desc": "spent the last year bouncing between side projects and one thing that keeps happening is i ship something that works in isolation, then reality hits different. wanted to write down what i've noticed because the advice online is usually either too abstract or too specific the biggest thing is that a ...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r6kjr1/what_actually_matters_when_you_move_from/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Guys any suggestions how make more attractive please give suggestions",
+          "desc": "submitted by /u/Psycho_Buddy [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1r66xv3/guys_any_suggestions_how_make_more_attractive/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Help. i lied during job interview…",
+          "desc": "I panicked and i lied how i took in charge of a website design project.. now they want my reference contact details which means at the final stage of the hiring process Yes i was involved in the project from beginning to end but my manager was there conducting interviews and research. And i initiall...",
+          "url": "https://www.reddit.com/r/web_design/comments/1r64syv/help_i_lied_during_job_interview/",
+          "source": "r/web_design"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "Daily Advice Thread - February 17, 2026",
+          "desc": "Welcome to the Daily Advice Thread for r/Apple. This thread can be used to ask for technical advice regarding Apple software and hardware, to ask questions regarding the buying or selling of Apple products or to post other short questions. Have a question you need answered? Ask away! Please remember...",
+          "url": "https://www.reddit.com/r/apple/comments/1r732lr/daily_advice_thread_february_17_2026/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Everything New in iOS 26.4 Beta 1",
+          "desc": "submitted by /u/Few_Baseball_3835 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r6wiir/everything_new_in_ios_264_beta_1/",
+          "source": "r/apple"
+        },
+        {
+          "title": "iOS 26.4 Lays Groundwork for CarPlay Video, Including Apple TV",
+          "desc": "submitted by /u/InsaneSnow45 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r72zlg/ios_264_lays_groundwork_for_carplay_video/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Brings iPhone-Style Battery Charge Limits to the Mac in macOS Tahoe 26.4",
+          "desc": "submitted by /u/McFatty7 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r6t2jm/apple_brings_iphonestyle_battery_charge_limits_to/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Announces Special Event in New York on March 4",
+          "desc": "submitted by /u/ZamnBoii [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r6auy4/apple_announces_special_event_in_new_york_on/",
+          "source": "r/apple"
+        },
+        {
+          "title": "[Instant Digital] Apple May Leave iPad Pro Without Major Upgrades for Years",
+          "desc": "While Apple may maintain a regular iteration cycle with the device, it apparently has no intention of pursuing significant upgrades such as ultra-slim borders around the display, the likes of which are available on rival high-end tablets. submitted by /u/iMacmatician [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r6evlz/instant_digital_apple_may_leave_ipad_pro_without/",
+          "source": "r/apple"
+        },
+        {
+          "title": "macOS Tahoe 26.4 Displays Warnings for Apps That Won't Work After Rosetta 2 Support Ends",
+          "desc": "submitted by /u/digidude23 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r6kkip/macos_tahoe_264_displays_warnings_for_apps_that/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Welcome to iOS and iPadOS 26.4! First betas are now available to developers!",
+          "desc": "submitted by /u/HelloitsWojan [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1r6hzh9/welcome_to_ios_and_ipados_264_first_betas_are_now/",
+          "source": "r/apple"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Superlinear Returns",
+          "desc": "",
+          "url": "http://www.paulgraham.com/superlinear.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Do Great Work",
+          "desc": "",
+          "url": "http://www.paulgraham.com/greatwork.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Get New Ideas",
+          "desc": "",
+          "url": "http://www.paulgraham.com/getideas.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "The Need to Read",
+          "desc": "",
+          "url": "http://www.paulgraham.com/read.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What You (Want to)* Want",
+          "desc": "",
+          "url": "http://www.paulgraham.com/want.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Alien Truth",
+          "desc": "",
+          "url": "http://www.paulgraham.com/alien.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What I've Learned from Users",
+          "desc": "",
+          "url": "http://www.paulgraham.com/users.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Heresy",
+          "desc": "",
+          "url": "http://www.paulgraham.com/heresy.html",
+          "source": "Paul Graham"
+        }
+      ]
+    }
+  ]
+}
