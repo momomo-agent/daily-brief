@@ -124,12 +124,13 @@ document.addEventListener('keydown', e => {
 
 async function init() {
   try {
-    const index = await loadIndex();
+    const raw = await loadIndex();
+    const dates = Array.isArray(raw) ? raw : raw.dates;
     const stack = document.getElementById('stack');
     const dots = document.getElementById('dots');
     
-    for (let i = 0; i < index.dates.length; i++) {
-      const data = await loadDay(index.dates[i]);
+    for (let i = 0; i < dates.length; i++) {
+      const data = await loadDay(dates[i]);
       const paper = renderPaper(data, i);
       stack.appendChild(paper);
       papers.push(paper);
