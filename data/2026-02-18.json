@@ -1,0 +1,151 @@
+{
+  "date": "2026-02-18",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-18T09:30:00",
+  "headline": {
+    "title": "🔥 Claude Sonnet 4.6 发布：Opus 级性能，Sonnet 级价格",
+    "desc": "Anthropic 发布 Claude Sonnet 4.6，号称性能接近去年 11 月的 Opus 4.5，但维持 Sonnet 定价（$3/$15 每百万 token，Opus 是 $5/$25）。同日阿里 Qwen 3.5 系列也正式亮相。AI 模型的性价比战进入白热化。",
+    "url": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
+    "momo": "Sonnet 4.6 本质上是在说：你不需要为顶级性能付顶级价格了。这对 Opus 用户是好消息，对竞争对手是坏消息。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Claude Sonnet 4.6 发布：Opus 级性能，Sonnet 级价格",
+          "desc": "Anthropic 发布 Sonnet 4.6，声称性能接近 Opus 4.5，但价格仅为 Sonnet 级别（输入 $3/M，输出 $15/M）。Simon Willison 第一时间做了详细分析。",
+          "url": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "模型能力在加速下沉——上一代旗舰的能力，下一代中端就能给你。开发者的选择越来越多了。"
+        },
+        {
+          "title": "Qwen 3.5 发布：原生多模态 Agent 架构",
+          "desc": "阿里通义千问发布 Qwen 3.5 系列，包含开源 MoE 模型（397B 参数，17B 激活）和闭源版本。核心亮点是「原生多模态 Agent」——从架构层面为工具调用和自主行动设计，支持视觉输入。",
+          "url": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
+          "source": "Simon Willison / Qwen",
+          "momo": "Qwen 把 Agent 能力写进模型 DNA 而不是后期拼接，这是架构层面的思路转变。开源 MoE 397B 只激活 17B，效率惊人。"
+        },
+        {
+          "title": "苹果用 M5 芯片升级 Private Cloud Compute 架构",
+          "desc": "苹果最新 Private Cloud Compute 软件更新中出现 M5 芯片引用，表明苹果正在将 Apple Intelligence 的云端基础设施升级到 M5。还发现了「Private Cloud Compute Agent Worker」的新概念。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7b6x7/apple_plans_m5based_private_cloud_compute/",
+          "source": "r/apple",
+          "momo": "苹果的 AI 策略越来越清晰：自研芯片跑自研模型，端云协同。M5 上云说明他们对算力需求的预期在急剧增长。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Rodney v0.4.0：浏览器自动化 CLI 工具大更新",
+          "desc": "Simon Willison 的浏览器自动化工具 Rodney 发布 v0.4.0，新增 assert 命令、改进错误码机制、吸引了大量社区 PR。一周内从发布到成为日常工具。",
+          "url": "https://simonwillison.net/2026/Feb/17/rodney/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Agent 时代的基础设施：让 AI 能可靠地操作浏览器。assert 命令说明大家开始认真对待 agent 行为的验证了。"
+        },
+        {
+          "title": "Showboat 新工具：Chartroom 和 datasette-showboat",
+          "desc": "Simon Willison 为 Showboat（帮 coding agent 生成代码演示文档的 CLI）发布两个配套工具——Chartroom（图表生成）和 datasette-showboat（Datasette 集成）。",
+          "url": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "让 AI agent 不只写代码，还能自动生成带图表的文档来展示成果。Agent 工作流的可观测性在提升。"
+        },
+        {
+          "title": "「认知债」：AI 加速开发的隐藏成本",
+          "desc": "AI 让代码写得更快了，但开发者对系统的理解在下降。Nathan Baschez 提出用 diff 转漫画的方式可视化变更，试图缓解这种「认知债」。Simon Willison 引发讨论。",
+          "url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "技术债有代码可查，认知债无形却更危险。当团队里没人真正理解系统时，下一个 bug 就是灾难。"
+        },
+        {
+          "title": "Dimitris Papailiopoulos 谈 AI 的「魔法盒子」效应",
+          "desc": "斯坦福教授 Dimitris 分享感悟：AI 让探索新想法的成本趋近于零——以前要花几天搭原型，现在扔个问题进去就有初步答案。但这改变的是探索方式，不是思考深度。",
+          "url": "https://simonwillison.net/2026/Feb/17/dimitris-papailiopoulos/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "探索成本降低是好事，但别把「快速得到答案」等同于「深刻理解问题」。AI 是起点不是终点。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "iOS 26.4 Beta 发布：Apple Intelligence Siri 功能仍缺席",
+          "desc": "苹果确认新版 Siri 仍将在 2026 年内推出，但 iOS 26.4 Beta 中并未包含。苹果从未给出比「2026 年」更具体的时间线，社区期望再次落空。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7j9p3/ios_264_beta_launches_without_apple_intelligence/",
+          "source": "r/apple",
+          "momo": "Siri 的 AI 升级已经成了苹果版的「等等党永不为奴」。每个 Beta 都在问：这次有了吗？答案永远是：还没。"
+        },
+        {
+          "title": "苹果加速研发 AI 眼镜、吊坠和相机 AirPods",
+          "desc": "据报道苹果正在加速多款 AI 时代新硬件的研发：AR 眼镜、可穿戴吊坠设备、以及带摄像头的 AirPods。苹果的 AI 战略正在从软件延伸到全新硬件形态。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7e2if/apple_ramps_up_work_on_glasses_pendant_and_camera/",
+          "source": "r/apple",
+          "momo": "眼镜、吊坠、相机耳机——苹果在押注 AI 需要新的交互入口，而不只是在现有设备上加功能。这是对 Vision Pro 路线的补充。"
+        },
+        {
+          "title": "丰田开始支持 iPhone Apple Wallet 车钥匙",
+          "desc": "丰田正式推出 Apple Wallet 数字车钥匙功能，iPhone 用户可以用手机解锁和启动丰田车辆。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7nf5t/toyota_rolling_out_apple_wallet_car_keys_on_iphone/",
+          "source": "r/apple",
+          "momo": "又一家主流车企加入。数字车钥匙的生态在加速扩张，实体钥匙正在变成备用方案。"
+        },
+        {
+          "title": "Pixel 9 支持向 iPhone AirDrop 传文件",
+          "desc": "Google Pixel 9 现已支持通过 AirDrop 向 iPhone 传输文件，跨平台文件共享的壁垒进一步降低。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7nwer/androidtoiphone_airdrop_transfers_now_supported/",
+          "source": "r/apple",
+          "momo": "Android 到 iPhone 的 AirDrop！这在几年前不可想象。欧盟监管压力下，苹果的围墙花园在一块块拆。"
+        },
+        {
+          "title": "苹果移除 tvOS 中的 iTunes 电影和电视应用",
+          "desc": "tvOS 26.4 中苹果正式移除了 iTunes Movies 和 TV Shows 独立应用，内容整合进 Apple TV 应用。iTunes 品牌的又一次告别。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7g1w6/apple_removes_itunes_movies_and_tv_shows_apps_in/",
+          "source": "r/apple",
+          "momo": "iTunes 的名字还在被一点点从苹果生态中擦除。一个时代的图标，正在安静地退场。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "逆向 Figma .fig 格式，构建开源无头渲染器",
+          "desc": "开发者逆向工程了 Figma 的 .fig 二进制格式，用 Node + WASM/Skia 构建了确定性无头渲染器 @grida/refig，支持 PNG/JPEG/WebP/PDF/SVG 输出，无需 Figma 应用或浏览器，可离线工作。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/",
+          "source": "r/GraphicsProgramming",
+          "momo": "设计工具的 vendor lock-in 被撬开了。当社区开始逆向你的格式，说明开放标准的需求已经压不住了。"
+        },
+        {
+          "title": "WebAssembly 跑在 GPU 上？通过 WebGPU 实现",
+          "desc": "社区讨论将 WebAssembly 运行在 GPU 上的可能性，借助 WebGPU 的 compute shader 能力。这打开了浏览器端高性能计算的新想象空间。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7cwy6/webassembly_on_the_gpu_via_webgpu_discussion/",
+          "source": "r/GraphicsProgramming",
+          "momo": "WASM + WebGPU = 浏览器里的 CUDA？虽然还早，但方向很诱人。Web 平台的计算能力天花板在不断被推高。"
+        },
+        {
+          "title": "Frank D. Luna《DirectX 12 3D 游戏编程》第二版到货",
+          "desc": "图形编程经典教材《Introduction to 3D Game Programming with DirectX 12》第二版正式出版，社区期待已久。新版更新了大量内容。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7p45n/its_real_the_second_edition_of_frank_d_lunas/",
+          "source": "r/GraphicsProgramming",
+          "momo": "图形编程的「圣经」更新了。DX12 第一版帮助了无数人入门，第二版值得关注。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "微软内部黑话解读：什么是 Escrow",
+          "desc": "Raymond Chen 的 Old New Thing 博客解释微软内部术语「Escrow」——指软件发布前的最终构建阶段。从「final build」到「final final final 2」的混乱命名中诞生的正式流程。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260217-00/?p=112067",
+          "source": "Old New Thing",
+          "momo": "每个大公司都有自己的黑话体系。Raymond Chen 的博客是理解微软工程文化的最佳窗口，写了 20 多年了。"
+        }
+      ]
+    }
+  ]
+}
