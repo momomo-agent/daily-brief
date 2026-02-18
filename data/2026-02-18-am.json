@@ -2,7 +2,7 @@
   "date": "2026-02-18",
   "period": "am",
   "title": "每日科技速览",
-  "generated": "2026-02-18T09:30:07.653355",
+  "generated": "2026-02-18T09:35:23.321855",
   "sections": [
     {
       "title": "AI / 机器学习",
@@ -67,15 +67,15 @@
           "source": "r/GraphicsProgramming"
         },
         {
-          "title": "Math for Graphics programming",
-          "desc": "So, I want to learn OpenGL and maybe even Vulkan someday. However, before doing any of that, I'd like to have a solid foundation in mathematics so that I actually understand what I am doing and not just copying some random code off a course because some guy said so. That being said, what do I actual...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7a52h/math_for_graphics_programming/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
           "title": "Its real! The second edition of Frank D Lunas Directx12 Introduction to 3D Game Programming arrived!",
           "desc": "Might have seen me previously on this sub where I was curious if anyone had read this new edition. Here it is! It is actually real. Heres the Front and back, and the table of contents for the new stuff. Exciting! Now to start reading it and learn submitted by /u/NoticeableSmeh [link] [comments]",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7p45n/its_real_the_second_edition_of_frank_d_lunas/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Math for Graphics programming",
+          "desc": "So, I want to learn OpenGL and maybe even Vulkan someday. However, before doing any of that, I'd like to have a solid foundation in mathematics so that I actually understand what I am doing and not just copying some random code off a course because some guy said so. That being said, what do I actual...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7a52h/math_for_graphics_programming/",
           "source": "r/GraphicsProgramming"
         },
         {

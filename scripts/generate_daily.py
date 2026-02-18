@@ -81,14 +81,17 @@ MAX_PER_SECTION = 8
 # 只保留最近 N 天的内容
 MAX_AGE_DAYS = 2
 
-def fetch_feed(url, timeout=12):
-    """抓取 RSS/Atom feed"""
+def fetch_feed(url, timeout=8):
+    """抓取 RSS/Atom feed，缩短超时避免整体卡住"""
     req = Request(url, headers={
         'User-Agent': 'Mozilla/5.0 (Macintosh) DailyBrief/2.0',
         'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml',
     })
-    with urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode('utf-8', errors='replace')
+    try:
+        with urlopen(req, timeout=timeout) as resp:
+            return resp.read().decode('utf-8', errors='replace')
+    except Exception as e:
+        raise Exception(f"fetch timeout/error: {e}")
 
 def clean_text(text):
     if not text:
@@ -275,7 +278,7 @@ def update_index():
     dates = dates[:14]
     
     index_path = DATA_DIR / "index.json"
-    index_path.write_text(json.dumps({"dates": dates}, indent=2))
+    index_path.write_text(json.dumps(dates, indent=2))
     print(f"✅ 索引: {dates[:5]}...")
 
 if __name__ == "__main__":

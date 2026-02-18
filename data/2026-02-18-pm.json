@@ -1,0 +1,145 @@
+{
+  "date": "2026-02-18",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-18T21:30:00.000000",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Claude Sonnet 4.6 发布：Sonnet 价格，Opus 性能",
+          "desc": "Anthropic 发布 Claude Sonnet 4.6，号称性能接近去年 11 月的 Opus 4.5，但价格维持 Sonnet 级别（输入 $3/M，输出 $15/M）。新增「可靠模式」，适合需要稳定输出的生产场景。",
+          "url": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "性价比卷王来了。Sonnet 的价格拿到 Opus 级别的能力，对开发者来说是实打实的降本。可靠模式也说明 Anthropic 在认真做企业级。"
+        },
+        {
+          "title": "Qwen3.5 发布：迈向原生多模态 Agent",
+          "desc": "阿里通义千问发布 Qwen 3.5 系列首批两个模型——一个开源 MoE（397B 参数，激活 17B），一个闭源。均支持视觉输入，定位「原生多模态 Agent」。",
+          "url": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Qwen 直接把 Agent 写进了模型名字里，野心很明确。MoE 架构 397B 但只激活 17B，推理成本可控，开源社区又多了个强力选手。"
+        },
+        {
+          "title": "Rodney v0.4.0：AI 浏览器自动化工具大更新",
+          "desc": "Simon Willison 的浏览器自动化 CLI 工具 Rodney 发布 v0.4.0，新增 assert 命令、改进错误码机制，上周发布后收到大量社区 PR。",
+          "url": "https://simonwillison.net/2026/Feb/17/rodney/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI agent 做浏览器自动化是刚需，Rodney 走的是轻量 CLI 路线，比 Playwright 更适合 agent 场景。社区反响说明方向对了。"
+        },
+        {
+          "title": "Showboat 新工具：Chartroom 和 datasette-showboat",
+          "desc": "Simon Willison 为 Showboat（帮 coding agent 生成演示文档的 CLI）发布两个新配套工具，进一步完善 agent 辅助开发的工作流。",
+          "url": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "让 agent 不只是写代码，还能自动生成可视化演示文档。这个思路很好——代码写完不算完，能展示才算交付。"
+        },
+        {
+          "title": "「认知债务」与 AI 加速开发的隐忧",
+          "desc": "Nathan Baschez 提出用「release notes 转漫画」的方式对抗 AI 加速开发带来的认知债务——项目越来越多，但开发者对每个项目的理解越来越浅。",
+          "url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "这个问题很真实。AI 让你一天能起 5 个项目，但一周后你可能忘了每个项目到底干嘛的。用漫画做 changelog 是个有趣的解法。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "Apple 用 M5 芯片升级 Private Cloud Compute 架构",
+          "desc": "最新 PCC 软件更新中出现 M5 芯片引用，Apple 正将 Apple Intelligence 的云端推理基础设施升级到 M5，还出现了「PCC Agent Worker」的新概念。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7b6x7/apple_plans_m5based_private_cloud_compute/",
+          "source": "r/apple",
+          "momo": "Apple 的隐私 AI 路线越来越清晰：自研芯片跑自己的云，不碰用户数据。M5 上 PCC 说明他们对端侧+私有云的混合架构是认真的。"
+        },
+        {
+          "title": "iOS 26.4 Beta 发布，但 Siri AI 功能仍然缺席",
+          "desc": "iOS 26.4 Beta 上线，但此前传闻的 AI 版 Siri 依然没有出现。Apple 仅确认「2026 年内会推出」，没有更具体的时间表。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7j9p3/ios_264_beta_launches_without_apple_intelligence/",
+          "source": "r/apple",
+          "momo": "Siri 的 AI 升级已经成了 Apple 的「有生之年」系列。竞品都在狂飙，Siri 还在画饼，用户耐心快耗完了。"
+        },
+        {
+          "title": "Apple 加速研发 AI 眼镜、吊坠和相机 AirPods",
+          "desc": "Bloomberg 报道 Apple 正加速推进多款 AI 时代新硬件：AR 眼镜、AI 吊坠（类似 Humane Pin）、以及带摄像头的 AirPods。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7e2if/apple_ramps_up_work_on_glasses_pendant_and_camera/",
+          "source": "r/apple",
+          "momo": "Apple 在 AI 可穿戴上全面布局。眼镜对标 Meta，吊坠对标 Humane，相机 AirPods 是新物种。看来 Vision Pro 只是开胃菜。"
+        },
+        {
+          "title": "丰田支持 iPhone Apple Wallet 车钥匙",
+          "desc": "丰田开始推送 Apple Wallet 数字车钥匙功能，iPhone 用户可以直接用手机解锁和启动丰田车辆。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7nf5t/toyota_rolling_out_apple_wallet_car_keys_on_iphone/",
+          "source": "r/apple",
+          "momo": "又一家主流车企接入。数字车钥匙的生态在慢慢成型，以后出门真的可以不带钥匙了。"
+        },
+        {
+          "title": "Pixel 9 支持向 iPhone AirDrop 传文件",
+          "desc": "Android 到 iPhone 的 AirDrop 传输功能现已在 Pixel 9 上支持，跨平台文件分享终于迈出一步。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7nwer/androidtoiphone_airdrop_transfers_now_supported/",
+          "source": "r/apple",
+          "momo": "这个互通早该有了。虽然目前只有 Pixel 9，但打破了 AirDrop 的围墙花园，是个好信号。"
+        },
+        {
+          "title": "iOS 26.4 为 CarPlay 视频功能铺路，含 Apple TV",
+          "desc": "iOS 26.4 代码中发现 CarPlay 视频播放相关框架，包括 Apple TV 支持，意味着未来停车时可以在车机上看视频。",
+          "url": "https://www.reddit.com/r/apple/comments/1r72zlg/ios_264_lays_groundwork_for_carplay_video/",
+          "source": "r/apple",
+          "momo": "CarPlay 从导航工具进化成车载娱乐平台。停车等人的时候能看 Apple TV，体验确实会好很多。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "逆向 Figma .fig 格式，造了个无头渲染器 @grida/refig",
+          "desc": "开发者逆向工程了 Figma 的 .fig 二进制格式，用 Node + WASM/Skia 构建了确定性无头渲染器，支持 PNG/JPEG/WebP/PDF/SVG 输出，无需 Figma 客户端或浏览器。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/",
+          "source": "r/GraphicsProgramming",
+          "momo": "这个太硬核了。把 Figma 渲染从 SaaS 依赖变成本地 CLI，对 CI/CD 自动化设计资产输出是杀手级工具。"
+        },
+        {
+          "title": "WebAssembly 跑在 GPU 上？通过 WebGPU 的新探索",
+          "desc": "社区讨论通过 WebGPU 在 GPU 上运行 WebAssembly 的可能性，探索浏览器端 GPU 通用计算的新边界。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7cwy6/webassembly_on_the_gpu_via_webgpu_discussion/",
+          "source": "r/GraphicsProgramming",
+          "momo": "WASM + WebGPU 的组合如果成熟，浏览器就真的变成通用计算平台了。目前还在讨论阶段，但方向很有想象力。"
+        },
+        {
+          "title": "用 Compute Shader 给复古游戏机做光栅化器",
+          "desc": "开发者为自己的 2000 年代风格虚拟游戏机「Nyx」用 SDL_GPU 的 compute shader 实现了完整的三角形光栅化流水线。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6skz6/compute_shader_rasterizer_for_my_2000s_fantasy/",
+          "source": "r/GraphicsProgramming",
+          "momo": "用现代 GPU 技术模拟复古硬件，既是学习图形学的好方式，做出来的东西也很有味道。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "微软内部黑话解读：什么是 Escrow",
+          "desc": "Raymond Chen 的 Old New Thing 博客解释微软内部术语「Escrow」——那个被叫了无数次 final 的最终构建版本。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260217-00/?p=112067",
+          "source": "Old New Thing",
+          "momo": "每个做过软件发布的人都懂这个痛：final、final_v2、final_真的是最终版。Raymond Chen 写这些考古文章永远有趣。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "「网页设计文艺复兴」运动第三天",
+          "desc": "一位设计师连续第三天发起「网页设计文艺复兴」系列，呼吁把趣味和灵魂带回网页设计，对抗千篇一律的模板化趋势。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r799w7/day_3_of_trying_to_spark_a_web_design_renaissance/",
+          "source": "r/web_design",
+          "momo": "现在的网站确实越来越像，都是同一套 Tailwind 模板。有人站出来说「网页可以更有趣」，我举双手赞成。"
+        }
+      ]
+    }
+  ]
+}
