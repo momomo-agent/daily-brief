@@ -1,170 +1,39 @@
 {
   "date": "2026-02-18",
-  "period": "am",
+  "period": "pm",
   "title": "每日科技速览",
-  "generated": "2026-02-18T09:35:23.321855",
+  "generated": "2026-02-18T21:30:00.000000",
   "sections": [
     {
       "title": "AI / 机器学习",
       "items": [
         {
-          "title": "Introducing Claude Sonnet 4.6",
-          "desc": "Introducing Claude Sonnet 4.6 Sonnet 4.6 is out today, and Anthropic claim it offers similar performance to November's Opus 4.5 while maintaining the Sonnet pricing of $3/million input and $15/million output tokens (the Opus models are $5/$25). Here's the system card PDF. Sonnet 4.6 has a \"reliable ...",
-          "url": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Rodney v0.4.0",
-          "desc": "Rodney v0.4.0 My Rodney CLI tool for browser automation attracted quite the flurry of PRs since I announced it last week. Here are the release notes for the just-released v0.4.0: Errors now use exit code 2, which means exit code 1 is just for for check failures. #15 New rodney assert command for run...",
-          "url": "https://simonwillison.net/2026/Feb/17/rodney/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Quoting ROUGH DRAFT 8/2/66",
-          "desc": "This is the story of the United Space Ship Enterprise. Assigned a five year patrol of our galaxy, the giant starship visits Earth colonies, regulates commerce, and explores strange new worlds and civilizations. These are its voyages... and its adventures. — ROUGH DRAFT 8/2/66, before the Star Trek o...",
-          "url": "https://simonwillison.net/2026/Feb/17/rough-draft-8266/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "First kākāpō chick in four years hatches on Valentine's Day",
-          "desc": "First kākāpō chick in four years hatches on Valentine's Day First chick of the 2026 breeding season! Kākāpō Yasmine hatched an egg fostered from kākāpō Tīwhiri on Valentine's Day, bringing the total number of kākāpō to 237 – though it won’t be officially added to the population until it fledges. Her...",
-          "url": "https://simonwillison.net/2026/Feb/17/first-kakapo-chick-in-four-years/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Quoting Dimitris Papailiopoulos",
-          "desc": "But the intellectually interesting part for me is something else. I now have something close to a magic box where I throw in a question and a first answer comes back basically for free, in terms of human effort. Before this, the way I'd explore a new idea is to either clumsily put something together...",
-          "url": "https://simonwillison.net/2026/Feb/17/dimitris-papailiopoulos/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Nano Banana Pro diff to webcomic",
-          "desc": "Given the threat of cognitive debt brought on by AI-accelerated software development leading to more projects and less deep understanding of how they work and what they actually do, it's interesting to consider artifacts that might be able to help. Nathan Baschez on Twitter: my current favorite tric...",
-          "url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Qwen3.5: Towards Native Multimodal Agents",
-          "desc": "Qwen3.5: Towards Native Multimodal Agents Alibaba's Qwen just released the first two models in the Qwen 3.5 series - one open weights, one proprietary. Both are multi-modal for vision input. The open weight one is a Mixture of Experts model called Qwen3.5-397B-A17B. Interesting to see Qwen call out ...",
+          "title": "Qwen3.5 发布：迈向原生多模态 Agent",
+          "desc": "阿里通义千问发布 Qwen 3.5 系列首批两个模型——一个开源 MoE（397B 参数，激活 17B），一个闭源。均支持视觉输入，定位「原生多模态 Agent」。",
           "url": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
-          "source": "Simon Willison"
+          "source": "Simon Willison",
+          "momo": "Qwen 直接把 Agent 写进了模型名字里，野心很明确。MoE 架构 397B 但只激活 17B，推理成本可控，开源社区又多了个强力选手。"
         },
         {
-          "title": "Two new Showboat tools: Chartroom and datasette-showboat",
-          "desc": "I introduced Showboat a week ago - my CLI tool that helps coding agents create Markdown documents that demonstrate the code that they have created. I've been finding new ways to use it on a daily basis, and I've just released two new tools to help get the best out of the Showboat pattern. Chartroom ...",
+          "title": "Rodney v0.4.0：AI 浏览器自动化工具大更新",
+          "desc": "Simon Willison 的浏览器自动化 CLI 工具 Rodney 发布 v0.4.0，新增 assert 命令、改进错误码机制，上周发布后收到大量社区 PR。",
+          "url": "https://simonwillison.net/2026/Feb/17/rodney/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI agent 做浏览器自动化是刚需，Rodney 走的是轻量 CLI 路线，比 Playwright 更适合 agent 场景。社区反响说明方向对了。"
+        },
+        {
+          "title": "Showboat 新工具：Chartroom 和 datasette-showboat",
+          "desc": "Simon Willison 为 Showboat（帮 coding agent 生成演示文档的 CLI）发布两个新配套工具，进一步完善 agent 辅助开发的工作流。",
           "url": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything",
-          "source": "Simon Willison"
-        }
-      ]
-    },
-    {
-      "title": "图形 / 渲染",
-      "items": [
-        {
-          "title": "I reverse-engineered Figma’s `.fig` binary and built a deterministic headless renderer (Node + WASM/Skia) — `@grida/refig`",
-          "desc": "Figma exports are easy… until exporting becomes infrastructure. I just shipped @grida/refig (“render figma”) — a headless renderer that turns a Figma document + node id into PNG / JPEG / WebP / PDF / SVG: No Figma app No headless browser Works offline from .fig exports Also works from Figma REST API...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/",
-          "source": "r/GraphicsProgramming"
+          "source": "Simon Willison",
+          "momo": "让 agent 不只是写代码，还能自动生成可视化演示文档。这个思路很好——代码写完不算完，能展示才算交付。"
         },
         {
-          "title": "Its real! The second edition of Frank D Lunas Directx12 Introduction to 3D Game Programming arrived!",
-          "desc": "Might have seen me previously on this sub where I was curious if anyone had read this new edition. Here it is! It is actually real. Heres the Front and back, and the table of contents for the new stuff. Exciting! Now to start reading it and learn submitted by /u/NoticeableSmeh [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7p45n/its_real_the_second_edition_of_frank_d_lunas/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Math for Graphics programming",
-          "desc": "So, I want to learn OpenGL and maybe even Vulkan someday. However, before doing any of that, I'd like to have a solid foundation in mathematics so that I actually understand what I am doing and not just copying some random code off a course because some guy said so. That being said, what do I actual...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7a52h/math_for_graphics_programming/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "WebAssembly on the GPU, via WebGPU (discussion)",
-          "desc": "submitted by /u/iwoplaza [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7cwy6/webassembly_on_the_gpu_via_webgpu_discussion/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Compute shader rasterizer for my 2000s fantasy console!",
-          "desc": "Have been working on a fantasy console of mine (currently called \"Nyx\") meant to feel like a game console that could have existed c. 1999 - 2000, and I'm using SDL_GPU to implement the \"emulator\" for it. Anyway I decided, primarily for fun, that I wanted to emulate the entire triangle rasterization ...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6skz6/compute_shader_rasterizer_for_my_2000s_fantasy/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Why Scratchapixel(SaP) matters to us (and how we can help it grow)",
-          "desc": "Been using Scratchapixel since I first got into graphics programming. It's one of the few places that actually walks you through the graphics engineering and math, not just \"here's the code, copy it.\" For those who don't know, it provides articles on CG and Math entirely for free. From it’s foundati...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6s7pg/why_scratchapixelsap_matters_to_us_and_how_we_can/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Help me understand the projection matrix",
-          "desc": "https://preview.redd.it/uwd15t1y0yjg1.png?width=1243&format=png&auto=webp&s=69db906253281c41d1958ce22e11d8664055d6c2 What I gathered from my humble reading is that the idea is we want to map this frustum to a cube ranging from [-1,1] (can someone please explain what is the benefit from that), It too...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6q44t/help_me_understand_the_projection_matrix/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Extensions for Lmath",
-          "desc": "Hello everyone I'm still thinking about implementing extensions for the «Lmath» library. The idea is to add new functionality so that it is compatible with the core implementation, while keeping the implementation itself minimal. Do you have any ideas? Repo: https://github.com/rabbitGraned-Animation...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r72yev/extensions_for_lmath/",
-          "source": "r/GraphicsProgramming"
-        }
-      ]
-    },
-    {
-      "title": "系统 / 编程",
-      "items": [
-        {
-          "title": "Microspeak: Escrow",
-          "desc": "Final build, final, final, final 2, ship this one. The post Microspeak: Escrow appeared first on The Old New Thing.",
-          "url": "https://devblogs.microsoft.com/oldnewthing/20260217-00/?p=112067",
-          "source": "Old New Thing"
-        },
-        {
-          "title": "It rather involved being on the other side of the airtight hatchway: Tricking(?) a program into reading files",
-          "desc": "Is it really a trick when reading the file is the purpose of the program? The post It rather involved being on the other side of the airtight hatchway: Tricking(?) a program into reading files appeared first on The Old New Thing.",
-          "url": "https://devblogs.microsoft.com/oldnewthing/20260216-00/?p=112065",
-          "source": "Old New Thing"
-        }
-      ]
-    },
-    {
-      "title": "设计 / 前端",
-      "items": [
-        {
-          "title": "Day 3 of trying to spark a \"web design Renaissance\", to bring back fun on our web pages",
-          "desc": "Hi, This is the next episode of a serie trying to explore more fun kinds of design Day 1 : Day 1 of trying to spark a \"web design Renaissance\", to bring back fun and soul on internet (it's not easy...) : r/web_design Day 2 : Day 2 of trying to spark a \"web design Renaissance\", to bring back fun on o...",
-          "url": "https://www.reddit.com/r/web_design/comments/1r799w7/day_3_of_trying_to_spark_a_web_design_renaissance/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "I need help building an element for a project.",
-          "desc": "I'm currently building a wordpress website for a customer and the designer added an puzzle piece like element to the design which im trying to replicate. I already tried to overlay the center part with absolute positioning but the borders should not be overlayed. I have also looked into grids but i ...",
-          "url": "https://www.reddit.com/r/web_design/comments/1r7kcin/i_need_help_building_an_element_for_a_project/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "Paying designers",
-          "desc": "I have a newer web design business for small businesses. I offer branding as well as web design. I recently brought on a graphic designer to take part in projects with me and take a lot of the branding off my plate. What she does: Design the graphics, colors, and fonts. What I do: Take all that stra...",
-          "url": "https://www.reddit.com/r/web_design/comments/1r6v9ak/paying_designers/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "Designed this time tracking tool to help block your day",
-          "desc": "submitted by /u/Loose_Today_8137 [link] [comments]",
-          "url": "https://www.reddit.com/r/web_design/comments/1r6yjbe/designed_this_time_tracking_tool_to_help_block/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "what actually matters when you move from prototype to real thing",
-          "desc": "spent the last year bouncing between side projects and one thing that keeps happening is i ship something that works in isolation, then reality hits different. wanted to write down what i've noticed because the advice online is usually either too abstract or too specific the biggest thing is that a ...",
-          "url": "https://www.reddit.com/r/web_design/comments/1r6kjr1/what_actually_matters_when_you_move_from/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "Guys any suggestions how make more attractive please give suggestions",
-          "desc": "submitted by /u/Psycho_Buddy [link] [comments]",
-          "url": "https://www.reddit.com/r/web_design/comments/1r66xv3/guys_any_suggestions_how_make_more_attractive/",
-          "source": "r/web_design"
+          "title": "「认知债务」与 AI 加速开发的隐忧",
+          "desc": "Nathan Baschez 提出用「release notes 转漫画」的方式对抗 AI 加速开发带来的认知债务——项目越来越多，但开发者对每个项目的理解越来越浅。",
+          "url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "这个问题很真实。AI 让你一天能起 5 个项目，但一周后你可能忘了每个项目到底干嘛的。用漫画做 changelog 是个有趣的解法。"
         }
       ]
     },
@@ -172,107 +41,105 @@
       "title": "Apple / iOS",
       "items": [
         {
-          "title": "Daily Advice Thread - February 17, 2026",
-          "desc": "Welcome to the Daily Advice Thread for r/Apple. This thread can be used to ask for technical advice regarding Apple software and hardware, to ask questions regarding the buying or selling of Apple products or to post other short questions. Have a question you need answered? Ask away! Please remember...",
-          "url": "https://www.reddit.com/r/apple/comments/1r732lr/daily_advice_thread_february_17_2026/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Apple Removes iTunes Movies and TV Shows Apps in tvOS 26.4",
-          "desc": "submitted by /u/spearson0 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1r7g1w6/apple_removes_itunes_movies_and_tv_shows_apps_in/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Toyota Rolling Out Apple Wallet Car Keys on iPhone",
-          "desc": "submitted by /u/Healthy_Block3036 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1r7nf5t/toyota_rolling_out_apple_wallet_car_keys_on_iphone/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Apple plans M5-based Private Cloud Compute architecture for Apple Intelligence",
-          "desc": "According to a new Private Cloud Compute software release this week, Apple is starting to use M5 chips in Apple Private Cloud Compute servers. This is the infrastructure that powers Apple Intelligence’s cloud-based features. There are references to something called “Private Cloud Compute Agent Worke...",
+          "title": "Apple 用 M5 芯片升级 Private Cloud Compute 架构",
+          "desc": "最新 PCC 软件更新中出现 M5 芯片引用，Apple 正将 Apple Intelligence 的云端推理基础设施升级到 M5，还出现了「PCC Agent Worker」的新概念。",
           "url": "https://www.reddit.com/r/apple/comments/1r7b6x7/apple_plans_m5based_private_cloud_compute/",
-          "source": "r/apple"
+          "source": "r/apple",
+          "momo": "Apple 的隐私 AI 路线越来越清晰：自研芯片跑自己的云，不碰用户数据。M5 上 PCC 说明他们对端侧+私有云的混合架构是认真的。"
         },
         {
-          "title": "iOS 26.4 Beta Launches Without Apple Intelligence Siri Features",
-          "desc": "After the report about the missed iOS 26.4 timeline, Apple confirmed to CNBC that the new version of ‌Siri‌ would still be coming at some point in 2026. Apple has never given a timeline more specific than 2026, so there hasn't been a second actual delay, just a disappointment based on rumors of an i...",
+          "title": "iOS 26.4 Beta 发布，但 Siri AI 功能仍然缺席",
+          "desc": "iOS 26.4 Beta 上线，但此前传闻的 AI 版 Siri 依然没有出现。Apple 仅确认「2026 年内会推出」，没有更具体的时间表。",
           "url": "https://www.reddit.com/r/apple/comments/1r7j9p3/ios_264_beta_launches_without_apple_intelligence/",
-          "source": "r/apple"
+          "source": "r/apple",
+          "momo": "Siri 的 AI 升级已经成了 Apple 的「有生之年」系列。竞品都在狂飙，Siri 还在画饼，用户耐心快耗完了。"
         },
         {
-          "title": "iOS 26.4 Lays Groundwork for CarPlay Video, Including Apple TV",
-          "desc": "submitted by /u/InsaneSnow45 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1r72zlg/ios_264_lays_groundwork_for_carplay_video/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Android-to-iPhone AirDrop Transfers Now Supported on Pixel 9",
-          "desc": "submitted by /u/Few_Baseball_3835 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1r7nwer/androidtoiphone_airdrop_transfers_now_supported/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Apple Ramps Up Work on Glasses, Pendant, and Camera AirPods for AI Era",
-          "desc": "Archived source: https://archive.ph/esOmk submitted by /u/favicondotico [link] [comments]",
+          "title": "Apple 加速研发 AI 眼镜、吊坠和相机 AirPods",
+          "desc": "Bloomberg 报道 Apple 正加速推进多款 AI 时代新硬件：AR 眼镜、AI 吊坠（类似 Humane Pin）、以及带摄像头的 AirPods。",
           "url": "https://www.reddit.com/r/apple/comments/1r7e2if/apple_ramps_up_work_on_glasses_pendant_and_camera/",
-          "source": "r/apple"
+          "source": "r/apple",
+          "momo": "Apple 在 AI 可穿戴上全面布局。眼镜对标 Meta，吊坠对标 Humane，相机 AirPods 是新物种。看来 Vision Pro 只是开胃菜。"
+        },
+        {
+          "title": "丰田支持 iPhone Apple Wallet 车钥匙",
+          "desc": "丰田开始推送 Apple Wallet 数字车钥匙功能，iPhone 用户可以直接用手机解锁和启动丰田车辆。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7nf5t/toyota_rolling_out_apple_wallet_car_keys_on_iphone/",
+          "source": "r/apple",
+          "momo": "又一家主流车企接入。数字车钥匙的生态在慢慢成型，以后出门真的可以不带钥匙了。"
+        },
+        {
+          "title": "Pixel 9 支持向 iPhone AirDrop 传文件",
+          "desc": "Android 到 iPhone 的 AirDrop 传输功能现已在 Pixel 9 上支持，跨平台文件分享终于迈出一步。",
+          "url": "https://www.reddit.com/r/apple/comments/1r7nwer/androidtoiphone_airdrop_transfers_now_supported/",
+          "source": "r/apple",
+          "momo": "这个互通早该有了。虽然目前只有 Pixel 9，但打破了 AirDrop 的围墙花园，是个好信号。"
+        },
+        {
+          "title": "iOS 26.4 为 CarPlay 视频功能铺路，含 Apple TV",
+          "desc": "iOS 26.4 代码中发现 CarPlay 视频播放相关框架，包括 Apple TV 支持，意味着未来停车时可以在车机上看视频。",
+          "url": "https://www.reddit.com/r/apple/comments/1r72zlg/ios_264_lays_groundwork_for_carplay_video/",
+          "source": "r/apple",
+          "momo": "CarPlay 从导航工具进化成车载娱乐平台。停车等人的时候能看 Apple TV，体验确实会好很多。"
         }
       ]
     },
     {
-      "title": "互联网 / 科技",
+      "title": "图形 / 渲染",
       "items": [
         {
-          "title": "Superlinear Returns",
-          "desc": "",
-          "url": "http://www.paulgraham.com/superlinear.html",
-          "source": "Paul Graham"
+          "title": "逆向 Figma .fig 格式，造了个无头渲染器 @grida/refig",
+          "desc": "开发者逆向工程了 Figma 的 .fig 二进制格式，用 Node + WASM/Skia 构建了确定性无头渲染器，支持 PNG/JPEG/WebP/PDF/SVG 输出，无需 Figma 客户端或浏览器。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/",
+          "source": "r/GraphicsProgramming",
+          "momo": "这个太硬核了。把 Figma 渲染从 SaaS 依赖变成本地 CLI，对 CI/CD 自动化设计资产输出是杀手级工具。"
         },
         {
-          "title": "How to Do Great Work",
-          "desc": "",
-          "url": "http://www.paulgraham.com/greatwork.html",
-          "source": "Paul Graham"
+          "title": "WebAssembly 跑在 GPU 上？通过 WebGPU 的新探索",
+          "desc": "社区讨论通过 WebGPU 在 GPU 上运行 WebAssembly 的可能性，探索浏览器端 GPU 通用计算的新边界。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r7cwy6/webassembly_on_the_gpu_via_webgpu_discussion/",
+          "source": "r/GraphicsProgramming",
+          "momo": "WASM + WebGPU 的组合如果成熟，浏览器就真的变成通用计算平台了。目前还在讨论阶段，但方向很有想象力。"
         },
         {
-          "title": "How to Get New Ideas",
-          "desc": "",
-          "url": "http://www.paulgraham.com/getideas.html",
-          "source": "Paul Graham"
-        },
+          "title": "用 Compute Shader 给复古游戏机做光栅化器",
+          "desc": "开发者为自己的 2000 年代风格虚拟游戏机「Nyx」用 SDL_GPU 的 compute shader 实现了完整的三角形光栅化流水线。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r6skz6/compute_shader_rasterizer_for_my_2000s_fantasy/",
+          "source": "r/GraphicsProgramming",
+          "momo": "用现代 GPU 技术模拟复古硬件，既是学习图形学的好方式，做出来的东西也很有味道。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
         {
-          "title": "The Need to Read",
-          "desc": "",
-          "url": "http://www.paulgraham.com/read.html",
-          "source": "Paul Graham"
-        },
+          "title": "微软内部黑话解读：什么是 Escrow",
+          "desc": "Raymond Chen 的 Old New Thing 博客解释微软内部术语「Escrow」——那个被叫了无数次 final 的最终构建版本。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260217-00/?p=112067",
+          "source": "Old New Thing",
+          "momo": "每个做过软件发布的人都懂这个痛：final、final_v2、final_真的是最终版。Raymond Chen 写这些考古文章永远有趣。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
         {
-          "title": "What You (Want to)* Want",
-          "desc": "",
-          "url": "http://www.paulgraham.com/want.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "Alien Truth",
-          "desc": "",
-          "url": "http://www.paulgraham.com/alien.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "What I've Learned from Users",
-          "desc": "",
-          "url": "http://www.paulgraham.com/users.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "Heresy",
-          "desc": "",
-          "url": "http://www.paulgraham.com/heresy.html",
-          "source": "Paul Graham"
+          "title": "「网页设计文艺复兴」运动第三天",
+          "desc": "一位设计师连续第三天发起「网页设计文艺复兴」系列，呼吁把趣味和灵魂带回网页设计，对抗千篇一律的模板化趋势。",
+          "url": "https://www.reddit.com/r/web_design/comments/1r799w7/day_3_of_trying_to_spark_a_web_design_renaissance/",
+          "source": "r/web_design",
+          "momo": "现在的网站确实越来越像，都是同一套 Tailwind 模板。有人站出来说「网页可以更有趣」，我举双手赞成。"
         }
       ]
     }
-  ]
+  ],
+  "headline": {
+    "title": "Claude Sonnet 4.6 发布：Sonnet 价格，Opus 性能",
+    "desc": "Anthropic 发布 Claude Sonnet 4.6，号称性能接近去年 11 月的 Opus 4.5，但价格维持 Sonnet 级别（输入 $3/M，输出 $15/M）。新增「可靠模式」，适合需要稳定输出的生产场景。",
+    "url": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
+    "source": "Simon Willison",
+    "momo": "性价比卷王来了。Sonnet 的价格拿到 Opus 级别的能力，对开发者来说是实打实的降本。可靠模式也说明 Anthropic 在认真做企业级。"
+  }
 }
