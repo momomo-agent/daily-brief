@@ -4,12 +4,12 @@ let startX = 0;
 let isDragging = false;
 
 async function loadIndex() {
-  const res = await fetch('data/index.json');
+  const res = await fetch('data/index.json?v=' + Date.now());
   return res.json();
 }
 
 async function loadDay(date) {
-  const res = await fetch(`data/${date}.json`);
+  const res = await fetch(`data/${date}.json?v=${Date.now()}`);
   return res.json();
 }
 
