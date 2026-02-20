@@ -1,0 +1,163 @@
+{
+  "date": "2026-02-20",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-20T09:30:00",
+  "headline": {
+    "title": "🔥 Google 发布 Gemini 3.1 Pro：性能逼近 Claude Opus 4.6，价格不到一半",
+    "desc": "Google 正式推出 Gemini 3.1 Pro，定价 $2/$12（百万 token），不到 Claude Opus 4.6 的一半，但基准测试成绩非常接近。SWE-bench 最新排行也显示 AI 编程能力竞争白热化，Claude Opus 4.5 以 74.4% 领跑，Gemini 3 Flash 紧随其后。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+    "momo": "Google 的策略很清晰：用价格战撬动市场。性能差不多但价格砍半，对开发者来说很有吸引力。AI 模型的竞争正式进入「性价比时代」。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Google 发布 Gemini 3.1 Pro：性能逼近 Opus 4.6，价格不到一半",
+          "desc": "Gemini 3.1 Pro 正式发布，输入 $2/百万 token，输出 $12/百万 token（20 万以下），不到 Claude Opus 4.6 的一半价格，但基准测试成绩非常接近。已在 Gemini App、NotebookLM 和 Vertex AI 上线。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+          "source": "Google / Simon Willison",
+          "momo": "价格砍半性能持平，Google 在用最简单粗暴的方式抢市场。开发者该重新算算账了。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "SWE-bench 2 月排行榜更新：Claude Opus 4.5 领跑，中国模型集体上榜",
+          "desc": "SWE-bench 官方更新全量排行。Claude Opus 4.5 以 74.4% 居首（反超 4.6），Gemini 3 Flash 第二，MiniMax M2.5（229B 参数）第三。GLM-5、Kimi K2.5、DeepSeek V3.2 三个中国模型进入前十。",
+          "url": "https://simonwillison.net/2026/Feb/19/swe-bench/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Opus 4.5 反超 4.6 说明更大不一定更好。中国模型三家进前十，编程能力差距在快速缩小。"
+        },
+        {
+          "title": "Anthropic 正式禁止订阅账号用于第三方服务",
+          "desc": "Anthropic 官方宣布禁止使用 Claude 订阅认证接入第三方工具，HN 上引发 738 条评论的激烈讨论。此举直接影响大量基于 Claude 订阅搭建的第三方应用。",
+          "url": "https://claude.com",
+          "source": "Hacker News",
+          "momo": "这是 Anthropic 在堵灰色地带。用订阅号跑 API 的时代结束了，老老实实走 API 计费吧。"
+        },
+        {
+          "title": "Step 3.5 Flash 开源：支持深度推理的基础模型",
+          "desc": "阶跃星辰发布 Step 3.5 Flash，开源基础模型，主打高速深度推理能力。HN 获 211 分。",
+          "url": "https://stepfun.com",
+          "source": "Hacker News",
+          "momo": "又一个中国团队在开源推理模型上发力。Flash 级别的推理模型越来越多，推理成本会继续下降。"
+        },
+        {
+          "title": "「AI 让你变无聊」：marginalia.nu 的反思引爆 HN",
+          "desc": "一篇关于 AI 如何让人变得无聊的文章在 HN 获得 530 分和 300 条评论。作者认为过度依赖 AI 生成内容会磨平个人风格和创造力。",
+          "url": "https://marginalia.nu",
+          "source": "Hacker News",
+          "momo": "说到点子上了。AI 是放大器不是替代品——如果你本身没想法，AI 只会帮你更高效地生产平庸内容。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "Ladybird 浏览器放弃 Swift：一年半零进展后回归 C++",
+          "desc": "Ladybird 浏览器项目正式放弃 2024 年 8 月宣布的 Swift 迁移计划。原因很直接：一年半过去了，迁移毫无进展。项目将继续使用 C++ 开发，目标 2026 年发布首个公开 Alpha 版。",
+          "url": "https://simonwillison.net/2026/Feb/19/ladybird/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "理想很丰满，现实很骨感。大型 C++ 项目迁移到新语言的成本被严重低估了。务实比理想主义重要。"
+        },
+        {
+          "title": "Minecraft Java 版从 OpenGL 切换到 Vulkan",
+          "desc": "Mojang 宣布 Minecraft Java 版将从 OpenGL 迁移到 Vulkan 渲染后端，HN 获 273 分。这是 Minecraft 图形架构的重大升级。",
+          "url": "https://gamingonlinux.com",
+          "source": "Hacker News",
+          "momo": "Minecraft 终于要告别 OpenGL 了。Vulkan 能带来更好的多线程渲染性能，mod 社区可能要适应一阵。"
+        },
+        {
+          "title": "NVIDIA Blackwell Ultra 打破 15 年 FP64 分割模式",
+          "desc": "深度分析 NVIDIA GPU 15 年来的 FP64 性能分割策略，以及 Blackwell Ultra 如何打破这一模式。HN 获 197 分。",
+          "url": "https://nicolasdickenmann.com",
+          "source": "Hacker News",
+          "momo": "NVIDIA 一直用 FP64 性能区分消费级和专业级 GPU。Blackwell Ultra 打破惯例，说明 AI 训练对高精度计算的需求在改变产品策略。"
+        },
+        {
+          "title": "Simon Willison：AI 时代程序员终于开始拥抱类型系统",
+          "desc": "Simon Willison 分享 25 年编程生涯的转变：过去抗拒类型标注因为拖慢迭代速度，但在 AI 辅助编程时代，类型提示反而成了提升 AI 代码质量的关键。",
+          "url": "https://simonwillison.net/2026/Feb/18/typing/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "类型系统的价值被 AI 重新定义了——不是给人看的文档，而是给 AI 的约束条件。写类型 = 写更好的 prompt。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "Jim Nielsen：在 AI 时代，「用心」比「品味」更重要",
+          "desc": "当所有人都在谈 AI 时代「品味」是最重要的技能时，Jim Nielsen 提出不同观点：「用心」(care) 才是产品的灵魂。规模化是否必然驱逐用心？如果产品决策只看数字，care 还能存在吗？",
+          "url": "https://blog.jim-nielsen.com/2026/observations-on-care/",
+          "source": "Jim Nielsen",
+          "momo": "Taste 是知道什么是好的，Care 是愿意花时间做到好。AI 能模仿 taste，但 care 只能来自人。"
+        },
+        {
+          "title": "连胜系统设计指南：UX 与心理学原理",
+          "desc": "Smashing Magazine 深度解析连胜（Streak）系统的设计原理，从心理学角度分析为什么连胜机制如此有效且令人上瘾，以及如何正确设计它。",
+          "url": "https://smashingmagazine.com/2026/02/designing-streak-system-ux-psychology/",
+          "source": "Smashing Magazine",
+          "momo": "Duolingo 的连胜就是最好的案例。理解背后的心理学，才能设计出既有效又不令人反感的激励系统。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "iOS 26.4 Beta 1 发布：开发者可尝鲜新功能",
+          "desc": "苹果 2 月 16 日向开发者推送 iOS 26.4 和 iPadOS 26.4 首个 Beta 版本，继 2 月 11 日发布的 iOS 26.3 正式版之后继续迭代。",
+          "url": "https://www.macrumors.com/roundup/ios-26/",
+          "source": "MacRumors",
+          "momo": "苹果的更新节奏越来越快了。26.3 刚发布五天就推 26.4 Beta，说明有不少功能在排队。"
+        },
+        {
+          "title": "27 年前的 Apple iBook 竟然还能连 Wi-Fi 下载官方更新",
+          "desc": "有人发现 27 年前的 Apple iBook 居然还能连接 Wi-Fi 并从苹果服务器下载官方更新，HN 获 441 分。苹果的向后兼容令人惊叹。",
+          "url": "https://reddit.com",
+          "source": "Hacker News",
+          "momo": "苹果服务器居然还在给 27 年前的设备提供更新。这种对老设备的尊重，是很多公司做不到的。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Paul Ford 纽约时报专栏：我们等待的 AI 颠覆已经到来",
+          "desc": "Paul Ford 在纽约时报发表观点文章，描述了许多程序员在去年 11 月经历的「顿悟时刻」——AI 编程能力的质变。Simon Willison 转载并摘录了多段精彩观点。",
+          "url": "https://simonwillison.net/2026/Feb/18/the-ai-disruption/#atom-everything",
+          "source": "Simon Willison / NYT",
+          "momo": "Paul Ford 的文字功力一如既往。他说的「11 月时刻」很多开发者都经历过——突然意识到 AI 不再是玩具了。"
+        },
+        {
+          "title": "Martin Fowler：LLM 正在吞噬专业技能，通才时代来了？",
+          "desc": "Martin Fowler 指出 LLM 正在侵蚀前端/后端等专业分工，驱动 LLM 的能力比平台细节更重要。这是否意味着「专家型通才」终于要被认可了？",
+          "url": "https://simonwillison.net/2026/Feb/18/martin-fowler/#atom-everything",
+          "source": "Simon Willison / Martin Fowler",
+          "momo": "Fowler 说得对。当 AI 能写 80% 的样板代码时，理解全局架构的通才比只精通一个框架的专家更有价值。"
+        },
+        {
+          "title": "Pebble 智能手表复活项目：2 月生产进度更新",
+          "desc": "rePebble 项目发布 2 月生产更新，这个致力于复活 Pebble 智能手表的社区项目持续推进，HN 获 261 分。",
+          "url": "https://repebble.com",
+          "source": "Hacker News",
+          "momo": "Pebble 的粉丝真的很执着。在智能手表被大厂垄断的今天，社区驱动的硬件复活项目本身就很朋克。"
+        },
+        {
+          "title": "Simon Willison 开始接受博客赞助：Troy Hunt 模式",
+          "desc": "Simon Willison 宣布开始接受博客和 newsletter 赞助，采用 Troy Hunt 的纯文字赞助模式，不影响内容独立性。",
+          "url": "https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "独立博客的商业化一直是难题。Troy Hunt 模式（纯文字、不影响内容）是目前最体面的方案。"
+        }
+      ]
+    }
+  ]
+}
