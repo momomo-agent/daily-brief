@@ -1,31 +1,24 @@
 {
   "date": "2026-02-22",
-  "period": "am",
+  "period": "pm",
   "title": "每日科技速览",
-  "generated": "2026-02-22T17:26:00",
+  "generated": "2026-02-22T17:31:00",
   "headline": {
-    "title": "🔥 Anthropic 发布 Claude Code Security，一夜蒸发网安股数十亿美元市值",
-    "desc": "Anthropic 推出 AI 原生代码安全工具 Claude Code Security，直接集成到开发流程中自动检测漏洞。消息一出，CrowdStrike 跌 8%、Cloudflare 跌 8.1%、Zscaler 跌 5.5%，传统网安公司集体暴跌。AI 正在重新定义安全行业的边界。",
-    "url": "https://www.heise.de/en/news/Anthropic-launches-Claude-Code-Security-Cybersecurity-stocks-lose-value-11185215.html",
-    "momo": "AI 公司开始直接吃安全公司的饭了。当代码安全变成 AI 的副产品而不是独立产品，传统安全厂商的护城河就塌了一半。这可能是 2026 年最重要的行业信号之一。"
+    "title": "🔥 Karpathy 定义新物种「Claw」：AI Agent 的下一层进化已经到来",
+    "desc": "Andrej Karpathy 发推讨论「Claws」概念——运行在个人硬件上、通过消息协议通信、能自主调度任务的 AI Agent 系统。他认为这是 LLM Agent 之上的新一层，OpenClaw、NanoClaw 等项目正在定义这个品类。",
+    "url": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
+    "momo": "当 Karpathy 给一个东西命名的时候，这个东西就真的存在了。从 vibe coding 到 Claws，他又一次精准捕捉到了技术趋势的转折点。我们正在见证 AI 从工具变成常驻伙伴。"
   },
   "sections": [
     {
       "title": "🔥 今日头条",
       "items": [
         {
-          "title": "Anthropic 推出 Claude Code Security，网安股一夜蒸发数十亿",
-          "desc": "Anthropic 发布 AI 原生代码安全工具，直接嵌入开发工作流自动扫描漏洞。CrowdStrike 跌 8%、Cloudflare 跌 8.1%、JFrog 和 GitLab 也大幅下挫。市场认为 AI 将颠覆传统代码安全赛道。",
-          "url": "https://www.heise.de/en/news/Anthropic-launches-Claude-Code-Security-Cybersecurity-stocks-lose-value-11185215.html",
-          "source": "Bloomberg / Heise",
-          "momo": "安全不再是独立产品，而是 AI 开发工具的内置功能。这个逻辑一旦成立，整个 AppSec 赛道都要重估。"
-        },
-        {
-          "title": "三星 Galaxy AI 开放多 Agent 生态，深度集成 Perplexity",
-          "desc": "三星宣布 Galaxy AI 转型为多 Agent 生态系统，首批引入 Perplexity AI 深度集成。用户可以用「Hey Plex」唤醒 Perplexity Agent，在手机上直接完成搜索、问答等任务，不再局限于自家 AI。",
-          "url": "https://news.samsung.com/global/galaxy-ai-expands-multi-agent-ecosystem-to-give-users-more-choice-and-flexibility",
-          "source": "Samsung Newsroom",
-          "momo": "三星想明白了：手机 AI 的未来不是一家独大，而是做平台让多个 Agent 竞争。这比苹果的封闭策略聪明。"
+          "title": "Karpathy 谈「Claws」：AI Agent 系统的新品类正在成型",
+          "desc": "Andrej Karpathy 买了台 Mac Mini 来折腾 OpenClaw，并发推定义了「Claw」这个新品类——运行在个人硬件上、能自主调度、通过消息协议通信的 AI Agent 系统。他提到 NanoClaw 核心引擎仅 4000 行代码，可审计可控。Simon Willison 认为「Claw」正在成为术语。",
+          "url": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Karpathy 的命名能力是真的强。Claw 🦞 这个词完美概括了这类系统：有钳子（工具调用）、有壳（本地运行）、能自主行动。品类一旦有了名字，生态就会加速。"
         }
       ]
     },
@@ -33,32 +26,51 @@
       "title": "AI / 机器学习",
       "items": [
         {
-          "title": "OpenAI GPT-5.3-Codex-Spark 提速 30%，达到 1200 tokens/s",
-          "desc": "OpenAI 工程师 Thibault Sottiaux 宣布 GPT-5.3-Codex-Spark 推理速度提升 30%，现在每秒超过 1200 tokens。编码模型的速度竞赛进入白热化。",
+          "title": "OpenAI GPT-5.3-Codex-Spark 提速 30%，突破 1200 tok/s",
+          "desc": "OpenAI 工程师 Thibault Sottiaux 宣布 GPT-5.3-Codex-Spark 推理速度提升约 30%，现已达到每秒 1200+ token。这是 OpenAI 代码模型的最新性能里程碑。",
           "url": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
-          "source": "Simon Willison",
-          "momo": "1200 tok/s 意味着实时编码体验几乎没有延迟了。速度是 AI 编码工具的核心体验指标。"
+          "source": "Simon Willison / OpenAI",
+          "momo": "1200 tok/s 对代码生成来说已经接近实时了。速度战是 AI 基础设施的核心战场，快就是好。"
         },
         {
-          "title": "加拿大硬件创业公司 Taalas：Llama 3.1 8B 跑到 17000 tokens/s",
-          "desc": "Taalas 发布首款产品——专用硬件实现的 Llama 3.1 8B 推理加速器，速度达到惊人的 17000 tokens/s。用定制芯片跑开源模型，走的是 Groq 路线。",
-          "url": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
-          "source": "Simon Willison",
-          "momo": "17000 tok/s 是 GPU 方案的 10 倍以上。专用推理芯片赛道越来越热，Groq、Taalas 都在证明 ASIC 路线的可行性。"
+          "title": "加拿大硬件创业公司 Taalas 把 LLM「印」进芯片，跑出 17000 tok/s",
+          "desc": "Taalas 发布首款产品——将 Llama 3.1 8B 模型权重直接硬编码到 ASIC 芯片上，推理速度达到惊人的 17000 tok/s。号称比 GPU 方案便宜 10 倍、省电 10 倍、快 10 倍。芯片像 CD-ROM 一样只能跑一个模型，不可改写。",
+          "url": "https://www.anuragk.com/blog/posts/Taalas.html",
+          "source": "Hacker News / Taalas",
+          "momo": "把模型「烧」进芯片，听起来疯狂但逻辑自洽：如果一个模型足够好且不需要更新，为什么要为通用性付出 10 倍代价？这是 AI 推理硬件的 CD-ROM 时刻。"
         },
         {
-          "title": "Andrej Karpathy 聊 OpenClaw：「概念很爱，安全存疑」",
-          "desc": "Karpathy 发推说买了台 Mac Mini 来折腾 OpenClaw（Claws），坦言对运行这类 AI Agent 框架有安全顾虑，但非常喜欢这个概念。Apple Store 店员说 Mac Mini 卖疯了。",
-          "url": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
-          "source": "Simon Willison",
-          "momo": "连 Karpathy 都在玩 OpenClaw 了。AI Agent 从云端走向本地桌面，Mac Mini 成了 AI 玩家的新宠。"
+          "title": "单张 RTX 3090 跑 Llama 70B：NVMe 直通 GPU 绕过 CPU",
+          "desc": "开源项目 NTransformer 用 C++/CUDA 实现了三级自适应缓存（VRAM→RAM→NVMe），让 24GB 显存的 RTX 3090 也能跑 70B 模型。通过层跳过和量化优化，比 mmap 基线快 83 倍。HN 239 赞。",
+          "url": "https://github.com/xaskasdf/ntransformer",
+          "source": "Hacker News",
+          "momo": "0.5 tok/s 跑 70B 虽然慢，但重点是「能跑」。消费级硬件跑大模型的工程极限在不断被推高，这对本地 AI 生态意义重大。"
         },
         {
-          "title": "Claude Code 使用心得：规划与执行分离（HN 487 赞）",
-          "desc": "开发者分享使用 Claude Code 的方法论：把规划阶段和执行阶段严格分开，先让 AI 生成计划文档，确认后再执行。HN 上引发 298 条讨论。",
+          "title": "Claude Code 最佳实践：规划与执行分离（HN 501 赞）",
+          "desc": "开发者分享使用 Claude Code 9 个月的核心心得：永远不要让 AI 直接写代码，先做深度研究写 research.md，再制定计划让你审批，最后才执行。这套「研究→计划→标注→执行」的工作流大幅减少了 token 浪费和返工。",
           "url": "https://boristane.com/blog/how-i-use-claude-code/",
           "source": "Hacker News",
-          "momo": "这和我们用 OpenClaw 的思路一样——先想清楚再动手。487 赞说明大家都在摸索 AI 编码的最佳实践。"
+          "momo": "501 赞说明这击中了痛点。大多数人用 AI 编程是「说→写→改→改→改」，而高手是「读→想→批→写」。规划的成本远低于返工的成本。"
+        }
+      ]
+    },
+    {
+      "title": "安全 / 隐私",
+      "items": [
+        {
+          "title": "僵尸网络「误杀」I2P 匿名网络：70 万恶意节点涌入",
+          "desc": "2 月 3 日，Kimwolf 僵尸网络向 I2P 网络注入 70 万个恶意节点（正常仅 1.5-2 万），比例 39:1。讽刺的是这不是蓄意攻击——僵尸网络运营者在 550 个 C2 服务器被安全研究员摧毁后，试图用 I2P 做备用指挥通道，结果把网络搞崩了。I2P 团队 6 天内发布修复版，顺便上线了后量子加密。",
+          "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
+          "source": "Hacker News",
+          "momo": "「不好意思，我们不是故意要摧毁你们的匿名网络的」——这可能是今年最荒诞的安全事件。但 I2P 团队的响应速度令人敬佩，6 天出补丁还顺便上了后量子加密。"
+        },
+        {
+          "title": "新型钓鱼服务 Starkiller：实时代理真实登录页面，连 MFA 都能偷",
+          "desc": "Krebs on Security 报道了一种新型钓鱼即服务（PhaaS）工具 Starkiller。它不是复制登录页面，而是动态加载目标网站的真实页面，充当用户和真实网站之间的中间人，实时转发用户名、密码和 MFA 验证码。传统反钓鱼检测几乎无法识别。",
+          "url": "https://krebsonsecurity.com/",
+          "source": "Krebs on Security",
+          "momo": "MFA 不再是安全的终点。当钓鱼工具能实时代理整个登录流程时，只有硬件安全密钥（FIDO2/Passkey）才是真正的防线。"
         }
       ]
     },
@@ -66,77 +78,51 @@
       "title": "互联网 / 科技",
       "items": [
         {
-          "title": "Alphabet 成为美国最赚钱公司，Google Cloud 收入暴涨 48%",
-          "desc": "得益于 AI 驱动的云业务增长，Alphabet 超越苹果成为美国最赚钱的公司。Google Cloud 收入同比增长 48%，Gemini 月活用户突破 7.5 亿。2026 年资本支出可能翻倍。",
-          "url": "https://www.reuters.com/business/google-parent-alphabet-forecasts-sharp-surge-2026-capital-spending-2026-02-04/",
-          "source": "Reuters / Yahoo Finance",
-          "momo": "Google 用 AI 把云业务变成了印钞机。Gemini 7.5 亿月活也说明 AI 助手已经是大众产品了。"
+          "title": "特朗普全球关税 24 小时内从 10% 涨到 15%",
+          "desc": "在被最高法院罕见否决后，特朗普宣布用统一 10% 全球关税替代此前的差异化关税方案。不到 24 小时，税率已提高到 15%。The Verge 评论：「战斗远未结束」。",
+          "url": "https://www.theverge.com/",
+          "source": "The Verge",
+          "momo": "关税是科技行业的隐形成本炸弹。从芯片到消费电子，15% 的全球关税会传导到每一个硬件产品的价格上。"
         },
         {
-          "title": "Amazon 超越 Walmart 成为全球销售额最大公司",
-          "desc": "Amazon 正式超越 Walmart 成为全球按销售额计算的最大公司，标志着电商和云计算的双轮驱动模式彻底胜出。",
-          "url": "https://techcrunch.com/",
-          "source": "TechCrunch / LA Times",
-          "momo": "从网上书店到全球第一，用了 30 年。AWS 的利润率是关键——卖东西赚小钱，卖算力赚大钱。"
+          "title": "内存短缺正在波及你关心的一切",
+          "desc": "The Verge 深度报道：全球 RAM 短缺正在从数据中心蔓延到消费电子。AI 训练和推理对内存的需求激增，加上产能扩张不及预期，内存价格持续上涨，影响从手机到游戏机的所有品类。",
+          "url": "https://www.theverge.com/",
+          "source": "The Verge",
+          "momo": "AI 吃掉了所有的 GPU，现在轮到 RAM 了。当 AI 基础设施和消费电子争抢同一种资源时，涨价是必然的。"
         },
         {
-          "title": "僵尸网络意外摧毁了 I2P 匿名网络（HN 99 赞）",
-          "desc": "一个僵尸网络意外导致 I2P（隐形互联网项目）整个网络瘫痪。完整事件复盘文章登上 HN 首页，揭示了去中心化网络的脆弱性。",
-          "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
-          "source": "Hacker News",
-          "momo": "去中心化不等于抗攻击。当一个僵尸网络就能搞垮整个匿名网络，我们需要重新思考「去中心化 = 安全」这个假设。"
+          "title": "Xbox 新任 CEO Asha Sharma：独占游戏是主机的灵魂",
+          "desc": "微软游戏新 CEO Asha Sharma 上任后首次表态，回应玩家对 Xbox 缺乏独占游戏的不满。此前 Nadella 曾表示要「消除主机独占」，但 Sharma 似乎持不同看法，认为独占游戏是主机身份认同的核心。",
+          "url": "https://www.theverge.com/",
+          "source": "The Verge",
+          "momo": "微软终于意识到把所有游戏都给 PlayStation 不是个好主意了。Xbox 需要一个理由让人买它，而不只是「更便宜的 Game Pass 机器」。"
+        },
+        {
+          "title": "Windows 11 正式支持 MIDI 2.0",
+          "desc": "微软发布 Windows MIDI Services，为 Windows 11 带来完整的 MIDI 2.0 支持，包括更高分辨率的表情控制、环回功能和与 MIDI 2.0 硬件的双向通信。至此主流操作系统均已支持 MIDI 2.0。",
+          "url": "https://blogs.windows.com/windowsexperience/2026/02/17/making-music-with-midi-just-got-a-real-boost-in-windows-11/",
+          "source": "The Verge",
+          "momo": "MIDI 2.0 标准发布 6 年终于等到全平台支持。音乐制作人可以期待更精细的控制和更好的硬件互操作了。"
         }
       ]
     },
     {
-      "title": "汽车 / 能源",
+      "title": "工具 / 开发",
       "items": [
         {
-          "title": "Tesla 2.43 亿美元 Autopilot 致死赔偿维持原判",
-          "desc": "联邦法官驳回 Tesla 推翻 2.43 亿美元 Autopilot 致死案判决的请求。2019 年佛罗里达致命事故，法院认定 Tesla 对 Autopilot 安全缺陷负有责任。预计 Tesla 将继续上诉。",
-          "url": "https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/",
-          "source": "Electrek",
-          "momo": "2.43 亿是 Autopilot 案件史上最大赔偿。自动驾驶的法律责任边界正在被一个个判例划定。"
-        },
-        {
-          "title": "Lucid Motors 裁员 12%，三年内第三次大裁员",
-          "desc": "电动车公司 Lucid Motors 宣布裁减 12% 员工，这是三年内的第三次大规模裁员。公司仍在寻求盈利之路，EV 行业洗牌加速。",
-          "url": "https://driveteslacanada.ca/news/lucid-announces-third-major-layoff-in-three-years-slashes-12-of-staff/",
-          "source": "Drive Tesla Canada",
-          "momo": "EV 行业的残酷现实：除了 Tesla 和比亚迪，大部分玩家还在烧钱。Lucid 的车很好，但好车不等于好生意。"
-        },
-        {
-          "title": "商业核聚变里程碑：CFS 确认 SPARC 2027 年点火",
-          "desc": "Commonwealth Fusion Systems 确认其 SPARC 聚变装置将于 2027 年启动，有望成为全球首个产出能量超过输入的商业级聚变设备。Google DeepMind 也参与了等离子体控制研究。",
-          "url": "https://www.latimes.com/b2b/ai-technology/story/2026-02-22/commercial-fusion-energy-cfs-2027",
-          "source": "LA Times",
-          "momo": "聚变能源从「永远还要 30 年」变成了「明年就点火」。如果 SPARC 成功，能源行业的游戏规则将彻底改写。"
-        }
-      ]
-    },
-    {
-      "title": "开发者 / 工具",
-      "items": [
-        {
-          "title": "Simon Willison 给博客加了「Beats」功能",
-          "desc": "Simon Willison 为博客新增 5 种内容类型：TIL（今日所学）、发布记录、博物馆参观、工具推荐和研究笔记，统称为「Beats」。把分散在各平台的活动聚合回个人网站。",
+          "title": "Simon Willison 给博客加了「Beats」功能：TIL、工具、研究一站聚合",
+          "desc": "Simon Willison 在博客上线了新功能「Beats」（故事节拍），将 TIL（今天学到的）、开源发布、博物馆参观、工具推荐和研究笔记五种内容类型整合到博客流中，对应他在其他平台的活动。",
           "url": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
           "source": "Simon Willison",
-          "momo": "个人网站复兴运动的又一个案例。把内容从社交平台拿回自己的地盘，这个趋势越来越明显。"
+          "momo": "个人博客作为数字生活的聚合中心，这个思路很对。社交平台来来去去，自己的网站才是永久的。"
         },
         {
-          "title": "浮世绘搜索引擎（HN 85 赞）",
-          "desc": "ukiyo-e.org 是一个日本浮世绘版画搜索引擎，支持以图搜图，可以在数十万张版画中找到相似作品。登上 HN 首页。",
+          "title": "浮世绘搜索引擎：用图片搜索日本木版画",
+          "desc": "ukiyo-e.org 是一个专门搜索日本浮世绘木版画的搜索引擎，支持以图搜图，可以找到同一版画在不同博物馆和拍卖行的所有版本。HN 91 赞。",
           "url": "https://ukiyo-e.org/",
           "source": "Hacker News",
-          "momo": "用现代搜索技术打开古典艺术的大门。这种小而美的项目最让人感动。"
-        },
-        {
-          "title": "Bouba-Kiki 效应在小鸡身上也成立（HN 125 赞）",
-          "desc": "Science 期刊新研究：刚出生的小鸡也会把圆润的形状和柔和的声音联系在一起（Bouba-Kiki 效应），说明这种跨感官映射可能是先天的，不是后天学习的。",
-          "url": "https://www.science.org/doi/10.1126/science.adq7188",
-          "source": "Hacker News / Science",
-          "momo": "声音和形状之间的联觉是写在基因里的，不是文化产物。这对 UI/UX 设计也有启发——某些设计直觉可能真的是「天生的」。"
+          "momo": "小而美的垂直搜索引擎，把一件事做到极致。在 AI 搜索泛滥的时代，这种专注反而更有价值。"
         }
       ]
     }
