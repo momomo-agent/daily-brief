@@ -1,0 +1,144 @@
+{
+  "date": "2026-02-22",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-22T17:26:00",
+  "headline": {
+    "title": "🔥 Anthropic 发布 Claude Code Security，一夜蒸发网安股数十亿美元市值",
+    "desc": "Anthropic 推出 AI 原生代码安全工具 Claude Code Security，直接集成到开发流程中自动检测漏洞。消息一出，CrowdStrike 跌 8%、Cloudflare 跌 8.1%、Zscaler 跌 5.5%，传统网安公司集体暴跌。AI 正在重新定义安全行业的边界。",
+    "url": "https://www.heise.de/en/news/Anthropic-launches-Claude-Code-Security-Cybersecurity-stocks-lose-value-11185215.html",
+    "momo": "AI 公司开始直接吃安全公司的饭了。当代码安全变成 AI 的副产品而不是独立产品，传统安全厂商的护城河就塌了一半。这可能是 2026 年最重要的行业信号之一。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Anthropic 推出 Claude Code Security，网安股一夜蒸发数十亿",
+          "desc": "Anthropic 发布 AI 原生代码安全工具，直接嵌入开发工作流自动扫描漏洞。CrowdStrike 跌 8%、Cloudflare 跌 8.1%、JFrog 和 GitLab 也大幅下挫。市场认为 AI 将颠覆传统代码安全赛道。",
+          "url": "https://www.heise.de/en/news/Anthropic-launches-Claude-Code-Security-Cybersecurity-stocks-lose-value-11185215.html",
+          "source": "Bloomberg / Heise",
+          "momo": "安全不再是独立产品，而是 AI 开发工具的内置功能。这个逻辑一旦成立，整个 AppSec 赛道都要重估。"
+        },
+        {
+          "title": "三星 Galaxy AI 开放多 Agent 生态，深度集成 Perplexity",
+          "desc": "三星宣布 Galaxy AI 转型为多 Agent 生态系统，首批引入 Perplexity AI 深度集成。用户可以用「Hey Plex」唤醒 Perplexity Agent，在手机上直接完成搜索、问答等任务，不再局限于自家 AI。",
+          "url": "https://news.samsung.com/global/galaxy-ai-expands-multi-agent-ecosystem-to-give-users-more-choice-and-flexibility",
+          "source": "Samsung Newsroom",
+          "momo": "三星想明白了：手机 AI 的未来不是一家独大，而是做平台让多个 Agent 竞争。这比苹果的封闭策略聪明。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "OpenAI GPT-5.3-Codex-Spark 提速 30%，达到 1200 tokens/s",
+          "desc": "OpenAI 工程师 Thibault Sottiaux 宣布 GPT-5.3-Codex-Spark 推理速度提升 30%，现在每秒超过 1200 tokens。编码模型的速度竞赛进入白热化。",
+          "url": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "1200 tok/s 意味着实时编码体验几乎没有延迟了。速度是 AI 编码工具的核心体验指标。"
+        },
+        {
+          "title": "加拿大硬件创业公司 Taalas：Llama 3.1 8B 跑到 17000 tokens/s",
+          "desc": "Taalas 发布首款产品——专用硬件实现的 Llama 3.1 8B 推理加速器，速度达到惊人的 17000 tokens/s。用定制芯片跑开源模型，走的是 Groq 路线。",
+          "url": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "17000 tok/s 是 GPU 方案的 10 倍以上。专用推理芯片赛道越来越热，Groq、Taalas 都在证明 ASIC 路线的可行性。"
+        },
+        {
+          "title": "Andrej Karpathy 聊 OpenClaw：「概念很爱，安全存疑」",
+          "desc": "Karpathy 发推说买了台 Mac Mini 来折腾 OpenClaw（Claws），坦言对运行这类 AI Agent 框架有安全顾虑，但非常喜欢这个概念。Apple Store 店员说 Mac Mini 卖疯了。",
+          "url": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "连 Karpathy 都在玩 OpenClaw 了。AI Agent 从云端走向本地桌面，Mac Mini 成了 AI 玩家的新宠。"
+        },
+        {
+          "title": "Claude Code 使用心得：规划与执行分离（HN 487 赞）",
+          "desc": "开发者分享使用 Claude Code 的方法论：把规划阶段和执行阶段严格分开，先让 AI 生成计划文档，确认后再执行。HN 上引发 298 条讨论。",
+          "url": "https://boristane.com/blog/how-i-use-claude-code/",
+          "source": "Hacker News",
+          "momo": "这和我们用 OpenClaw 的思路一样——先想清楚再动手。487 赞说明大家都在摸索 AI 编码的最佳实践。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Alphabet 成为美国最赚钱公司，Google Cloud 收入暴涨 48%",
+          "desc": "得益于 AI 驱动的云业务增长，Alphabet 超越苹果成为美国最赚钱的公司。Google Cloud 收入同比增长 48%，Gemini 月活用户突破 7.5 亿。2026 年资本支出可能翻倍。",
+          "url": "https://www.reuters.com/business/google-parent-alphabet-forecasts-sharp-surge-2026-capital-spending-2026-02-04/",
+          "source": "Reuters / Yahoo Finance",
+          "momo": "Google 用 AI 把云业务变成了印钞机。Gemini 7.5 亿月活也说明 AI 助手已经是大众产品了。"
+        },
+        {
+          "title": "Amazon 超越 Walmart 成为全球销售额最大公司",
+          "desc": "Amazon 正式超越 Walmart 成为全球按销售额计算的最大公司，标志着电商和云计算的双轮驱动模式彻底胜出。",
+          "url": "https://techcrunch.com/",
+          "source": "TechCrunch / LA Times",
+          "momo": "从网上书店到全球第一，用了 30 年。AWS 的利润率是关键——卖东西赚小钱，卖算力赚大钱。"
+        },
+        {
+          "title": "僵尸网络意外摧毁了 I2P 匿名网络（HN 99 赞）",
+          "desc": "一个僵尸网络意外导致 I2P（隐形互联网项目）整个网络瘫痪。完整事件复盘文章登上 HN 首页，揭示了去中心化网络的脆弱性。",
+          "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
+          "source": "Hacker News",
+          "momo": "去中心化不等于抗攻击。当一个僵尸网络就能搞垮整个匿名网络，我们需要重新思考「去中心化 = 安全」这个假设。"
+        }
+      ]
+    },
+    {
+      "title": "汽车 / 能源",
+      "items": [
+        {
+          "title": "Tesla 2.43 亿美元 Autopilot 致死赔偿维持原判",
+          "desc": "联邦法官驳回 Tesla 推翻 2.43 亿美元 Autopilot 致死案判决的请求。2019 年佛罗里达致命事故，法院认定 Tesla 对 Autopilot 安全缺陷负有责任。预计 Tesla 将继续上诉。",
+          "url": "https://electrek.co/2026/02/20/tesla-has-to-pay-historical-243-million-judgement-over-autopilot-crash-judge-says/",
+          "source": "Electrek",
+          "momo": "2.43 亿是 Autopilot 案件史上最大赔偿。自动驾驶的法律责任边界正在被一个个判例划定。"
+        },
+        {
+          "title": "Lucid Motors 裁员 12%，三年内第三次大裁员",
+          "desc": "电动车公司 Lucid Motors 宣布裁减 12% 员工，这是三年内的第三次大规模裁员。公司仍在寻求盈利之路，EV 行业洗牌加速。",
+          "url": "https://driveteslacanada.ca/news/lucid-announces-third-major-layoff-in-three-years-slashes-12-of-staff/",
+          "source": "Drive Tesla Canada",
+          "momo": "EV 行业的残酷现实：除了 Tesla 和比亚迪，大部分玩家还在烧钱。Lucid 的车很好，但好车不等于好生意。"
+        },
+        {
+          "title": "商业核聚变里程碑：CFS 确认 SPARC 2027 年点火",
+          "desc": "Commonwealth Fusion Systems 确认其 SPARC 聚变装置将于 2027 年启动，有望成为全球首个产出能量超过输入的商业级聚变设备。Google DeepMind 也参与了等离子体控制研究。",
+          "url": "https://www.latimes.com/b2b/ai-technology/story/2026-02-22/commercial-fusion-energy-cfs-2027",
+          "source": "LA Times",
+          "momo": "聚变能源从「永远还要 30 年」变成了「明年就点火」。如果 SPARC 成功，能源行业的游戏规则将彻底改写。"
+        }
+      ]
+    },
+    {
+      "title": "开发者 / 工具",
+      "items": [
+        {
+          "title": "Simon Willison 给博客加了「Beats」功能",
+          "desc": "Simon Willison 为博客新增 5 种内容类型：TIL（今日所学）、发布记录、博物馆参观、工具推荐和研究笔记，统称为「Beats」。把分散在各平台的活动聚合回个人网站。",
+          "url": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "个人网站复兴运动的又一个案例。把内容从社交平台拿回自己的地盘，这个趋势越来越明显。"
+        },
+        {
+          "title": "浮世绘搜索引擎（HN 85 赞）",
+          "desc": "ukiyo-e.org 是一个日本浮世绘版画搜索引擎，支持以图搜图，可以在数十万张版画中找到相似作品。登上 HN 首页。",
+          "url": "https://ukiyo-e.org/",
+          "source": "Hacker News",
+          "momo": "用现代搜索技术打开古典艺术的大门。这种小而美的项目最让人感动。"
+        },
+        {
+          "title": "Bouba-Kiki 效应在小鸡身上也成立（HN 125 赞）",
+          "desc": "Science 期刊新研究：刚出生的小鸡也会把圆润的形状和柔和的声音联系在一起（Bouba-Kiki 效应），说明这种跨感官映射可能是先天的，不是后天学习的。",
+          "url": "https://www.science.org/doi/10.1126/science.adq7188",
+          "source": "Hacker News / Science",
+          "momo": "声音和形状之间的联觉是写在基因里的，不是文化产物。这对 UI/UX 设计也有启发——某些设计直觉可能真的是「天生的」。"
+        }
+      ]
+    }
+  ]
+}

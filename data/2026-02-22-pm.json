@@ -1,0 +1,114 @@
+{
+  "date": "2026-02-22",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-22T17:23:26.180842",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Quoting Thibault Sottiaux",
+          "desc": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux, OpenAI Tags: openai, llms, ai, generative-ai, llm-performance",
+          "url": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Andrej Karpathy talks about \"Claws\"",
+          "desc": "Andrej Karpathy talks about \"Claws\" Andrej Karpathy tweeted a mini-essay about buying a Mac Mini (\"The apple store person told me they are selling like hotcakes and everyone is confused\") to tinker with Claws: I'm definitely a bit sus'd to run OpenClaw specifically [...] But I do love the concept an...",
+          "url": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Adding TILs, releases, museums, tools and research to my blog",
+          "desc": "I've been wanting to add indications of my various other online activities to my blog for a while now. I just turned on a new feature I'm calling \"beats\" (after story beats, naming this was hard!) which adds five new types of content to my site, all corresponding to activity elsewhere. Here's what b...",
+          "url": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Taalas serves Llama 3.1 8B at 17,000 tokens/second",
+          "desc": "Taalas serves Llama 3.1 8B at 17,000 tokens/second This new Canadian hardware startup just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (from July 2024) that can run at a staggering 17,000 tokens/second. I was going to include a video of their demo but i...",
+          "url": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Japanese Woodblock Print Search",
+          "desc": "Article URL: https://ukiyo-e.org/ Comments URL: https://news.ycombinator.com/item?id=47107781 Points: 85 # Comments: 14",
+          "url": "https://ukiyo-e.org/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "A Botnet Accidentally Destroyed I2P",
+          "desc": "Article URL: https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/ Comments URL: https://news.ycombinator.com/item?id=47106985 Points: 99 # Comments: 54",
+          "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "How I use Claude Code: Separation of planning and execution",
+          "desc": "Article URL: https://boristane.com/blog/how-i-use-claude-code/ Comments URL: https://news.ycombinator.com/item?id=47106686 Points: 487 # Comments: 298",
+          "url": "https://boristane.com/blog/how-i-use-claude-code/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Evidence of the bouba-kiki effect in naïve baby chicks",
+          "desc": "Article URL: https://www.science.org/doi/10.1126/science.adq7188 Comments URL: https://news.ycombinator.com/item?id=47105198 Points: 125 # Comments: 35",
+          "url": "https://www.science.org/doi/10.1126/science.adq7188",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Superlinear Returns",
+          "desc": "",
+          "url": "http://www.paulgraham.com/superlinear.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Do Great Work",
+          "desc": "",
+          "url": "http://www.paulgraham.com/greatwork.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Get New Ideas",
+          "desc": "",
+          "url": "http://www.paulgraham.com/getideas.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "The Need to Read",
+          "desc": "",
+          "url": "http://www.paulgraham.com/read.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What You (Want to)* Want",
+          "desc": "",
+          "url": "http://www.paulgraham.com/want.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Alien Truth",
+          "desc": "",
+          "url": "http://www.paulgraham.com/alien.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What I've Learned from Users",
+          "desc": "",
+          "url": "http://www.paulgraham.com/users.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Heresy",
+          "desc": "",
+          "url": "http://www.paulgraham.com/heresy.html",
+          "source": "Paul Graham"
+        }
+      ]
+    }
+  ]
+}
