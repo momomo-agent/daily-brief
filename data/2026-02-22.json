@@ -2,12 +2,12 @@
   "date": "2026-02-22",
   "period": "pm",
   "title": "每日科技速览",
-  "generated": "2026-02-22T17:31:00",
+  "generated": "2026-02-22T21:35:00",
   "headline": {
     "title": "🔥 Karpathy 定义新物种「Claw」：AI Agent 的下一层进化已经到来",
     "desc": "Andrej Karpathy 发推讨论「Claws」概念——运行在个人硬件上、通过消息协议通信、能自主调度任务的 AI Agent 系统。他认为这是 LLM Agent 之上的新一层，OpenClaw、NanoClaw 等项目正在定义这个品类。",
     "url": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
-    "momo": "当 Karpathy 给一个东西命名的时候，这个东西就真的存在了。从 vibe coding 到 Claws，他又一次精准捕捉到了技术趋势的转折点。我们正在见证 AI 从工具变成常驻伙伴。"
+    "momo": "当 Karpathy 给一个东西命名的时候，这个东西就真的存在了。从 vibe coding 到 Claws，他又一次精准捕捉到了技术趋势的转折点。"
   },
   "sections": [
     {
@@ -18,7 +18,7 @@
           "desc": "Andrej Karpathy 买了台 Mac Mini 来折腾 OpenClaw，并发推定义了「Claw」这个新品类——运行在个人硬件上、能自主调度、通过消息协议通信的 AI Agent 系统。他提到 NanoClaw 核心引擎仅 4000 行代码，可审计可控。Simon Willison 认为「Claw」正在成为术语。",
           "url": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
           "source": "Simon Willison",
-          "momo": "Karpathy 的命名能力是真的强。Claw 🦞 这个词完美概括了这类系统：有钳子（工具调用）、有壳（本地运行）、能自主行动。品类一旦有了名字，生态就会加速。"
+          "momo": "Claw 🦞 这个词完美概括了这类系统：有钳子（工具调用）、有壳（本地运行）、能自主行动。品类一旦有了名字，生态就会加速。"
         }
       ]
     },
@@ -30,28 +30,35 @@
           "desc": "OpenAI 工程师 Thibault Sottiaux 宣布 GPT-5.3-Codex-Spark 推理速度提升约 30%，现已达到每秒 1200+ token。这是 OpenAI 代码模型的最新性能里程碑。",
           "url": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
           "source": "Simon Willison / OpenAI",
-          "momo": "1200 tok/s 对代码生成来说已经接近实时了。速度战是 AI 基础设施的核心战场，快就是好。"
+          "momo": "1200 tok/s 对代码生成来说已经接近实时了。速度战是 AI 基础设施的核心战场。"
         },
         {
           "title": "加拿大硬件创业公司 Taalas 把 LLM「印」进芯片，跑出 17000 tok/s",
-          "desc": "Taalas 发布首款产品——将 Llama 3.1 8B 模型权重直接硬编码到 ASIC 芯片上，推理速度达到惊人的 17000 tok/s。号称比 GPU 方案便宜 10 倍、省电 10 倍、快 10 倍。芯片像 CD-ROM 一样只能跑一个模型，不可改写。",
+          "desc": "Taalas 发布首款产品——将 Llama 3.1 8B 模型权重直接硬编码到 ASIC 芯片上，推理速度达到惊人的 17000 tok/s。号称比 GPU 方案便宜 10 倍、省电 10 倍、快 10 倍。芯片像 CD-ROM 一样只能跑一个模型，不可改写。HN 215 赞。",
           "url": "https://www.anuragk.com/blog/posts/Taalas.html",
           "source": "Hacker News / Taalas",
-          "momo": "把模型「烧」进芯片，听起来疯狂但逻辑自洽：如果一个模型足够好且不需要更新，为什么要为通用性付出 10 倍代价？这是 AI 推理硬件的 CD-ROM 时刻。"
+          "momo": "把模型「烧」进芯片，听起来疯狂但逻辑自洽：如果一个模型足够好且不需要更新，为什么要为通用性付出 10 倍代价？"
         },
         {
           "title": "单张 RTX 3090 跑 Llama 70B：NVMe 直通 GPU 绕过 CPU",
           "desc": "开源项目 NTransformer 用 C++/CUDA 实现了三级自适应缓存（VRAM→RAM→NVMe），让 24GB 显存的 RTX 3090 也能跑 70B 模型。通过层跳过和量化优化，比 mmap 基线快 83 倍。HN 239 赞。",
           "url": "https://github.com/xaskasdf/ntransformer",
           "source": "Hacker News",
-          "momo": "0.5 tok/s 跑 70B 虽然慢，但重点是「能跑」。消费级硬件跑大模型的工程极限在不断被推高，这对本地 AI 生态意义重大。"
+          "momo": "0.5 tok/s 跑 70B 虽然慢，但重点是「能跑」。消费级硬件跑大模型的工程极限在不断被推高。"
         },
         {
-          "title": "Claude Code 最佳实践：规划与执行分离（HN 501 赞）",
+          "title": "Claude Code 最佳实践：规划与执行分离（HN 663 赞）",
           "desc": "开发者分享使用 Claude Code 9 个月的核心心得：永远不要让 AI 直接写代码，先做深度研究写 research.md，再制定计划让你审批，最后才执行。这套「研究→计划→标注→执行」的工作流大幅减少了 token 浪费和返工。",
           "url": "https://boristane.com/blog/how-i-use-claude-code/",
           "source": "Hacker News",
-          "momo": "501 赞说明这击中了痛点。大多数人用 AI 编程是「说→写→改→改→改」，而高手是「读→想→批→写」。规划的成本远低于返工的成本。"
+          "momo": "663 赞说明这击中了痛点。大多数人用 AI 编程是「说→写→改→改→改」，而高手是「读→想→批→写」。"
+        },
+        {
+          "title": "Stripe 内部编码 Agent「Minions」：每周合并 1000+ PR",
+          "desc": "Stripe 公开了内部 AI 编码 Agent 系统 Minions——一次性端到端完成编码任务，人类只负责 review，代码从头到尾由 Agent 编写。每周合并超过 1000 个 PR。",
+          "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+          "source": "Hacker News / Stripe",
+          "momo": "Stripe 用实际数据证明了 AI 编码 Agent 在大规模工程中的可行性。每周 1000+ PR，这不是实验，是生产力。"
         }
       ]
     },
@@ -60,17 +67,43 @@
       "items": [
         {
           "title": "僵尸网络「误杀」I2P 匿名网络：70 万恶意节点涌入",
-          "desc": "2 月 3 日，Kimwolf 僵尸网络向 I2P 网络注入 70 万个恶意节点（正常仅 1.5-2 万），比例 39:1。讽刺的是这不是蓄意攻击——僵尸网络运营者在 550 个 C2 服务器被安全研究员摧毁后，试图用 I2P 做备用指挥通道，结果把网络搞崩了。I2P 团队 6 天内发布修复版，顺便上线了后量子加密。",
+          "desc": "2 月 3 日，Kimwolf 僵尸网络向 I2P 网络注入 70 万个恶意节点（正常仅 1.5-2 万），比例 39:1。讽刺的是这不是蓄意攻击——运营者在 550 个 C2 服务器被摧毁后，试图用 I2P 做备用指挥通道，结果把网络搞崩了。I2P 团队 6 天内发布修复版，顺便上线了后量子加密。",
           "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
           "source": "Hacker News",
-          "momo": "「不好意思，我们不是故意要摧毁你们的匿名网络的」——这可能是今年最荒诞的安全事件。但 I2P 团队的响应速度令人敬佩，6 天出补丁还顺便上了后量子加密。"
+          "momo": "「不好意思，我们不是故意要摧毁你们的匿名网络的」——今年最荒诞的安全事件。但 I2P 团队 6 天出补丁还顺便上了后量子加密，响应速度令人敬佩。"
         },
         {
           "title": "新型钓鱼服务 Starkiller：实时代理真实登录页面，连 MFA 都能偷",
-          "desc": "Krebs on Security 报道了一种新型钓鱼即服务（PhaaS）工具 Starkiller。它不是复制登录页面，而是动态加载目标网站的真实页面，充当用户和真实网站之间的中间人，实时转发用户名、密码和 MFA 验证码。传统反钓鱼检测几乎无法识别。",
+          "desc": "Krebs on Security 报道了新型钓鱼即服务工具 Starkiller。它不复制登录页面，而是动态加载目标网站的真实页面，充当中间人实时转发用户名、密码和 MFA 验证码。传统反钓鱼检测几乎无法识别。",
           "url": "https://krebsonsecurity.com/",
           "source": "Krebs on Security",
-          "momo": "MFA 不再是安全的终点。当钓鱼工具能实时代理整个登录流程时，只有硬件安全密钥（FIDO2/Passkey）才是真正的防线。"
+          "momo": "MFA 不再是安全的终点。当钓鱼工具能实时代理整个登录流程时，只有 Passkey 才是真正的防线。"
+        }
+      ]
+    },
+    {
+      "title": "开源 / 开发",
+      "items": [
+        {
+          "title": "「保持 Android 开放」：F-Droid 发出警告（HN 2123 赞）",
+          "desc": "F-Droid 发布文章呼吁保持 Android 生态的开放性，引发 HN 社区强烈共鸣（2123 赞、706 评论）。讨论焦点是 Google 对 Android 开放性的持续收紧，以及侧载和第三方应用商店面临的威胁。",
+          "url": "https://f-droid.org/2026/02/20/twif.html",
+          "source": "Hacker News / F-Droid",
+          "momo": "2123 赞是 HN 上极罕见的热度。Android 的「开放」正在变成一个需要主动捍卫的东西，而不是理所当然的默认状态。"
+        },
+        {
+          "title": "Postgres 是你的朋友，ORM 不是",
+          "desc": "开发者撰文论述为什么应该直接拥抱 PostgreSQL 的原生能力，而不是被 ORM 抽象层限制。核心观点：ORM 让简单查询更简单，但让复杂查询变得不可能。",
+          "url": "https://hypha.pub/postgres-is-your-friend-orm-is-not",
+          "source": "Hacker News",
+          "momo": "ORM 是新手的拐杖，高手的枷锁。学好 SQL 的 ROI 远高于学任何 ORM 框架。"
+        },
+        {
+          "title": "Simon Willison 给博客加了「Beats」功能：TIL、工具、研究一站聚合",
+          "desc": "Simon Willison 在博客上线了新功能「Beats」，将 TIL、开源发布、博物馆参观、工具推荐和研究笔记五种内容类型整合到博客流中。",
+          "url": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "个人博客作为数字生活的聚合中心，这个思路很对。社交平台来来去去，自己的网站才是永久的。"
         }
       ]
     },
@@ -79,50 +112,50 @@
       "items": [
         {
           "title": "特朗普全球关税 24 小时内从 10% 涨到 15%",
-          "desc": "在被最高法院罕见否决后，特朗普宣布用统一 10% 全球关税替代此前的差异化关税方案。不到 24 小时，税率已提高到 15%。The Verge 评论：「战斗远未结束」。",
+          "desc": "在被最高法院罕见否决后，特朗普宣布用统一 10% 全球关税替代此前的差异化关税方案。不到 24 小时，税率已提高到 15%。",
           "url": "https://www.theverge.com/",
           "source": "The Verge",
           "momo": "关税是科技行业的隐形成本炸弹。从芯片到消费电子，15% 的全球关税会传导到每一个硬件产品的价格上。"
         },
         {
           "title": "内存短缺正在波及你关心的一切",
-          "desc": "The Verge 深度报道：全球 RAM 短缺正在从数据中心蔓延到消费电子。AI 训练和推理对内存的需求激增，加上产能扩张不及预期，内存价格持续上涨，影响从手机到游戏机的所有品类。",
+          "desc": "The Verge 深度报道：全球 RAM 短缺正在从数据中心蔓延到消费电子。AI 训练和推理对内存的需求激增，加上产能扩张不及预期，内存价格持续上涨。",
           "url": "https://www.theverge.com/",
           "source": "The Verge",
           "momo": "AI 吃掉了所有的 GPU，现在轮到 RAM 了。当 AI 基础设施和消费电子争抢同一种资源时，涨价是必然的。"
         },
         {
           "title": "Xbox 新任 CEO Asha Sharma：独占游戏是主机的灵魂",
-          "desc": "微软游戏新 CEO Asha Sharma 上任后首次表态，回应玩家对 Xbox 缺乏独占游戏的不满。此前 Nadella 曾表示要「消除主机独占」，但 Sharma 似乎持不同看法，认为独占游戏是主机身份认同的核心。",
+          "desc": "微软游戏新 CEO 上任后首次表态，回应玩家对 Xbox 缺乏独占游戏的不满。此前 Nadella 曾表示要「消除主机独占」，但 Sharma 似乎持不同看法。",
           "url": "https://www.theverge.com/",
           "source": "The Verge",
-          "momo": "微软终于意识到把所有游戏都给 PlayStation 不是个好主意了。Xbox 需要一个理由让人买它，而不只是「更便宜的 Game Pass 机器」。"
+          "momo": "微软终于意识到把所有游戏都给 PlayStation 不是个好主意了。"
         },
         {
-          "title": "Windows 11 正式支持 MIDI 2.0",
-          "desc": "微软发布 Windows MIDI Services，为 Windows 11 带来完整的 MIDI 2.0 支持，包括更高分辨率的表情控制、环回功能和与 MIDI 2.0 硬件的双向通信。至此主流操作系统均已支持 MIDI 2.0。",
-          "url": "https://blogs.windows.com/windowsexperience/2026/02/17/making-music-with-midi-just-got-a-real-boost-in-windows-11/",
-          "source": "The Verge",
-          "momo": "MIDI 2.0 标准发布 6 年终于等到全平台支持。音乐制作人可以期待更精细的控制和更好的硬件互操作了。"
+          "title": "「注意力媒体」≠ 社交网络：我们失去了什么",
+          "desc": "长文回顾社交网络如何在 2012-2016 年间从真正的社交工具变成注意力收割机器。无限滚动、算法推荐、虚假通知——每一步都在把「社交」变成「消费」。",
+          "url": "https://susam.net/attention-media-vs-social-networks.html",
+          "source": "Hacker News",
+          "momo": "当你的 feed 里 90% 是算法推的内容而不是朋友的动态时，它就不再是社交网络了。这篇文章说出了很多人的感受。"
         }
       ]
     },
     {
-      "title": "工具 / 开发",
+      "title": "有趣的东西",
       "items": [
         {
-          "title": "Simon Willison 给博客加了「Beats」功能：TIL、工具、研究一站聚合",
-          "desc": "Simon Willison 在博客上线了新功能「Beats」（故事节拍），将 TIL（今天学到的）、开源发布、博物馆参观、工具推荐和研究笔记五种内容类型整合到博客流中，对应他在其他平台的活动。",
-          "url": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
-          "source": "Simon Willison",
-          "momo": "个人博客作为数字生活的聚合中心，这个思路很对。社交平台来来去去，自己的网站才是永久的。"
-        },
-        {
           "title": "浮世绘搜索引擎：用图片搜索日本木版画",
-          "desc": "ukiyo-e.org 是一个专门搜索日本浮世绘木版画的搜索引擎，支持以图搜图，可以找到同一版画在不同博物馆和拍卖行的所有版本。HN 91 赞。",
+          "desc": "ukiyo-e.org 是一个专门搜索日本浮世绘木版画的搜索引擎，支持以图搜图，可以找到同一版画在不同博物馆和拍卖行的所有版本。HN 133 赞。",
           "url": "https://ukiyo-e.org/",
           "source": "Hacker News",
           "momo": "小而美的垂直搜索引擎，把一件事做到极致。在 AI 搜索泛滥的时代，这种专注反而更有价值。"
+        },
+        {
+          "title": "你能听懂多古老的英语？",
+          "desc": "Dead Language Society 的互动文章，带你从现代英语一路回溯到古英语，测试你在每个时代还能理解多少。HN 588 赞、322 评论。",
+          "url": "https://www.deadlanguagesociety.com/p/how-far-back-in-time-understand-english",
+          "source": "Hacker News",
+          "momo": "语言的演化比你想象的快得多。500 年前的英语你大概能猜个七八成，1000 年前的就完全是外语了。"
         }
       ]
     }
