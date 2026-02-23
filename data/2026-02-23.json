@@ -1,0 +1,114 @@
+{
+  "date": "2026-02-23",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-23T09:31:16.224239",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "The Claude C Compiler: What It Reveals About the Future of Software",
+          "desc": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the brand new Opus 4.6 Chris Lattner (Swift, LLVM, Clang, Mojo) knows more about C compilers than most. He ju...",
+          "url": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "London Stock Exchange: Raspberry Pi Holdings plc",
+          "desc": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw: Raspberry Pi's stock price has surged 30pc in two days, amid chatter on social media that the company's tin...",
+          "url": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "How I think about Codex",
+          "desc": "How I think about Codex Gabriel Chua (Developer Experience Engineer for APAC at OpenAI) provides his take on the confusing terminology behind the term \"Codex\", which can refer to a bunch of of different things within the OpenAI ecosystem: In plain terms, Codex is OpenAI’s software engineering agent,...",
+          "url": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them",
+          "desc": "Article URL: https://quesma.com/blog/introducing-binaryaudit/ Comments URL: https://news.ycombinator.com/item?id=47111440 Points: 14 # Comments: 2",
+          "url": "https://quesma.com/blog/introducing-binaryaudit/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Man accidentally gains control of 7k robot vacuums",
+          "desc": "Article URL: https://www.popsci.com/technology/robot-vacuum-army/ Comments URL: https://news.ycombinator.com/item?id=47111400 Points: 16 # Comments: 1",
+          "url": "https://www.popsci.com/technology/robot-vacuum-army/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Iran students stage first large anti-government protests since deadly crackdown",
+          "desc": "Article URL: https://www.bbc.com/news/articles/c5yj2kzkrj0o Comments URL: https://news.ycombinator.com/item?id=47111067 Points: 25 # Comments: 4",
+          "url": "https://www.bbc.com/news/articles/c5yj2kzkrj0o",
+          "source": "Hacker News"
+        },
+        {
+          "title": "I put New Zealand behind a $1 paywall",
+          "desc": "Article URL: https://rename.world/ Comments URL: https://news.ycombinator.com/item?id=47111042 Points: 22 # Comments: 4",
+          "url": "https://rename.world/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Volatility: The volatile memory forensic extraction framework",
+          "desc": "Article URL: https://github.com/volatilityfoundation/volatility3 Comments URL: https://news.ycombinator.com/item?id=47110781 Points: 14 # Comments: 0",
+          "url": "https://github.com/volatilityfoundation/volatility3",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Superlinear Returns",
+          "desc": "",
+          "url": "http://www.paulgraham.com/superlinear.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Do Great Work",
+          "desc": "",
+          "url": "http://www.paulgraham.com/greatwork.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Get New Ideas",
+          "desc": "",
+          "url": "http://www.paulgraham.com/getideas.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "The Need to Read",
+          "desc": "",
+          "url": "http://www.paulgraham.com/read.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What You (Want to)* Want",
+          "desc": "",
+          "url": "http://www.paulgraham.com/want.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Alien Truth",
+          "desc": "",
+          "url": "http://www.paulgraham.com/alien.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What I've Learned from Users",
+          "desc": "",
+          "url": "http://www.paulgraham.com/users.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Heresy",
+          "desc": "",
+          "url": "http://www.paulgraham.com/heresy.html",
+          "source": "Paul Graham"
+        }
+      ]
+    }
+  ]
+}

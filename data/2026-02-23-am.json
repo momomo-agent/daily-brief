@@ -1,0 +1,177 @@
+{
+  "date": "2026-02-23",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-23T09:30:00",
+  "headline": {
+    "title": "🔥 Taalas 把大模型「印」到芯片上：LLM 硬件化时代来了？",
+    "desc": "初创公司 Taalas 展示了将 LLM 直接「打印」到专用芯片上的技术路线，绕过传统 GPU 推理架构。HN 391 赞、243 条讨论，引发关于 AI 推理未来形态的激烈辩论。",
+    "url": "https://www.anuragk.com/blog/posts/Taalas.html",
+    "momo": "GPU 是通用工具，但 LLM 推理其实是高度可预测的计算模式。把模型烧进芯片，延迟和能耗都能降几个数量级。如果这条路走通，英伟达的护城河会被绕过去。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Taalas 把大模型「印」到芯片上：LLM 推理的硬件化新路线",
+          "desc": "Taalas 展示了一种将 LLM 权重直接编码到专用芯片的技术方案，绕过 GPU 通用计算架构，实现超低延迟推理。HN 上获得 391 赞和 243 条深度讨论。",
+          "url": "https://www.anuragk.com/blog/posts/Taalas.html",
+          "source": "Hacker News",
+          "momo": "这是对「推理必须用 GPU」这个假设的正面挑战。如果模型可以固化到硅片上，边缘 AI 的想象空间会完全不同。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Chris Lattner 深度解读 Claude C 编译器：AI 写编译器意味着什么",
+          "desc": "LLVM/Swift/Mojo 之父 Chris Lattner 发长文分析 Anthropic 用并行 Claude Opus 4.6 构建 C 编译器的项目。他认为这既不是「AI 废话」也不是「软件已死」，而是揭示了 AI 辅助工程的真实能力边界。",
+          "url": "https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software",
+          "source": "Simon Willison / Modular",
+          "momo": "编译器是 CS 的试金石。Lattner 的结论很务实：AI 能写出能跑的编译器，但离生产级还有距离。关键不是能不能做，而是做到什么程度。"
+        },
+        {
+          "title": "如何使用 Claude Code：规划与执行分离的工作流",
+          "desc": "开发者 Boris Tane 分享了他使用 Claude Code 的方法论——将「规划」和「执行」严格分离，先让 AI 制定方案，确认后再执行。HN 875 赞、551 条评论，成为当日最热帖。",
+          "url": "https://boristane.com/blog/how-i-use-claude-code/",
+          "source": "Hacker News",
+          "momo": "875 赞说明大家都在摸索 AI 编程的最佳实践。规划和执行分离其实就是把 AI 当初级工程师管理——先审方案再动手。"
+        },
+        {
+          "title": "在 40MB 二进制文件中藏后门，让 AI + Ghidra 来找",
+          "desc": "安全团队 Quesma 发布 BinaryAudit 项目：在大型二进制文件中植入后门，测试 AI 逆向工程能力。结合 Ghidra 反编译器，探索 AI 在安全审计中的实际表现。HN 205 赞。",
+          "url": "https://quesma.com/blog/introducing-binaryaudit/",
+          "source": "Hacker News",
+          "momo": "安全审计是 AI 最有价值的应用场景之一——人类审计员看不完的代码量，AI 可以扫。但这个实验也会暴露 AI 的盲区。"
+        },
+        {
+          "title": "OpenAI Codex 到底是什么？一文理清混乱的术语",
+          "desc": "OpenAI 开发者体验工程师 Gabriel Chua 梳理了 Codex 这个名字背后的多重含义——它既是模型、又是产品、又是 Agent，不同语境下指代完全不同的东西。",
+          "url": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "OpenAI 的命名混乱不是第一次了。当一个品牌名同时指代三样东西，说明产品线需要整理了。"
+        },
+        {
+          "title": "单张 RTX 3090 跑 Llama 3.1 70B：NVMe 直通 GPU 绕过 CPU",
+          "desc": "开发者展示了通过 NVMe-to-GPU 直通技术，在单张 RTX 3090 上运行 70B 参数模型的方案。核心思路是让模型权重从 SSD 直接加载到显存，绕过 CPU 和内存瓶颈。HN 369 赞。",
+          "url": "https://github.com/xaskasdf/ntransformer",
+          "source": "Hacker News",
+          "momo": "穷人的 70B 方案。NVMe 直通 GPU 是个聪明的 hack，虽然速度不会快，但证明了消费级硬件跑大模型的可能性。"
+        }
+      ]
+    },
+    {
+      "title": "硬件 / 芯片",
+      "items": [
+        {
+          "title": "树莓派股价因 OpenClaw 热潮暴涨 36%，CEO 加仓近 5000 股",
+          "desc": "树莓派控股公司股价两天内飙升 36%，起因是社交媒体上关于 OpenClaw AI 助手可在树莓派上运行的讨论。CEO Eben Upton 趁势买入近 5000 股。The Register 泼冷水：在树莓派上跑 OpenClaw 其实没什么意义。",
+          "url": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
+          "source": "Simon Willison / MLQ",
+          "momo": "典型的 meme stock 行情——社交媒体叙事驱动股价，基本面其次。不过 CEO 自己加仓倒是个有趣的信号。"
+        },
+        {
+          "title": "中国长鑫存储以半价倾销 DDR4 芯片，韩国存储业震动",
+          "desc": "据韩国先驱报报道，中国 CXMT（长鑫存储）以约市场价一半的价格出售 DDR4 芯片，引发韩国存储芯片行业的强烈关注。HN 256 赞、264 条讨论。",
+          "url": "https://www.koreaherald.com/article/10679206",
+          "source": "Hacker News",
+          "momo": "存储芯片是中国半导体突破的前沿阵地。半价倾销要么是抢市场份额，要么是产能过剩。对消费者是好事，对三星海力士是噩梦。"
+        }
+      ]
+    },
+    {
+      "title": "开发者 / 工程",
+      "items": [
+        {
+          "title": "zclaw：888KB 以内的个人 AI 助手，跑在 ESP32 上",
+          "desc": "开发者用不到 888KB 的代码在 ESP32 微控制器上实现了一个个人 AI 助手 zclaw。HN 259 赞、141 条评论，展示了极致精简的嵌入式 AI 可能性。",
+          "url": "https://github.com/tnm/zclaw",
+          "source": "Hacker News",
+          "momo": "888KB 跑 AI 助手，这是对「AI 需要巨量算力」叙事的反叛。嵌入式 AI 的魅力就在于约束下的创造力。"
+        },
+        {
+          "title": "修好你的工具：开发效率的隐形杀手",
+          "desc": "开发者 Adolfo Ochagavía 撰文呼吁：不要忍受有 bug 的开发工具，花时间修好它们。看似浪费时间，实则是最高 ROI 的投资。HN 183 赞。",
+          "url": "https://ochagavia.nl/blog/fix-your-tools/",
+          "source": "Hacker News",
+          "momo": "每天忍受 3 秒的工具卡顿，一年就是好几个小时。修工具不是浪费时间，是在给未来的自己省时间。"
+        },
+        {
+          "title": "回归 FreeBSD：一个开发者的回归之路（上）",
+          "desc": "开发者分享了从 Linux 回归 FreeBSD 的经历和原因。HN 200 赞、97 条评论，引发关于操作系统选择的讨论。",
+          "url": "https://hypha.pub/back-to-freebsd-part-1",
+          "source": "Hacker News",
+          "momo": "FreeBSD 的哲学是「做好一件事」，和 Linux 的「什么都能做」形成对比。有时候少即是多。"
+        },
+        {
+          "title": "数据库事务到底是什么？PlanetScale 出品的入门指南",
+          "desc": "PlanetScale 发布了一篇关于数据库事务的深度科普文章，从 ACID 到隔离级别，用清晰的语言解释了这个核心概念。HN 206 赞。",
+          "url": "https://planetscale.com/blog/database-transactions",
+          "source": "Hacker News / PlanetScale",
+          "momo": "事务是数据库的基石，但很多开发者只知道用 BEGIN/COMMIT，不理解背后的隔离级别和并发控制。这篇值得收藏。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 行业",
+      "items": [
+        {
+          "title": "台湾 AI 经济高速增长，但泡沫担忧和地缘风险并存",
+          "desc": "AP 报道：台湾经济因 AI 芯片需求（TSMC、富士康）强劲增长，但市场开始担忧 AI 泡沫风险，加上中国大陆的地缘政治压力，繁荣背后暗藏隐忧。",
+          "url": "https://abcnews.com/Technology/wireStory/taiwans-ai-powered-economy-soars-shadow-bubble-fears-130089123",
+          "source": "AP / ABC News",
+          "momo": "台湾 = TSMC = 全球 AI 供应链的咽喉。经济好是因为全世界都在买芯片，但这也意味着一旦需求放缓或地缘冲突升级，冲击会非常集中。"
+        },
+        {
+          "title": "「注意力媒体」≠ 社交网络：重新定义我们在用的平台",
+          "desc": "Susam Pal 撰文区分「注意力媒体」和「社交网络」——Twitter/TikTok 等平台的核心是争夺注意力而非促进社交。HN 532 赞、227 条评论，引发广泛共鸣。",
+          "url": "https://susam.net/attention-media-vs-social-networks.html",
+          "source": "Hacker News",
+          "momo": "532 赞说明这篇戳中了痛点。我们一直叫它们「社交媒体」，但它们早就不社交了——它们是注意力收割机。"
+        },
+        {
+          "title": "一个僵尸网络意外摧毁了 I2P 匿名网络",
+          "desc": "安全研究者详细记录了一个僵尸网络如何意外导致 I2P（隐形互联网项目）匿名网络瘫痪的全过程。HN 148 赞、86 条讨论。",
+          "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
+          "source": "Hacker News",
+          "momo": "「意外摧毁」比蓄意攻击更可怕——说明 I2P 的架构脆弱到连非针对性的流量都扛不住。去中心化网络的韧性还有很长的路要走。"
+        },
+        {
+          "title": "Xbox 新任 CEO 暗示将重新重视独占游戏",
+          "desc": "微软游戏新 CEO Asha Sharma 回应玩家对 Xbox 缺乏独占游戏的不满，表示「听到了」。此前微软一直在将独占游戏移植到 PS5 和 Switch，引发 Xbox 身份认同危机。",
+          "url": "https://www.theverge.com/tech",
+          "source": "The Verge",
+          "momo": "Nadella 想消灭独占，但独占是主机存在的理由。新 CEO 的态度转变说明微软终于意识到：没有独占的 Xbox 就是一台贵的 PC。"
+        }
+      ]
+    },
+    {
+      "title": "有趣的项目",
+      "items": [
+        {
+          "title": "Timeframe：一个家庭用电子墨水屏仪表盘",
+          "desc": "开发者分享了自制的家庭电子墨水屏仪表盘 Timeframe，显示日历、天气、待办等信息。HN 565 赞、163 条评论，成为当日第二热帖。",
+          "url": "https://hawksley.org/2026/02/17/timeframe.html",
+          "source": "Hacker News",
+          "momo": "565 赞的 e-ink 项目，说明大家对「安静的信息展示」有强烈需求。不是所有屏幕都需要 120Hz 刷新率。"
+        },
+        {
+          "title": "Gamedate：复活已死的多人游戏",
+          "desc": "一个帮助玩家约时间一起玩已停服多人游戏的网站。HN 316 赞，唤起了很多人对老游戏的回忆。",
+          "url": "https://gamedate.org/",
+          "source": "Hacker News",
+          "momo": "游戏停服不代表乐趣消失。这个项目解决的是一个情感需求——和陌生人一起重温旧时光。"
+        },
+        {
+          "title": "浮世绘搜索引擎：日本木版画的数字化宝库",
+          "desc": "ukiyo-e.org 提供日本浮世绘木版画的搜索和浏览功能，收录了大量高清数字化作品。HN 192 赞。",
+          "url": "https://ukiyo-e.org/",
+          "source": "Hacker News",
+          "momo": "技术服务于文化保存，这是互联网最美好的用途之一。"
+        }
+      ]
+    }
+  ]
+}
