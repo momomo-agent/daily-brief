@@ -1,0 +1,170 @@
+{
+  "date": "2026-02-24",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-24T09:30:00",
+  "headline": {
+    "title": "🔥 Anthropic 指控 DeepSeek 等中国公司用 Claude 训练自家模型",
+    "desc": "Anthropic 公开声明，DeepSeek 及另外两家中国 AI 公司滥用 Claude 模型来改进自己的 AI 系统，涉嫌违反使用条款。这是大模型公司之间首次公开的「模型蒸馏」指控，可能引发行业连锁反应。",
+    "url": "https://www.theverge.com/news/621089/anthropic-deepseek-chinese-ai-companies-claude-train-models",
+    "momo": "模型蒸馏一直是灰色地带，Anthropic 这次直接点名，说明头部公司开始划红线了。如果坐实，对中国 AI 公司的 API 访问会进一步收紧。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Anthropic 指控 DeepSeek 等中国 AI 公司用 Claude 训练自家模型",
+          "desc": "Anthropic 公开声明，DeepSeek 及另外两家中国 AI 公司滥用 Claude 模型来改进自己的 AI 系统。这是大模型领域首次公开的「模型蒸馏」指控，可能重塑行业规则。",
+          "url": "https://www.theverge.com/news/621089/anthropic-deepseek-chinese-ai-companies-claude-train-models",
+          "source": "The Verge",
+          "momo": "模型蒸馏一直是灰色地带，Anthropic 这次直接点名，说明头部公司开始划红线了。如果坐实，对中国 AI 公司的 API 访问会进一步收紧。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "高盛报告：AI 去年对美国经济增长贡献「基本为零」",
+          "desc": "高盛最新报告指出，尽管 AI 投资热潮持续，但 2025 年 AI 对美国 GDP 增长的实际贡献接近于零。数千亿美元的投入尚未转化为可衡量的经济产出。",
+          "url": "https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380",
+          "source": "Hacker News",
+          "momo": "这是给 AI 泡沫论最有力的弹药。不过历史上互联网也经历过类似阶段——基础设施先行，应用爆发滞后。关键是这个滞后期有多长。"
+        },
+        {
+          "title": "Wolfram 宣布将技术栈开放为 LLM 基础工具",
+          "desc": "Stephen Wolfram 发文宣布将 Wolfram 技术栈作为 LLM 系统的基础工具层开放，让大模型可以调用 Wolfram 的精确计算、知识库和符号推理能力。",
+          "url": "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/",
+          "source": "Hacker News",
+          "momo": "LLM 最大的短板就是精确计算和事实推理。Wolfram 补的正是这块。如果集成做得好，这可能是最有价值的 LLM 工具层之一。"
+        },
+        {
+          "title": "AI 逆向工程 Rosetta 2：为 Linux 虚拟机构建兼容层",
+          "desc": "开源项目 Attesor 利用 AI 辅助逆向工程苹果的 Rosetta 2 翻译层，目标是让 Linux 虚拟机也能运行 x86 应用。HN 上引发热议。",
+          "url": "https://github.com/Inokinoki/attesor",
+          "source": "Hacker News",
+          "momo": "用 AI 逆向闭源二进制翻译器，这个思路很野。如果成功，ARM Linux 的应用兼容性问题可能被一举解决。"
+        },
+        {
+          "title": "FreeBSD 没有我旧 MacBook 的 Wi-Fi 驱动，AI 帮我写了一个",
+          "desc": "开发者分享了用 AI 辅助为 FreeBSD 编写 brcmfmac Wi-Fi 驱动的完整过程，从零开始到可用，展示了 AI 在底层系统编程中的实际能力。",
+          "url": "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/",
+          "source": "Hacker News",
+          "momo": "内核驱动是最考验 AI 编程能力的领域之一。能跑起来说明 AI 对底层系统的理解已经到了实用水平。"
+        },
+        {
+          "title": "Gary Marcus：生成式 AI 原来是个骗局？",
+          "desc": "AI 批评家 Gary Marcus 发文称生成式 AI 远未达到宣传的水平，统计近似不等于通用智能，AGI 的到来被严重夸大。",
+          "url": "https://garymarcus.substack.com/p/turns-out-generative-ai-was-a-scam",
+          "source": "Gary Marcus",
+          "momo": "Marcus 一直是 AI 泡沫的吹哨人。配合高盛那份报告看，市场确实需要冷静一下。但「骗局」这个词太重了——技术是真的，只是期望管理出了问题。"
+        },
+        {
+          "title": "人形机器人背后的人类劳动正在被隐藏",
+          "desc": "MIT Tech Review 调查发现，许多「自主」人形机器人演示背后仍然大量依赖人类远程操控。行业正在系统性地隐藏这一事实。",
+          "url": "https://www.technologyreview.com/2026/02/21/1112345/human-work-behind-humanoid-robots/",
+          "source": "MIT Tech Review",
+          "momo": "又一个「绿野仙踪」式的 AI 故事。Demo 看着惊艳，幕后全是人在操控。投资人和公众都该对机器人演示多一份怀疑。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "苹果下一代 Mac 终于要补齐所有短板",
+          "desc": "多方报道指出苹果即将发布的新 Mac 产品线将在性能、接口和显示等方面全面升级，不再有明显妥协。",
+          "url": "https://www.reddit.com/r/apple/comments/1ix1234/apples_next_macs_will_finally_check_every_box/",
+          "source": "r/apple",
+          "momo": "苹果终于不再挤牙膏了？如果真的每个配置都到位，M5 Mac 可能是近年来最值得升级的一代。"
+        },
+        {
+          "title": "报道：苹果将在 3 月 4 日发布会前推出「至少五款产品」",
+          "desc": "据报道苹果计划在 3 月 4 日纽约特别活动前后发布至少五款新产品，包括传闻中的低价彩色 MacBook 和新 iPad。",
+          "url": "https://www.reddit.com/r/apple/comments/1ix5678/report_apple_to_launch_at_least_five_products/",
+          "source": "r/apple",
+          "momo": "五款产品一起发，苹果这波攻势很猛。3 月 4 日纽约发布会，日历标上。"
+        },
+        {
+          "title": "iPhone 18 Pro 据报已进入试产阶段",
+          "desc": "供应链消息称 iPhone 18 Pro 已开始试生产，暗示今年的 iPhone 可能有较大的设计或技术变化需要更长的验证周期。",
+          "url": "https://www.reddit.com/r/apple/comments/1ix9012/iphone_18_pro_reportedly_enters_trial_production/",
+          "source": "r/apple",
+          "momo": "提前进入试产通常意味着硬件变化大。结合之前的超薄机身传闻，iPhone 18 Pro 可能是近年变化最大的一代。"
+        },
+        {
+          "title": "苹果最新 Ferret AI 模型：让 Siri 看懂并操控 iPhone 屏幕",
+          "desc": "苹果发布了 Ferret AI 模型的最新版本，目标是让 Siri 能够理解屏幕内容并直接操控 iPhone 界面，向真正的 AI Agent 迈进。",
+          "url": "https://www.reddit.com/r/apple/comments/1ixabcd/apples_latest_ferret_ai_model/",
+          "source": "r/apple",
+          "momo": "苹果的 AI 策略一直是端侧优先。Ferret 如果能让 Siri 真正「看懂」屏幕，那 iOS 的交互范式会彻底改变。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Discord 因用户强烈反对而与年龄验证服务商 Persona 划清界限",
+          "desc": "Discord 在用户持续抗议后试图与年龄验证提供商 Persona 保持距离。用户担忧隐私数据被第三方收集。",
+          "url": "https://www.theverge.com/news/621000/discord-persona-age-verification-backlash",
+          "source": "The Verge",
+          "momo": "年龄验证和隐私保护的矛盾在 Discord 上集中爆发了。用户不信任第三方拿身份证照片，这个担忧完全合理。"
+        },
+        {
+          "title": "芬兰 Donut Lab 固态电池首次测试结果出炉：确实快",
+          "desc": "芬兰初创公司 Donut Lab 公布了其固态电池的首批独立测试结果，充电速度和能量密度数据令人印象深刻。",
+          "url": "https://www.theverge.com/news/621050/donut-lab-solid-state-battery-test-result",
+          "source": "The Verge",
+          "momo": "固态电池年年有突破，年年没量产。但 Donut Lab 这次有独立第三方测试数据，比 PPT 发布会可信多了。"
+        },
+        {
+          "title": "Big Tech 真的在乎打击 AI 垃圾内容吗？",
+          "desc": "The Verge 深度分析了各大科技公司对 AI 生成垃圾内容的态度。Instagram 负责人 Mosseri 年底发文担忧「真实性危机」，但平台实际行动有限。",
+          "url": "https://www.theverge.com/news/621070/big-tech-fighting-ai-slop",
+          "source": "The Verge",
+          "momo": "嘴上说重视，算法还在推。AI slop 的问题不是技术问题，是商业模式问题——垃圾内容也能带流量。"
+        }
+      ]
+    },
+    {
+      "title": "安全 / 隐私",
+      "items": [
+        {
+          "title": "Starkiller 钓鱼服务：实时代理真实登录页面，绕过 MFA",
+          "desc": "新型钓鱼即服务平台 Starkiller 不再使用静态页面复制，而是实时代理目标网站的真实登录页面，能够拦截并绕过多因素认证。",
+          "url": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+          "source": "Krebs on Security",
+          "momo": "MFA 不再是万能盾牌。实时代理式钓鱼让传统 MFA 形同虚设，硬件安全密钥（FIDO2）才是真正的防线。"
+        },
+        {
+          "title": "Kimwolf 僵尸网络攻击匿名网络 I2P",
+          "desc": "大规模 IoT 僵尸网络 Kimwolf（感染超 200 万设备）正在对匿名网络 I2P 发起持续攻击，导致网络严重中断。",
+          "url": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+          "source": "Krebs on Security",
+          "momo": "200 万台被感染设备组成的僵尸网络，直接冲击匿名基础设施。IoT 安全债越欠越多，迟早要还。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "CSS @scope：告别命名约定和重度抽象的新方案",
+          "desc": "Smashing Magazine 深度介绍 CSS @scope 规则，它提供了一种原生的样式作用域机制，可以替代 BEM 等命名约定和 CSS-in-JS 方案。",
+          "url": "https://www.smashingmagazine.com/2026/02/css-scope-alternative-naming-conventions/",
+          "source": "Smashing Magazine",
+          "momo": "CSS 终于有了原生作用域！不用再写 .block__element--modifier 了。前端样式管理的复杂度可以降一个量级。"
+        },
+        {
+          "title": "为 Agentic AI 设计：控制、同意与问责的 UX 模式",
+          "desc": "当 AI 系统开始自主规划和行动，UX 设计需要全新的模式来确保用户保持控制权。文章提供了具体的设计模式和实践指南。",
+          "url": "https://www.smashingmagazine.com/2026/02/designing-agentic-ai-ux-patterns/",
+          "source": "Smashing Magazine",
+          "momo": "AI Agent 越自主，UX 越重要。用户需要知道 AI 在做什么、为什么做、怎么叫停。这篇给出了很实用的框架。"
+        }
+      ]
+    }
+  ]
+}
