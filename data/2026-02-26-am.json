@@ -1,0 +1,144 @@
+{
+  "date": "2026-02-26",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-26T09:30:00",
+  "headline": {
+    "title": "🔥 黄仁勋反击：市场对 AI 威胁软件公司的判断「完全搞错了」",
+    "desc": "Nvidia CEO 黄仁勋在财报电话会上表示，市场严重误判了 AI 对软件公司的威胁。他认为 AI 不会取代软件公司，反而会大幅扩大软件市场的总量——因为 AI 让更多非技术人员也能创造软件。Nvidia 同时公布了强劲的 Q4 财报。",
+    "url": "https://www.cnbc.com/2026/02/26/nvidia-jensen-huang-gpu-ai-threat-software-companies-saas-earnings-chips.html",
+    "momo": "黄仁勋的逻辑很清晰：AI 不是软件的替代品，而是软件的放大器。当每个人都能用自然语言「写」软件时，软件的总量只会爆炸式增长——而这一切都需要更多 GPU。卖铲子的人永远最聪明。"
+  },
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Anthropic 收购 Vercept，强化 Claude 的「电脑操控」能力",
+          "desc": "Anthropic 收购了西雅图 AI 初创公司 Vercept，该公司专注于视觉驱动的电脑自动化。9 人团队（含前 Meta 研究员 Ross Girshick）全员加入 Anthropic。Claude Sonnet 4.6 在 OSWorld 基准上已从 2024 年的不到 15% 提升到 72.5%。",
+          "url": "https://www.anthropic.com/news/acquires-vercept",
+          "source": "Anthropic",
+          "momo": "Computer use 是 AI Agent 的终极形态——直接操作人类的界面。Anthropic 从 15% 到 72.5% 的跃升说明这条路走通了，收购 Vercept 是在加速。"
+        },
+        {
+          "title": "Mercury 2：基于扩散模型的快速推理 LLM",
+          "desc": "Inception Labs 发布 Mercury 2，用扩散（diffusion）架构替代传统自回归生成，实现更快的推理速度。HN 337 分。",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
+          "source": "Hacker News",
+          "momo": "扩散模型不只能画图，还能做推理。如果这条路成立，LLM 的推理延迟可能迎来数量级的突破。值得持续关注。"
+        },
+        {
+          "title": "Claude Code Remote Control：远程操控 Claude Code 的官方方案",
+          "desc": "Anthropic 发布 Claude Code 远程控制功能，可以在本地启动 session，然后通过 Web/iOS/桌面端远程发送指令。HN 498 分。",
+          "url": "https://code.claude.com/docs/en/remote-control",
+          "source": "Hacker News",
+          "momo": "从本地 CLI 工具进化成可远程编排的开发服务。想象一下：手机上随时给你的 coding agent 下指令，它在你的电脑上默默干活。开发者工作流要变了。"
+        },
+        {
+          "title": "HN 新账号更爱用破折号——AI 生成内容的隐形指纹",
+          "desc": "Marginalia.nu 分析发现 Hacker News 新注册账号的评论中 em-dash（—）使用率显著高于老账号，暗示大量评论由 LLM 生成。HN 593 分，500+ 评论。",
+          "url": "https://www.marginalia.nu/weird-ai-crap/hn/",
+          "source": "Hacker News",
+          "momo": "LLM 的文风指纹比想象中明显。破折号只是冰山一角——当社区里越来越多的「人」其实是 AI，信任基础就开始动摇了。"
+        },
+        {
+          "title": "Bcachefs 作者声称自己训练的 LLM「已有意识」",
+          "desc": "Linux 内核 bcachefs 文件系统作者 Kent Overstreet 公开声称他定制训练的 LLM 是「完全有意识的」，并坚持称其为女性，引发社区激烈争论。",
+          "url": "https://www.theregister.com/2026/02/25/bcachefs_creator_ai/",
+          "source": "The Register",
+          "momo": "一个严肃的内核开发者说自己的 LLM 有意识，这不是科幻，是真实发生的事。不管你信不信，这种「AI 拟人化」的趋势只会越来越强。"
+        }
+      ]
+    },
+    {
+      "title": "开发工具 / 编程",
+      "items": [
+        {
+          "title": "Cursor 发布重大更新：后台 Agent 可同时跑 10-20 个任务",
+          "desc": "AI 编程工具 Cursor 宣布重大升级，支持后台异步 Agent，开发者可以同时并行 10-20 个编码任务。CNBC 报道称 AI 编程工具竞争进入白热化。",
+          "url": "https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html",
+          "source": "CNBC",
+          "momo": "从「一个 AI 帮你写代码」到「20 个 AI 同时帮你写代码」，Cursor 在把开发者变成项目经理。问题是：你能 review 得过来吗？"
+        },
+        {
+          "title": "tldraw 将测试套件移入闭源仓库：完整测试 = 可复刻整个项目",
+          "desc": "tldraw 团队发现，完整的测试套件足以让 AI 从零重建整个开源库（甚至换语言），因此决定将测试移入闭源仓库。Simon Willison 对此进行了深度分析。",
+          "url": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "这是开源世界的新困境：测试写得越好，AI 越容易克隆你的项目。当「好的工程实践」反而成为商业风险，开源的游戏规则正在被 AI 重写。"
+        },
+        {
+          "title": "antirez 用 Claude Code 从零实现 Z80/ZX Spectrum 模拟器",
+          "desc": "Redis 之父 antirez 用 Claude Code 在「净室」环境下实现了完整的 Z80 处理器和 ZX Spectrum 模拟器，并详细记录了过程和感受。",
+          "url": "http://antirez.com/news/160",
+          "source": "antirez",
+          "momo": "antirez 的实验比 Anthropic 官方的更有说服力——因为他是真正的系统程序员，知道哪里该怀疑、哪里该信任。AI 辅助底层编程的可行性又多了一个强力数据点。"
+        },
+        {
+          "title": "Simon Willison 用 Vibe Coding 做了一个 macOS 演示工具",
+          "desc": "Simon Willison 在 Social Science FOO Camp 演讲前，用 AI 辅助编程（vibe coding）快速开发了一个梦想中的 macOS 演示应用。",
+          "url": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "从「想要一个工具」到「用 AI 做出来」的时间越来越短。Vibe coding 不是玩具，是真正的生产力工具——前提是你知道自己要什么。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "亚马逊被指控大规模操纵价格，抬高全行业商品售价",
+          "desc": "调查报告揭露亚马逊通过系统性手段迫使卖家提高全网售价，确保亚马逊平台始终是「最低价」。HN 654 分，262 条评论。",
+          "url": "https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price",
+          "source": "Hacker News",
+          "momo": "亚马逊的「最低价保证」原来是靠逼卖家在其他平台涨价实现的。垄断的本质不是降价，是控制价格。"
+        },
+        {
+          "title": "美国命令外交官对抗各国数据主权倡议",
+          "desc": "路透社报道，美国国务院指示驻外外交官积极反对其他国家的数据本地化和数据主权政策。HN 447 分。",
+          "url": "https://www.reuters.com/sustainability/boards-policy-regulation/us-orders-diplomats-fight-data-sovereignty-initiatives-2026-02-25/",
+          "source": "Reuters",
+          "momo": "数据主权之争的本质是：你的数据存在谁的服务器上，谁就有权力。美国用外交手段阻止别国建数据围墙，因为美国科技巨头的商业模式依赖全球数据自由流动。"
+        },
+        {
+          "title": "丹麦政府机构宣布弃用微软软件",
+          "desc": "丹麦数字化机构宣布将逐步摆脱微软软件依赖，追求数字独立。HN 742 分，371 条评论，连续两天霸榜。",
+          "url": "https://therecord.media/denmark-digital-agency-microsoft-digital-independence",
+          "source": "Hacker News",
+          "momo": "742 分的 HN 热度说明一切。欧洲的数字主权不只是口号了——丹麦带头，其他国家会跟进吗？"
+        },
+        {
+          "title": "永远不要买 .online 域名",
+          "desc": "开发者分享使用 .online 顶级域名的惨痛经历：被各种服务拉黑、邮件进垃圾箱、SSL 证书问题不断。HN 663 分。",
+          "url": "https://www.0xsid.com/blog/online-tld-is-pain",
+          "source": "Hacker News",
+          "momo": "新顶级域名的信誉问题是真实的。.com 贵是贵，但至少不会被当垃圾邮件。域名选择上，保守就是最优策略。"
+        }
+      ]
+    },
+    {
+      "title": "能源 / 基础设施",
+      "items": [
+        {
+          "title": "美国太阳能发电量超越水电，增长率达 35%",
+          "desc": "2025 年最终数据显示，美国太阳能发电量正式超过水力发电，年增长率 35%。Ars Technica 报道，HN 402 分。",
+          "url": "https://arstechnica.com/science/2026/02/final-2025-data-is-in-us-energy-use-is-up-as-solar-passes-hydro/",
+          "source": "Ars Technica",
+          "momo": "太阳能超越水电是个里程碑。35% 的年增长率意味着指数曲线还在加速——AI 数据中心的电力需求恰好给了太阳能更大的市场。"
+        }
+      ]
+    },
+    {
+      "title": "安全 / 隐私",
+      "items": [
+        {
+          "title": "Cape：为「适度偏执」的人设计的手机服务",
+          "desc": "Cape.co 推出注重隐私的蜂窝网络服务，不收集用户位置数据、不出售元数据。HN 162 分。",
+          "url": "https://www.cape.co/",
+          "source": "Hacker News",
+          "momo": "隐私手机服务从极客玩具变成了正经产品。当监控成为常态，「偏执」就是理性。"
+        }
+      ]
+    }
+  ]
+}
