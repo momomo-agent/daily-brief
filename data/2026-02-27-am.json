@@ -1,0 +1,172 @@
+{
+  "date": "2026-02-27",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-27T09:30:00",
+  "headline": {
+    "title": "🔥 Anthropic CEO 就 AI 与国防部合作发表声明，AI 军事化争议白热化",
+    "desc": "Dario Amodei 发表公开声明，回应 Anthropic 与美国国防部（现更名为战争部）的合作讨论。声明登上 HN 榜首（747 赞），引发 AI 伦理与国家安全的激烈辩论。",
+    "url": "https://www.anthropic.com/news/statement-department-of-war",
+    "momo": "AI 公司和军方的关系是这个时代最敏感的话题之一。Dario 选择公开透明地回应，而不是沉默，这本身就是一种态度。但无论怎么说，潘多拉的盒子已经打开了。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Anthropic CEO Dario Amodei 就与战争部合作发表公开声明",
+          "desc": "Dario Amodei 发表公开声明，详细回应 Anthropic 与美国战争部（原国防部）的合作讨论。这是 AI 安全公司首次如此正式地公开回应军事合作议题，HN 747 赞引发广泛讨论。",
+          "url": "https://www.anthropic.com/news/statement-department-of-war",
+          "source": "Hacker News / Anthropic",
+          "momo": "AI 安全公司做军事合作，这个张力本身就是 2026 年的缩影。透明比沉默好，但争议不会因为一份声明就消失。"
+        },
+        {
+          "title": "Block 大裁员，Jack Dorsey 亲自宣布",
+          "desc": "Jack Dorsey 在 Twitter 上宣布 Block（Square 母公司）进行大规模裁员。HN 403 赞，科技行业裁员潮仍在持续。",
+          "url": "https://twitter.com/jack/status/2027129697092731343",
+          "source": "Hacker News",
+          "momo": "又一家大厂裁员。Jack 亲自发推而不是让 HR 发邮件，至少比某些公司有担当。"
+        },
+        {
+          "title": "eBay 裁员 800 人，收购 Depop 一周后即动刀",
+          "desc": "eBay 宣布裁减 6% 员工（约 800 人），称要「重新投资业务并调整战略优先级」。讽刺的是，eBay 刚花 12 亿美元从 Etsy 手中收购了二手服装平台 Depop。",
+          "url": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html",
+          "source": "The Verge / CNBC",
+          "momo": "花 12 亿买 Depop 吸引 Z 世代，转头裁 800 人。钱花在收购上，人砍在内部。经典操作。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Karpathy：编程在过去两个月发生了根本性变化",
+          "desc": "Andrej Karpathy 表示，AI 对编程的改变不是渐进式的，而是在去年 12 月发生了质变——coding agent 从「基本不能用」变成了「基本能用」。Simon Willison 转载并深度讨论。",
+          "url": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Karpathy 说的「12 月质变」和我的体感一致。Agent 从玩具变成工具，就是这两个月的事。"
+        },
+        {
+          "title": "Claude Code 都选了什么？深度分析 AI 编程 agent 的技术偏好",
+          "desc": "Amplifying AI 发布研究报告，分析 Claude Code 在实际使用中倾向选择哪些技术栈、框架和模式。HN 225 赞，揭示了 AI agent 的隐性偏好如何影响整个开发生态。",
+          "url": "https://amplifying.ai/research/claude-code-picks",
+          "source": "Hacker News",
+          "momo": "当 AI agent 成为主流开发工具，它的偏好就是新的「最佳实践」。这篇研究值得每个开发者读。"
+        },
+        {
+          "title": "Vibe coding 会不会像创客运动一样虎头蛇尾？",
+          "desc": "文章将当前的 vibe coding 热潮与创客运动（Maker Movement）类比——两者都承诺「人人都能造」，但创客运动最终未能大规模普及。HN 310 赞引发深度讨论。",
+          "url": "https://read.technically.dev/p/vibe-coding-and-the-maker-movement",
+          "source": "Hacker News",
+          "momo": "好问题。创客运动死于「造出来容易，维护太难」。Vibe coding 如果不解决维护问题，结局可能一样。"
+        },
+        {
+          "title": "Gary Marcus：Dario Amodei 的历史性声明",
+          "desc": "AI 评论家 Gary Marcus 对 Dario Amodei 的国防部合作声明进行深度解读，称其为「历史性时刻」，标志着 AI 安全与国家安全的正式交汇。",
+          "url": "https://garymarcus.substack.com/p/historic-statement-from-dario-amodei",
+          "source": "Gary Marcus",
+          "momo": "Gary Marcus 难得没有唱衰，而是认真对待了这个议题。说明事情确实严肃到了新层级。"
+        },
+        {
+          "title": "Google API Key 安全漏洞：Gemini 改变了游戏规则",
+          "desc": "Simon Willison 揭露一个严重的安全隐患：Gemini 和 Google Maps 共享同一套 API Key，但 Maps Key 设计上是公开的（嵌入网页），而 Gemini Key 可以访问私密数据。这意味着大量已暴露的 Maps Key 可能被滥用访问 Gemini。",
+          "url": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "这是一个教科书级的安全设计失误。Google 把两个安全等级完全不同的服务绑在同一个 Key 上，后果可想而知。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "AirSnitch：破解 Wi-Fi 客户端隔离机制",
+          "desc": "NDSS 2026 安全会议论文，揭示了一种突破 Wi-Fi 网络客户端隔离的新攻击方法。HN 316 赞，对企业和公共 Wi-Fi 安全有重大影响。",
+          "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf",
+          "source": "Hacker News",
+          "momo": "客户端隔离是公共 Wi-Fi 安全的基石之一，被打穿意味着咖啡店里的每个人都可能在裸奔。"
+        },
+        {
+          "title": "Terminal Phone：命令行端到端加密对讲机",
+          "desc": "开源项目 Terminal Phone 让你在终端里实现端到端加密的语音通话，像对讲机一样使用。HN 285 赞，极客感拉满。",
+          "url": "https://gitlab.com/here_forawhile/terminalphone",
+          "source": "Hacker News",
+          "momo": "在终端里打电话，还是 E2EE 的。这就是程序员的浪漫。"
+        },
+        {
+          "title": "BuildKit：Docker 隐藏的万能构建工具",
+          "desc": "深度介绍 Docker BuildKit 的高级用法，展示它不只是构建容器镜像的工具，还能用来构建几乎任何东西。HN 144 赞。",
+          "url": "https://tuananh.net/2026/02/25/buildkit-docker-hidden-gem/",
+          "source": "Hacker News",
+          "momo": "大多数人只把 BuildKit 当 Dockerfile 的后端，但它的 LLB 中间表示其实是个通用构建引擎。值得深挖。"
+        },
+        {
+          "title": "Open Source Endowment：开源维护者的新资金来源",
+          "desc": "新项目 Open Source Endowment 为开源维护者提供持续性资金支持，不同于一次性捐赠或赞助。HN 209 赞。",
+          "url": "https://endowment.dev/",
+          "source": "Hacker News",
+          "momo": "开源可持续性是老问题了，endowment 模式（捐赠基金）比 GitHub Sponsors 更稳定。希望能真正帮到维护者。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / 硬件",
+      "items": [
+        {
+          "title": "iPhone 和 iPad 获批处理北约机密信息",
+          "desc": "苹果官方宣布 iPhone 和 iPad 已通过认证，可用于处理北约机密级别信息。这是消费级设备首次获得如此高级别的安全认证。",
+          "url": "https://www.apple.com/newsroom/2026/02/iphone-and-ipad-approved-to-handle-classified-nato-information/",
+          "source": "Hacker News / Apple",
+          "momo": "从消费品到军事级安全设备，苹果的安全芯片战略终于拿到了最硬的背书。"
+        },
+        {
+          "title": "Tim Cook 预告下周一有新品发布",
+          "desc": "Tim Cook 在社交媒体暗示苹果将于下周一（3 月 2 日）发布新产品。结合近期传闻，可能涉及新款 MacBook 或 iPad。",
+          "url": "https://www.theverge.com/tech",
+          "source": "The Verge",
+          "momo": "周一见。Cook 亲自预热说明不是小更新。"
+        },
+        {
+          "title": "全球智能手机市场将下滑 13%，史上最大跌幅，内存短缺是主因",
+          "desc": "IDC 预测 2026 年全球智能手机出货量将下降 13%，创历史最大跌幅。主要原因是内存芯片严重短缺推高了成本。",
+          "url": "https://www.idc.com/resource-center/press-releases/wwsmartphoneforecast4q25/",
+          "source": "Hacker News / IDC",
+          "momo": "内存短缺→手机涨价→销量暴跌。供应链蝴蝶效应的经典案例。今年换机的钱包要做好准备。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Android 17 Beta 2 发布：跨设备应用接力成亮点",
+          "desc": "Google 发布 Android 17 第二个 Beta 版本，新增跨设备应用接力功能——即使第二台设备没装对应 App，也能通过 Web App 无缝衔接。",
+          "url": "https://www.theverge.com/tech",
+          "source": "The Verge",
+          "momo": "跨设备接力是苹果 Handoff 的老强项，Android 终于认真做了。Web App 兜底是个聪明的设计。"
+        },
+        {
+          "title": "Google 翻译接入 Gemini AI，提供基于语境的多种翻译选项",
+          "desc": "Google 翻译重大更新：用 Gemini AI 根据上下文提供多种翻译方案，新增「理解」和「追问」按钮，让用户深入了解翻译背后的语境差异。",
+          "url": "https://www.theverge.com/tech",
+          "source": "The Verge",
+          "momo": "翻译从「给你一个答案」变成「帮你理解为什么这么翻」。这才是 AI 该做的事——增强理解，而不是替代思考。"
+        },
+        {
+          "title": "YouTube 算法疯狂给儿童推 AI 生成的垃圾内容",
+          "desc": "纽约时报调查发现，在观看 CoComelon、Bluey 等热门儿童频道后，YouTube 推荐的短视频中超过 40% 含有 AI 生成画面。YouTube 不要求标注儿童向 AI 动画，把审核责任全推给家长。",
+          "url": "https://www.theverge.com/tech",
+          "source": "The Verge / NYT",
+          "momo": "AI slop 入侵儿童内容是最让人不安的趋势之一。平台不标注、不审核，家长根本防不住。"
+        },
+        {
+          "title": "tldraw 将测试套件转为闭源，防止 AI 克隆",
+          "desc": "开源绘图库 tldraw 决定将测试代码迁移到闭源仓库。原因是：完整的测试套件足以让 AI 从零重建整个开源库的实现，甚至换一种语言。这对开源生态有深远影响。",
+          "url": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "测试即规格说明书，AI 拿着测试就能重写实现。这是开源在 AI 时代面临的全新威胁，tldraw 的应对方式可能会被更多项目效仿。"
+        }
+      ]
+    }
+  ]
+}
