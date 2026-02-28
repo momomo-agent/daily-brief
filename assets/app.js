@@ -90,7 +90,12 @@ function goTo(index) {
 }
 
 function prev() { goTo(currentIndex - 1); }
-function next() { goTo(currentIndex + 1); }
+function next() {
+  if (currentIndex === papers.length - 2 && loadedCount < allDates.length) {
+    loadMore();
+  }
+  goTo(currentIndex + 1);
+}
 
 function handleStart(e) {
   isDragging = true;
@@ -122,24 +127,35 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') next();
 });
 
+const PAGE_SIZE = 5;
+let allDates = [];
+let loadedCount = 0;
+
+async function loadMore() {
+  const stack = document.getElementById('stack');
+  const dots = document.getElementById('dots');
+  const end = Math.min(loadedCount + PAGE_SIZE, allDates.length);
+  
+  for (let i = loadedCount; i < end; i++) {
+    const data = await loadDay(allDates[i]);
+    const paper = renderPaper(data, i);
+    stack.appendChild(paper);
+    papers.push(paper);
+    
+    const dot = document.createElement('div');
+    dot.className = 'nav-dot';
+    dot.onclick = () => goTo(i);
+    dots.appendChild(dot);
+  }
+  loadedCount = end;
+  updatePositions();
+}
+
 async function init() {
   try {
     const raw = await loadIndex();
-    const dates = Array.isArray(raw) ? raw : raw.dates;
-    const stack = document.getElementById('stack');
-    const dots = document.getElementById('dots');
-    
-    for (let i = 0; i < dates.length; i++) {
-      const data = await loadDay(dates[i]);
-      const paper = renderPaper(data, i);
-      stack.appendChild(paper);
-      papers.push(paper);
-      
-      const dot = document.createElement('div');
-      dot.className = 'nav-dot';
-      dot.onclick = () => goTo(i);
-      dots.appendChild(dot);
-    }
+    allDates = Array.isArray(raw) ? raw : raw.dates;
+    await loadMore();
     
     document.getElementById('prevBtn').onclick = prev;
     document.getElementById('nextBtn').onclick = next;
