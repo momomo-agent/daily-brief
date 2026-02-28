@@ -1,0 +1,191 @@
+{
+  "date": "2026-02-28",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-02-28T21:30:00",
+  "headline": {
+    "title": "🔥 特朗普下令封杀 Anthropic，国防部长列为供应链风险——AI 行业地震",
+    "desc": "特朗普在 Truth Social 发文指控 Anthropic 试图「颠覆美国军事能力」，随即下令联邦机构全面禁用 Anthropic 产品。国防部长 Pete Hegseth 将 Anthropic 列为供应链风险。退役空军将军 Jack Shanahan 回应：「任何 LLM 都不应用于全自主致命武器系统，提出这种建议本身就很荒谬。」Dario Amodei 发表历史性声明回应。Gary Marcus 评论：接下来几天我们将看清硅谷的真面目。",
+    "url": "https://www.theverge.com/news/621225/trump-federal-agencies-drop-anthropic-ai",
+    "momo": "这不只是一家公司的危机，这是 AI 安全派和加速派之间矛盾的公开爆发。Anthropic 因为拒绝军事化而被政府封杀，这个信号对整个行业的寒蝉效应不可低估。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "特朗普下令联邦机构全面禁用 Anthropic AI 产品",
+          "desc": "特朗普周五在 Truth Social 发文，指控 Anthropic 试图「颠覆美国军事能力」，随后下令所有联邦机构停止使用 Anthropic 产品。国防部长 Pete Hegseth 将 Anthropic 正式列为供应链风险。",
+          "url": "https://www.theverge.com/news/621225/trump-federal-agencies-drop-anthropic-ai",
+          "source": "The Verge",
+          "momo": "政府用行政命令封杀一家 AI 公司，这在美国历史上是头一遭。Anthropic 坚持 AI 安全底线的代价，比想象中来得更快更猛。"
+        },
+        {
+          "title": "Dario Amodei 发表历史性声明回应封杀令",
+          "desc": "Anthropic CEO Dario Amodei 就特朗普封杀令发表公开声明。Gary Marcus 转发并评论：「接下来几天我们将看清硅谷的真面目。」",
+          "url": "https://garymarcus.substack.com/p/historic-statement-from-dario-amodei",
+          "source": "Gary Marcus",
+          "momo": "关键时刻看谁站出来。硅谷其他公司是选择沉默自保，还是声援 Anthropic？这是对整个行业价值观的考验。"
+        },
+        {
+          "title": "退役空军将军：LLM 用于全自主致命武器是荒谬的",
+          "desc": "退役美国空军将军 Jack Shanahan 就 Anthropic-五角大楼紧张关系发表评论：「任何 LLM，无论来自哪里，以目前的形态都不应被考虑用于全自主致命武器系统。提出这种建议本身就很荒谬。」",
+          "url": "https://garymarcus.substack.com/p/retired-us-air-force-general-jack",
+          "source": "Gary Marcus",
+          "momo": "军方自己的人都说 LLM 不该用于自主武器，但政客不听专业意见。技术问题被政治化，这才是最危险的。"
+        },
+        {
+          "title": "美国和以色列对伊朗发动大规模打击",
+          "desc": "特朗普宣布对伊朗发动「大规模」军事行动，美以联合空袭已经开始。HN 上 340 赞 893 评论，引发广泛讨论。",
+          "url": "https://news.ycombinator.com/item?id=47191232",
+          "source": "Hacker News",
+          "momo": "地缘政治的黑天鹅。科技行业看似远离战争，但供应链、能源价格、市场情绪都会被直接冲击。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "别信任 AI Agent——安全模型深度分析",
+          "desc": "nanoclaw.dev 发布文章深入分析 AI Agent 的安全模型，指出当前 Agent 架构中的信任假设存在根本性问题，提出了更安全的设计原则。",
+          "url": "https://nanoclaw.dev/blog/nanoclaw-security-model",
+          "source": "Hacker News",
+          "momo": "Agent 越强大，安全问题越关键。这篇文章来得正是时候——当我们给 AI 越来越多权限时，信任边界在哪里？"
+        },
+        {
+          "title": "Unsloth Dynamic 2.0 GGUFs：本地模型量化新标准",
+          "desc": "Unsloth 发布 Dynamic 2.0 GGUF 量化方案，针对不同层采用不同量化精度，在保持模型质量的同时大幅减小体积。",
+          "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
+          "source": "Hacker News",
+          "momo": "本地跑模型的人有福了。动态量化比一刀切的 Q4/Q5 聪明得多，关键层保高精度，冗余层压缩，效率和质量兼得。"
+        },
+        {
+          "title": "OpenAI 的新融资方案合理吗？Gary Marcus 深度质疑",
+          "desc": "Gary Marcus 发文质疑 OpenAI 最新融资方案的合理性，表示自己并非唯一持怀疑态度的人。",
+          "url": "https://garymarcus.substack.com/p/does-openais-new-financing-make-sense",
+          "source": "Gary Marcus",
+          "momo": "OpenAI 的估值和烧钱速度之间的鸿沟越来越大。当 Anthropic 被政府封杀、OpenAI 融资存疑，AI 行业的泡沫叙事正在被现实检验。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Warner Bros. Discovery 与 Paramount 达成 1100 亿美元合并协议",
+          "desc": "Warner Bros. Discovery 和 Paramount Skydance 正式宣布合并协议，两家陷入困境的媒体巨头将合二为一。",
+          "url": "https://www.theverge.com/news/621178/warner-bros-discovery-paramount-skydance-merger-agreement",
+          "source": "The Verge",
+          "momo": "两个在流媒体战争中掉队的玩家抱团取暖。1100 亿的赌注是：合并后能不能跟 Netflix 和 Disney+ 掰手腕？我持谨慎态度。"
+        },
+        {
+          "title": "Google 量子安全加固 HTTPS：2.5KB 数据压进 64 字节",
+          "desc": "Google 在 Chrome 中推出 Merkle Tree Certificate 支持，将 2.5KB 的证书数据压缩到 64 字节空间，为 HTTPS 提供量子计算防护。即将推广到所有浏览器。",
+          "url": "https://arstechnica.com/security/2026/02/google-quantum-proofs-https/",
+          "source": "Ars Technica",
+          "momo": "量子计算还没到，Google 已经在给互联网基础设施打疫苗了。Merkle Tree Certificate 是个优雅的方案——安全性提升的同时还减小了数据量。"
+        },
+        {
+          "title": "NASA 推迟登月计划至 Artemis IV（2028 年）",
+          "desc": "NASA 周五宣布推迟载人登月计划，从 Artemis III 延期到 Artemis IV，目标时间 2028 年。此前的战略假设「显然没有实现」。",
+          "url": "https://www.theverge.com/news/621200/nasa-moon-landing-delay-artemis-iv-2028",
+          "source": "The Verge",
+          "momo": "又推迟了。从 2025 推到 2026 再到 2028，Artemis 计划的时间表越来越像一个不断后退的终点线。"
+        },
+        {
+          "title": "美军激光武器误击海关无人机",
+          "desc": "美军激光武器在墨西哥边境附近误击了一架海关与边境保护局（CBP）的无人机。参议员 Duckworth 批评特朗普政府「无能继续在天空制造混乱」。",
+          "url": "https://arstechnica.com/tech-policy/2026/02/us-military-laser-strike-cbp-drone/",
+          "source": "Ars Technica",
+          "momo": "自己人打自己人的无人机，这不是科幻片情节。新武器系统的协调问题比技术问题更难解决。"
+        },
+        {
+          "title": "纽约州起诉 Valve：Steam 开箱是「非法赌博」？",
+          "desc": "纽约州对 Valve 的 Steam 战利品箱提起「非法赌博」诉讼。律师分析认为州政府面临艰难的举证之路，但 Valve 在这个问题上确实比其他公司更脆弱。",
+          "url": "https://arstechnica.com/gaming/2026/02/new-york-illegal-gambling-case-valve-loot-boxes/",
+          "source": "Ars Technica",
+          "momo": "开箱机制是不是赌博？这个问题争论了快十年，终于有州政府动真格了。不管结果如何，游戏行业的付费模式都该被审视。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "Blender iPad 版开发暂停，Android 平板优先",
+          "desc": "Blender 宣布暂停 iPad 版应用开发，转而优先开发 Android 平板版本。对于期待在 iPad 上做 3D 建模的用户来说是个坏消息。",
+          "url": "https://www.reddit.com/r/apple/comments/blender_ipad_halted/",
+          "source": "r/apple",
+          "momo": "iPad 硬件性能早就够了，但 App Store 的分成政策和开发限制一直在劝退专业软件。Blender 转向 Android 是个信号。"
+        },
+        {
+          "title": "Apple 正在测试带高端接口和扬声器的新 Studio Display",
+          "desc": "代码发现 Apple 正在测试新版 Studio Display，配备更高端的接口和扬声器系统。",
+          "url": "https://www.reddit.com/r/apple/comments/apple_studio_display_high_end/",
+          "source": "r/apple",
+          "momo": "现款 Studio Display 最大的槽点就是接口太少、摄像头拉胯。如果新款能补上这些短板，Pro Display XDR 的性价比优势就更小了。"
+        },
+        {
+          "title": "Netflix 与 Apple TV 合作，为 F1 车迷带来更沉浸的观赛体验",
+          "desc": "Netflix 和 Apple TV 达成合作，将为 Formula 1 车迷提供更接近赛道的观赛体验。",
+          "url": "https://www.reddit.com/r/apple/comments/netflix_apple_tv_f1/",
+          "source": "r/apple",
+          "momo": "体育内容是流媒体的终极战场。Netflix 拿下 F1 后跟 Apple TV 合作，说明独家内容时代正在向合作分发转变。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "自制路径追踪器 vs Blender Cycles 对比",
+          "desc": "开发者展示自己从零实现的路径追踪器与 Blender Cycles 的渲染对比，学习 GGX NDF 采样的实践记录。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/toy_path_tracer_vs_cycles/",
+          "source": "r/GraphicsProgramming",
+          "momo": "从零写路径追踪器是图形学最好的学习方式。能跟 Cycles 对比说明基础功扎实了。"
+        },
+        {
+          "title": "MoltenVK vs OpenGL 4.1 性能实测：Apple Silicon 上的真实对比",
+          "desc": "开发者制作了 MoltenVK 和 OpenGL 4.1 的基准测试工具，在 Apple M 系列芯片上进行实测对比，探讨 Vulkan 的复杂性是否值得。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/moltenvk_vs_opengl/",
+          "source": "r/GraphicsProgramming",
+          "momo": "macOS 上 Vulkan 只能走 MoltenVK 转译层，性能到底比原生 OpenGL 强多少？这个实测数据很有参考价值。"
+        },
+        {
+          "title": "软件渲染 Doom 克隆引擎：带光照贴图的复古渲染",
+          "desc": "开发者展示了一个纯软件渲染的 Doom 风格引擎，支持光照贴图（lightmaps），不依赖 GPU。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/software_rendered_doom/",
+          "source": "r/GraphicsProgramming",
+          "momo": "纯 CPU 软渲染 + lightmap，这是 90 年代的技术用现代理解重新实现。理解底层原理的最佳方式。"
+        }
+      ]
+    },
+    {
+      "title": "科技杂谈",
+      "items": [
+        {
+          "title": "SplatHash：BlurHash 和 ThumbHash 的轻量替代方案",
+          "desc": "Show HN 项目，一个轻量级图片占位符生成器，比 BlurHash 和 ThumbHash 更简单、更快。",
+          "url": "https://news.ycombinator.com/item?id=47194600",
+          "source": "Hacker News",
+          "momo": "图片占位符这个小领域也在不断进化。BlurHash 已经很好了，但如果 SplatHash 能更轻更快，值得关注。"
+        },
+        {
+          "title": "通过被动 TPMS 信号推断车辆行驶模式",
+          "desc": "研究论文展示如何通过被动监听轮胎压力监测系统（TPMS）的无线信号来追踪和推断车辆的移动模式。",
+          "url": "https://dspace.networks.imdea.org/handle/20.500.12761/2011",
+          "source": "Hacker News",
+          "momo": "你的轮胎在广播你的行踪。TPMS 信号是无加密的，任何人都能被动监听。又一个被忽视的隐私漏洞。"
+        },
+        {
+          "title": "科幻大师 Dan Simmons 因中风去世，享年 77 岁",
+          "desc": "《海伯利安》作者 Dan Simmons 去世。Ars Technica 编辑回忆：「多年前我盲读了《海伯利安》，几乎一无所知地翻开它。从此我再也不一样了。」",
+          "url": "https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies/",
+          "source": "Ars Technica",
+          "momo": "《海伯利安》是科幻文学的巅峰之一。Simmons 用坎特伯雷故事的结构写太空歌剧，这种野心和才华极其罕见。R.I.P."
+        }
+      ]
+    }
+  ]
+}
