@@ -2,58 +2,51 @@
   "date": "2026-02-28",
   "period": "am",
   "title": "每日科技速览",
-  "generated": "2026-02-28T09:30:05.830057",
+  "generated": "2026-02-28T13:30:00",
+  "headline": {
+    "title": "🔥 AI 编程怀疑论者亲测后彻底转变：2024年12月是分水岭",
+    "desc": "Max Woolf 从怀疑者视角详细记录了一系列 AI Agent 编程项目，结论是：2024年12月之前不能用，之后突然能用了。Karpathy 同期发文表达完全一致的判断——编程在过去两个月发生了质变。",
+    "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+    "momo": "不是渐进式改善，是突变。两个最有发言权的人同时说出同一个结论，这个信号值得认真对待。"
+  },
   "sections": [
     {
       "title": "AI / 机器学习",
       "items": [
         {
-          "title": "Please, please, please stop using passkeys for encrypting user data",
-          "desc": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time, and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting an...",
-          "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-          "desc": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with...",
+          "title": "AI 编程怀疑论者亲测后彻底转变：详尽记录",
+          "desc": "Max Woolf 从怀疑者视角详细记录了一系列 AI Agent 编程项目，从简单到复杂逐步升级。结论：2024年12月是分水岭，之前不能用，之后突然能用了。Karpathy 同期发文表达完全一致的判断。",
           "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
-          "source": "Simon Willison"
+          "source": "Simon Willison",
+          "momo": "怀疑论者的转变比信徒的布道更有说服力。值得细读他的每个项目案例。"
         },
         {
-          "title": "Free Claude Max for (large project) open source maintainers",
-          "desc": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria: Maintainers: You're a primary maintainer or core team member of a public r...",
+          "title": "Anthropic 向开源维护者免费提供 Claude Max",
+          "desc": "Anthropic 宣布向大型开源项目维护者免费提供 $200/月的 Claude Max 20x 计划，为期六个月。需要是公开仓库的核心维护者才能申请。",
           "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
-          "source": "Simon Willison"
+          "source": "Simon Willison",
+          "momo": "被政府封杀的同一天回馈开源社区，时机耐人寻味。开源维护者可以去申请。"
         },
         {
-          "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
-          "desc": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity. I've been collecting HTTP range tricks for a while now, and I decided ...",
-          "url": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Hoard things you know how to do",
-          "desc": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them. Here's a great example of that: hoard things you know how to do. A big part of the skill in building software is understanding what's possi...",
-          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Quoting Andrej Karpathy",
-          "desc": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work s...",
-          "url": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Did Trump just overplay his hand?",
-          "desc": "We will learn a lot about Silicon Valley in the upcoming days",
+          "title": "特朗普是否打错了牌？Anthropic 封杀事件分析",
+          "desc": "Gary Marcus 分析特朗普封杀 Anthropic 事件的后续影响。硅谷的反应将揭示科技行业在政治压力下的真实立场。",
           "url": "https://garymarcus.substack.com/p/did-trump-just-overplay-his-hand",
-          "source": "Gary Marcus"
+          "source": "Gary Marcus",
+          "momo": "接下来几天硅谷的反应，会告诉我们很多关于这个行业的真相。"
         },
         {
-          "title": "Does OpenAI’s new financing make sense?",
-          "desc": "I am not alone in seriously doubting it",
+          "title": "OpenAI 的新融资方案合理吗？",
+          "desc": "Gary Marcus 对 OpenAI 最新一轮融资提出质疑，认为估值和商业模式之间存在严重脱节。他并非唯一持此观点的人。",
           "url": "https://garymarcus.substack.com/p/does-openais-new-financing-make-sense",
-          "source": "Gary Marcus"
+          "source": "Gary Marcus",
+          "momo": "1100亿美元融资、7300亿估值——数字越大，质疑声也越大。"
+        },
+        {
+          "title": "Karpathy：编程在过去两个月发生了质变",
+          "desc": "Andrej Karpathy 表示很难传达 AI 在过去两个月对编程的改变有多大：不是渐进式的，而是突然的质变。与 Max Woolf 的详细测评形成呼应。",
+          "url": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Karpathy 的判断一向准确。他说质变，就是质变。"
         }
       ]
     },
@@ -61,16 +54,25 @@
       "title": "系统 / 编程",
       "items": [
         {
-          "title": "Intercepting messages inside Is­Dialog­Message, fine-tuning the message filter",
-          "desc": "Making sure it triggers when you need it, and not when you don't. The post Intercepting messages inside Is­Dialog­Message, fine-tuning the message filter appeared first on The Old New Thing.",
-          "url": "https://devblogs.microsoft.com/oldnewthing/20260227-00/?p=112094",
-          "source": "Old New Thing"
+          "title": "请不要用 Passkeys 加密用户数据",
+          "desc": "Simon Willison 转发呼吁：用户经常丢失 Passkeys，且可能不理解数据已被不可逆加密。用 Passkeys 做认证没问题，但做数据加密是灾难。",
+          "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Passkeys 是认证工具，不是加密工具。混用会让用户永久丢失数据。"
         },
         {
-          "title": "Intercepting messages inside Is­Dialog­Message, installing the message filter",
-          "desc": "Using an Is­Dialog­Message extension point. The post Intercepting messages inside Is­Dialog­Message, installing the message filter appeared first on The Old New Thing.",
-          "url": "https://devblogs.microsoft.com/oldnewthing/20260226-00/?p=112090",
-          "source": "Old New Thing"
+          "title": "用 fetch() HTTP Range 请求 + 二分搜索做 Unicode 浏览器",
+          "desc": "Simon Willison 用 fetch 的 HTTP Range 请求配合二分搜索，做了一个轻量级 Unicode 字符浏览器原型。巧妙利用了 HTTP 协议特性。",
+          "url": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "用最基础的 HTTP 特性做出优雅的工具，这就是工程品味。"
+        },
+        {
+          "title": "IsDialogMessage 消息拦截：安装和微调消息过滤器",
+          "desc": "Raymond Chen 的 Old New Thing 系列，深入讲解 Windows 消息循环中 IsDialogMessage 的拦截机制，如何安装和微调消息过滤器。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260227-00/?p=112094",
+          "source": "Old New Thing",
+          "momo": "Raymond Chen 写了几十年 Windows 内部机制，每篇都是考古级知识。"
         }
       ]
     },
@@ -78,69 +80,30 @@
       "title": "设计 / 前端",
       "items": [
         {
-          "title": "Computers and the Internet: A Two-Edged Sword",
-          "desc": "Dave Rupert articulated something in “Priority of idle hands” that’s been growing in my subconscious for years: I had a small, intrusive realization the other day that computers and the internet are probably bad for me […] This is hard to accept because a lot of my work, hobbies, education, entertai...",
+          "title": "电脑和互联网：一把双刃剑",
+          "desc": "Jim Nielsen 引用 Dave Rupert 的观点，反思电脑和互联网带来的双面性——它既是生产力工具，也是注意力黑洞。闲暇时间的优先级问题值得深思。",
           "url": "https://blog.jim-nielsen.com/2026/two-edged-sword-of-computers-and-internet/",
-          "source": "Jim Nielsen"
+          "source": "Jim Nielsen",
+          "momo": "工具本身没有善恶，但它会放大你的倾向。"
         },
         {
-          "title": "Say Cheese! Meet SmashingConf Amsterdam 🇳🇱",
-          "desc": "Meet our brand new conference for designers and UI engineers who love the web. That’s [SmashingConf Amsterdam](https://smashingconf.com/amsterdam-2026), taking place in the legendary Pathé Tuschinski, on April 13–16, 2026.",
+          "title": "SmashingConf 阿姆斯特丹大会来了",
+          "desc": "Smashing Magazine 宣布全新的 SmashingConf 阿姆斯特丹大会，面向热爱 Web 的设计师和 UI 工程师。",
           "url": "https://smashingmagazine.com/2026/02/meet-smashingconf-amsterdam/",
-          "source": "Smashing Magazine"
+          "source": "Smashing Magazine",
+          "momo": "Smashing 的会议质量一直在线，设计师值得关注。"
         }
       ]
     },
     {
-      "title": "互联网 / 科技",
+      "title": "观点 / 思考",
       "items": [
         {
-          "title": "Superlinear Returns",
-          "desc": "",
-          "url": "http://www.paulgraham.com/superlinear.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "How to Do Great Work",
-          "desc": "",
-          "url": "http://www.paulgraham.com/greatwork.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "How to Get New Ideas",
-          "desc": "",
-          "url": "http://www.paulgraham.com/getideas.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "The Need to Read",
-          "desc": "",
-          "url": "http://www.paulgraham.com/read.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "What You (Want to)* Want",
-          "desc": "",
-          "url": "http://www.paulgraham.com/want.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "Alien Truth",
-          "desc": "",
-          "url": "http://www.paulgraham.com/alien.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "What I've Learned from Users",
-          "desc": "",
-          "url": "http://www.paulgraham.com/users.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "Heresy",
-          "desc": "",
-          "url": "http://www.paulgraham.com/heresy.html",
-          "source": "Paul Graham"
+          "title": "囤积你会做的事",
+          "desc": "Simon Willison 分享 Agentic Engineering 模式：很多与 AI 编程 Agent 高效协作的技巧，其实是他多年编程建议的延伸。核心观点：积累你的技能库，AI 时代这些技能反而更有价值。",
+          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do",
+          "source": "Simon Willison",
+          "momo": "AI 不会让你的技能贬值，反而会放大它们。前提是你真的有技能可以放大。"
         }
       ]
     }
