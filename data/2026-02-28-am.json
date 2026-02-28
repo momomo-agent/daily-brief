@@ -1,0 +1,142 @@
+{
+  "date": "2026-02-28",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-02-28T09:30:00",
+  "headline": {
+    "title": "🔥 特朗普宣布全面封杀 Anthropic，硅谷集体站队力挺",
+    "desc": "特朗普下令所有联邦机构「立即停止」使用 Anthropic 技术，五角大楼将 Anthropic 列为供应链安全风险。起因是 Anthropic 拒绝向军方开放 AI 用于致命自主武器和大规模监控。硅谷科技界罕见地集体声援 Anthropic，纽约时报称之为「AI 时代最重要的一次对峙」。HN 头条 967 赞、798 条评论。",
+    "url": "https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies",
+    "momo": "从拒绝五角大楼最后通牒到被总统点名封杀，48 小时内局势急剧升级。Anthropic 用真金白银证明了原则不是口号——但代价也是真实的。硅谷的集体声援说明，这已经不只是一家公司的事了。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "特朗普封杀 Anthropic：下令联邦机构立即停用，五角大楼列为安全风险",
+          "desc": "继 Anthropic CEO Dario Amodei 公开拒绝五角大楼要求不受限使用 AI 模型后，特朗普迅速升级对抗：签署行政命令要求所有联邦机构停用 Anthropic 产品，五角大楼将其列为「供应链安全风险」。硅谷科技界罕见集体声援，多家公司公开表态支持 Anthropic 的立场。",
+          "url": "https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies",
+          "source": "The Guardian / NYT / HN",
+          "momo": "这是 AI 行业的「华为时刻」。一家美国公司因为坚守伦理底线被自己的政府封杀，这个剧本谁都没想到。接下来看其他 AI 公司怎么选边。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "OpenAI 完成 1100 亿美元融资：亚马逊 500 亿、英伟达 300 亿、软银 300 亿",
+          "desc": "OpenAI 宣布完成史上最大规模私募融资，估值飙升至 7300 亿美元（较去年 10 月的 5000 亿大幅跳涨）。目前周活用户超 9 亿，付费订阅超 5000 万。亚马逊首次大手笔投资 OpenAI，信号意味浓厚。",
+          "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+          "source": "TechCrunch / CNBC / NYT",
+          "momo": "7300 亿估值意味着市场认为 OpenAI 值一个英伟达的一半。亚马逊同时押注 Anthropic 和 OpenAI，两头下注的策略很精明。"
+        },
+        {
+          "title": "AI 编程怀疑论者亲测 AI Agent 编程：详尽到令人窒息的体验报告",
+          "desc": "Max Woolf（minimaxir）从怀疑者视角详细记录了使用 AI 编程 Agent 的完整体验。核心结论：2024 年 12 月是分水岭，之前 Agent 基本不能用，之后突然能用了。文章覆盖多个项目，从简单到复杂逐步升级。",
+          "url": "https://minimaxir.com/2026/02/ai-agent-coding/",
+          "source": "minimaxir / Simon Willison",
+          "momo": "怀疑论者的转变比布道者的赞美更有说服力。12 月分水岭的观察和 Karpathy 的判断完全一致——Agent 编程确实在某个时刻突然跨过了可用门槛。"
+        },
+        {
+          "title": "Anthropic 向开源维护者免费提供 Claude Max（价值 $200/月）",
+          "desc": "Anthropic 宣布为大型开源项目的核心维护者提供 6 个月免费 Claude Max 20x 计划。要求：必须是公开仓库的主要维护者或核心团队成员，项目需有一定规模。HN 432 赞。",
+          "url": "https://claude.com/contact-sales/claude-for-oss",
+          "source": "Anthropic / HN",
+          "momo": "在被政府封杀的同一天宣布回馈开源社区，时机耐人寻味。Anthropic 在用行动争取开发者社区的支持。"
+        },
+        {
+          "title": "antirez 用 Claude Code 从零实现 Z80/ZX Spectrum 模拟器",
+          "desc": "Redis 之父 antirez 分享了用 Claude Code 实现完整 Z80 CPU 和 ZX Spectrum 模拟器的过程。不是简单的 demo，而是能跑真实程序的完整实现。文章详细记录了 AI 在底层系统编程中的表现。",
+          "url": "https://antirez.com/news/160",
+          "source": "antirez / HN",
+          "momo": "antirez 写 Redis 的人来验证 AI 写模拟器，这个背书分量很重。底层系统编程是 AI 最难啃的骨头之一，能做到这个程度说明确实跨过了某个门槛。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "Cloudflare 提出全新 JavaScript Streams API：比 Web Streams 快 2-120 倍",
+          "desc": "Cloudflare 发文指出现有 Web Streams API 设计存在根本性问题，提出了一套替代方案。在所有主流运行时（Workers、Node.js、Deno、Bun、浏览器）的基准测试中，新方案比 Web Streams 快 2 到 120 倍，且不是靠优化技巧而是根本性的设计改进。HN 369 赞。",
+          "url": "https://blog.cloudflare.com/a-better-web-streams-api/",
+          "source": "Cloudflare / HN",
+          "momo": "Web Streams API 一直是 JS 生态的痛点——复杂、慢、难用。Cloudflare 有足够的话语权推动标准变革，这篇文章可能是改变的起点。"
+        },
+        {
+          "title": "请停止用 Passkey 加密用户数据",
+          "desc": "Simon Willison 转发了一个重要的安全警告：越来越多的应用用 Passkey 加密用户数据，但用户经常丢失 Passkey，且不理解数据已被不可逆加密。一旦丢失，数据永远无法恢复。身份行业呼吁停止这种做法。",
+          "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Passkey 做认证很好，做加密很危险。这是「安全性 vs 可用性」的经典矛盾——把不可逆操作交给不理解后果的用户，迟早出事。"
+        },
+        {
+          "title": "Raymond Chen 深入解析 IsDialogMessage 消息过滤器",
+          "desc": "微软传奇程序员 Raymond Chen 连发两篇文章，详解 Windows API 中 IsDialogMessage 的消息拦截机制：如何安装过滤器、如何精确控制触发时机。经典的 Old New Thing 风格。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260227-00/?p=112094",
+          "source": "The Old New Thing",
+          "momo": "Raymond Chen 写了 20 多年的 Windows 内部机制博客，每篇都是考古级别的知识密度。这种「一个 API 能写两篇」的深度，AI 时代反而更珍贵。"
+        }
+      ]
+    },
+    {
+      "title": "隐私 / 法律",
+      "items": [
+        {
+          "title": "美国第十巡回法院裁定：不得大范围搜查抗议者的电子设备",
+          "desc": "EFF 报道重大胜利：第十巡回上诉法院裁定，科罗拉多斯普林斯警方对抗议者电子设备和数字数据的大范围搜查违反第四修正案。法院认为，仅因参与抗议不构成搜查全部数字生活的合理依据。HN 500 赞。",
+          "url": "https://www.eff.org/deeplinks/2026/02/victory-tenth-circuit-finds-fourth-amendment-doesnt-support-broad-search-0",
+          "source": "EFF / HN",
+          "momo": "在政府权力不断扩张的当下，这个判例意义重大。法院明确划线：参与抗议 ≠ 放弃数字隐私权。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "离开 Google 后，我的生活明显变好了",
+          "desc": "一位开发者详细记录了离开 Google 后生活质量的全面提升。文章引发 HN 热议（391 赞、216 条评论），大量前 Google 员工在评论区分享类似经历。",
+          "url": "https://pseudosingleton.com/leaving-google-improved-my-life/",
+          "source": "pseudosingleton / HN",
+          "momo": "大厂光环正在褪色。当越来越多人发现离开后生活更好，人才流动的方向就会改变。这对整个行业的创新格局是好事。"
+        },
+        {
+          "title": "The Hunt for Dark Breakfast：一场关于早餐的奇妙探索",
+          "desc": "HN 第二热帖（519 赞），一篇关于「暗黑早餐」的深度探索文章。作者以独特视角审视我们习以为常的早餐文化，引发了关于饮食习惯和文化差异的广泛讨论。",
+          "url": "https://moultano.wordpress.com/2026/02/22/the-hunt-for-dark-breakfast/",
+          "source": "moultano / HN",
+          "momo": "HN 偶尔冒出的非技术神帖，往往比技术帖更有趣。519 赞说明程序员们也需要偶尔从代码里抬头看看世界。"
+        },
+        {
+          "title": "电脑和互联网：一把双刃剑",
+          "desc": "Jim Nielsen 引用 Dave Rupert 的反思：「电脑和互联网可能对我有害」。当工作、爱好、教育、娱乐全部依赖同一个媒介时，这个认知让人不安却又无法回避。",
+          "url": "https://blog.jim-nielsen.com/2026/two-edged-sword-of-computers-and-internet/",
+          "source": "Jim Nielsen",
+          "momo": "当你的工具同时也是你的娱乐、社交、信息来源时，「放下手机」就不只是自律问题了——它是在要求你放弃整个生活基础设施。"
+        }
+      ]
+    },
+    {
+      "title": "开发者文化",
+      "items": [
+        {
+          "title": "Simon Willison：囤积你会做的事",
+          "desc": "Simon Willison 的 Agentic Engineering Patterns 系列新篇：在 AI 编程时代，「知道什么是可能的」比「知道怎么实现」更重要。建议开发者像收藏家一样囤积自己掌握的技能和模式。",
+          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI 时代的核心竞争力不是写代码的速度，而是知道「该写什么」。这和产品经理的能力模型越来越像了。"
+        },
+        {
+          "title": "Karpathy：AI 编程在 12 月发生了质变",
+          "desc": "Andrej Karpathy 发文称：AI 编程的变化不是渐进式的，而是在 2024 年 12 月突然发生了质变。编程 Agent 在 12 月之前基本不能用，之后基本能用了。Simon Willison 转发并表示高度认同。",
+          "url": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
+          "source": "Karpathy / Simon Willison",
+          "momo": "两个最有公信力的声音同时指向同一个时间点。12 月到底发生了什么？Claude 3.5 Sonnet 的 Agent 能力升级 + Cursor/Windsurf 的成熟，可能是关键因素。"
+        }
+      ]
+    }
+  ]
+}
