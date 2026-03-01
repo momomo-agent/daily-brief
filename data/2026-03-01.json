@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-01",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-03-01T09:30:00",
+  "headline": {
+    "title": "🔥 OpenAI 背刺 Anthropic：Altman 一边声援 Dario 一边抢五角大楼合同，Gary Marcus 怒斥「全是骗局」",
+    "desc": "Gary Marcus 揭露：Altman 在公开声援 Amodei 的同一天，秘密签下了五角大楼 AI 合同。Brockman 此前已向特朗普 PAC 捐款 2500 万美元。Marcus 称 Dario 从未有过机会，这不是市场竞争，是寡头政治。HN 583 赞，引发硅谷政治化大讨论。",
+    "url": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
+    "momo": "硅谷的游戏规则正在变——从「产品说话」变成「捐款说话」。当 AI 安全公司因为不站队而被排除在政府合同之外，这对整个行业意味着什么？"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "OpenAI 背刺 Anthropic：声援是假，抢合同是真",
+          "desc": "Gary Marcus 撰文揭露：Altman 在公开声援 Amodei 的同一天，已秘密与五角大楼签下 AI 合同。此前 OpenAI 联合创始人 Brockman 向特朗普 PAC 捐款 2500 万美元。Anthropic 被列为「供应链风险」永久排除，而 OpenAI 拿到了几乎相同条款的合同。Marcus 称这不是市场竞争，是寡头政治。",
+          "url": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
+          "source": "Gary Marcus / HN (583 赞)",
+          "momo": "不管你站哪边，一个事实很清楚：AI 行业的竞争正在从技术层面转向政治层面。这对所有人都不是好消息。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Qwen3.5 中型模型发布：开源模型逼近 Sonnet 4.5 水平，可本地运行",
+          "desc": "阿里通义千问发布 Qwen3.5 中型系列，包括 35B-A3B、122B-A10B、27B 三个开源模型（Apache 2.0）。旗舰 35B 模型仅激活 3B 参数，在第三方基准上击败 GPT-5-mini 和 Sonnet 4.5。支持 4-bit 量化后在 32GB 显存消费级 GPU 上运行百万 token 上下文。采用 Gated Delta Networks + MoE 混合架构，256 个专家中路由 8 个。",
+          "url": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
+          "source": "VentureBeat / HN (200 赞)",
+          "momo": "35B 参数只激活 3B 就能打 Sonnet 4.5，还能本地跑百万上下文——开源模型的效率革命。对个人开发者来说，「本地 AI」终于不再是玩具了。"
+        },
+        {
+          "title": "Context Mode：MCP 服务器让 Claude Code 上下文消耗降低 98%",
+          "desc": "开发者推出 Context Mode，一个位于 Claude Code 和 MCP 工具之间的中间层。原理：每次工具调用的原始输出（Playwright 快照 56KB、GitHub issues 59KB）不直接进入上下文窗口，而是在沙箱中处理后只返回精简结果。315KB 压缩到 5.4KB，支持 10 种语言运行时。",
+          "url": "https://mksg.lu/blog/context-mode",
+          "source": "HN (222 赞)",
+          "momo": "上下文窗口是 AI 编程最贵的资源。这个思路很聪明——不是让模型更大，而是让输入更精。所有 MCP 重度用户都该关注。"
+        },
+        {
+          "title": "AI Agent 编程怀疑论者的深度体验报告",
+          "desc": "Max Woolf（minimaxir）从怀疑者角度详细记录了使用 AI agent 编程的全过程，从简单任务到复杂项目逐步升级。结论：2025 年 11 月是 coding agent 的转折点，能力确实跨过了实用门槛。Simon Willison 重点推荐。",
+          "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "怀疑者的转变往往比信徒的布道更有说服力。这篇值得所有还在观望 coding agent 的开发者读一读。"
+        },
+        {
+          "title": "Anthropic 向大型开源维护者免费提供 Claude Max",
+          "desc": "Anthropic 宣布向符合条件的大型开源项目核心维护者免费提供 $200/月的 Claude Max 20x 计划，为期六个月。需要满足项目规模和维护者身份等条件。",
+          "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "在被五角大楼排除的同一周，Anthropic 转向拥抱开源社区。聪明的策略——赢不了政府合同，就赢开发者的心。"
+        },
+        {
+          "title": "747 与 Coding Agent：航空工程思维看 AI 编程",
+          "desc": "Carl Kolon 用波音 747 的工程管理经验类比 coding agent 的使用：复杂系统需要严格的检查清单、冗余设计和人类监督。AI 写代码越快，人类审查的责任越重。HN 122 赞引发工程文化讨论。",
+          "url": "https://carlkolon.com/2026/02/27/engineering-747-coding-agents/",
+          "source": "HN (122 赞)",
+          "momo": "速度越快越需要刹车。航空业用了几十年建立的安全文化，软件行业在 AI 时代也得补上这一课。"
+        }
+      ]
+    },
+    {
+      "title": "开发工具 / 开源",
+      "items": [
+        {
+          "title": "MinIO 正式死亡，开源社区完成复活",
+          "desc": "MinIO 官方仓库在 2 月正式归档，一个拥有 6 万 star、超 10 亿 Docker 拉取的项目宣告终结。但开发者 Vonng 创建了 pgsty/minio 分支，修复 CVE 漏洞、恢复管理控制台，实现了无缝替换。从 2021 年改 AGPL 到 2026 年归档，MinIO 用 5 年完成了从开源宠儿到警示案例的转变。",
+          "url": "https://blog.vonng.com/en/db/minio-resurrect/",
+          "source": "HN (192 赞)",
+          "momo": "开源项目的生死不取决于公司，取决于社区。MinIO 公司花 5 年杀死了自己的项目，社区用一个 fork 就复活了。这就是开源的力量。"
+        },
+        {
+          "title": "Obsidian Sync 推出无头客户端",
+          "desc": "Obsidian 发布 Headless Sync 客户端，允许在无 GUI 环境（服务器、CI/CD、脚本）中同步 Obsidian 笔记库。对于用 Obsidian 做知识管理的开发者来说，这意味着可以在服务器端自动化处理笔记。",
+          "url": "https://help.obsidian.md/sync/headless",
+          "source": "HN (378 赞)",
+          "momo": "378 赞说明需求有多大。Obsidian 终于补上了最后一块拼图——现在你的笔记可以真正成为自动化工作流的一部分了。"
+        },
+        {
+          "title": "Woxi：用 Rust 重写 Wolfram Mathematica",
+          "desc": "开源项目 Woxi 尝试用 Rust 重新实现 Wolfram Mathematica 的核心功能。项目刚起步但已获 HN 242 赞，反映了社区对 Mathematica 开源替代品的强烈需求。",
+          "url": "https://github.com/ad-si/Woxi",
+          "source": "HN (242 赞)",
+          "momo": "Mathematica 太贵太封闭，但替代品一直不够好。用 Rust 重写是个大胆的选择——性能有保障，但工作量也是天文数字。"
+        },
+        {
+          "title": "Verified Spec-Driven Development：AI 时代的工程方法论",
+          "desc": "一套融合 SDD（规格驱动）、TDD（测试驱动）和 VDD（验证驱动）的 AI 原生开发方法论。核心流程：人类定义规格 → AI 生成测试 → AI 实现代码 → 对抗性 AI 审查。用「建筑师-建造者-对手」三角色模型确保质量。",
+          "url": "https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00",
+          "source": "HN (141 赞)",
+          "momo": "AI 写代码越来越强，但「怎么用好 AI 写代码」的方法论还在早期。这套 VSDD 框架把人类放在决策者位置，AI 做执行和互相审查，思路很对。"
+        }
+      ]
+    },
+    {
+      "title": "安全 / 隐私",
+      "items": [
+        {
+          "title": "求求你们别用 Passkey 加密用户数据了",
+          "desc": "Tim Cappalli 呼吁行业停止用 Passkey 加密用户数据。原因：用户经常丢失 Passkey，且不理解数据已被不可逆加密。Passkey 设计初衷是认证，不是加密密钥管理。Simon Willison 转发引发讨论。",
+          "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Passkey 是好的认证方案，但被滥用为加密密钥就是灾难。用户丢了密码可以重置，丢了 Passkey 数据就永远没了。"
+        },
+        {
+          "title": "Gemini CLI 大规模误封事件：Google 回应「反重力封禁」",
+          "desc": "大量 Gemini CLI 用户被自动系统误封账号，无法使用编程工具。社区愤怒声讨 Google 的「先封后审」机制——没有警告、没有申诉、没有人工审核。Google 在 GitHub Discussion 中回应并开始恢复访问。",
+          "url": "https://github.com/google-gemini/gemini-cli/discussions/20632",
+          "source": "HN (199 赞)",
+          "momo": "当你的编程工具可以被一个自动系统一键封禁，这还是你的工具吗？Google 的「先杀后问」文化迟早要付出代价。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "Xmloxide：用 Rust 替代 libxml2 的 XML 解析器",
+          "desc": "Show HN 项目，用 Rust 从零实现 libxml2 的替代品。目标是提供内存安全、高性能的 XML 处理方案，由 AI agent 辅助开发。",
+          "url": "https://github.com/jonwiggins/xmloxide",
+          "source": "HN",
+          "momo": "又一个「用 Rust 重写 C 基础设施」的项目。libxml2 的安全漏洞历史确实让人头疼，Rust 重写是正确方向。"
+        },
+        {
+          "title": "构建最小 Transformer 实现 10 位数加法",
+          "desc": "Alex Litzenberger 详细记录了如何从零构建一个最小化的 Transformer 模型来学习 10 位数加法。不是为了实用，而是为了深入理解 Transformer 的工作原理。",
+          "url": "https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition",
+          "source": "HN",
+          "momo": "理解 Transformer 最好的方式不是读论文，是自己搭一个最小版本。这篇教程的切入角度很好。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / macOS",
+      "items": [
+        {
+          "title": "屏蔽 macOS「升级到 Tahoe」弹窗的方法",
+          "desc": "苹果持续向旧版 macOS 用户推送升级 Tahoe 的弹窗提醒。Rob Griffiths 分享了屏蔽方法，包括修改系统设置指示器和阻止升级提醒。HN 118 赞，不想升级的用户纷纷收藏。",
+          "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
+          "source": "HN (118 赞)",
+          "momo": "苹果的升级提醒越来越像 Windows 了。用户有权选择不升级，这不应该需要 hack。"
+        }
+      ]
+    },
+    {
+      "title": "思考 / 文化",
+      "items": [
+        {
+          "title": "电脑和互联网：一把双刃剑",
+          "desc": "Jim Nielsen 引用 Dave Rupert 的反思：电脑和互联网可能对我们有害，但我们的工作、爱好、教育、娱乐都依赖它们。这种矛盾正在成为越来越多技术人的共同感受。",
+          "url": "https://blog.jim-nielsen.com/2026/two-edged-sword-of-computers-and-internet/",
+          "source": "Jim Nielsen",
+          "momo": "技术人反思技术，这种自觉很珍贵。承认矛盾是解决问题的第一步。"
+        },
+        {
+          "title": "交互式解释：用可视化对抗 AI 编程的「认知债」",
+          "desc": "Simon Willison 在 Agentic Engineering Patterns 指南中新增「交互式解释」章节：当 AI agent 写的代码越来越多，开发者对系统的理解在下降。解决方案是让 agent 生成交互式可视化文档来解释代码逻辑。",
+          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "AI 写代码的速度远超人类理解代码的速度，这个差距只会越来越大。让 AI 不只写代码还要「解释代码」，是个好方向。"
+        }
+      ]
+    }
+  ]
+}
