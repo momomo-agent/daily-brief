@@ -1,0 +1,260 @@
+{
+  "date": "2026-03-02",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-03-02T09:30:08.863403",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Quoting claude.com/import-memory",
+          "desc": "I'm moving to another service and need to export my data. List every memory you have stored about me, as well as any context you've learned about me from past conversations. Output everything in a single code block so I can easily copy it. Format each entry as: [date saved, if available] - memory co...",
+          "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Interactive explanations",
+          "desc": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt. For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need to...",
+          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Is AI already killing people by accident?",
+          "desc": "The writer Tyler Austin Harper (of The Atlantic, etc.) sent me a thread this morning, asking whether a mistargeting yesterday that killed nearly 150 school children in Iran could have been the result of AI.",
+          "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "The whole thing was a scam",
+          "desc": "The fix was in, and Dario never had a chance.",
+          "url": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "Allegations of insider trading over prediction-market bets tied to Iran conflict",
+          "desc": "Article URL: https://www.morningstar.com/news/marketwatch/20260301140/allegations-of-insider-trading-over-prediction-market-bets-tied-to-iran-conflict Comments URL: https://news.ycombinator.com/item?id=47211476 Points: 39 # Comments: 17",
+          "url": "https://www.morningstar.com/news/marketwatch/20260301140/allegations-of-insider-trading-over-prediction-market-bets-tied-to-iran-conflict",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Little Free Library Books",
+          "desc": "Article URL: https://littlefreelibrary.org/ Comments URL: https://news.ycombinator.com/item?id=47211280 Points: 35 # Comments: 5",
+          "url": "https://littlefreelibrary.org/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "WebMCP is available for early preview",
+          "desc": "Article URL: https://developer.chrome.com/blog/webmcp-epp Comments URL: https://news.ycombinator.com/item?id=47211249 Points: 103 # Comments: 64",
+          "url": "https://developer.chrome.com/blog/webmcp-epp",
+          "source": "Hacker News"
+        },
+        {
+          "title": "South Korean Police Lose Seized Crypto by Posting Password Online",
+          "desc": "Article URL: https://gizmodo.com/south-korean-police-lose-seized-crypto-by-posting-password-online-2000728191 Comments URL: https://news.ycombinator.com/item?id=47211081 Points: 56 # Comments: 11",
+          "url": "https://gizmodo.com/south-korean-police-lose-seized-crypto-by-posting-password-online-2000728191",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Can anyone explain those old bad depth of field effects to me?",
+          "desc": "Games from around 200x (like Oblivion or many UE3 games) had this very weird depth of field: It was kinda blurry, but then again too many details and edges were still very sharp. It always gave me headaches because it felt like my eyes were not adjusting correctly. Then, this issue seemed to be solv...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1ri0cno/can_anyone_explain_those_old_bad_depth_of_field/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Nature 3D Scene.",
+          "desc": "submitted by /u/FriendshipNo9222 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1ri878c/nature_3d_scene/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "What raymarching the Netherlands Sounds Like",
+          "desc": "Excerpt from my video about what fractals sound like. I estimated that the Hausdorff/fractal dimension of the Netherlands is about 1.22, both using box counting and the yardstick method. submitted by /u/matigekunst [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rhte7e/what_raymarching_the_netherlands_sounds_like/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Why are spheres/curved objects made with vertices when they can be made with fragment shading?",
+          "desc": "Sometimes ill be playing a game and see a simple curved object with vertices poking around the edges and ill think \"why wasn't that just rendered with fragment shaders?\". There's probably a good answer and this is probably a naive question but I'm curious and can't figure out an answer. Curved objec...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1ri1b06/why_are_spherescurved_objects_made_with_vertices/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "OpenGL programming guide for old ARB extension shaders (2005)",
+          "desc": "Full title: Opengl Programmable Shading Guide: A Comprehensive Guide to the Arb Vertex and Fragment Program Extensions Maybe strays away from this subreddit's purpose, but recently I have been quite curious about the old-fashioned ARB shader system for OpenGL. I am looking for preferably a PDF of th...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rhz6th/opengl_programming_guide_for_old_arb_extension/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "I rendered every countries map using .geojson and OpenGL!",
+          "desc": "submitted by /u/tahsindev [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rhz1u3/i_rendered_every_countries_map_using_geojson_and/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "[Showcase] Kiln: A WebGPU-native out-of-core volume renderer for multi-GB datasets",
+          "desc": "Hi r/GraphicsProgramming! I’ve just open-sourced Kiln, a WebGPU-native volume renderer that implements a virtual texturing pipeline for volumetric data. It allows streaming multi-GB datasets (like 3GB+ CT scans) over standard HTTP while maintaining a constant, minimal VRAM footprint (~548 MiB for 16...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rhtw5p/showcase_kiln_a_webgpunative_outofcore_volume/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "[OpenGL C++] 3D Voxel Engine Tutorial",
+          "desc": "Hey everyone! I just released my Voxel Engine tutorial, my goal was to make it beginner friendly, so anyone can learn how to make a voxel engine similar to Minecraft! If you are an advanced Programming and are familiar with OpenGL, you may skip the first two parts if you would like. we are using the...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rhp2g4/opengl_c_3d_voxel_engine_tutorial/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "Redis patterns for coding",
+          "desc": "Here LLM and coding agents can find: 1. Exhaustive documentation about Redis commands and data types. 2. Patterns commonly used. 3. Configuration hints. 4. Algorithms that can be mounted using Redis commands. https://redis.antirez.com/ Some humans claim this documentation is actually useful for actu...",
+          "url": "\nhttp://antirez.com/news/161\n",
+          "source": "antirez"
+        },
+        {
+          "title": "Killing my inner Necron",
+          "desc": "On surviving surgery, confronting mortality, and finding peace on the other side.",
+          "url": "https://xeiaso.net/blog/2026/killing-my-inner-necron/",
+          "source": "Xe Iaso"
+        },
+        {
+          "title": "Notes on Lagrange Interpolating Polynomials",
+          "desc": "Polynomial interpolation is a method of finding a polynomial function that fits a given set of data perfectly. More concretely, suppose we have a set of n+1 distinct points [1]: \\[(x_0,y_0), (x_1, y_1), (x_2, y_2)\\cdots(x_n, y_n)\\] And we want to find the polynomial coefficients {a_0\\cdots …",
+          "url": "https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/",
+          "source": "Eli Bendersky"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "I'm building a tool to handle Client Approvals (and stop scope creep). Would this be useful?",
+          "desc": "Hi everyone, I am a developer building a tool called TryApprove. The idea is simple: A dedicated client portal for getting sign-offs on designs or milestones, without the mess of email threads. The Key Features: Mandatory Checklists: The main differentiator. The client must tick boxes (e.g., \"I have...",
+          "url": "https://www.reddit.com/r/web_design/comments/1rh4chw/im_building_a_tool_to_handle_client_approvals_and/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "The “Frankenstein Popup” problem: how mismatched UI kills trust (and how we fixed it with theme logic)",
+          "desc": "I keep seeing the same design failure across the web: the site looks polished… It's clean. Nice type. Thought-out spacing. Brand colors actually make sense. Then the popup shows up like it got copy-pasted from a 2016 template pack. Wrong font, random “success green,” weird shadows, border radius fro...",
+          "url": "https://www.reddit.com/r/web_design/comments/1rhfuwk/the_frankenstein_popup_problem_how_mismatched_ui/",
+          "source": "r/web_design"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "Weekly Advice Thread - March 01, 2026",
+          "desc": "Welcome to the Weekly Advice Thread for r/Apple. This thread can be used to ask for technical advice regarding Apple software and hardware, to ask questions regarding the buying or selling of Apple products or to post other short questions. Have a question you need answered? Ask away! Please remembe...",
+          "url": "https://www.reddit.com/r/apple/comments/1rhul6z/weekly_advice_thread_march_01_2026/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Anthropic's Claude hits No. 1 on Apple's top free apps list after Pentagon rejection",
+          "desc": "submitted by /u/ControlCAD [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rhxnqp/anthropics_claude_hits_no_1_on_apples_top_free/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Reportedly Expects 'Major Rush' of Customers This Week",
+          "desc": "submitted by /u/netsplatter [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1ri3lq6/apple_reportedly_expects_major_rush_of_customers/",
+          "source": "r/apple"
+        },
+        {
+          "title": "No Map. No Menu. Just Your Location Instantly",
+          "desc": "I’m a full time police officer and I build software on the side. I just launched an app called loc8. It was originally something I built for myself, but the response from officers, firefighters, EMTs, and others in the public safety realm has been stronger than I expected. It does one thing. The sec...",
+          "url": "https://www.reddit.com/r/apple/comments/1rides4/no_map_no_menu_just_your_location_instantly/",
+          "source": "r/apple"
+        },
+        {
+          "title": "I built a 100% offline, free loyalty card wallet because I hated holding up the checkout line.",
+          "desc": "I’m the developer of Offline Cards. I built this app out of sheer personal frustration. I was so tired of standing at the register, waiting for a store's official app to load on spotty cell service, and feeling like a fool while the line behind me grew. I just wanted a lightning-fast solution that a...",
+          "url": "https://www.reddit.com/r/apple/comments/1ri53j1/i_built_a_100_offline_free_loyalty_card_wallet/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple Stores Temporarily Closed in the United Arab Emirates",
+          "desc": "submitted by /u/GlumIce852 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rhzcpl/apple_stores_temporarily_closed_in_the_united/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple’s Touch MacBook Will Stop Well Short of a Mac-iPad Hybrid",
+          "desc": "submitted by /u/favicondotico [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rhwqug/apples_touch_macbook_will_stop_well_short_of_a/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple's cheap MacBook only has one job",
+          "desc": "submitted by /u/Few_Baseball_3835 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rhilzk/apples_cheap_macbook_only_has_one_job/",
+          "source": "r/apple"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Superlinear Returns",
+          "desc": "",
+          "url": "http://www.paulgraham.com/superlinear.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Do Great Work",
+          "desc": "",
+          "url": "http://www.paulgraham.com/greatwork.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Get New Ideas",
+          "desc": "",
+          "url": "http://www.paulgraham.com/getideas.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "The Need to Read",
+          "desc": "",
+          "url": "http://www.paulgraham.com/read.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What You (Want to)* Want",
+          "desc": "",
+          "url": "http://www.paulgraham.com/want.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Alien Truth",
+          "desc": "",
+          "url": "http://www.paulgraham.com/alien.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What I've Learned from Users",
+          "desc": "",
+          "url": "http://www.paulgraham.com/users.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Heresy",
+          "desc": "",
+          "url": "http://www.paulgraham.com/heresy.html",
+          "source": "Paul Graham"
+        }
+      ]
+    }
+  ]
+}

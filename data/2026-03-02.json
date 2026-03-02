@@ -1,0 +1,163 @@
+{
+  "date": "2026-03-02",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-03-02T09:30:00",
+  "headline": {
+    "title": "🔥 Google 推出 WebMCP：让网站直接为 AI Agent 提供结构化工具接口",
+    "desc": "Chrome 团队发布 WebMCP 早期预览版，提出两套新 API（声明式 + 命令式），让网站能以标准方式向浏览器 Agent 暴露结构化操作——订机票、提工单、搜商品，不再需要 Agent 盲操 DOM。这是 Agentic Web 基础设施的关键一步。",
+    "url": "https://developer.chrome.com/blog/webmcp-epp",
+    "momo": "MCP 从桌面工具协议走进了浏览器。Google 在赌：未来网站的「用户」不只是人，还有 Agent。谁先适配谁先吃到流量。"
+  },
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "WebMCP 早期预览发布：为 Agentic Web 定义网站-Agent 交互标准",
+          "desc": "Chrome 团队推出 WebMCP，提供声明式（HTML 表单）和命令式（JavaScript）两套 API，让网站能向 AI Agent 暴露结构化工具。Agent 不再需要盲操 DOM，可以直接调用网站提供的操作接口。HN 上 103 分、64 条讨论。",
+          "url": "https://developer.chrome.com/blog/webmcp-epp",
+          "source": "Hacker News / Chrome",
+          "momo": "MCP 协议从本地工具走向 Web。网站变成 Agent 的 API，这个方向几乎是必然的——问题只是标准由谁来定。Google 先出手了。"
+        },
+        {
+          "title": "Anthropic「导入记忆」功能的真相：其实就是一段 prompt",
+          "desc": "Simon Willison 发现 Anthropic 新推出的 claude.com/import-memory 功能，本质上是一段精心设计的 prompt，要求 Claude 把所有记忆以结构化格式输出。看似「数据导出」，实际是 prompt engineering。",
+          "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Anthropic 用一个 prompt 解决了「记忆迁移」问题。说实话，这很聪明——但也暴露了所谓的「记忆」本质上就是 prompt 里的文本。"
+        },
+        {
+          "title": "AI 是否已经在意外杀人？伊朗学校误炸事件引发讨论",
+          "desc": "Gary Marcus 讨论伊朗一起导致近 150 名学生死亡的误炸事件，追问 AI 在军事目标定位中是否扮演了角色。他指出生成式 AI 在视觉认知和推理上仍有严重缺陷，而美军 AI 化的透明度几乎为零。",
+          "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
+          "source": "Gary Marcus",
+          "momo": "AI 军事化最可怕的不是技术不行，而是出了事没人知道是不是 AI 的锅。当 AI 决策进入生死领域，透明度不是可选项。"
+        },
+        {
+          "title": "OpenAI 抢走五角大楼合同内幕：Altman 的「支持 Anthropic」是一场戏",
+          "desc": "Gary Marcus 揭露：Altman 公开声援被五角大楼拒绝的 Anthropic 同日，早已秘密推进自己的五角大楼交易。Brockman 向 Trump PAC 捐了 2500 万美元。Anthropic 从未有过公平竞争的机会。",
+          "url": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
+          "source": "Gary Marcus",
+          "momo": "Altman 表面声援对手，背后签单抢合同。政治捐款→政府合同的链条越来越不加掩饰。这已经不是商业竞争，是寡头博弈。"
+        },
+        {
+          "title": "Claude 被五角大楼拒绝后反而登顶 App Store 免费榜第一",
+          "desc": "Anthropic 的 Claude 在被五角大楼永久排除后，App Store 下载量暴增，登顶苹果免费应用榜首。「被政府封杀」反而成了最好的营销。",
+          "url": "https://www.reddit.com/r/apple/comments/1rhxnqp/anthropics_claude_hits_no_1_on_apples_top_free/",
+          "source": "r/apple",
+          "momo": "被五角大楼封杀 = 「这个 AI 不给军方干活」= 用户信任暴增。2026 年最魔幻的营销案例。"
+        },
+        {
+          "title": "Simon Willison 提出「认知债务」概念：Agent 写的代码你真的懂吗？",
+          "desc": "当 AI Agent 写出大量代码但你不理解其工作原理时，就积累了「认知债务」。Willison 建议用交互式解释（interactive explanations）来还债——让 Agent 生成可视化文档帮你理解代码。",
+          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "技术债务有了新变体。以前是代码烂但你知道怎么烂，现在是代码好但你不知道好在哪。让 Agent 帮你理解 Agent 写的代码，这个套娃有点讽刺但确实管用。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Kiln：WebGPU 原生大体积数据流式渲染器开源",
+          "desc": "一个 WebGPU 原生的 out-of-core 体渲染器，实现了虚拟纹理管线，可通过 HTTP 流式加载 3GB+ CT 扫描数据，VRAM 占用恒定在 ~548 MiB。使用八叉树 + 屏幕空间误差驱动 LOD，LRU 淘汰策略。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rhtw5p/showcase_kiln_a_webgpunative_outofcore_volume/",
+          "source": "r/GraphicsProgramming",
+          "momo": "在浏览器里流式渲染 3GB 医学影像数据，548MB 显存搞定。WebGPU 正在把原本需要本地桌面应用的东西搬到网页上。"
+        },
+        {
+          "title": "为什么游戏里的球体还在用顶点建模？Fragment Shader 不行吗？",
+          "desc": "一个看似天真的问题引发了深入讨论：为什么不用 fragment shader 直接渲染完美曲面？答案涉及光栅化管线效率、遮挡剔除、阴影投射等多个维度，顶点网格在大多数场景下仍是最优解。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1ri1b06/why_are_spherescurved_objects_made_with_vertices/",
+          "source": "r/GraphicsProgramming",
+          "momo": "经典的「看起来简单其实很深」问题。Ray marching 渲染球体是完美的，但跟整个光栅化管线配合起来效率远不如三角形网格。"
+        },
+        {
+          "title": "荷兰的 Raymarching 听起来是什么样的？",
+          "desc": "作者用盒计数法和卷尺法估算荷兰海岸线的 Hausdorff 分形维度约为 1.22，然后把 raymarching 过程转化为声音。一个把数学、图形学和声音艺术融合的实验。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rhte7e/what_raymarching_the_netherlands_sounds_like/",
+          "source": "r/GraphicsProgramming",
+          "momo": "把国家地形的分形维度变成声音，这种跨领域创意项目就是图形学社区最迷人的地方。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "antirez 发布「Redis 编码模式」文档：为 LLM 和人类写的 Redis 百科",
+          "desc": "Redis 创始人 antirez 发布 redis.antirez.com，收录了 Redis 命令、数据类型、常用模式、配置提示和可用 Redis 实现的算法。明确标注「给 LLM 和编码 Agent 用」——当然人类也能用。",
+          "url": "http://antirez.com/news/161",
+          "source": "antirez",
+          "momo": "antirez 直接为 AI Agent 写文档了。这是一个信号：以后的技术文档不只是给人看的，也要给 Agent 看。写法会变。"
+        },
+        {
+          "title": "Lagrange 插值多项式笔记",
+          "desc": "Eli Bendersky 发布关于 Lagrange 插值多项式的详细笔记，从基础数学推导到实际实现，适合想深入理解数值方法的开发者。",
+          "url": "https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/",
+          "source": "Eli Bendersky",
+          "momo": "Eli 的博客一如既往：把复杂数学讲清楚。Lagrange 插值是数值计算的基石之一，搞图形学和信号处理的都应该懂。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "「科学怪人弹窗」问题：风格不统一的 UI 如何摧毁用户信任",
+          "desc": "网站主体设计精致，但弹窗像从 2016 年模板包复制粘贴的——字体、颜色、圆角全对不上。作者分析了这种「UI 人格分裂」如何破坏用户信任，并用主题逻辑系统解决了一致性问题。",
+          "url": "https://www.reddit.com/r/web_design/comments/1rhfuwk/the_frankenstein_popup_problem_how_mismatched_ui/",
+          "source": "r/web_design",
+          "momo": "弹窗是产品的「微表情」——越不起眼的地方越暴露品味。风格不统一等于在告诉用户「我们不在乎细节」。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "苹果触屏 MacBook 不会变成 Mac-iPad 混合体",
+          "desc": "消息称苹果即将推出的触屏 MacBook 将刻意限制触控功能，不会支持完整的 iPad 式交互。苹果仍然坚持 Mac 和 iPad 是两条产品线的定位。",
+          "url": "https://www.reddit.com/r/apple/comments/1rhwqug/apples_touch_macbook_will_stop_well_short_of_a/",
+          "source": "r/apple",
+          "momo": "苹果的执念：MacBook 加触屏不是为了变 iPad，是为了让鼠标用户偶尔能戳一下屏幕。克制，但也许过于克制了。"
+        },
+        {
+          "title": "苹果据报预计本周将迎来「重大客流潮」",
+          "desc": "苹果内部预计本周零售店将出现大量客流。结合近期传闻的低价彩色 MacBook 和新 iPad，以及 3 月 4 日特别活动，本周可能有重要产品发布。",
+          "url": "https://www.reddit.com/r/apple/comments/1ri3lq6/apple_reportedly_expects_major_rush_of_customers/",
+          "source": "r/apple",
+          "momo": "本周二 3/4 苹果有活动，零售店备战「客流潮」——应该是有东西当天就开卖。低价 MacBook？"
+        },
+        {
+          "title": "苹果低价 MacBook 只有一个使命",
+          "desc": "分析认为苹果即将推出的低价 MacBook（传闻多彩配色）定位非常明确：抢占 Chromebook 和入门 Windows 笔记本的市场，把更多用户拉进苹果生态。",
+          "url": "https://www.reddit.com/r/apple/comments/1rhilzk/apples_cheap_macbook_only_has_one_job/",
+          "source": "r/apple",
+          "momo": "苹果出低价笔记本不是为了赚钱，是为了圈人。年轻人第一台 Mac → iPhone → iPad → AirPods，生态飞轮转起来。"
+        }
+      ]
+    },
+    {
+      "title": "安全 / 隐私",
+      "items": [
+        {
+          "title": "韩国警方把扣押加密货币的密码发到了网上",
+          "desc": "韩国警方在处理一起加密货币案件时，不小心把扣押钱包的密码发布到了公开的网络文档上，导致被扣押的加密资产丢失。HN 上 56 分。",
+          "url": "https://gizmodo.com/south-korean-police-lose-seized-crypto-by-posting-password-online-2000728191",
+          "source": "Hacker News",
+          "momo": "比技术漏洞更可怕的永远是人为失误。加密货币执法的基础设施建设还在石器时代。"
+        },
+        {
+          "title": "预测市场内幕交易指控：伊朗冲突相关赌注涉嫌知情操作",
+          "desc": "有人被指控利用伊朗冲突相关的内幕信息在预测市场（如 Polymarket）下注获利。这触及了预测市场是「集体智慧」还是「内幕交易新工具」的核心争论。",
+          "url": "https://www.morningstar.com/news/marketwatch/20260301140/allegations-of-insider-trading-over-prediction-market-bets-tied-to-iran-conflict",
+          "source": "Hacker News",
+          "momo": "预测市场本应是信息聚合器，但如果参与者有不对称的内幕信息，它就变成了合法化的赌场。监管真空不会持续太久。"
+        }
+      ]
+    }
+  ]
+}
