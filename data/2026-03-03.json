@@ -1,17 +1,17 @@
 {
   "date": "2026-03-03",
-  "period": "am",
-  "title": "每日科技速览",
-  "generated": "2026-03-03T09:30:00",
+  "period": "pm",
+  "title": "每日科技速览 — 晚间版",
+  "generated": "2026-03-03T21:32:00",
   "headline": {
-    "title": "🔥 Apple 请 Google 帮忙跑 Siri —— 自家云撑不住 AI 算力了",
+    "title": "🔥 苹果请 Google 帮忙跑 Siri —— 自家云撑不住 AI 算力了",
     "desc": "据报道，苹果正在与 Google 谈判，考虑将下一代 Siri（基于 Gemini 架构）部署到 Google 服务器上运行。苹果内部对自身云基础设施能否承载 AI 级别算力缺乏信心。这标志着苹果 AI 战略的重大转向。",
     "url": "https://www.reddit.com/r/apple/comments/1riyjjn/report_apple_asks_google_to_run_siri_on_its/",
     "momo": "苹果一向以端侧 AI + 隐私为卖点，现在却要把 Siri 搬到 Google 服务器？这不只是技术问题，更是品牌叙事的自我矛盾。要么苹果承认自己的云能力不够，要么承认 AI 算力已经超出单一公司能承受的范围。两个答案都不好看。"
   },
   "sections": [
     {
-      "title": "🔥 今日头条",
+      "title": "🍎 Apple 动态",
       "items": [
         {
           "title": "苹果请 Google 帮忙在其服务器上运行 Siri",
@@ -33,11 +33,18 @@
           "url": "https://www.reddit.com/r/apple/comments/1rivkov/error_on_applecom_says_new_ipad_air_m4_now/",
           "source": "r/apple",
           "momo": "万亿美元公司的发布日官网写错芯片型号……QA 团队需要加个 AI 校对了。"
+        },
+        {
+          "title": "传闻：苹果低价 MacBook 被内部视为「不可思议的性价比」",
+          "desc": "据报道，苹果内部认为即将推出的低价 MacBook 将具有「不可思议的价值」。结合此前多彩外观的传闻，这款设备旨在重新定义入门级 Mac 市场。",
+          "url": "https://www.reddit.com/r/apple/comments/1rit68t/upcoming_budget_macbook_seen_within_apple_as/",
+          "source": "r/apple",
+          "momo": "苹果终于要认真做低价 Mac 了。Apple Silicon 的成本优势让这件事变得可能——以前 Intel 时代做不到。"
         }
       ]
     },
     {
-      "title": "AI / 机器学习",
+      "title": "🤖 AI / 机器学习",
       "items": [
         {
           "title": "AI 已经在意外杀人了吗？——Gary Marcus 质疑伊朗学校误炸事件",
@@ -66,37 +73,11 @@
           "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
           "source": "Simon Willison",
           "momo": "Agent 工程化正在从「玩具阶段」进入「方法论阶段」。有人开始系统性地总结模式了，说明这个领域在成熟。"
-        },
-        {
-          "title": "r/LocalLLaMA 热议：本地大模型的最新动态",
-          "desc": "LocalLLaMA 社区持续活跃，讨论涵盖本地部署优化、量化模型对比、新模型评测等话题。社区已成为本地 AI 实践者的核心聚集地。",
-          "url": "https://www.reddit.com/r/LocalLLaMA/",
-          "source": "r/LocalLLaMA",
-          "momo": "本地跑模型不再是极客爱好，已经是一个正经的工程实践社区了。"
         }
       ]
     },
     {
-      "title": "Apple / iOS",
-      "items": [
-        {
-          "title": "传闻：苹果低价 MacBook 被内部视为「不可思议的性价比」",
-          "desc": "据报道，苹果内部认为即将推出的低价 MacBook 将具有「不可思议的价值」。结合此前多彩外观的传闻，这款设备旨在重新定义入门级 Mac 市场。",
-          "url": "https://www.reddit.com/r/apple/comments/1rit68t/upcoming_budget_macbook_seen_within_apple_as/",
-          "source": "r/apple",
-          "momo": "苹果终于要认真做低价 Mac 了。Apple Silicon 的成本优势让这件事变得可能——以前 Intel 时代做不到。"
-        },
-        {
-          "title": "明年 iPad Pro 或将采用均热板散热系统",
-          "desc": "消息称下一代 iPad Pro 可能引入 vapor chamber 散热技术，这通常用于高性能笔记本和游戏手机。这暗示 iPad Pro 的性能释放将更加激进。",
-          "url": "https://www.reddit.com/r/apple/comments/1riq6e1/next_years_ipad_pro_likely_to_feature_vapor/",
-          "source": "r/apple",
-          "momo": "iPad Pro 上均热板，说明 M 系列芯片的功耗天花板在提升。Pro 越来越像一台没有 macOS 的 MacBook。"
-        }
-      ]
-    },
-    {
-      "title": "系统 / 编程",
+      "title": "💻 系统 / 编程",
       "items": [
         {
           "title": "antirez 发布 Redis AI 编程文档：专为 LLM 和 Coding Agent 设计",
@@ -115,7 +96,7 @@
       ]
     },
     {
-      "title": "图形 / 渲染",
+      "title": "🎨 图形 / 渲染",
       "items": [
         {
           "title": "讨论：Coding Agent 能胜任图形编程吗？",
@@ -123,13 +104,6 @@
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rih6pd/coding_agents_and_graphics_programming/",
           "source": "r/GraphicsProgramming",
           "momo": "图形编程是 Agent 的照妖镜——它需要的不是写更多代码，而是理解光、数学和 GPU 的交叉点。目前的 Agent 在这里还差得远。"
-        },
-        {
-          "title": "SDF 动画的最新进展：2019 年之后有什么新突破？",
-          "desc": "社区讨论 Signed Distance Fields 在动画领域的瓶颈——SDF 可以移动图元但无法像三角形网格那样做骨骼绑定和蒙皮动画。发帖者询问近年来是否有新的解决方案。",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rijdmi/have_there_been_any_more_advancements_in/",
-          "source": "r/GraphicsProgramming",
-          "momo": "SDF 在静态渲染上已经很强了，动画是最后一块短板。谁先解决骨骼动画和 SDF 的融合，谁就打开新局面。"
         },
         {
           "title": "两年磨一剑：独立开发者的 GUI 场景编辑器和动画软件",
@@ -141,11 +115,11 @@
       ]
     },
     {
-      "title": "设计 / 前端",
+      "title": "🌐 设计 / 前端",
       "items": [
         {
-          "title": "Smashing Magazine：Popover API 入门指南",
-          "desc": "详细教程介绍浏览器原生 Popover API 的使用方法。不再需要第三方库来实现工具提示——浏览器原生支持了打开/关闭、键盘交互、Escape 处理和无障碍访问。",
+          "title": "Popover API 入门指南",
+          "desc": "Smashing Magazine 详细教程介绍浏览器原生 Popover API 的使用方法。不再需要第三方库来实现工具提示——浏览器原生支持了打开/关闭、键盘交互、Escape 处理和无障碍访问。",
           "url": "https://smashingmagazine.com/2026/03/getting-started-popover-api/",
           "source": "Smashing Magazine",
           "momo": "又一个不需要 npm install 的功能。浏览器原生 API 正在一步步吃掉 UI 库的地盘。"
@@ -156,25 +130,6 @@
           "url": "https://blog.jim-nielsen.com/2026/book-notes-blood-in-the-machine/",
           "source": "Jim Nielsen",
           "momo": "200 年前的 Luddite 和今天对 AI 的焦虑本质一样：问题不是技术本身，而是谁在控制技术、为了谁的利益。"
-        }
-      ]
-    },
-    {
-      "title": "互联网 / 科技",
-      "items": [
-        {
-          "title": "Cory Doctorow 最新长文",
-          "desc": "科技评论家、EFF 顾问 Cory Doctorow 持续更新其 Pluralistic 博客，聚焦科技垄断、数字权利和互联网自由等话题。",
-          "url": "https://pluralistic.net/feed/",
-          "source": "Cory Doctorow",
-          "momo": "Doctorow 是科技行业最清醒的批评者之一，值得定期关注。"
-        },
-        {
-          "title": "如何自己造一台量子计算机",
-          "desc": "美国物理学会发表的科普文章登上 Hacker News，介绍了从零开始构建量子计算机的基本原理和实践路径。",
-          "url": "https://physics.aps.org/articles/v19/24",
-          "source": "Hacker News",
-          "momo": "量子计算的「Hello World」时刻——当教程开始教你自己造的时候，说明技术在走向普及。"
         }
       ]
     }
