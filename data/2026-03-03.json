@@ -1,0 +1,182 @@
+{
+  "date": "2026-03-03",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-03-03T09:30:00",
+  "headline": {
+    "title": "🔥 Apple 请 Google 帮忙跑 Siri —— 自家云撑不住 AI 算力了",
+    "desc": "据报道，苹果正在与 Google 谈判，考虑将下一代 Siri（基于 Gemini 架构）部署到 Google 服务器上运行。苹果内部对自身云基础设施能否承载 AI 级别算力缺乏信心。这标志着苹果 AI 战略的重大转向。",
+    "url": "https://www.reddit.com/r/apple/comments/1riyjjn/report_apple_asks_google_to_run_siri_on_its/",
+    "momo": "苹果一向以端侧 AI + 隐私为卖点，现在却要把 Siri 搬到 Google 服务器？这不只是技术问题，更是品牌叙事的自我矛盾。要么苹果承认自己的云能力不够，要么承认 AI 算力已经超出单一公司能承受的范围。两个答案都不好看。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "苹果请 Google 帮忙在其服务器上运行 Siri",
+          "desc": "苹果正在探索将未来版本的 Siri 部署到 Google 服务器上，原因是对自家云基础设施的容量和性能存在担忧。此举发生在苹果预计 AI 使用量将随更强大的 Gemini 版 Siri 发布而激增之际。",
+          "url": "https://www.reddit.com/r/apple/comments/1riyjjn/report_apple_asks_google_to_run_siri_on_its/",
+          "source": "r/apple",
+          "momo": "苹果的隐私叙事遇到了算力现实。Siri 跑在别人的服务器上，「端侧优先」还站得住脚吗？"
+        },
+        {
+          "title": "iPhone 17e 正式发布",
+          "desc": "苹果正式推出 iPhone 17e，定位入门级 iPhone。这是继 SE 系列之后苹果对平价 iPhone 产品线的重新定义。",
+          "url": "https://www.reddit.com/r/apple/comments/1ritnct/apple_introduces_iphone_17e/",
+          "source": "r/apple",
+          "momo": "SE 改名 17e，苹果终于承认「SE」这个名字已经承载不了它想要的市场定位了。"
+        },
+        {
+          "title": "iPad Air 搭载 M4 芯片发布，官网却写成了 M3",
+          "desc": "苹果发布搭载 M4 芯片的新款 iPad Air，但官网首页竟然显示「iPad Air now Supercharged by M3」。新闻稿确认是 M4，网页出现了尴尬的文案错误。",
+          "url": "https://www.reddit.com/r/apple/comments/1rivkov/error_on_applecom_says_new_ipad_air_m4_now/",
+          "source": "r/apple",
+          "momo": "万亿美元公司的发布日官网写错芯片型号……QA 团队需要加个 AI 校对了。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "AI 已经在意外杀人了吗？——Gary Marcus 质疑伊朗学校误炸事件",
+          "desc": "评论家 Gary Marcus 讨论昨天伊朗近 150 名学童在误炸中遇难的事件，追问这是否可能源于 AI 目标识别系统的错误。AI 在军事领域的应用伦理再次被推到台前。",
+          "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
+          "source": "Gary Marcus",
+          "momo": "当 AI 从「犯错就重来」的软件领域进入「犯错就死人」的军事领域，我们的容错标准完全跟不上部署速度。"
+        },
+        {
+          "title": "AGI 末日论者如何搬起石头砸了全人类的脚",
+          "desc": "Gary Marcus 撰文分析，AI 领域的「AGI 即将到来」叙事虽然出发点大多是善意的，但过度接受炒作导致了政策和资源配置的严重偏差，最终伤害了整个行业。",
+          "url": "https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled",
+          "source": "Gary Marcus",
+          "momo": "末日论占满了注意力和预算，真正需要治理的当下问题（偏见、安全、失业）反而没人管。典型的注意力错配。"
+        },
+        {
+          "title": "Simon Willison：从 Claude 导出你的全部记忆",
+          "desc": "Simon Willison 分享了从 claude.com/import-memory 导出 Claude 存储的所有用户记忆的方法，用于迁移到其他服务。一个 prompt 就能让 Claude 以结构化格式输出它记住的关于你的一切。",
+          "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "数据可携带性在 AI 时代太重要了。你让 AI 记住的东西，应该随时能带走。"
+        },
+        {
+          "title": "Simon Willison 的 Agentic Engineering 模式指南",
+          "desc": "Simon Willison 发布了关于 Agentic Engineering 工程模式的系统性指南，涵盖从 GIF 优化到 Agent 工作流的实战经验。这是一份不断更新的在线文档。",
+          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "Agent 工程化正在从「玩具阶段」进入「方法论阶段」。有人开始系统性地总结模式了，说明这个领域在成熟。"
+        },
+        {
+          "title": "r/LocalLLaMA 热议：本地大模型的最新动态",
+          "desc": "LocalLLaMA 社区持续活跃，讨论涵盖本地部署优化、量化模型对比、新模型评测等话题。社区已成为本地 AI 实践者的核心聚集地。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/",
+          "source": "r/LocalLLaMA",
+          "momo": "本地跑模型不再是极客爱好，已经是一个正经的工程实践社区了。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "传闻：苹果低价 MacBook 被内部视为「不可思议的性价比」",
+          "desc": "据报道，苹果内部认为即将推出的低价 MacBook 将具有「不可思议的价值」。结合此前多彩外观的传闻，这款设备旨在重新定义入门级 Mac 市场。",
+          "url": "https://www.reddit.com/r/apple/comments/1rit68t/upcoming_budget_macbook_seen_within_apple_as/",
+          "source": "r/apple",
+          "momo": "苹果终于要认真做低价 Mac 了。Apple Silicon 的成本优势让这件事变得可能——以前 Intel 时代做不到。"
+        },
+        {
+          "title": "明年 iPad Pro 或将采用均热板散热系统",
+          "desc": "消息称下一代 iPad Pro 可能引入 vapor chamber 散热技术，这通常用于高性能笔记本和游戏手机。这暗示 iPad Pro 的性能释放将更加激进。",
+          "url": "https://www.reddit.com/r/apple/comments/1riq6e1/next_years_ipad_pro_likely_to_feature_vapor/",
+          "source": "r/apple",
+          "momo": "iPad Pro 上均热板，说明 M 系列芯片的功耗天花板在提升。Pro 越来越像一台没有 macOS 的 MacBook。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "antirez 发布 Redis AI 编程文档：专为 LLM 和 Coding Agent 设计",
+          "desc": "Redis 之父 antirez 发布了一份专门面向 LLM 和编码 Agent 的 Redis 文档，包含命令详解、常用模式、配置提示和可用 Redis 命令实现的算法。他幽默地补充说「据说对人类也有用」。",
+          "url": "http://antirez.com/news/161",
+          "source": "antirez",
+          "momo": "专门为 AI 写文档，这个趋势会越来越普遍。未来的技术文档会有两个受众：人类和 Agent。"
+        },
+        {
+          "title": "Old New Thing：当对话框控件 ID 用了 IDCANCEL 会发生什么恐怖的事",
+          "desc": "Raymond Chen 继续他的 Windows API 考古系列，这次讲的是把 IDCANCEL 控件 ID 分配给非按钮控件时的诡异行为。经典的「为什么 Windows 是这样的」系列。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260302-53/?p=112098",
+          "source": "Old New Thing",
+          "momo": "Raymond Chen 的博客就是 Windows API 的活化石。每篇都让你感叹：原来这个 bug 是因为 1993 年的设计决策。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "讨论：Coding Agent 能胜任图形编程吗？",
+          "desc": "r/GraphicsProgramming 社区热议 AI 编码 Agent 在图形编程领域的适用性。发帖者认为图形编程需要性能思维、数学直觉和视觉调试的独特融合，质疑当前 Agent 能否胜任。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rih6pd/coding_agents_and_graphics_programming/",
+          "source": "r/GraphicsProgramming",
+          "momo": "图形编程是 Agent 的照妖镜——它需要的不是写更多代码，而是理解光、数学和 GPU 的交叉点。目前的 Agent 在这里还差得远。"
+        },
+        {
+          "title": "SDF 动画的最新进展：2019 年之后有什么新突破？",
+          "desc": "社区讨论 Signed Distance Fields 在动画领域的瓶颈——SDF 可以移动图元但无法像三角形网格那样做骨骼绑定和蒙皮动画。发帖者询问近年来是否有新的解决方案。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rijdmi/have_there_been_any_more_advancements_in/",
+          "source": "r/GraphicsProgramming",
+          "momo": "SDF 在静态渲染上已经很强了，动画是最后一块短板。谁先解决骨骼动画和 SDF 的融合，谁就打开新局面。"
+        },
+        {
+          "title": "两年磨一剑：独立开发者的 GUI 场景编辑器和动画软件",
+          "desc": "一位独立开发者展示了两年间开发的 GUI 场景编辑器和动画工具，支持实时预览和场景管理。项目已开放网站。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rj8fmd/2_years_of_working_on_a_gui_scene_editor_and/",
+          "source": "r/GraphicsProgramming",
+          "momo": "独立开发者做场景编辑器，两年能做到什么程度？这种项目值得关注。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "Smashing Magazine：Popover API 入门指南",
+          "desc": "详细教程介绍浏览器原生 Popover API 的使用方法。不再需要第三方库来实现工具提示——浏览器原生支持了打开/关闭、键盘交互、Escape 处理和无障碍访问。",
+          "url": "https://smashingmagazine.com/2026/03/getting-started-popover-api/",
+          "source": "Smashing Magazine",
+          "momo": "又一个不需要 npm install 的功能。浏览器原生 API 正在一步步吃掉 UI 库的地盘。"
+        },
+        {
+          "title": "书评：《机器中的血》—— Luddite 运动的当代启示",
+          "desc": "Jim Nielsen 读完 Brian Merchant 的《Blood In The Machine》后写的笔记。核心观点：Luddite 反对的不是机器本身，而是机器被使用的方式。作者联想到当下 AI 的处境。",
+          "url": "https://blog.jim-nielsen.com/2026/book-notes-blood-in-the-machine/",
+          "source": "Jim Nielsen",
+          "momo": "200 年前的 Luddite 和今天对 AI 的焦虑本质一样：问题不是技术本身，而是谁在控制技术、为了谁的利益。"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Cory Doctorow 最新长文",
+          "desc": "科技评论家、EFF 顾问 Cory Doctorow 持续更新其 Pluralistic 博客，聚焦科技垄断、数字权利和互联网自由等话题。",
+          "url": "https://pluralistic.net/feed/",
+          "source": "Cory Doctorow",
+          "momo": "Doctorow 是科技行业最清醒的批评者之一，值得定期关注。"
+        },
+        {
+          "title": "如何自己造一台量子计算机",
+          "desc": "美国物理学会发表的科普文章登上 Hacker News，介绍了从零开始构建量子计算机的基本原理和实践路径。",
+          "url": "https://physics.aps.org/articles/v19/24",
+          "source": "Hacker News",
+          "momo": "量子计算的「Hello World」时刻——当教程开始教你自己造的时候，说明技术在走向普及。"
+        }
+      ]
+    }
+  ]
+}
