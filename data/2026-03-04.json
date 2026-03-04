@@ -1,288 +1,116 @@
 {
   "date": "2026-03-04",
-  "period": "am",
-  "title": "每日科技速览",
-  "generated": "2026-03-04T09:30:07.136182",
+  "period": "pm",
+  "title": "每日科技速览 — 晚间版",
+  "generated": "2026-03-04T21:34:00.000000",
+  "headline": {
+    "title": "🔥 Apple 发布 M5 系列芯片：MacBook Pro、Air 和 Studio Display XDR 全线更新",
+    "desc": "Apple 今天发布了 M5、M5 Pro 和 M5 Max 芯片，全新 MacBook Air 和 MacBook Pro 同步更新。同时推出 Studio Display XDR，配备 27 英寸 5K mini-LED 屏幕，2000 尼特峰值亮度，120Hz 刷新率，但不支持 Intel Mac。",
+    "url": "https://www.reddit.com/r/apple/comments/1rjq37s/apple_introduces_macbook_pro_with_allnew_m5_pro/",
+    "momo": "Apple 的硬件更新节奏越来越快，M5 系列刚出就全线铺开。Studio Display XDR 终于补齐了专业显示器的短板，但砍掉 Intel Mac 支持有点狠。"
+  },
   "sections": [
     {
       "title": "AI / 机器学习",
       "items": [
         {
-          "title": "Quoting Donald Knuth",
-          "desc": "Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hybrid reasoning model that had been released three weeks earlier! It seems that I'll have to revise my opinions about \"generative AI\" one of these days....",
+          "title": "高德纳惊了：Claude Opus 4.6 解决了他研究数周的开放问题",
+          "desc": "计算机科学泰斗 Donald Knuth 表示，他花了几周时间研究的一个开放问题，被 Anthropic 三周前发布的 Claude Opus 4.6（混合推理模型）解决了。他说可能要重新审视对"生成式 AI"的看法。",
           "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
-          "source": "Simon Willison"
+          "source": "Simon Willison",
+          "momo": "连 Knuth 都开始认真对待 AI 了，这可能是 2026 年最重要的信号之一。推理模型正在从玩具变成真正的研究工具。"
         },
         {
-          "title": "Gemini 3.1 Flash-Lite",
-          "desc": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million output this is 1/8th the price of Gemini 3.1 Pro. It supports four different thinking levels, so I had it output four different pelicans: minimal low med...",
+          "title": "Google 发布 Gemini 3.1 Flash-Lite：价格降至 1/8",
+          "desc": "Google 更新了 Flash-Lite 系列，输入 $0.25/百万 token，输出 $1.5/百万，是 Gemini 3.1 Pro 价格的 1/8。支持四种不同的思考级别。",
           "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
-          "source": "Simon Willison"
+          "source": "Simon Willison",
+          "momo": "价格战打到这个程度，AI 推理成本已经不是瓶颈了。接下来比的是谁能做出真正有用的应用。"
         },
         {
-          "title": "GIF optimization tool using WebAssembly and Gifsicle",
-          "desc": "Agentic Engineering Patterns > I like to include animated GIF demos in my online writing, often recorded using LICEcap. There's an example in the Interactive explanations chapter. These GIFs can be pretty big. I've tried a few tools for optimizing GIF file size and my favorite is Gifsicle by Eddie K...",
-          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "February sponsors-only newsletter",
-          "desc": "I just sent the February edition of my sponsors-only monthly newsletter. If you are a sponsor (or if you start a sponsorship now) you can access it here. In this month's newsletter: More OpenClaw, and Claws in general I started a not-quite-a-book about Agentic Engineering StrongDM, Showboat and Rodn...",
-          "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
-          "source": "Simon Willison"
-        },
-        {
-          "title": "Breaking: “sycophantic AI distorts belief, manufacturing certainty where there should be doubt”",
-          "desc": "LLMs are an epistemic nightmare",
-          "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
-          "source": "Gary Marcus"
-        },
-        {
-          "title": "How AGI-is-nigh doomers own-goaled humanity",
-          "desc": "The road to where we are now was (mostly) paved with good intentions — but mixed with too much uncritical acceptance of hype.",
-          "url": "https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled",
-          "source": "Gary Marcus"
-        },
-        {
-          "title": "Cancel ChatGPT AI boycott surges after OpenAI pentagon military deal",
-          "desc": "Article URL: https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal Comments URL: https://news.ycombinator.com/item?id=47241092 Points: 85 # Comments: 12",
+          "title": "OpenAI 与五角大楼合作引发 #CancelChatGPT 抵制潮",
+          "desc": "OpenAI 与美国国防部达成军事合作协议后，社交媒体上掀起 #CancelChatGPT 抵制运动。",
           "url": "https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal",
-          "source": "Hacker News"
+          "source": "Hacker News",
+          "momo": "OpenAI 从"造福人类"到"服务军方"，这个转变来得比想象中快。用户用脚投票，但能投到哪里去呢？"
         },
         {
-          "title": "Lenovo's New ThinkPads Score 10/10 for Repairability",
-          "desc": "Article URL: https://www.ifixit.com/News/115827/new-thinkpads-score-perfect-10-repairability Comments URL: https://news.ycombinator.com/item?id=47240694 Points: 94 # Comments: 25",
+          "title": "Gary Marcus：阿谀奉承的 AI 正在扭曲人类认知",
+          "desc": "AI 研究者 Gary Marcus 警告，过度迎合用户的 LLM 正在制造虚假确定性，在应该存在疑问的地方制造确定感，成为"认识论噩梦"。",
+          "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
+          "source": "Gary Marcus",
+          "momo": "AI 不会说"我不确定"是个大问题。它总是给你一个听起来很有道理的答案，但可能完全是编的。"
+        }
+      ]
+    },
+    {
+      "title": "硬件 / 设备",
+      "items": [
+        {
+          "title": "联想新款 ThinkPad 获 iFixit 满分 10/10 可维修性评级",
+          "desc": "联想最新 ThinkPad 系列在 iFixit 可维修性测试中获得满分 10 分，成为近年来少见的完全可维修笔记本电脑。",
           "url": "https://www.ifixit.com/News/115827/new-thinkpads-score-perfect-10-repairability",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "title": "图形 / 渲染",
-      "items": [
-        {
-          "title": "Physically based rendering from first principles",
-          "desc": "submitted by /u/imadr_ [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjtc4z/physically_based_rendering_from_first_principles/",
-          "source": "r/GraphicsProgramming"
+          "source": "Hacker News",
+          "momo": "在 Apple 越来越封闭的时代，联想反其道而行之。可维修性满分意味着用户真正拥有自己的设备，而不是租用。"
         },
         {
-          "title": "1 Year progress on my custom OpenGl Graphics Engine specifically designed for flight simulators",
-          "desc": "Hey everyone,I need some feedback on the visuals of my custom graphics engine .It features custom scripting with embedded script editor ,physics engine and heightmap based terrain generation as well as a 3d renderer optimized for rendering large terrains for flight simulators . This is my first ever...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjnh7n/1_year_progress_on_my_custom_opengl_graphics/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Did started my journey here, but need some help.",
-          "desc": "[LONG POST] (You guys might've seen this thousand times but here we are.) New to this community, and I'm really enjoying this journey, I fairly did some basics in C first and started doing C++ and also some the basics of OOPS like classes & objects, polymorphism, inheritance, encapsulation, etc. And...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjjibi/did_started_my_journey_here_but_need_some_help/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Weird Bug With Point Shadows",
-          "desc": "submitted by /u/Paolo_Reddit [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rk4yt4/weird_bug_with_point_shadows/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "6 Months of Progress on 3D Game",
-          "desc": "Hello, I wanted to share a project I've been working on for the past 6 months. It's definitely going to be a long journey, but I've enjoyed all the challenges and learning so far. At a high level, I'm making a 3D procedurally generated solo/coop RPG. I'm using the following tools: Language: Rust Win...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjixoe/6_months_of_progress_on_3d_game/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "2 years of working on a GUI scene editor and animation software",
-          "desc": "https://reddit.com/link/1rj8fmd/video/ocbwl0n7rpmg1/player https://zstudiosltd.com/ submitted by /u/ImpressiveHour9827 [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rj8fmd/2_years_of_working_on_a_gui_scene_editor_and/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Graphics Programming weekly - Issue 430 - March 1st, 2026 | Jendrik Illner",
-          "desc": "submitted by /u/corysama [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rj1dw6/graphics_programming_weekly_issue_430_march_1st/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "HBAO+: is there a paper/article explaining how it works?",
-          "desc": "I've only found the Nvidia's official site and repo. But it seems that there are only source code and dlls, without explaining how it works and how it improves over the original HBAO. Is there something I can read to help me understand how it works? submitted by /u/raincole [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1ripo7e/hbao_is_there_a_paperarticle_explaining_how_it/",
-          "source": "r/GraphicsProgramming"
-        }
-      ]
-    },
-    {
-      "title": "系统 / 编程",
-      "items": [
-        {
-          "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
-          "desc": "Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing.",
-          "url": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
-          "source": "Old New Thing"
-        },
-        {
-          "title": "What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL?",
-          "desc": "You get notifications that might not make sense. The post What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL? appeared first on The Old New Thing.",
-          "url": "https://devblogs.microsoft.com/oldnewthing/20260302-53/?p=112098",
-          "source": "Old New Thing"
-        }
-      ]
-    },
-    {
-      "title": "设计 / 前端",
-      "items": [
-        {
-          "title": "w0rdz aRe 1mpoRtAnt",
-          "desc": "The other day I was looking at the team billing section of an AI product. They had a widget labeled “Usage leaderboard”. For whatever reason, that phrase at that moment made me pause and reflect — and led me here to this post. It’s an interesting label. You could argue the widget doesn’t even need a...",
-          "url": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
-          "source": "Jim Nielsen"
-        },
-        {
-          "title": "Now Shipping: Accessible UX Research, A New Smashing Book By Michele Williams",
-          "desc": "Our newest Smashing Book, “Accessible UX Research” by Michele Williams, is finally shipping worldwide — and we couldn’t be happier! This book is about research, but you’ll also learn about assistive technology, different types of disability, and how to build accessibility into the entire design proc...",
-          "url": "https://smashingmagazine.com/2026/03/accessible-ux-research-release/",
-          "source": "Smashing Magazine"
-        },
-        {
-          "title": "Getting Started With The Popover API",
-          "desc": "What happens if you rebuild a single tooltip using the browser’s native model without the aid of a library? The Popover API turns tooltips from something you simulate into something the browser actually understands. Opening and closing, keyboard interaction, Escape handling, and much of the accessib...",
-          "url": "https://smashingmagazine.com/2026/03/getting-started-popover-api/",
-          "source": "Smashing Magazine"
-        },
-        {
-          "title": "Okay, finally got 100 in PABS! Has this actually helped any of you?",
-          "desc": "I am not a score maniac; I was just warking on making my portfolio wabsite as simple as possible, and I actually achieved it. I don't know if it will help a lot, but it definitely feels good. Mobile performance is at 97, and the others are at 100. edit 1 : added google analytics tag and performance ...",
-          "url": "https://www.reddit.com/r/web_design/comments/1rjv6su/okay_finally_got_100_in_pabs_has_this_actually/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "1995: From Batman Forever’s cinematic design to HTML tables",
-          "desc": "submitted by /u/magenta_placenta [link] [comments]",
-          "url": "https://www.reddit.com/r/web_design/comments/1rjzbd5/1995_from_batman_forevers_cinematic_design_to/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "Webuzo",
-          "desc": "​​I'm wondering what people think of the WebUzo control panel. I'm not too thrilled with it. I believe that it is hack prone. submitted by /u/Curious-Twinkie88 [link] [comments]",
-          "url": "https://www.reddit.com/r/web_design/comments/1rjsa7t/webuzo/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "Anybody have a list of Japanese-themed, minimalistic aesthetically pleasing sites?",
-          "desc": "Looking for the above for some inspo. EDIT: It looks like I’m looking in the wrong direction. Can anyone recommend sites that match the criteria that AREN’T Japanese then? submitted by /u/unteth [link] [comments]",
-          "url": "https://www.reddit.com/r/web_design/comments/1rjbil7/anybody_have_a_list_of_japanesethemed/",
-          "source": "r/web_design"
-        },
-        {
-          "title": "Help with full view backgrounds image",
-          "desc": "Im editing the images like this ( if you could please fill it up for me ) : Desktop & tablet landscape : Hero : 2560x1440 Others : 1920x1080 Ratio : 16:9 If i want to mantain the same quality , and the best generalist compatibility among most devices, what would be the sizes/ratio recommended : Tabl...",
-          "url": "https://www.reddit.com/r/web_design/comments/1rjayix/help_with_full_view_backgrounds_image/",
-          "source": "r/web_design"
-        }
-      ]
-    },
-    {
-      "title": "Apple / iOS",
-      "items": [
-        {
-          "title": "Apple Accidentally Leaks 'MacBook Neo'",
-          "desc": "submitted by /u/HelloitsWojan [link] [comments]",
+          "title": "Apple 意外泄露"MacBook Neo"",
+          "desc": "Apple 在内部文档中意外泄露了代号为"MacBook Neo"的新产品线。",
           "url": "https://www.reddit.com/r/apple/comments/1rjrki9/apple_accidentally_leaks_macbook_neo/",
-          "source": "r/apple"
+          "source": "r/apple",
+          "momo": "Neo 这个名字很有意思，可能是全新产品线而不是现有系列的迭代。期待 Apple 的下一个惊喜。"
         },
         {
-          "title": "Apple introduces the new MacBook Air with M5",
-          "desc": "submitted by /u/spearson0 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1rjq4mm/apple_introduces_the_new_macbook_air_with_m5/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Apple's Studio Display XDR Supports DICOM Medical Imaging for Diagnostic Radiology",
-          "desc": "submitted by /u/Few_Baseball_3835 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1rk5yqj/apples_studio_display_xdr_supports_dicom_medical/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Apple unveils new Studio Display and all-new Studio Display XDR",
-          "desc": "Studio Display XDR is the world’s best pro display, featuring a 27-inch 5K Retina XDR display with a mini-LED backlight, 2000 nits of peak HDR brightness, and a 120Hz refresh rate submitted by /u/tekz [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1rjq2k0/apple_unveils_new_studio_display_and_allnew/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Apple introduces MacBook Pro with all-new M5 Pro and M5 Max",
-          "desc": "submitted by /u/Otherwise-Warning303 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1rjq37s/apple_introduces_macbook_pro_with_allnew_m5_pro/",
-          "source": "r/apple"
-        },
-        {
-          "title": "New Apple Studio Display and Studio Display XDR Don't Work With Intel Macs",
-          "desc": "submitted by /u/InsaneSnow45 [link] [comments]",
+          "title": "新款 Studio Display 不支持 Intel Mac",
+          "desc": "Apple 新发布的 Studio Display 和 Studio Display XDR 完全不支持 Intel Mac，即使是较新的型号也无法使用。",
           "url": "https://www.reddit.com/r/apple/comments/1rjxlln/new_apple_studio_display_and_studio_display_xdr/",
-          "source": "r/apple"
-        },
-        {
-          "title": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows",
-          "desc": "submitted by /u/Otherwise-Warning303 [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1rjq2y3/apple_debuts_m5_pro_and_m5_max_to_supercharge_the/",
-          "source": "r/apple"
-        },
-        {
-          "title": "The new MacBook Air with M5",
-          "desc": "submitted by /u/favicondotico [link] [comments]",
-          "url": "https://www.reddit.com/r/apple/comments/1rjrl8h/the_new_macbook_air_with_m5/",
-          "source": "r/apple"
+          "source": "r/apple",
+          "momo": "Apple 正在加速淘汰 Intel 时代的遗产。如果你还在用 Intel Mac，升级显示器这条路已经被堵死了。"
         }
       ]
     },
     {
-      "title": "互联网 / 科技",
+      "title": "设计 / 开发",
       "items": [
         {
-          "title": "Superlinear Returns",
-          "desc": "",
+          "title": "Smashing Magazine 新书：《无障碍用户体验研究》",
+          "desc": "Michele Williams 的新书《Accessible UX Research》正式发售，涵盖辅助技术、不同类型的残障，以及如何将无障碍融入整个设计流程。",
+          "url": "https://smashingmagazine.com/2026/03/accessible-ux-research-release/",
+          "source": "Smashing Magazine",
+          "momo": "无障碍不是锦上添花，是基本人权。这本书应该成为所有 UX 从业者的必读书。"
+        },
+        {
+          "title": "Popover API 入门：浏览器原生工具提示",
+          "desc": "Popover API 让工具提示从"模拟"变成浏览器真正理解的原生功能，自动处理打开/关闭、键盘交互、Escape 键和无障碍支持。",
+          "url": "https://smashingmagazine.com/2026/03/getting-started-popover-api/",
+          "source": "Smashing Magazine",
+          "momo": "又一个不需要 JavaScript 库就能实现的功能。Web 平台正在变得越来越强大，是时候重新审视那些"必需"的依赖了。"
+        },
+        {
+          "title": "Jim Nielsen：词语很重要",
+          "desc": "作者看到一个 AI 产品的"Usage leaderboard"（使用排行榜）标签后反思：我们选择的词语塑造了用户的体验和认知。",
+          "url": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
+          "source": "Jim Nielsen",
+          "momo": ""排行榜"这个词带有竞争和比较的意味，会潜移默化地影响团队文化。设计不只是视觉，文案也是设计。"
+        }
+      ]
+    },
+    {
+      "title": "思考 / 观点",
+      "items": [
+        {
+          "title": "Paul Graham：超线性回报",
+          "desc": "PG 的经典文章，探讨为什么某些领域的回报是超线性的——付出两倍努力可能获得四倍甚至更多回报。",
           "url": "http://www.paulgraham.com/superlinear.html",
-          "source": "Paul Graham"
+          "source": "Paul Graham",
+          "momo": "这篇文章解释了为什么顶尖程序员、作家、创业者的产出可以是普通人的 10 倍甚至 100 倍。选对赛道比努力更重要。"
         },
         {
-          "title": "How to Do Great Work",
-          "desc": "",
+          "title": "Paul Graham：如何做出伟大的工作",
+          "desc": "PG 总结了做出伟大工作的核心要素：选择你真正感兴趣的领域，保持好奇心，持续学习，不怕失败。",
           "url": "http://www.paulgraham.com/greatwork.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "How to Get New Ideas",
-          "desc": "",
-          "url": "http://www.paulgraham.com/getideas.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "The Need to Read",
-          "desc": "",
-          "url": "http://www.paulgraham.com/read.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "What You (Want to)* Want",
-          "desc": "",
-          "url": "http://www.paulgraham.com/want.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "Alien Truth",
-          "desc": "",
-          "url": "http://www.paulgraham.com/alien.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "What I've Learned from Users",
-          "desc": "",
-          "url": "http://www.paulgraham.com/users.html",
-          "source": "Paul Graham"
-        },
-        {
-          "title": "Heresy",
-          "desc": "",
-          "url": "http://www.paulgraham.com/heresy.html",
-          "source": "Paul Graham"
+          "source": "Paul Graham",
+          "momo": "伟大的工作不是计划出来的，是在持续探索中自然涌现的。关键是给自己足够的时间和空间去探索。"
         }
       ]
     }
