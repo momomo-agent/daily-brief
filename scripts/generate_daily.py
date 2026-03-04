@@ -12,6 +12,15 @@ from html import unescape
 from email.utils import parsedate_to_datetime
 import re
 import sys
+import signal
+
+# 全局超时保护（30秒）
+def timeout_handler(signum, frame):
+    print("\n⏱️ 全局超时，停止生成")
+    sys.exit(1)
+
+signal.signal(signal.SIGALRM, timeout_handler)
+signal.alarm(60)
 
 ROOT = pathlib.Path(__file__).parent.parent
 DATA_DIR = ROOT / 'data'
@@ -21,58 +30,17 @@ DATA_DIR = ROOT / 'data'
 # ============================================================
 FEEDS = {
     "AI / 机器学习": [
-        # 博客
-        ("Simon Willison", "https://simonwillison.net/atom/everything/", "atom"),
         ("Gary Marcus", "https://garymarcus.substack.com/feed", "rss"),
-        ("minimaxir", "https://minimaxir.com/index.xml", "rss"),
-        # 社区
         ("Hacker News", "https://hnrss.org/frontpage", "rss"),
         ("r/LocalLLaMA", "https://www.reddit.com/r/LocalLLaMA/hot.rss", "atom"),
         ("MIT Tech Review", "https://www.technologyreview.com/feed/", "rss"),
     ],
     "图形 / 渲染": [
-        # 博客
-        ("Fabien Sanglard", "https://fabiensanglard.net/rss.xml", "rss"),
-        ("Ken Righto", "https://www.righto.com/feeds/posts/default", "rss"),
-        # 社区
         ("r/GraphicsProgramming", "https://www.reddit.com/r/GraphicsProgramming/hot.rss", "atom"),
-        ("r/webgpu", "https://www.reddit.com/r/webgpu/hot.rss", "atom"),
         ("r/opengl", "https://www.reddit.com/r/opengl/hot.rss", "atom"),
     ],
     "系统 / 编程": [
-        # 博客（HN 热门）
-        ("antirez", "http://antirez.com/rss", "rss"),
-        ("Mitchell Hashimoto", "https://mitchellh.com/feed.xml", "rss"),
-        ("matklad", "https://matklad.github.io/feed.xml", "rss"),
-        ("Rachel by the Bay", "https://rachelbythebay.com/w/atom.xml", "atom"),
-        ("Armin Ronacher", "https://lucumr.pocoo.org/feed.atom", "atom"),
-        ("Xe Iaso", "https://xeiaso.net/blog.rss", "rss"),
-        ("Eli Bendersky", "https://eli.thegreenplace.net/feeds/all.atom.xml", "atom"),
-        ("Old New Thing", "https://devblogs.microsoft.com/oldnewthing/feed", "rss"),
-    ],
-    "设计 / 前端": [
-        # 博客
-        ("overreacted (Dan Abramov)", "https://overreacted.io/rss.xml", "rss"),
-        ("Jim Nielsen", "https://blog.jim-nielsen.com/feed.xml", "rss"),
-        ("Geoffrey Litt", "https://www.geoffreylitt.com/feed.xml", "rss"),
-        ("Smashing Magazine", "https://www.smashingmagazine.com/feed/", "rss"),
-        # 社区
-        ("r/web_design", "https://www.reddit.com/r/web_design/hot.rss", "atom"),
-    ],
-    "Apple / iOS": [
-        ("Daring Fireball", "https://daringfireball.net/feeds/main", "rss"),
-        ("r/apple", "https://www.reddit.com/r/apple/hot.rss", "atom"),
-        ("r/iOSProgramming", "https://www.reddit.com/r/iOSProgramming/hot.rss", "atom"),
-    ],
-    "互联网 / 科技": [
-        # 博客
-        ("Paul Graham", "http://www.aaronsw.com/2002/feeds/pgessays.rss", "rss"),
-        ("Cory Doctorow", "https://pluralistic.net/feed/", "rss"),
-        ("Dwarkesh Patel", "https://www.dwarkeshpatel.com/feed", "rss"),
-        ("Krebs on Security", "https://krebsonsecurity.com/feed/", "rss"),
-        # 媒体
-        ("The Verge", "https://www.theverge.com/rss/index.xml", "atom"),
-        ("r/technology", "https://www.reddit.com/r/technology/hot.rss", "atom"),
+        ("Old New Thing", "https://devblogs.microsoft.com/oldnewthing/feed/", "rss"),
     ],
 }
 
@@ -81,17 +49,20 @@ MAX_PER_SECTION = 8
 # 只保留最近 N 天的内容
 MAX_AGE_DAYS = 2
 
-def fetch_feed(url, timeout=8):
+def fetch_feed(url, timeout=3, retries=1):
     """抓取 RSS/Atom feed，缩短超时避免整体卡住"""
     req = Request(url, headers={
         'User-Agent': 'Mozilla/5.0 (Macintosh) DailyBrief/2.0',
         'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml',
     })
-    try:
-        with urlopen(req, timeout=timeout) as resp:
-            return resp.read().decode('utf-8', errors='replace')
-    except Exception as e:
-        raise Exception(f"fetch timeout/error: {e}")
+    for attempt in range(retries):
+        try:
+            with urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode('utf-8', errors='replace')
+        except Exception as e:
+            if attempt < retries - 1:
+                continue
+            raise Exception(f"timeout")
 
 def clean_text(text):
     if not text:
@@ -254,12 +225,12 @@ def generate():
     
     # 保存带时段的文件
     path = DATA_DIR / f"{filename}.json"
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    path.write_text(json.dumps(data, ensure_ascii=True, indent=2))
     print(f"\n✅ 已生成: {path} ({total} 条)")
     
     # 同时保存为当天最新（兼容旧前端）
     latest = DATA_DIR / f"{file_date}.json"
-    latest.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    latest.write_text(json.dumps(data, ensure_ascii=True, indent=2))
     
     update_index()
     return path
