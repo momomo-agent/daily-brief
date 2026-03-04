@@ -1,0 +1,290 @@
+{
+  "date": "2026-03-04",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-03-04T09:30:07.136182",
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Quoting Donald Knuth",
+          "desc": "Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hybrid reasoning model that had been released three weeks earlier! It seems that I'll have to revise my opinions about \"generative AI\" one of these days....",
+          "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Gemini 3.1 Flash-Lite",
+          "desc": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million output this is 1/8th the price of Gemini 3.1 Pro. It supports four different thinking levels, so I had it output four different pelicans: minimal low med...",
+          "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "GIF optimization tool using WebAssembly and Gifsicle",
+          "desc": "Agentic Engineering Patterns > I like to include animated GIF demos in my online writing, often recorded using LICEcap. There's an example in the Interactive explanations chapter. These GIFs can be pretty big. I've tried a few tools for optimizing GIF file size and my favorite is Gifsicle by Eddie K...",
+          "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "February sponsors-only newsletter",
+          "desc": "I just sent the February edition of my sponsors-only monthly newsletter. If you are a sponsor (or if you start a sponsorship now) you can access it here. In this month's newsletter: More OpenClaw, and Claws in general I started a not-quite-a-book about Agentic Engineering StrongDM, Showboat and Rodn...",
+          "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
+          "source": "Simon Willison"
+        },
+        {
+          "title": "Breaking: “sycophantic AI distorts belief, manufacturing certainty where there should be doubt”",
+          "desc": "LLMs are an epistemic nightmare",
+          "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "How AGI-is-nigh doomers own-goaled humanity",
+          "desc": "The road to where we are now was (mostly) paved with good intentions — but mixed with too much uncritical acceptance of hype.",
+          "url": "https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "Cancel ChatGPT AI boycott surges after OpenAI pentagon military deal",
+          "desc": "Article URL: https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal Comments URL: https://news.ycombinator.com/item?id=47241092 Points: 85 # Comments: 12",
+          "url": "https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Lenovo's New ThinkPads Score 10/10 for Repairability",
+          "desc": "Article URL: https://www.ifixit.com/News/115827/new-thinkpads-score-perfect-10-repairability Comments URL: https://news.ycombinator.com/item?id=47240694 Points: 94 # Comments: 25",
+          "url": "https://www.ifixit.com/News/115827/new-thinkpads-score-perfect-10-repairability",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "Physically based rendering from first principles",
+          "desc": "submitted by /u/imadr_ [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjtc4z/physically_based_rendering_from_first_principles/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "1 Year progress on my custom OpenGl Graphics Engine specifically designed for flight simulators",
+          "desc": "Hey everyone,I need some feedback on the visuals of my custom graphics engine .It features custom scripting with embedded script editor ,physics engine and heightmap based terrain generation as well as a 3d renderer optimized for rendering large terrains for flight simulators . This is my first ever...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjnh7n/1_year_progress_on_my_custom_opengl_graphics/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Did started my journey here, but need some help.",
+          "desc": "[LONG POST] (You guys might've seen this thousand times but here we are.) New to this community, and I'm really enjoying this journey, I fairly did some basics in C first and started doing C++ and also some the basics of OOPS like classes & objects, polymorphism, inheritance, encapsulation, etc. And...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjjibi/did_started_my_journey_here_but_need_some_help/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Weird Bug With Point Shadows",
+          "desc": "submitted by /u/Paolo_Reddit [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rk4yt4/weird_bug_with_point_shadows/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "6 Months of Progress on 3D Game",
+          "desc": "Hello, I wanted to share a project I've been working on for the past 6 months. It's definitely going to be a long journey, but I've enjoyed all the challenges and learning so far. At a high level, I'm making a 3D procedurally generated solo/coop RPG. I'm using the following tools: Language: Rust Win...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjixoe/6_months_of_progress_on_3d_game/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "2 years of working on a GUI scene editor and animation software",
+          "desc": "https://reddit.com/link/1rj8fmd/video/ocbwl0n7rpmg1/player https://zstudiosltd.com/ submitted by /u/ImpressiveHour9827 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rj8fmd/2_years_of_working_on_a_gui_scene_editor_and/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Graphics Programming weekly - Issue 430 - March 1st, 2026 | Jendrik Illner",
+          "desc": "submitted by /u/corysama [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rj1dw6/graphics_programming_weekly_issue_430_march_1st/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "HBAO+: is there a paper/article explaining how it works?",
+          "desc": "I've only found the Nvidia's official site and repo. But it seems that there are only source code and dlls, without explaining how it works and how it improves over the original HBAO. Is there something I can read to help me understand how it works? submitted by /u/raincole [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1ripo7e/hbao_is_there_a_paperarticle_explaining_how_it/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
+          "desc": "Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
+          "source": "Old New Thing"
+        },
+        {
+          "title": "What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL?",
+          "desc": "You get notifications that might not make sense. The post What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL? appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260302-53/?p=112098",
+          "source": "Old New Thing"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "w0rdz aRe 1mpoRtAnt",
+          "desc": "The other day I was looking at the team billing section of an AI product. They had a widget labeled “Usage leaderboard”. For whatever reason, that phrase at that moment made me pause and reflect — and led me here to this post. It’s an interesting label. You could argue the widget doesn’t even need a...",
+          "url": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
+          "source": "Jim Nielsen"
+        },
+        {
+          "title": "Now Shipping: Accessible UX Research, A New Smashing Book By Michele Williams",
+          "desc": "Our newest Smashing Book, “Accessible UX Research” by Michele Williams, is finally shipping worldwide — and we couldn’t be happier! This book is about research, but you’ll also learn about assistive technology, different types of disability, and how to build accessibility into the entire design proc...",
+          "url": "https://smashingmagazine.com/2026/03/accessible-ux-research-release/",
+          "source": "Smashing Magazine"
+        },
+        {
+          "title": "Getting Started With The Popover API",
+          "desc": "What happens if you rebuild a single tooltip using the browser’s native model without the aid of a library? The Popover API turns tooltips from something you simulate into something the browser actually understands. Opening and closing, keyboard interaction, Escape handling, and much of the accessib...",
+          "url": "https://smashingmagazine.com/2026/03/getting-started-popover-api/",
+          "source": "Smashing Magazine"
+        },
+        {
+          "title": "Okay, finally got 100 in PABS! Has this actually helped any of you?",
+          "desc": "I am not a score maniac; I was just warking on making my portfolio wabsite as simple as possible, and I actually achieved it. I don't know if it will help a lot, but it definitely feels good. Mobile performance is at 97, and the others are at 100. edit 1 : added google analytics tag and performance ...",
+          "url": "https://www.reddit.com/r/web_design/comments/1rjv6su/okay_finally_got_100_in_pabs_has_this_actually/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "1995: From Batman Forever’s cinematic design to HTML tables",
+          "desc": "submitted by /u/magenta_placenta [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1rjzbd5/1995_from_batman_forevers_cinematic_design_to/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Webuzo",
+          "desc": "​​I'm wondering what people think of the WebUzo control panel. I'm not too thrilled with it. I believe that it is hack prone. submitted by /u/Curious-Twinkie88 [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1rjsa7t/webuzo/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Anybody have a list of Japanese-themed, minimalistic aesthetically pleasing sites?",
+          "desc": "Looking for the above for some inspo. EDIT: It looks like I’m looking in the wrong direction. Can anyone recommend sites that match the criteria that AREN’T Japanese then? submitted by /u/unteth [link] [comments]",
+          "url": "https://www.reddit.com/r/web_design/comments/1rjbil7/anybody_have_a_list_of_japanesethemed/",
+          "source": "r/web_design"
+        },
+        {
+          "title": "Help with full view backgrounds image",
+          "desc": "Im editing the images like this ( if you could please fill it up for me ) : Desktop & tablet landscape : Hero : 2560x1440 Others : 1920x1080 Ratio : 16:9 If i want to mantain the same quality , and the best generalist compatibility among most devices, what would be the sizes/ratio recommended : Tabl...",
+          "url": "https://www.reddit.com/r/web_design/comments/1rjayix/help_with_full_view_backgrounds_image/",
+          "source": "r/web_design"
+        }
+      ]
+    },
+    {
+      "title": "Apple / iOS",
+      "items": [
+        {
+          "title": "Apple Accidentally Leaks 'MacBook Neo'",
+          "desc": "submitted by /u/HelloitsWojan [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rjrki9/apple_accidentally_leaks_macbook_neo/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple introduces the new MacBook Air with M5",
+          "desc": "submitted by /u/spearson0 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rjq4mm/apple_introduces_the_new_macbook_air_with_m5/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple's Studio Display XDR Supports DICOM Medical Imaging for Diagnostic Radiology",
+          "desc": "submitted by /u/Few_Baseball_3835 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rk5yqj/apples_studio_display_xdr_supports_dicom_medical/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple unveils new Studio Display and all-new Studio Display XDR",
+          "desc": "Studio Display XDR is the world’s best pro display, featuring a 27-inch 5K Retina XDR display with a mini-LED backlight, 2000 nits of peak HDR brightness, and a 120Hz refresh rate submitted by /u/tekz [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rjq2k0/apple_unveils_new_studio_display_and_allnew/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple introduces MacBook Pro with all-new M5 Pro and M5 Max",
+          "desc": "submitted by /u/Otherwise-Warning303 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rjq37s/apple_introduces_macbook_pro_with_allnew_m5_pro/",
+          "source": "r/apple"
+        },
+        {
+          "title": "New Apple Studio Display and Studio Display XDR Don't Work With Intel Macs",
+          "desc": "submitted by /u/InsaneSnow45 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rjxlln/new_apple_studio_display_and_studio_display_xdr/",
+          "source": "r/apple"
+        },
+        {
+          "title": "Apple debuts M5 Pro and M5 Max to supercharge the most demanding pro workflows",
+          "desc": "submitted by /u/Otherwise-Warning303 [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rjq2y3/apple_debuts_m5_pro_and_m5_max_to_supercharge_the/",
+          "source": "r/apple"
+        },
+        {
+          "title": "The new MacBook Air with M5",
+          "desc": "submitted by /u/favicondotico [link] [comments]",
+          "url": "https://www.reddit.com/r/apple/comments/1rjrl8h/the_new_macbook_air_with_m5/",
+          "source": "r/apple"
+        }
+      ]
+    },
+    {
+      "title": "互联网 / 科技",
+      "items": [
+        {
+          "title": "Superlinear Returns",
+          "desc": "",
+          "url": "http://www.paulgraham.com/superlinear.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Do Great Work",
+          "desc": "",
+          "url": "http://www.paulgraham.com/greatwork.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "How to Get New Ideas",
+          "desc": "",
+          "url": "http://www.paulgraham.com/getideas.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "The Need to Read",
+          "desc": "",
+          "url": "http://www.paulgraham.com/read.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What You (Want to)* Want",
+          "desc": "",
+          "url": "http://www.paulgraham.com/want.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Alien Truth",
+          "desc": "",
+          "url": "http://www.paulgraham.com/alien.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "What I've Learned from Users",
+          "desc": "",
+          "url": "http://www.paulgraham.com/users.html",
+          "source": "Paul Graham"
+        },
+        {
+          "title": "Heresy",
+          "desc": "",
+          "url": "http://www.paulgraham.com/heresy.html",
+          "source": "Paul Graham"
+        }
+      ]
+    }
+  ]
+}
