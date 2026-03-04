@@ -1,123 +1,69 @@
 {
   "date": "2026-03-04",
   "period": "pm",
-  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "title": "每日科技速览",
   "generated": "2026-03-04T23:27:33.832383",
+  "headline": {
+    "title": "🔥 Apple 发布 MacBook Neo：A18 Pro 芯片，平价新选择",
+    "desc": "Apple 今天发布了全新 MacBook Neo，搭载 A18 Pro 芯片，定位为平价 MacBook 选项。这是 Apple 在 M 系列芯片之外的新尝试，面向更广泛的消费者市场。",
+    "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
+    "momo": "MacBook 产品线进一步细分，A18 Pro 能否成为 M 系列的有力补充？"
+  },
   "sections": [
     {
-      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "title": "AI / 机器学习",
       "items": [
         {
-          "title": "Breaking: \u201csycophantic AI distorts belief, manufacturing certainty where there should be doubt\u201d",
-          "desc": "LLMs are an epistemic nightmare",
+          "title": "Gary Marcus：阿谀奉承的 AI 正在扭曲人类认知",
+          "desc": "AI 研究者 Gary Marcus 警告，过度迎合用户的 LLM 正在制造虚假确定性，在应该存在疑问的地方制造确定感，成为"认识论噩梦"。",
           "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
-          "source": "Gary Marcus"
+          "source": "Gary Marcus",
+          "momo": "AI 不会说"我不确定"是个大问题。它总是给你一个听起来很有道理的答案，但可能完全是编的。"
         },
         {
-          "title": "The one science reform we can all agree on, but we're too cowardly to do",
-          "desc": "Article URL: https://www.experimental-history.com/p/the-one-science-reform-we-can-all Comments URL: https://news.ycombinator.com/item?id=47248341 Points: 9 # Comments: 1",
-          "url": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-          "source": "Hacker News"
-        },
-        {
-          "title": "\"It Turns Out\"",
-          "desc": "Article URL: https://jsomers.net/blog/it-turns-out Comments URL: https://news.ycombinator.com/item?id=47248319 Points: 15 # Comments: 6",
-          "url": "https://jsomers.net/blog/it-turns-out",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Apple Announces Low-Cost 'MacBook Neo' with A18 Pro Chip",
-          "desc": "Article URL: https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/ Comments URL: https://news.ycombinator.com/item?id=47247670 Points: 45 # Comments: 12",
-          "url": "https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Apple Introduces MacBook Neo",
-          "desc": "Article URL: https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/ Comments URL: https://news.ycombinator.com/item?id=47247645 Points: 257 # Comments: 248",
-          "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "A Visual Guide to DNA Sequencing",
-          "desc": "Article URL: https://www.asimov.press/p/dna-sequencing Comments URL: https://news.ycombinator.com/item?id=47247245 Points: 4 # Comments: 0",
-          "url": "https://www.asimov.press/p/dna-sequencing",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Glaze by Raycast",
-          "desc": "Article URL: https://www.glazeapp.com/ Comments URL: https://news.ycombinator.com/item?id=47247033 Points: 83 # Comments: 47",
+          "title": "Raycast 发布 Glaze：用 AI 生成原生 macOS 应用",
+          "desc": "Raycast 推出 Glaze，一个用 AI 对话生成原生 macOS 桌面应用的工具。与 web app 不同，Glaze 生成真正的桌面应用，可访问文件系统、相机、键盘快捷键等。",
           "url": "https://www.glazeapp.com/",
-          "source": "Hacker News"
+          "source": "Hacker News",
+          "momo": "从 web app 到桌面应用，AI 生成代码的能力在逐步扩展。这是 Lovable/Replit 之后的新方向。"
         },
         {
-          "title": "Did Alibaba just kneecap its powerful Qwen AI team?",
-          "desc": "Article URL: https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in Comments URL: https://news.ycombinator.com/item?id=47246746 Points: 60 # Comments: 21",
+          "title": "阿里巴巴 Qwen AI 团队人事变动",
+          "desc": "阿里巴巴强大的 Qwen AI 团队出现关键人物离职，引发业界关注。这可能影响 Qwen 模型的后续发展方向。",
           "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
-          "source": "Hacker News"
+          "source": "Hacker News",
+          "momo": "大模型竞争激烈，人才流动成为关键变量。"
         }
       ]
     },
     {
-      "title": "\u56fe\u5f62 / \u6e32\u67d3",
+      "title": "图形 / 渲染",
       "items": [
         {
-          "title": "HWRT/SWRT parity in a Metal path tracer on Apple Silicon (M1/M2/M3) \u2014 v2.0.0 release [OC]",
-          "desc": "A few weeks ago I posted about a Metal path tracer I\u2019ve been developing for Apple Silicon: https://www.reddit.com/r/GraphicsProgramming/s/KnFOlknhIL Since then I tracked down the remaining discrepancies between the two traversal paths and released v2.0 with full HWRT/SWRT parity. Validation is done ...",
+          "title": "Metal 路径追踪器实现 HWRT/SWRT 完全兼容",
+          "desc": "开发者在 Apple Silicon（M1/M2/M3）上用 Metal 实现的路径追踪器达到 v2.0，实现了硬件光线追踪和软件光线追踪的完全兼容。",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkfb27/hwrtswrt_parity_in_a_metal_path_tracer_on_apple/",
-          "source": "r/GraphicsProgramming"
+          "source": "r/GraphicsProgramming",
+          "momo": "Apple Silicon 的图形能力在被充分挖掘，本地渲染性能越来越强。"
         },
         {
-          "title": "An audio chip used as a \"GPU\": tiny SEGA Saturn SCSP DSP vertex transformation demo",
-          "desc": "submitted by /u/r_retrohacking_mod2 [link] [comments]",
+          "title": "用音频芯片当 GPU：SEGA Saturn SCSP DSP 顶点变换演示",
+          "desc": "有趣的逆向工程项目：用 SEGA Saturn 的音频芯片 SCSP 的 DSP 来做顶点变换，展示了硬件的多功能性。",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkmmhk/an_audio_chip_used_as_a_gpu_tiny_sega_saturn_scsp/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Physically based rendering from first principles",
-          "desc": "submitted by /u/imadr_ [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjtc4z/physically_based_rendering_from_first_principles/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Please recommend a language best suitable for working with video media",
-          "desc": "I want to develop a custom video editor, with a focus on media playback. Which programming language would be the best choice for this? submitted by /u/bbrother92 [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkmk54/please_recommend_a_language_best_suitable_for/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "1 Year progress on my custom OpenGl Graphics Engine specifically designed for flight simulators",
-          "desc": "Hey everyone,I need some feedback on the visuals of my custom graphics engine .It features custom scripting with embedded script editor ,physics engine and heightmap based terrain generation as well as a 3d renderer optimized for rendering large terrains for flight simulators . This is my first ever...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjnh7n/1_year_progress_on_my_custom_opengl_graphics/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Did started my journey here, but need some help.",
-          "desc": "[LONG POST] (You guys might've seen this thousand times but here we are.) New to this community, and I'm really enjoying this journey, I fairly did some basics in C first and started doing C++ and also some the basics of OOPS like classes & objects, polymorphism, inheritance, encapsulation, etc. And...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjjibi/did_started_my_journey_here_but_need_some_help/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Gpu programming is Good career for future job",
-          "desc": "submitted by /u/Deep_Caterpillar_927 [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkh4nz/gpu_programming_is_good_career_for_future_job/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "6 Months of Progress on 3D Game",
-          "desc": "Hello, I wanted to share a project I've been working on for the past 6 months. It's definitely going to be a long journey, but I've enjoyed all the challenges and learning so far. At a high level, I'm making a 3D procedurally generated solo/coop RPG. I'm using the following tools: Language: Rust Win...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjixoe/6_months_of_progress_on_3d_game/",
-          "source": "r/GraphicsProgramming"
+          "source": "r/GraphicsProgramming",
+          "momo": "复古硬件黑客永不过时。"
         }
       ]
     },
     {
-      "title": "\u7cfb\u7edf / \u7f16\u7a0b",
+      "title": "系统 / 编程",
       "items": [
         {
-          "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
-          "desc": "Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing.",
+          "title": "软盘写保护缺口的有趣调查",
+          "desc": "The Old New Thing 博客发表了一篇有趣的文章，调查了软盘和其他存储介质上的写保护缺口设计。",
           "url": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
-          "source": "Old New Thing"
+          "source": "Old New Thing",
+          "momo": "计算机历史的细节设计往往很有意思。"
         }
       ]
     }
