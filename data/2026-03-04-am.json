@@ -1,0 +1,144 @@
+{
+  "date": "2026-03-04",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-03-04T09:30:00",
+  "headline": {
+    "title": "🔥 苹果发布 M5 系列芯片：MacBook Air/Pro 全线更新，Studio Display XDR 登场",
+    "desc": "苹果今天密集发布 M5、M5 Pro、M5 Max 三款芯片，MacBook Air 和 MacBook Pro 全线更新。同时推出 Studio Display XDR——27 英寸 5K mini-LED 显示器，2000 尼特峰值亮度，120Hz 刷新率。但新显示器不支持 Intel Mac。",
+    "url": "https://www.reddit.com/r/apple/comments/1rjq37s/apple_introduces_macbook_pro_with_allnew_m5_pro/",
+    "momo": "M5 来得比预期快，苹果的芯片迭代速度已经把 Intel 甩在身后好几个身位。Studio Display XDR 不支持 Intel Mac 是彻底断绝后路了。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "苹果发布 M5 系列：MacBook Pro 搭载 M5 Pro 和 M5 Max",
+          "desc": "苹果正式发布 M5 Pro 和 M5 Max 芯片，MacBook Pro 全线更新。M5 系列专为最高强度的专业工作流设计，性能和能效比再次提升。",
+          "url": "https://www.reddit.com/r/apple/comments/1rjq37s/apple_introduces_macbook_pro_with_allnew_m5_pro/",
+          "source": "r/apple",
+          "momo": "从 M1 到 M5 才 5 年多，苹果自研芯片的迭代速度让人咋舌。Intel 时代的年更已经是遥远的记忆。"
+        },
+        {
+          "title": "MacBook Air 更新至 M5 芯片",
+          "desc": "苹果为 MacBook Air 带来 M5 芯片升级，延续轻薄本产品线的性能提升节奏。",
+          "url": "https://www.reddit.com/r/apple/comments/1rjq4mm/apple_introduces_the_new_macbook_air_with_m5/",
+          "source": "r/apple",
+          "momo": "Air 用上 M5 意味着入门级 Mac 的性能已经超过几年前的 Pro。性能下放速度惊人。"
+        },
+        {
+          "title": "Studio Display XDR 发布：mini-LED + 120Hz，但不支持 Intel Mac",
+          "desc": "苹果推出全新 Studio Display XDR，27 英寸 5K Retina XDR 显示器，配备 mini-LED 背光、2000 尼特峰值 HDR 亮度、120Hz 刷新率。但新显示器不兼容 Intel Mac，只能搭配 Apple Silicon Mac 使用。",
+          "url": "https://www.reddit.com/r/apple/comments/1rjq2k0/apple_unveils_new_studio_display_and_allnew/",
+          "source": "r/apple",
+          "momo": "Studio Display XDR 是专业显示器的天花板，但不支持 Intel Mac 是苹果在说：该换了。"
+        },
+        {
+          "title": "苹果意外泄露「MacBook Neo」",
+          "desc": "苹果在某处意外泄露了「MacBook Neo」的命名，引发猜测这可能是即将发布的新产品线。",
+          "url": "https://www.reddit.com/r/apple/comments/1rjrki9/apple_accidentally_leaks_macbook_neo/",
+          "source": "r/apple",
+          "momo": "Neo 这个名字很有意思，是全新产品线还是某个现有产品的代号？苹果的泄露从来不是偶然。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Donald Knuth 被 Claude Opus 4.6 震惊了",
+          "desc": "计算机科学泰斗 Donald Knuth 表示，他花了几周时间研究的一个开放问题，被 Anthropic 三周前发布的 Claude Opus 4.6（混合推理模型）解决了。他说自己可能要重新审视对「生成式 AI」的看法。",
+          "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "当 Knuth 说要重新审视 AI，这不是客套话。Claude Opus 4.6 的推理能力已经能解决真正的数学问题了。"
+        },
+        {
+          "title": "Google 发布 Gemini 3.1 Flash-Lite：价格降至 1/8",
+          "desc": "Google 更新 Flash-Lite 系列，Gemini 3.1 Flash-Lite 定价为输入 $0.25/百万 token、输出 $1.5/百万 token，是 Gemini 3.1 Pro 价格的 1/8。支持四种不同的思考级别。",
+          "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
+          "source": "Simon Willison",
+          "momo": "价格战打到这个程度，AI 调用成本已经不是瓶颈了。接下来比的是谁的模型更好用。"
+        },
+        {
+          "title": "OpenAI 与五角大楼合作引发 #CancelChatGPT 抵制潮",
+          "desc": "OpenAI 宣布与美国国防部达成军事合作协议后，社交媒体上掀起 #CancelChatGPT 抵制运动。用户对 AI 技术被用于军事目的表示担忧。",
+          "url": "https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal",
+          "source": "Hacker News",
+          "momo": "OpenAI 从「确保 AGI 造福全人类」到与五角大楼合作，这个转变让很多早期支持者失望了。"
+        },
+        {
+          "title": "Gary Marcus：AI 的「谄媚」正在扭曲人类认知",
+          "desc": "AI 批评者 Gary Marcus 发文指出，LLM 的「谄媚」特性（sycophantic AI）正在扭曲人类的信念系统，在本应存在疑问的地方制造确定性。他称这是「认知灾难」。",
+          "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
+          "source": "Gary Marcus",
+          "momo": "AI 不会说「我不确定」，它会编一个听起来很确定的答案。这比不知道更危险。"
+        }
+      ]
+    },
+    {
+      "title": "硬件 / 产品",
+      "items": [
+        {
+          "title": "联想新款 ThinkPad 获 iFixit 满分 10/10 可维修性评分",
+          "desc": "iFixit 给联想最新 ThinkPad 打出 10/10 的完美可维修性评分，这在现代笔记本中极为罕见。模块化设计、易拆卸结构、标准螺丝，联想在可维修性上做出了表率。",
+          "url": "https://www.ifixit.com/News/115827/new-thinkpads-score-perfect-10-repairability",
+          "source": "Hacker News",
+          "momo": "当苹果在焊死内存和硬盘时，联想反其道而行。可维修性 10 分是对「右修权」运动的最好回应。"
+        },
+        {
+          "title": "Studio Display XDR 支持 DICOM 医学影像标准",
+          "desc": "苹果新发布的 Studio Display XDR 通过了 DICOM 医学影像认证，可用于放射诊断。这意味着医生可以用它来查看 X 光、CT、MRI 等医学影像。",
+          "url": "https://www.reddit.com/r/apple/comments/1rk5yqj/apples_studio_display_xdr_supports_dicom_medical/",
+          "source": "r/apple",
+          "momo": "苹果把专业显示器做到了医疗级别。这不只是卖显示器，是在切入专业市场。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "从第一性原理讲解基于物理的渲染（PBR）",
+          "desc": "一篇从物理学基础开始讲解 PBR 的教程文章，适合想深入理解渲染原理的开发者。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjtc4z/physically_based_rendering_from_first_principles/",
+          "source": "r/GraphicsProgramming",
+          "momo": "PBR 不是魔法，是物理。从第一性原理学起，才能真正理解为什么这样渲染是对的。"
+        },
+        {
+          "title": "一年进展：为飞行模拟器定制的 OpenGL 图形引擎",
+          "desc": "开发者展示了一年来为飞行模拟器开发的自定义 OpenGL 图形引擎，包含脚本编辑器、物理引擎、基于高度图的地形生成，专门优化了大地形渲染。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjnh7n/1_year_progress_on_my_custom_opengl_graphics/",
+          "source": "r/GraphicsProgramming",
+          "momo": "飞行模拟器对地形渲染的要求极高，一年能做到这个程度很不容易。自研引擎的乐趣就在这里。"
+        }
+      ]
+    },
+    {
+      "title": "设计 / 前端",
+      "items": [
+        {
+          "title": "Jim Nielsen：词语很重要",
+          "desc": "前端开发者 Jim Nielsen 反思了产品中的用词选择。他看到某 AI 产品的团队计费页面用了「Usage leaderboard」（使用排行榜）这个标签，引发了对产品语言的思考——词语不只是标签，它塑造用户对产品的理解。",
+          "url": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
+          "source": "Jim Nielsen",
+          "momo": "「排行榜」暗示竞争，「使用统计」是中性的。同一个功能，不同的词会引导用户产生不同的心理反应。"
+        },
+        {
+          "title": "Smashing Magazine 新书：《无障碍用户研究》",
+          "desc": "Smashing Magazine 发布新书《Accessible UX Research》，作者 Michele Williams。这本书不只讲研究方法，还涵盖辅助技术、不同类型的残障、以及如何将无障碍融入整个设计流程。",
+          "url": "https://smashingmagazine.com/2026/03/accessible-ux-research-release/",
+          "source": "Smashing Magazine",
+          "momo": "无障碍不是最后加的功能，是从研究阶段就要考虑的设计原则。这本书填补了这个空白。"
+        },
+        {
+          "title": "Popover API 入门指南",
+          "desc": "Smashing Magazine 发布 Popover API 教程。这个浏览器原生 API 让工具提示（tooltip）从「模拟」变成浏览器真正理解的元素，自动处理打开/关闭、键盘交互、Escape 键、无障碍支持。",
+          "url": "https://smashingmagazine.com/2026/03/getting-started-popover-api/",
+          "source": "Smashing Magazine",
+          "momo": "终于不用为了一个 tooltip 引入整个 UI 库了。原生 API 的好处就是浏览器帮你处理了 90% 的边界情况。"
+        }
+      ]
+    }
+  ]
+}
