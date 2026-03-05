@@ -1,0 +1,125 @@
+{
+  "date": "2026-03-05",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-03-05T21:30:00",
+  "headline": {
+    "title": "🔥 阿里 Qwen 团队核心出走，Google 火速招揽——开源大模型格局生变",
+    "desc": "阿里巴巴 Qwen 团队多名核心成员离职，股价持续下跌。Google 迅速向前 Qwen 成员抛出橄榄枝，意图借此加强 Gemma 开源模型。阿里 CEO 紧急表态 Qwen 将继续开源，但人才流失的影响已难以忽视。",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rlckbx/alibabas_stock_has_kept_falling_after_it_lost_key/",
+    "momo": "人才是大模型竞争的真正护城河。Qwen 团队出走+Google 挖角，这是开源 AI 格局的一次地震。阿里嘴上说继续开源，但核心人走了，Qwen 的势头还能不能保住是个大问号。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "阿里 Qwen 核心成员出走，股价持续下跌",
+          "desc": "阿里巴巴因 Qwen 团队关键人才流失，股价延续跌势。市场对阿里 AI 战略的信心受到冲击。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rlckbx/alibabas_stock_has_kept_falling_after_it_lost_key/",
+          "source": "r/LocalLLaMA",
+          "momo": "人才流失直接反映在股价上，说明市场把 Qwen 团队视为阿里 AI 估值的核心资产。"
+        },
+        {
+          "title": "阿里 CEO 紧急表态：Qwen 将继续开源",
+          "desc": "面对核心成员出走引发的担忧，阿里巴巴 CEO 公开承诺 Qwen 系列模型将继续保持开源路线。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rl6lnl/alibaba_ceo_qwen_will_remain_opensource/",
+          "source": "r/LocalLLaMA",
+          "momo": "CEO 亲自下场灭火，说明内部压力不小。开源承诺是好事，但没人比有人更致命。"
+        },
+        {
+          "title": "Google 向前 Qwen 成员伸出橄榄枝",
+          "desc": "Google 被曝正在积极招揽离开阿里的前 Qwen 团队成员，目标是加强 Gemma 开源模型的竞争力。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rl49vc/google_invites_exqwen/",
+          "source": "r/LocalLLaMA",
+          "momo": "Google 这波操作很精准——Gemma 一直被嫌弱，挖 Qwen 的人来补课是最快的路。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Qwen3 vs Qwen3.5 性能对比出炉",
+          "desc": "社区发布详细的 Qwen3 与 Qwen3.5 性能基准对比，MoE 模型用等效参数计算（√(total×active)）来近似算力规模。数据来源 artificialanalysis.ai。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rlckan/qwen3_vs_qwen35_performance/",
+          "source": "r/LocalLLaMA",
+          "momo": "MoE 的等效参数算法很有参考价值，终于有人认真量化稀疏模型的真实算力消耗了。"
+        },
+        {
+          "title": "韩国匿名论坛数学证明：Attention 本质是 d² 问题而非 n²",
+          "desc": "一篇来自韩国 AI 社区的匿名论文被搬上 Reddit，用数学证明 Attention 机制的计算复杂度本质上与维度 d 的平方相关，而非序列长度 n 的平方。引发激烈讨论。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rl54v7/d_a_mathematical_proof_from_an_anonymous_korean/",
+          "source": "r/LocalLLaMA",
+          "momo": "如果证明成立，这对长上下文模型的理论基础是颠覆性的。匿名论坛出神作，crypto punk 精神。"
+        },
+        {
+          "title": "llama.cpp 即将支持 NVFP4 格式",
+          "desc": "llama.cpp 对 NVIDIA FP4 量化的原生支持进入最后冲刺阶段，预计数小时到一周内合并。对 48GB 显存用户意义重大——此前只能通过 bug 较多的 vLLM 使用。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rkyrja/we_could_be_hours_or_less_than_a_week_away_from/",
+          "source": "r/LocalLLaMA",
+          "momo": "FP4 进 llama.cpp 意味着消费级显卡能跑更大的模型。本地推理的民主化又进一步。"
+        },
+        {
+          "title": "「人类才是吓人的蠢」：Qwen3.5 4B 测试翻车警示",
+          "desc": "版主发帖纠正昨天热帖「Qwen3.5 4B 超级聪明」的误导性测试。提醒社区不要被表面结果欺骗，测试方法论很重要。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rkrwub/psa_humans_are_scary_stupid/",
+          "source": "r/LocalLLaMA",
+          "momo": "benchmark 骗人不是第一天了。版主出来打脸是社区自净的好现象。"
+        },
+        {
+          "title": "Qwen3.5 在 V100 上跑出 80 token/s",
+          "desc": "有人用两张 V100（NVLink）测试 Qwen3.5，Dense 27B 跑 40 t/s，MoE 35B 跑 80 t/s。老硬件焕发第二春。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rle33z/some_tests_of_qwen35_on_v100s/",
+          "source": "r/LocalLLaMA",
+          "momo": "V100 是 2017 年的卡，七年后还能跑最新模型到 80 t/s，MoE 架构对老硬件太友好了。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "从零用 Rust/WebGPU/WASM 构建实时 PBR 渲染器",
+          "desc": "开发者分享了完全在浏览器中运行的实时 PBR 渲染器：Cook-Torrance BRDF、GGX 镜面反射、HDR IBL、PCF 阴影、GTAO 环境光遮蔽、Bloom 等全套管线，全部用 Rust + WebGPU + WASM 实现。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlbl9u/built_a_realtime_pbr_renderer_from_scratch_in/",
+          "source": "r/GraphicsProgramming",
+          "momo": "Rust + WebGPU 正在成为浏览器端图形的黄金搭档。全套 PBR 管线跑在浏览器里，Web 3D 的天花板又高了。"
+        },
+        {
+          "title": "360 行 Zig 代码写一个软件光栅化器",
+          "desc": "极简主义实现：仅用 360 行 Zig 代码完成一个基础软件光栅化器。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkuhlz/made_a_basic_software_rasterizer_in_360_lines_of/",
+          "source": "r/GraphicsProgramming",
+          "momo": "Zig 的表达力确实强，360 行搞定光栅化是很好的教学材料。"
+        },
+        {
+          "title": "FPGA 自制 GPU 求 Demo 创意",
+          "desc": "硕士论文项目：在 FPGA 上实现光栅化引擎，最高支持 5000 三角形 30fps 渲染，作者征集有限算力下的创意 Demo。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkyuzt/custom_gpu_implementation_demo_ideas/",
+          "source": "r/GraphicsProgramming",
+          "momo": "FPGA 造 GPU 是图形学最硬核的玩法之一。5K 三角形限制下做出好看的东西才是真功夫。"
+        },
+        {
+          "title": "图形编程未来五年预测讨论",
+          "desc": "r/GraphicsProgramming 社区发起讨论：未来五年图形硬件走向、AI 对渲染的影响、实时光追的普及节奏。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rl0pff/5year_predictions/",
+          "source": "r/GraphicsProgramming",
+          "momo": "神经渲染 vs 传统光栅化的路线之争会是未来五年最有趣的技术辩论。"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "Raymond Chen 找到了 QueryPerformanceCounter 文档的反例",
+          "desc": "微软传奇博主 Raymond Chen 在 The Old New Thing 上分享：文档说 QueryPerformanceCounter 永远不会失败，但他找到了反例——当然，前提是你先破坏了规则。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110",
+          "source": "Old New Thing",
+          "momo": "Raymond Chen 永远能在 Windows API 里挖出冷知识。「永远不会失败」的 API 失败了——因为你先犯规了。"
+        }
+      ]
+    }
+  ]
+}

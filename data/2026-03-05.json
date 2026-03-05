@@ -1,0 +1,125 @@
+{
+  "date": "2026-03-05",
+  "period": "pm",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-03-05T21:30:07.295065",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "Alibaba\u2019s stock has kept falling after it lost key Qwen leaders.",
+          "desc": "Unlike other \u201cbusiness\u201d news, I think this one is relevant/on-topic. submitted by /u/jacek2023 [link] [comments]",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rlckbx/alibabas_stock_has_kept_falling_after_it_lost_key/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Alibaba CEO: Qwen will remain open-source",
+          "desc": "submitted by /u/Bestlife73 [link] [comments]",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rl6lnl/alibaba_ceo_qwen_will_remain_opensource/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Qwen3 vs Qwen3.5 performance",
+          "desc": "Note that dense models use their listed parameter size (e.g., 27B), while Mixture-of-Experts models (e.g., 397B A17B) are converted to an effective size using ( \\sqrt{\\text{total} \\times \\text{active}} ) to approximate their compute-equivalent scale. Data source: https://artificialanalysis.ai/leader...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rlckan/qwen3_vs_qwen35_performance/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Google invites ex-qwen ;)",
+          "desc": "to make Gemma great again? ;) submitted by /u/jacek2023 [link] [comments]",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rl49vc/google_invites_exqwen/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "PSA: Humans are scary stupid",
+          "desc": "Apologies for the harsh post title but wanted to be evocative & sensationalist as I think everyone needs to see this. This is in response to this submission made yesterday: Qwen3.5 4b is scary smart Making this post as a dutiful mod here - don't want this sub to spread noise/misinformation. The subm...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rkrwub/psa_humans_are_scary_stupid/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Some tests of Qwen3.5 on V100s",
+          "desc": "40 t/s dense and 80 t/s MOE Both 27B and 35B tested with graph split, do these numbers look correct or could I do more. The test hardware is 2 v100s with nvlink. Was quite nice to see old hardware go so fast. Thanks. submitted by /u/Simple_Library_2700 [link] [comments]",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rle33z/some_tests_of_qwen35_on_v100s/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "[D] A mathematical proof from an anonymous Korean forum: The essence of Attention is fundamentally a d^2 problem, not n^2. (PDF included)",
+          "desc": "Hello, r/LocalLLaMA. I am just a regular user from a Korean AI community (\"The Singularity Gallery\"). I recently came across an anonymous post with a paper attached. I felt that the mathematical proof inside was too important to be buried in a local forum and not go viral globally, so I used Gemini ...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rl54v7/d_a_mathematical_proof_from_an_anonymous_korean/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "We could be hours (or less than a week) away from true NVFP4 support in Llama.cpp GGUF format \ud83d\udc40",
+          "desc": "I'm not a contributor myself but as someone with only 48GB total usable memory I am so glad to see this so quickly coming to fruition. Previously the best we had for NVFP4 was through vLLM which not only can't offload weights to RAM like llama.cpp but also has loads of related bugs. Once this gets m...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rkyrja/we_could_be_hours_or_less_than_a_week_away_from/",
+          "source": "r/LocalLLaMA"
+        }
+      ]
+    },
+    {
+      "title": "\u56fe\u5f62 / \u6e32\u67d3",
+      "items": [
+        {
+          "title": "Built a real-time PBR renderer from scratch in Rust/WebGPU/WASM",
+          "desc": "Built a real-time PBR renderer from scratch in Rust/WASM, running entirely in the browser via WebGPU. I am in love with Rust + WebGPU + WASM! Cook-Torrance BRDF \u00b7 GGX specular \u00b7 Fresnel-Schlick \u00b7 HDR IBL (prefiltered env + irradiance + BRDF LUT) \u00b7 PCF shadow mapping \u00b7 GTAO ambient occlusion \u00b7 bloom ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlbl9u/built_a_realtime_pbr_renderer_from_scratch_in/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "made a basic software rasterizer in 360 lines of zig",
+          "desc": "submitted by /u/1up_1500 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkuhlz/made_a_basic_software_rasterizer_in_360_lines_of/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Anyone here studying Unity graphics (URP)? I made a web-based URP shader library navigator (indexes + xrefs + include graph)",
+          "desc": "Commercial engines are often heavily fragmented\u2014shader code is spread across many files and layers of includes/macros. Unity URP is similar: variant stripping and keyword-driven paths introduce a sea of #defines, and it\u2019s easy to lose context when tracing cross-file dependencies. I\u2019m sharing this be...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlafp0/anyone_here_studying_unity_graphics_urp_i_made_a/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Getting started into Graphics Programming",
+          "desc": "Hi folks, I am currently working in the application development domain, and i want to get into the graphics programming domain. As someone who will be starting now, what advice would you give, calling all seniors here. Thanks for the help, have a great day. submitted by /u/Responsible_Value193 [link...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlfabh/getting_started_into_graphics_programming/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Custom GPU implementation Demo ideas",
+          "desc": "Hello everyone, I've been working on my master thesis in which I implemented a Rasterization Engine on an FPGA (gif is rendered from the GPU). I wanted some ideas on what I should make as a demo considering that the rendering is rather limited. At most I can render 5k triangles at 30fps. For now the...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkyuzt/custom_gpu_implementation_demo_ideas/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Is this hallucination scene effective enough for my game?",
+          "desc": "Testing a hallucination scene from my psychological horror game The Infected Soul. Does this feel effective enough? We\u2019re currently looking for playtesters for our closed pre-alpha, so feel free to DM me if you're interested. Wishlists are hugely appreciated as well. The Infected Soul \u2013 Steam Page s...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rl2e3g/is_this_hallucination_scene_effective_enough_for/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "5-Year Predictions",
+          "desc": "Hey r/GraphicsProgramming My colleagues and I were chatting, and happened across the notion that it's an interesting time in real-time graphics because it's hard to say where things might be going. The questions: - Where is graphical computing hardware headed in the next 5-years? - What impact does ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rl0pff/5year_predictions/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "RayTrophi Studio \u2013 Vulkan RT & Open World Scene Creation Test (RTX 3060 Tested, Seeking AMD / Intel Feedback)",
+          "desc": "Hi everyone, I\u2019m developing RayTrophi Studio, a personal rendering engine and open world scene creation tool, recently integrated with a Vulkan Ray Tracing backend alongside CPU (Embree) and NVIDIA GPU (OptiX) implementations. Example scenes (each scene is a 3-file package): hair_system \u2192 human mode...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlhdrz/raytrophi_studio_vulkan_rt_open_world_scene/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "\u7cfb\u7edf / \u7f16\u7a0b",
+      "items": [
+        {
+          "title": "Aha, I found a counterexample to the documentation that says that Query\u00adPerformance\u00adCounter never fails",
+          "desc": "Of course, anything can happen if you break the rules. The post Aha, I found a counterexample to the documentation that says that Query\u00adPerformance\u00adCounter never fails appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110",
+          "source": "Old New Thing"
+        }
+      ]
+    }
+  ]
+}
