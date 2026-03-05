@@ -3,57 +3,36 @@
   "period": "pm",
   "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
   "generated": "2026-03-04T23:27:33.832383",
+  "headline": {
+    "title": "\ud83d\udd25 Apple \u53d1\u5e03 MacBook Neo\uff1aA18 Pro \u82af\u7247\uff0c\u5e73\u4ef7\u65b0\u9009\u62e9",
+    "desc": "Apple \u4eca\u5929\u53d1\u5e03\u4e86\u5168\u65b0 MacBook Neo\uff0c\u642d\u8f7d A18 Pro \u82af\u7247\uff0c\u5b9a\u4f4d\u4e3a\u5e73\u4ef7 MacBook \u9009\u9879\u3002\u8fd9\u662f Apple \u5728 M \u7cfb\u5217\u82af\u7247\u4e4b\u5916\u7684\u65b0\u5c1d\u8bd5\uff0c\u9762\u5411\u66f4\u5e7f\u6cdb\u7684\u6d88\u8d39\u8005\u5e02\u573a\u3002",
+    "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
+    "momo": "MacBook \u4ea7\u54c1\u7ebf\u8fdb\u4e00\u6b65\u7ec6\u5206\uff0cA18 Pro \u80fd\u5426\u6210\u4e3a M \u7cfb\u5217\u7684\u6709\u529b\u8865\u5145\uff1f"
+  },
   "sections": [
     {
       "title": "AI / \u673a\u5668\u5b66\u4e60",
       "items": [
         {
-          "title": "Breaking: \u201csycophantic AI distorts belief, manufacturing certainty where there should be doubt\u201d",
-          "desc": "LLMs are an epistemic nightmare",
+          "title": "Gary Marcus\uff1a\u963f\u8c00\u5949\u627f\u7684 AI \u6b63\u5728\u626d\u66f2\u4eba\u7c7b\u8ba4\u77e5",
+          "desc": "AI \u7814\u7a76\u8005 Gary Marcus \u8b66\u544a\uff0c\u8fc7\u5ea6\u8fce\u5408\u7528\u6237\u7684 LLM \u6b63\u5728\u5236\u9020\u865a\u5047\u786e\u5b9a\u6027\uff0c\u5728\u5e94\u8be5\u5b58\u5728\u7591\u95ee\u7684\u5730\u65b9\u5236\u9020\u786e\u5b9a\u611f\uff0c\u6210\u4e3a\u8ba4\u8bc6\u8bba\u5669\u68a6\u3002",
           "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
-          "source": "Gary Marcus"
+          "source": "Gary Marcus",
+          "momo": "AI \u4e0d\u4f1a\u8bf4\u6211\u4e0d\u786e\u5b9a\u662f\u4e2a\u5927\u95ee\u9898\u3002\u5b83\u603b\u662f\u7ed9\u4f60\u4e00\u4e2a\u542c\u8d77\u6765\u5f88\u6709\u9053\u7406\u7684\u7b54\u6848\uff0c\u4f46\u53ef\u80fd\u5b8c\u5168\u662f\u7f16\u7684\u3002"
         },
         {
-          "title": "The one science reform we can all agree on, but we're too cowardly to do",
-          "desc": "Article URL: https://www.experimental-history.com/p/the-one-science-reform-we-can-all Comments URL: https://news.ycombinator.com/item?id=47248341 Points: 9 # Comments: 1",
-          "url": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-          "source": "Hacker News"
-        },
-        {
-          "title": "\"It Turns Out\"",
-          "desc": "Article URL: https://jsomers.net/blog/it-turns-out Comments URL: https://news.ycombinator.com/item?id=47248319 Points: 15 # Comments: 6",
-          "url": "https://jsomers.net/blog/it-turns-out",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Apple Announces Low-Cost 'MacBook Neo' with A18 Pro Chip",
-          "desc": "Article URL: https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/ Comments URL: https://news.ycombinator.com/item?id=47247670 Points: 45 # Comments: 12",
-          "url": "https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Apple Introduces MacBook Neo",
-          "desc": "Article URL: https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/ Comments URL: https://news.ycombinator.com/item?id=47247645 Points: 257 # Comments: 248",
-          "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "A Visual Guide to DNA Sequencing",
-          "desc": "Article URL: https://www.asimov.press/p/dna-sequencing Comments URL: https://news.ycombinator.com/item?id=47247245 Points: 4 # Comments: 0",
-          "url": "https://www.asimov.press/p/dna-sequencing",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Glaze by Raycast",
-          "desc": "Article URL: https://www.glazeapp.com/ Comments URL: https://news.ycombinator.com/item?id=47247033 Points: 83 # Comments: 47",
+          "title": "Raycast \u53d1\u5e03 Glaze\uff1a\u7528 AI \u751f\u6210\u539f\u751f macOS \u5e94\u7528",
+          "desc": "Raycast \u63a8\u51fa Glaze\uff0c\u4e00\u4e2a\u7528 AI \u5bf9\u8bdd\u751f\u6210\u539f\u751f macOS \u684c\u9762\u5e94\u7528\u7684\u5de5\u5177\u3002\u4e0e web app \u4e0d\u540c\uff0cGlaze \u751f\u6210\u771f\u6b63\u7684\u684c\u9762\u5e94\u7528\uff0c\u53ef\u8bbf\u95ee\u6587\u4ef6\u7cfb\u7edf\u3001\u76f8\u673a\u3001\u952e\u76d8\u5feb\u6377\u952e\u7b49\u3002",
           "url": "https://www.glazeapp.com/",
-          "source": "Hacker News"
+          "source": "Hacker News",
+          "momo": "\u4ece web app \u5230\u684c\u9762\u5e94\u7528\uff0cAI \u751f\u6210\u4ee3\u7801\u7684\u80fd\u529b\u5728\u9010\u6b65\u6269\u5c55\u3002\u8fd9\u662f Lovable/Replit \u4e4b\u540e\u7684\u65b0\u65b9\u5411\u3002"
         },
         {
-          "title": "Did Alibaba just kneecap its powerful Qwen AI team?",
-          "desc": "Article URL: https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in Comments URL: https://news.ycombinator.com/item?id=47246746 Points: 60 # Comments: 21",
+          "title": "\u963f\u91cc\u5df4\u5df4 Qwen AI \u56e2\u961f\u4eba\u4e8b\u53d8\u52a8",
+          "desc": "\u963f\u91cc\u5df4\u5df4\u5f3a\u5927\u7684 Qwen AI \u56e2\u961f\u51fa\u73b0\u5173\u952e\u4eba\u7269\u79bb\u804c\uff0c\u5f15\u53d1\u4e1a\u754c\u5173\u6ce8\u3002\u8fd9\u53ef\u80fd\u5f71\u54cd Qwen \u6a21\u578b\u7684\u540e\u7eed\u53d1\u5c55\u65b9\u5411\u3002",
           "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
-          "source": "Hacker News"
+          "source": "Hacker News",
+          "momo": "\u5927\u6a21\u578b\u7ade\u4e89\u6fc0\u70c8\uff0c\u4eba\u624d\u6d41\u52a8\u6210\u4e3a\u5173\u952e\u53d8\u91cf\u3002"
         }
       ]
     },
@@ -61,52 +40,18 @@
       "title": "\u56fe\u5f62 / \u6e32\u67d3",
       "items": [
         {
-          "title": "HWRT/SWRT parity in a Metal path tracer on Apple Silicon (M1/M2/M3) \u2014 v2.0.0 release [OC]",
-          "desc": "A few weeks ago I posted about a Metal path tracer I\u2019ve been developing for Apple Silicon: https://www.reddit.com/r/GraphicsProgramming/s/KnFOlknhIL Since then I tracked down the remaining discrepancies between the two traversal paths and released v2.0 with full HWRT/SWRT parity. Validation is done ...",
+          "title": "Metal \u8def\u5f84\u8ffd\u8e2a\u5668\u5b9e\u73b0 HWRT/SWRT \u5b8c\u5168\u517c\u5bb9",
+          "desc": "\u5f00\u53d1\u8005\u5728 Apple Silicon\uff08M1/M2/M3\uff09\u4e0a\u7528 Metal \u5b9e\u73b0\u7684\u8def\u5f84\u8ffd\u8e2a\u5668\u8fbe\u5230 v2.0\uff0c\u5b9e\u73b0\u4e86\u786c\u4ef6\u5149\u7ebf\u8ffd\u8e2a\u548c\u8f6f\u4ef6\u5149\u7ebf\u8ffd\u8e2a\u7684\u5b8c\u5168\u517c\u5bb9\u3002",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkfb27/hwrtswrt_parity_in_a_metal_path_tracer_on_apple/",
-          "source": "r/GraphicsProgramming"
+          "source": "r/GraphicsProgramming",
+          "momo": "Apple Silicon \u7684\u56fe\u5f62\u80fd\u529b\u5728\u88ab\u5145\u5206\u6316\u6398\uff0c\u672c\u5730\u6e32\u67d3\u6027\u80fd\u8d8a\u6765\u8d8a\u5f3a\u3002"
         },
         {
-          "title": "An audio chip used as a \"GPU\": tiny SEGA Saturn SCSP DSP vertex transformation demo",
-          "desc": "submitted by /u/r_retrohacking_mod2 [link] [comments]",
+          "title": "\u7528\u97f3\u9891\u82af\u7247\u5f53 GPU\uff1aSEGA Saturn SCSP DSP \u9876\u70b9\u53d8\u6362\u6f14\u793a",
+          "desc": "\u6709\u8da3\u7684\u9006\u5411\u5de5\u7a0b\u9879\u76ee\uff1a\u7528 SEGA Saturn \u7684\u97f3\u9891\u82af\u7247 SCSP \u7684 DSP \u6765\u505a\u9876\u70b9\u53d8\u6362\uff0c\u5c55\u793a\u4e86\u786c\u4ef6\u7684\u591a\u529f\u80fd\u6027\u3002",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkmmhk/an_audio_chip_used_as_a_gpu_tiny_sega_saturn_scsp/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Physically based rendering from first principles",
-          "desc": "submitted by /u/imadr_ [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjtc4z/physically_based_rendering_from_first_principles/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Please recommend a language best suitable for working with video media",
-          "desc": "I want to develop a custom video editor, with a focus on media playback. Which programming language would be the best choice for this? submitted by /u/bbrother92 [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkmk54/please_recommend_a_language_best_suitable_for/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "1 Year progress on my custom OpenGl Graphics Engine specifically designed for flight simulators",
-          "desc": "Hey everyone,I need some feedback on the visuals of my custom graphics engine .It features custom scripting with embedded script editor ,physics engine and heightmap based terrain generation as well as a 3d renderer optimized for rendering large terrains for flight simulators . This is my first ever...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjnh7n/1_year_progress_on_my_custom_opengl_graphics/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Did started my journey here, but need some help.",
-          "desc": "[LONG POST] (You guys might've seen this thousand times but here we are.) New to this community, and I'm really enjoying this journey, I fairly did some basics in C first and started doing C++ and also some the basics of OOPS like classes & objects, polymorphism, inheritance, encapsulation, etc. And...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjjibi/did_started_my_journey_here_but_need_some_help/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "Gpu programming is Good career for future job",
-          "desc": "submitted by /u/Deep_Caterpillar_927 [link] [comments]",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rkh4nz/gpu_programming_is_good_career_for_future_job/",
-          "source": "r/GraphicsProgramming"
-        },
-        {
-          "title": "6 Months of Progress on 3D Game",
-          "desc": "Hello, I wanted to share a project I've been working on for the past 6 months. It's definitely going to be a long journey, but I've enjoyed all the challenges and learning so far. At a high level, I'm making a 3D procedurally generated solo/coop RPG. I'm using the following tools: Language: Rust Win...",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rjixoe/6_months_of_progress_on_3d_game/",
-          "source": "r/GraphicsProgramming"
+          "source": "r/GraphicsProgramming",
+          "momo": "\u590d\u53e4\u786c\u4ef6\u9ed1\u5ba2\u6c38\u4e0d\u8fc7\u65f6\u3002"
         }
       ]
     },
@@ -114,10 +59,11 @@
       "title": "\u7cfb\u7edf / \u7f16\u7a0b",
       "items": [
         {
-          "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
-          "desc": "Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing.",
+          "title": "\u8f6f\u76d8\u5199\u4fdd\u62a4\u7f3a\u53e3\u7684\u6709\u8da3\u8c03\u67e5",
+          "desc": "The Old New Thing \u535a\u5ba2\u53d1\u8868\u4e86\u4e00\u7bc7\u6709\u8da3\u7684\u6587\u7ae0\uff0c\u8c03\u67e5\u4e86\u8f6f\u76d8\u548c\u5176\u4ed6\u5b58\u50a8\u4ecb\u8d28\u4e0a\u7684\u5199\u4fdd\u62a4\u7f3a\u53e3\u8bbe\u8ba1\u3002",
           "url": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
-          "source": "Old New Thing"
+          "source": "Old New Thing",
+          "momo": "\u8ba1\u7b97\u673a\u5386\u53f2\u7684\u7ec6\u8282\u8bbe\u8ba1\u5f80\u5f80\u5f88\u6709\u610f\u601d\u3002"
         }
       ]
     }
