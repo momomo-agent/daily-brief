@@ -103,17 +103,22 @@ body {
   transform: translateX(-50%) translateX(-60%) rotateY(15deg) scale(0.9);
   opacity: 0.7;
   z-index: 5;
+  user-select: none;
+  cursor: pointer;
 }
 
 .newspaper.next {
   transform: translateX(-50%) translateX(60%) rotateY(-15deg) scale(0.9);
   opacity: 0.7;
   z-index: 5;
+  user-select: none;
+  cursor: pointer;
 }
 
 .newspaper.hidden {
   opacity: 0;
   pointer-events: none;
+  user-select: none;
 }
 
 /* 报纸头部 */

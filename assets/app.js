@@ -67,6 +67,11 @@ function updatePositions() {
     else if (i === currentIndex - 1) paper.classList.add('prev');
     else if (i === currentIndex + 1) paper.classList.add('next');
     else paper.classList.add('hidden');
+
+    // 点击 prev/next 报纸切换
+    paper.onclick = null;
+    if (i === currentIndex - 1) paper.onclick = prev;
+    else if (i === currentIndex + 1) paper.onclick = next;
   });
   updateDots();
   updateArrows();
