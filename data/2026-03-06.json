@@ -1,0 +1,92 @@
+{
+  "date": "2026-03-06",
+  "period": "am",
+  "title": "Daily Brief",
+  "generated": "2026-03-06T13:45:19.544198",
+  "headline": {
+    "title": "🔥 Anthropic 正式表态：我们与国防部的合作现状",
+    "desc": "Anthropic 发布长文阐述与美国国防部的合作立场，HN 329 赞 312 评论引发激烈争论。AI 安全公司接军方订单，信任危机还是务实选择？",
+    "url": "https://www.anthropic.com/news/where-stand-department-war",
+    "momo": "安全公司做军工，这不是打脸问题，是生存问题。不拿军方的钱，OpenAI 拿。"
+  },
+  "sections": [
+    {
+      "title": "🤖 AI & 科技",
+      "items": [
+        {
+          "title": "别信 AI 帮你报税，更别信它判你的案",
+          "desc": "Gary Marcus 再次警告：生成式 AI 在高风险决策场景中的可靠性远未达标，税务和司法领域尤其危险。",
+          "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+          "source": "Gary Marcus",
+          "momo": "老调重弹但切中要害。AI 做创意工作可以容错，做税务和法律不行。"
+        },
+        {
+          "title": "AI 写图形代码到底行不行？图形程序员们的真实体验",
+          "desc": "前后端开发者吹爆的 AI 编程工具，到了 C++/HLSL 图形编程领域却频频翻车。图形程序员分享真实使用感受。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm0gkz/whats_your_experience_been_with_all_the_new_ai/",
+          "source": "r/GraphicsProgramming",
+          "momo": "越底层的代码 AI 越吃力，符合直觉。图形编程需要对硬件和数学的深度理解。"
+        },
+        {
+          "title": "Swarm：用自定义汇编语言给 200 只蚂蚁编程",
+          "desc": "Moment 团队把内部招聘挑战公开化——写汇编指令控制蚁群完成任务。",
+          "url": "https://dev.moment.com/",
+          "source": "Hacker News",
+          "momo": "用编程蚂蚁做招聘筛选，比 LeetCode 有趣多了。"
+        }
+      ]
+    },
+    {
+      "title": "🎮 图形 & 渲染",
+      "items": [
+        {
+          "title": "实时 Path Tracer 优化后 4 倍提速，3ms/帧",
+          "desc": "同一个 100k 球体场景，RTX 5060 Ti 1080p 下实现 3ms/frame。半分辨率阴影和反射光线 + 上采样 + 降噪。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm56ie/update_realtime_path_tracer_now_4x_faster/",
+          "source": "r/GraphicsProgramming",
+          "momo": "半分辨率 tracing + 上采样是实时光追的务实路线，DLSS 的思路。"
+        },
+        {
+          "title": "从零搭建 Rust/WebGPU/WASM 实时 PBR 渲染器",
+          "desc": "Cook-Torrance BRDF、GGX 高光、Fresnel-Schlick、HDR 管线，全部在浏览器里实时运行。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlbl9u/built_a_realtime_pbr_renderer_from_scratch_in/",
+          "source": "r/GraphicsProgramming",
+          "momo": "Rust + WebGPU + WASM 这个组合越来越成熟了。"
+        },
+        {
+          "title": "SDF Raymarching + 像素风混合的独特游戏视觉风格",
+          "desc": "用 SDF raymarching shader 渲染游戏生物，与像素风和传统光栅化元素融合。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlujmj/added_another_predator_scorpion_to_my_game_i_use/",
+          "source": "r/GraphicsProgramming",
+          "momo": "不同渲染技术混搭出独特风格，这就是品味。"
+        },
+        {
+          "title": "Quasar Engine 的视锥剔除可视化",
+          "desc": "看开放世界游戏的 culling 过程——平时看着满世界的场景，其实一直在高效剔除不可见部分。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlmt9x/visualizing_culling_is_so_satisfying_quasar_engine/",
+          "source": "r/GraphicsProgramming",
+          "momo": "剔除是开放世界能跑起来的基石，可视化后确实很解压。"
+        }
+      ]
+    },
+    {
+      "title": "🎨 设计 & 系统",
+      "items": [
+        {
+          "title": "别再用灰色文字了",
+          "desc": "老话题新讨论：灰色文字严重影响可读性，HN 56 赞 32 评论。对比度不够不是设计感，是偷懒。",
+          "url": "https://catskull.net/stop-using-grey-text.html",
+          "source": "Hacker News",
+          "momo": "对比度是可读性的底线，不是可以牺牲的设计元素。"
+        },
+        {
+          "title": "5000 万引脚的 3D IC 封装设计新思路",
+          "desc": "芯片封装复杂度指数级增长，传统设计方法撑不住了，需要更聪明的分层拆解策略。",
+          "url": "https://www.allaboutcircuits.com/industry-articles/breaking-down-50-million-pins-a-smarter-way-to-design-3d-ic-packages/",
+          "source": "Hacker News",
+          "momo": "硬件工程的复杂度也在指数增长，跟软件一样需要新范式。"
+        }
+      ]
+    }
+  ]
+}

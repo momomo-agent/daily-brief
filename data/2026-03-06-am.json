@@ -1,0 +1,131 @@
+{
+  "date": "2026-03-06",
+  "period": "am",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-03-06T13:45:19.544198",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "Don\u2019t trust Generative AI to do your taxes \u2014 and don\u2019t trust it with people\u2019s lives",
+          "desc": "\u201cThe problem comes down to how A.I. chatbots are fundamentally designed\u201d",
+          "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "Show HN: Swarm \u2013 Program a colony of 200 ants using a custom assembly language",
+          "desc": "We built an ant colony simulation as an internal hiring challenge at Moment and decided to open it up publicly.You write a program in a custom assembly-like (we call it ant-ssembly) instruction set that controls 200 ants. Each ant can sense nearby cells (food, pheromones, home, other ants) but has n...",
+          "url": "https://dev.moment.com/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "System76 on Age Verification Laws",
+          "desc": "Article URL: https://blog.system76.com/post/system76-on-age-verification/ Comments URL: https://news.ycombinator.com/item?id=47270784 Points: 15 # Comments: 1",
+          "url": "https://blog.system76.com/post/system76-on-age-verification/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Breaking Down 50M Pins: A Smarter Way to Design 3D IC Packages",
+          "desc": "Article URL: https://www.allaboutcircuits.com/industry-articles/breaking-down-50-million-pins-a-smarter-way-to-design-3d-ic-packages/ Comments URL: https://news.ycombinator.com/item?id=47270672 Points: 3 # Comments: 0",
+          "url": "https://www.allaboutcircuits.com/industry-articles/breaking-down-50-million-pins-a-smarter-way-to-design-3d-ic-packages/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Every Claim from Meta Child Safety Trials",
+          "desc": "Article URL: https://meta-trials.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=47270607 Points: 3 # Comments: 0",
+          "url": "https://meta-trials.vercel.app/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "How to install and start using LineageOS on your phone",
+          "desc": "Article URL: https://lockywolf.net/2026-02-19_How-to-install-and-start-using-LineageOS-on-your-phone.d/index.html Comments URL: https://news.ycombinator.com/item?id=47269288 Points: 27 # Comments: 11",
+          "url": "https://lockywolf.net/2026-02-19_How-to-install-and-start-using-LineageOS-on-your-phone.d/index.html",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Where things stand with the Department of War",
+          "desc": "Article URL: https://www.anthropic.com/news/where-stand-department-war Comments URL: https://news.ycombinator.com/item?id=47269263 Points: 329 # Comments: 312",
+          "url": "https://www.anthropic.com/news/where-stand-department-war",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Stop Using Grey Text (2025)",
+          "desc": "Article URL: https://catskull.net/stop-using-grey-text.html Comments URL: https://news.ycombinator.com/item?id=47268574 Points: 56 # Comments: 32",
+          "url": "https://catskull.net/stop-using-grey-text.html",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "\u56fe\u5f62 / \u6e32\u67d3",
+      "items": [
+        {
+          "title": "Update: Realtime Path Tracer Now 4x Faster \u2013 3ms/frame on Same 100k Spheres Scene (RTX 5060 Ti, 1080p)",
+          "desc": "I have been optimizing my real time path tracer since my last post. This current one has full-resolution primary rays with half-resolution shadow and reflection rays upscaled. Also has denoising and a bit of color tone mapping. It can even get 16ms/frame on my MacBook M1 Pro at 1080p. (3ms/frame on ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm56ie/update_realtime_path_tracer_now_4x_faster/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "What's your experience been with all the new AI coding tools applied to graphics programming specifically?",
+          "desc": "How do you find them for writing graphics engine code (C++) or HLSL? I feel a bit crazy reading all the rave reviews and hype online from front end/back end developers yet when I try these tools I don't seem to get very good results applied to this domain. I work at a AAA studio with a custom in hou...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm0gkz/whats_your_experience_been_with_all_the_new_ai/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Built a real-time PBR renderer from scratch in Rust/WebGPU/WASM",
+          "desc": "Built a real-time PBR renderer from scratch in Rust/WASM, running entirely in the browser via WebGPU. I am in love with Rust + WebGPU + WASM! Cook-Torrance BRDF \u00b7 GGX specular \u00b7 Fresnel-Schlick \u00b7 HDR IBL (prefiltered env + irradiance + BRDF LUT) \u00b7 PCF shadow mapping \u00b7 GTAO ambient occlusion \u00b7 bloom ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlbl9u/built_a_realtime_pbr_renderer_from_scratch_in/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Added another predator (scorpion) to my game. I use SDF raymarching shaders for all the creatures, melding with pixel art and traditionally rasterized elements to create hopefully a unique visual style.",
+          "desc": "I'm loving this SDF raymarcing stuff. The scorpion here was my first attempt at parameterizable animation. I hope the visual style is starting to shape up - how does it look so far? There's also a discord you can follow (see my profile) if you're interested in more frequent details and updates on th...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlujmj/added_another_predator_scorpion_to_my_game_i_use/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Visualizing Culling is so satisfying - Quasar Engine",
+          "desc": "Culling is what enables massive open world games to even remotely be possible to exist. And looking at its effects is so amazing, as normally the world feels like so full, only to find out I am always standing at the edge of void. submitted by /u/Duke2640 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlmt9x/visualizing_culling_is_so_satisfying_quasar_engine/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Do not set PI between 0.5 and 1. Worst mistake of my life.",
+          "desc": "headach submitted by /u/Stickhtot [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm5dsx/do_not_set_pi_between_05_and_1_worst_mistake_of/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Fractal Visualiser in C",
+          "desc": "Made something related to graphics for the very first time. I wish to go deeper in the field , so wanted to ask what can I start exploring first , like do i make whole ass 3D rendering engines from scratch like others or wut Also do give a review on how can I improve this one too ... https://preview...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlmfax/fractal_visualiser_in_c/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "I built my own animated math plotter similar to Desmos [Python, PyOpenGL, PySide6, NumPy] - marching squares + batched line rendering",
+          "desc": "submitted by /u/Rayterex [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlq82b/i_built_my_own_animated_math_plotter_similar_to/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "\u7cfb\u7edf / \u7f16\u7a0b",
+      "items": [
+        {
+          "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
+          "desc": "Perhaps it's because you dispatched it. The post The mystery of the posted message that was dispatched before reaching the main message loop appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
+          "source": "Old New Thing"
+        },
+        {
+          "title": "Aha, I found a counterexample to the documentation that says that Query\u00adPerformance\u00adCounter never fails",
+          "desc": "Of course, anything can happen if you break the rules. The post Aha, I found a counterexample to the documentation that says that Query\u00adPerformance\u00adCounter never fails appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110",
+          "source": "Old New Thing"
+        }
+      ]
+    }
+  ]
+}
