@@ -1,0 +1,133 @@
+{
+  "date": "2026-03-06",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-03-06T21:30:00",
+  "headline": {
+    "title": "🔥 Mozilla 请 Anthropic 红队「攻击」Firefox，用 AI 加固浏览器安全",
+    "desc": "Mozilla 与 Anthropic 合作，让 Claude 的红队对 Firefox 进行安全审计和攻击测试。这是首次有主流浏览器厂商正式引入 AI 红队来发现安全漏洞，开创了「用 AI 攻防 AI 时代产品」的新范式。HN 71 赞 17 评论。",
+    "url": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/",
+    "momo": "浏览器安全审计向来靠人力和传统 fuzzing，现在 Mozilla 直接把 AI 红队拉进来做攻击方。攻防双方都是 AI 的时代，正式到来了。"
+  },
+  "sections": [
+    {
+      "title": "🔥 今日头条",
+      "items": [
+        {
+          "title": "Mozilla 联手 Anthropic 红队加固 Firefox 安全",
+          "desc": "Mozilla 官方博客宣布与 Anthropic 红队合作，用 AI 对 Firefox 进行深度安全审计。这是主流浏览器首次正式引入 AI 红队测试，目标是在攻击者利用 AI 发现漏洞之前，先用 AI 找到并修复它们。HN 71 赞。",
+          "url": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/",
+          "source": "Hacker News / Mozilla Blog",
+          "momo": "安全领域的军备竞赛正式进入 AI 对 AI 阶段。Mozilla 的思路很清醒：与其等黑客用 AI 打你，不如先用 AI 打自己。"
+        }
+      ]
+    },
+    {
+      "title": "Apple / 硬件",
+      "items": [
+        {
+          "title": "MacBook Neo 首批跑分出炉",
+          "desc": "MacRumors 报道 MacBook Neo 的首批基准测试成绩已出，这是苹果最新发布的低价入门级笔记本产品线。HN 上引发讨论（20 赞 6 评论），社区关注其性能定位与 MacBook Air 的差异。",
+          "url": "https://www.macrumors.com/2026/03/05/macbook-neo-first-benchmarks/",
+          "source": "Hacker News / MacRumors",
+          "momo": "Neo 这个定位很微妙——比 Air 便宜但性能需要看跑分才知道差多少。苹果在试探「廉价 Mac」市场的天花板。"
+        }
+      ]
+    },
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "Gary Marcus：别让 AI 帮你报税，更别让它决定人的命运",
+          "desc": "AI 怀疑论者 Gary Marcus 发文警告生成式 AI 的根本设计问题：它们没有「理解」能力，只有统计关联。税务计算尚且不靠谱，用在医疗、司法等领域更是危险。核心论点：问题不是模型不够大，而是架构上就不适合做需要精确推理的任务。",
+          "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+          "source": "Gary Marcus",
+          "momo": "Marcus 的观点老生常谈但这篇切入角度好——税务是个完美的试金石：规则明确、答案唯一、错了有后果。AI 连这个都搞不定，凭什么搞更复杂的？"
+        },
+        {
+          "title": "AI 写图形代码到底行不行？AAA 工作室程序员的真实反馈",
+          "desc": "r/GraphicsProgramming 热帖：一位 AAA 游戏工作室的图形工程师分享使用 AI 编码工具写 C++ 引擎代码和 HLSL shader 的体验，结论是远不如前端/后端开发者吹的那么好用。自定义引擎、底层渲染管线这类领域，AI 的训练数据严重不足。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm0gkz/whats_your_experience_been_with_all_the_new_ai/",
+          "source": "r/GraphicsProgramming",
+          "momo": "这个讨论很真实。AI 编码工具的能力分布极不均匀——React 组件随便写，HLSL compute shader 基本靠猜。领域知识的稀缺性决定了 AI 的天花板。"
+        }
+      ]
+    },
+    {
+      "title": "开源 / 工具",
+      "items": [
+        {
+          "title": "LibreSprite：开源像素画编辑器重新受到关注",
+          "desc": "LibreSprite 登上 HN 首页（92 赞 33 评论），这是从 Aseprite 开源时代 fork 出的免费像素画编辑器。Aseprite 后来转为付费后，LibreSprite 成为唯一的免费替代。社区讨论了它与 Aseprite 的功能差距和未来发展。",
+          "url": "https://libresprite.github.io/",
+          "source": "Hacker News",
+          "momo": "Aseprite 收费后生态分裂，LibreSprite 作为 fork 活了下来但功能差距在拉大。开源的可持续性问题，又一个活生生的案例。"
+        },
+        {
+          "title": "GPL 许可证升级的代理委托机制",
+          "desc": "一篇技术文章深入解析 GPL Section 14 的代理委托（proxy delegation）机制——允许项目将 GPL 版本升级权委托给第三方（如 FSF）。HN 71 赞 29 评论，讨论了这个鲜为人知但极其重要的开源许可证条款。",
+          "url": "https://runxiyu.org/comp/gplproxy/",
+          "source": "Hacker News",
+          "momo": "大多数开发者写「GPLv3 or later」但没想过这个 or later 具体是怎么运作的。这篇文章填补了一个重要的知识盲区。"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "个人开发者用 DX12 实现 Nanite 级虚拟化几何体渲染：189 亿实例化三角形",
+          "desc": "一位独立开发者基于 MiniEngine 搭建的 DX12 渲染器，实现了 Nanite 风格的网格体层级结构（DAG/BVH 遍历）、GPU 驱动的渲染管线，压力测试场景达到 16 亿唯一三角形 / 189 亿实例化三角形。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm9mf0/i_built_a_nanitestyle_virtualized_geometry/",
+          "source": "r/GraphicsProgramming",
+          "momo": "一个人复刻 UE5 Nanite 的核心思路，189 亿三角形的数字看着就过瘾。这种项目是图形程序员的终极简历。"
+        },
+        {
+          "title": "Beveling 实现：PCG 建模里最难啃的骨头",
+          "desc": "开发者分享了几个月来实现程序化建模基础功能的经历——大部分都顺利，直到遇到 beveling（倒角）。称其为「地狱级难度」，向 Blender 开发者致敬（因为 Blender 的文档帮了大忙）。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm78ap/beveling_implementation/",
+          "source": "r/GraphicsProgramming",
+          "momo": "看似简单的「圆角」操作，背后的拓扑处理能让人怀疑人生。Blender 的算法文档是这个领域少有的宝藏。"
+        },
+        {
+          "title": "SDF Raymarching + 像素风混搭：独立游戏的独特视觉风格",
+          "desc": "开发者展示了用 SDF raymarching shader 渲染 3D 生物（新增蝎子敌人），与像素画和传统光栅化元素混合的游戏画面。这是首次尝试参数化动画，视觉风格正在成型。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlujmj/added_another_predator_scorpion_to_my_game_i_use/",
+          "source": "r/GraphicsProgramming",
+          "momo": "SDF + 像素风的混搭太有辨识度了。独立游戏的视觉竞争力不在于技术有多高，而在于风格有多独特。"
+        }
+      ]
+    },
+    {
+      "title": "编程 / 系统",
+      "items": [
+        {
+          "title": "异步编程的本质就是「注入时间」",
+          "desc": "一篇思考性文章将异步编程重新定义为「时间注入」——async/await 的本质不是并发，而是把「等待」这个概念显式化。将 effect systems 和依赖注入的思路统一到异步编程中。",
+          "url": "https://willhbr.net/2026/03/02/async-inject-and-effects/",
+          "source": "Hacker News",
+          "momo": "把 async 理解为 inject time 是个有趣的心智模型。虽然不改变你怎么写代码，但改变你怎么理解代码。"
+        },
+        {
+          "title": "Raymond Chen：PostMessage 在消息循环启动前就被分发的谜题",
+          "desc": "The Old New Thing 新文章，Raymond Chen 解析了 Windows 消息机制中一个反直觉的行为：一条 PostMessage 发出的消息在主消息循环启动之前就被处理了。原因？可能是因为你自己 dispatch 了它。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
+          "source": "Old New Thing",
+          "momo": "Raymond Chen 25 年如一日地揭示 Windows API 的坑，每篇都是「你以为你懂了其实你没懂」的经典。"
+        }
+      ]
+    },
+    {
+      "title": "社会 / 观点",
+      "items": [
+        {
+          "title": "精英过剩：当社会培养的精英超过精英岗位",
+          "desc": "维基百科「精英过剩」（Elite Overproduction）条目登上 HN 热门（44 赞 41 评论）。这个概念由 Peter Turchin 提出：当一个社会培养出的高学历、高期望人才远超可用的精英位置时，会引发社会不稳定。评论区联系到科技行业裁员潮和学历贬值。",
+          "url": "https://en.wikipedia.org/wiki/Elite_overproduction",
+          "source": "Hacker News",
+          "momo": "44 赞 41 评论说明这个话题戳中了 HN 读者的痛点。CS 学位贬值、科技裁员、AI 替代白领——精英过剩理论给了这些现象一个统一解释。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,90 +1,123 @@
 {
   "date": "2026-03-06",
-  "period": "am",
-  "title": "Daily Brief",
-  "generated": "2026-03-06T13:48:00+08:00",
-  "headline": {
-    "title": "\ud83d\udd25 Anthropic \u6b63\u5f0f\u8868\u6001\uff1a\u6211\u4eec\u4e0e\u56fd\u9632\u90e8\u7684\u5408\u4f5c\u73b0\u72b6",
-    "desc": "Anthropic \u53d1\u5e03\u957f\u6587\u9610\u8ff0\u4e0e\u7f8e\u56fd\u56fd\u9632\u90e8\u7684\u5408\u4f5c\u7acb\u573a\uff0cHN 329 \u8d5e 312 \u8bc4\u8bba\u5f15\u53d1\u6fc0\u70c8\u4e89\u8bba\u3002AI \u5b89\u5168\u516c\u53f8\u63a5\u519b\u65b9\u8ba2\u5355\uff0c\u4fe1\u4efb\u5371\u673a\u8fd8\u662f\u52a1\u5b9e\u9009\u62e9\uff1f",
-    "url": "https://www.anthropic.com/news/where-stand-department-war",
-    "momo": "\u5b89\u5168\u516c\u53f8\u505a\u519b\u5de5\uff0c\u8fd9\u4e0d\u662f\u6253\u8138\u95ee\u9898\uff0c\u662f\u751f\u5b58\u95ee\u9898\u3002\u4e0d\u62ff\u519b\u65b9\u7684\u94b1\uff0cOpenAI \u62ff\u3002"
-  },
+  "period": "pm",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-03-06T21:33:49.222861",
   "sections": [
     {
-      "title": "\ud83e\udd16 AI & \u79d1\u6280",
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
       "items": [
         {
-          "title": "\u522b\u4fe1 AI \u5e2e\u4f60\u62a5\u7a0e\uff0c\u66f4\u522b\u4fe1\u5b83\u5224\u4f60\u7684\u6848",
-          "desc": "Gary Marcus \u518d\u6b21\u8b66\u544a\uff1a\u751f\u6210\u5f0f AI \u5728\u9ad8\u98ce\u9669\u51b3\u7b56\u573a\u666f\u4e2d\u7684\u53ef\u9760\u6027\u8fdc\u672a\u8fbe\u6807\uff0c\u7a0e\u52a1\u548c\u53f8\u6cd5\u9886\u57df\u5c24\u5176\u5371\u9669\u3002",
+          "title": "Don\u2019t trust Generative AI to do your taxes \u2014 and don\u2019t trust it with people\u2019s lives",
+          "desc": "\u201cThe problem comes down to how A.I. chatbots are fundamentally designed\u201d",
           "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
-          "source": "Gary Marcus",
-          "momo": "\u8001\u8c03\u91cd\u5f39\u4f46\u5207\u4e2d\u8981\u5bb3\u3002AI \u505a\u521b\u610f\u5de5\u4f5c\u53ef\u4ee5\u5bb9\u9519\uff0c\u505a\u7a0e\u52a1\u548c\u6cd5\u5f8b\u4e0d\u884c\u3002"
+          "source": "Gary Marcus"
         },
         {
-          "title": "AI \u5199\u56fe\u5f62\u4ee3\u7801\u5230\u5e95\u884c\u4e0d\u884c\uff1f\u56fe\u5f62\u7a0b\u5e8f\u5458\u4eec\u7684\u771f\u5b9e\u4f53\u9a8c",
-          "desc": "\u524d\u540e\u7aef\u5f00\u53d1\u8005\u5439\u7206\u7684 AI \u7f16\u7a0b\u5de5\u5177\uff0c\u5230\u4e86 C++/HLSL \u56fe\u5f62\u7f16\u7a0b\u9886\u57df\u5374\u9891\u9891\u7ffb\u8f66\u3002\u56fe\u5f62\u7a0b\u5e8f\u5458\u5206\u4eab\u771f\u5b9e\u4f7f\u7528\u611f\u53d7\u3002",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm0gkz/whats_your_experience_been_with_all_the_new_ai/",
-          "source": "r/GraphicsProgramming",
-          "momo": "\u8d8a\u5e95\u5c42\u7684\u4ee3\u7801 AI \u8d8a\u5403\u529b\uff0c\u7b26\u5408\u76f4\u89c9\u3002\u56fe\u5f62\u7f16\u7a0b\u9700\u8981\u5bf9\u786c\u4ef6\u548c\u6570\u5b66\u7684\u6df1\u5ea6\u7406\u89e3\u3002"
+          "title": "Elite Overproduction",
+          "desc": "Article URL: https://en.wikipedia.org/wiki/Elite_overproduction Comments URL: https://news.ycombinator.com/item?id=47274010 Points: 41 # Comments: 33",
+          "url": "https://en.wikipedia.org/wiki/Elite_overproduction",
+          "source": "Hacker News"
         },
         {
-          "title": "Swarm\uff1a\u7528\u81ea\u5b9a\u4e49\u6c47\u7f16\u8bed\u8a00\u7ed9 200 \u53ea\u8682\u8681\u7f16\u7a0b",
-          "desc": "Moment \u56e2\u961f\u628a\u5185\u90e8\u62db\u8058\u6311\u6218\u516c\u5f00\u5316\u2014\u2014\u5199\u6c47\u7f16\u6307\u4ee4\u63a7\u5236\u8681\u7fa4\u5b8c\u6210\u4efb\u52a1\u3002",
-          "url": "https://dev.moment.com/",
-          "source": "Hacker News",
-          "momo": "\u7528\u7f16\u7a0b\u8682\u8681\u505a\u62db\u8058\u7b5b\u9009\uff0c\u6bd4 LeetCode \u6709\u8da3\u591a\u4e86\u3002"
+          "title": "First MacBook Neo Benchmarks Are In",
+          "desc": "Article URL: https://www.macrumors.com/2026/03/05/macbook-neo-first-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=47273964 Points: 15 # Comments: 4",
+          "url": "https://www.macrumors.com/2026/03/05/macbook-neo-first-benchmarks/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Hardening Firefox with Anthropic's Red Team",
+          "desc": "Article URL: https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/ Comments URL: https://news.ycombinator.com/item?id=47273854 Points: 59 # Comments: 15",
+          "url": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Async Programming Is Just Inject Time",
+          "desc": "Article URL: https://willhbr.net/2026/03/02/async-inject-and-effects/ Comments URL: https://news.ycombinator.com/item?id=47273845 Points: 8 # Comments: 2",
+          "url": "https://willhbr.net/2026/03/02/async-inject-and-effects/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "LibreSprite \u2013 open-source pixel art editor",
+          "desc": "Article URL: https://libresprite.github.io/ Comments URL: https://news.ycombinator.com/item?id=47272799 Points: 84 # Comments: 32",
+          "url": "https://libresprite.github.io/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "GPL upgrades via section 14 proxy delegation",
+          "desc": "Article URL: https://runxiyu.org/comp/gplproxy/ Comments URL: https://news.ycombinator.com/item?id=47272534 Points: 69 # Comments: 29",
+          "url": "https://runxiyu.org/comp/gplproxy/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Stardex (YC S21) is hiring customer success engineers",
+          "desc": "Article URL: https://www.ycombinator.com/companies/stardex/jobs/lag1C1P-customer-success-engineer-ai-data-migration Comments URL: https://news.ycombinator.com/item?id=47271858 Points: 0 # Comments: 0",
+          "url": "https://www.ycombinator.com/companies/stardex/jobs/lag1C1P-customer-success-engineer-ai-data-migration",
+          "source": "Hacker News"
         }
       ]
     },
     {
-      "title": "\ud83c\udfae \u56fe\u5f62 & \u6e32\u67d3",
+      "title": "\u56fe\u5f62 / \u6e32\u67d3",
       "items": [
         {
-          "title": "\u5b9e\u65f6 Path Tracer \u4f18\u5316\u540e 4 \u500d\u63d0\u901f\uff0c3ms/\u5e27",
-          "desc": "\u540c\u4e00\u4e2a 100k \u7403\u4f53\u573a\u666f\uff0cRTX 5060 Ti 1080p \u4e0b\u5b9e\u73b0 3ms/frame\u3002\u534a\u5206\u8fa8\u7387\u9634\u5f71\u548c\u53cd\u5c04\u5149\u7ebf + \u4e0a\u91c7\u6837 + \u964d\u566a\u3002",
+          "title": "I built a Nanite-style virtualized geometry renderer in DX12 (1.6B unique / 18.9B instanced triangles)",
+          "desc": "Hi all \u2014 I\u2019ve been building a personal DX12 renderer (based on MiniEngine) focused on extreme-scale geometry rendering. Current stress scene stats: 1,639,668,228 unique triangles 18,949,504,889 instanced triangles Current pipeline highlights: Nanite-style meshlet hierarchy (DAG/BVH traversal) GPU-dr...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm9mf0/i_built_a_nanitestyle_virtualized_geometry/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Update: Realtime Path Tracer Now 4x Faster \u2013 3ms/frame on Same 100k Spheres Scene (RTX 5060 Ti, 1080p)",
+          "desc": "I have been optimizing my real time path tracer since my last post. This current one has full-resolution primary rays with half-resolution shadow and reflection rays upscaled. Also has denoising and a bit of color tone mapping. It can even get 16ms/frame on my MacBook M1 Pro at 1080p. (3ms/frame on ...",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm56ie/update_realtime_path_tracer_now_4x_faster/",
-          "source": "r/GraphicsProgramming",
-          "momo": "\u534a\u5206\u8fa8\u7387 tracing + \u4e0a\u91c7\u6837\u662f\u5b9e\u65f6\u5149\u8ffd\u7684\u52a1\u5b9e\u8def\u7ebf\uff0cDLSS \u7684\u601d\u8def\u3002"
+          "source": "r/GraphicsProgramming"
         },
         {
-          "title": "\u4ece\u96f6\u642d\u5efa Rust/WebGPU/WASM \u5b9e\u65f6 PBR \u6e32\u67d3\u5668",
-          "desc": "Cook-Torrance BRDF\u3001GGX \u9ad8\u5149\u3001Fresnel-Schlick\u3001HDR \u7ba1\u7ebf\uff0c\u5168\u90e8\u5728\u6d4f\u89c8\u5668\u91cc\u5b9e\u65f6\u8fd0\u884c\u3002",
-          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlbl9u/built_a_realtime_pbr_renderer_from_scratch_in/",
-          "source": "r/GraphicsProgramming",
-          "momo": "Rust + WebGPU + WASM \u8fd9\u4e2a\u7ec4\u5408\u8d8a\u6765\u8d8a\u6210\u719f\u4e86\u3002"
+          "title": "Beveling implementation",
+          "desc": "Over the last months, I've implemented quite a bit of PCG modeling primitives myself, and it was a pretty easy walk. Until I got to beveling! This is hell on Earth! Huge kudos to Blender devs for documenting their algorithm. submitted by /u/0xSYNAPTOR [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm78ap/beveling_implementation/",
+          "source": "r/GraphicsProgramming"
         },
         {
-          "title": "SDF Raymarching + \u50cf\u7d20\u98ce\u6df7\u5408\u7684\u72ec\u7279\u6e38\u620f\u89c6\u89c9\u98ce\u683c",
-          "desc": "\u7528 SDF raymarching shader \u6e32\u67d3\u6e38\u620f\u751f\u7269\uff0c\u4e0e\u50cf\u7d20\u98ce\u548c\u4f20\u7edf\u5149\u6805\u5316\u5143\u7d20\u878d\u5408\u3002",
+          "title": "Do not set PI between 0.5 and 1. Worst mistake of my life.",
+          "desc": "headach submitted by /u/Stickhtot [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm5dsx/do_not_set_pi_between_05_and_1_worst_mistake_of/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "What's your experience been with all the new AI coding tools applied to graphics programming specifically?",
+          "desc": "How do you find them for writing graphics engine code (C++) or HLSL? I feel a bit crazy reading all the rave reviews and hype online from front end/back end developers yet when I try these tools I don't seem to get very good results applied to this domain. I work at a AAA studio with a custom in hou...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm0gkz/whats_your_experience_been_with_all_the_new_ai/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Added another predator (scorpion) to my game. I use SDF raymarching shaders for all the creatures, melding with pixel art and traditionally rasterized elements to create hopefully a unique visual style.",
+          "desc": "I'm loving this SDF raymarcing stuff. The scorpion here was my first attempt at parameterizable animation. I hope the visual style is starting to shape up - how does it look so far? There's also a discord you can follow (see my profile) if you're interested in more frequent details and updates on th...",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlujmj/added_another_predator_scorpion_to_my_game_i_use/",
-          "source": "r/GraphicsProgramming",
-          "momo": "\u4e0d\u540c\u6e32\u67d3\u6280\u672f\u6df7\u642d\u51fa\u72ec\u7279\u98ce\u683c\uff0c\u8fd9\u5c31\u662f\u54c1\u5473\u3002"
+          "source": "r/GraphicsProgramming"
         },
         {
-          "title": "Quasar Engine \u7684\u89c6\u9525\u5254\u9664\u53ef\u89c6\u5316",
-          "desc": "\u770b\u5f00\u653e\u4e16\u754c\u6e38\u620f\u7684 culling \u8fc7\u7a0b\u2014\u2014\u5e73\u65f6\u770b\u7740\u6ee1\u4e16\u754c\u7684\u573a\u666f\uff0c\u5176\u5b9e\u4e00\u76f4\u5728\u9ad8\u6548\u5254\u9664\u4e0d\u53ef\u89c1\u90e8\u5206\u3002",
+          "title": "Built a real-time PBR renderer from scratch in Rust/WebGPU/WASM",
+          "desc": "Built a real-time PBR renderer from scratch in Rust/WASM, running entirely in the browser via WebGPU. I am in love with Rust + WebGPU + WASM! Cook-Torrance BRDF \u00b7 GGX specular \u00b7 Fresnel-Schlick \u00b7 HDR IBL (prefiltered env + irradiance + BRDF LUT) \u00b7 PCF shadow mapping \u00b7 GTAO ambient occlusion \u00b7 bloom ...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlbl9u/built_a_realtime_pbr_renderer_from_scratch_in/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Visualizing Culling is so satisfying - Quasar Engine",
+          "desc": "Culling is what enables massive open world games to even remotely be possible to exist. And looking at its effects is so amazing, as normally the world feels like so full, only to find out I am always standing at the edge of void. submitted by /u/Duke2640 [link] [comments]",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rlmt9x/visualizing_culling_is_so_satisfying_quasar_engine/",
-          "source": "r/GraphicsProgramming",
-          "momo": "\u5254\u9664\u662f\u5f00\u653e\u4e16\u754c\u80fd\u8dd1\u8d77\u6765\u7684\u57fa\u77f3\uff0c\u53ef\u89c6\u5316\u540e\u786e\u5b9e\u5f88\u89e3\u538b\u3002"
+          "source": "r/GraphicsProgramming"
         }
       ]
     },
     {
-      "title": "\ud83c\udfa8 \u8bbe\u8ba1 & \u7cfb\u7edf",
+      "title": "\u7cfb\u7edf / \u7f16\u7a0b",
       "items": [
         {
-          "title": "\u522b\u518d\u7528\u7070\u8272\u6587\u5b57\u4e86",
-          "desc": "\u8001\u8bdd\u9898\u65b0\u8ba8\u8bba\uff1a\u7070\u8272\u6587\u5b57\u4e25\u91cd\u5f71\u54cd\u53ef\u8bfb\u6027\uff0cHN 56 \u8d5e 32 \u8bc4\u8bba\u3002\u5bf9\u6bd4\u5ea6\u4e0d\u591f\u4e0d\u662f\u8bbe\u8ba1\u611f\uff0c\u662f\u5077\u61d2\u3002",
-          "url": "https://catskull.net/stop-using-grey-text.html",
-          "source": "Hacker News",
-          "momo": "\u5bf9\u6bd4\u5ea6\u662f\u53ef\u8bfb\u6027\u7684\u5e95\u7ebf\uff0c\u4e0d\u662f\u53ef\u4ee5\u727a\u7272\u7684\u8bbe\u8ba1\u5143\u7d20\u3002"
-        },
-        {
-          "title": "5000 \u4e07\u5f15\u811a\u7684 3D IC \u5c01\u88c5\u8bbe\u8ba1\u65b0\u601d\u8def",
-          "desc": "\u82af\u7247\u5c01\u88c5\u590d\u6742\u5ea6\u6307\u6570\u7ea7\u589e\u957f\uff0c\u4f20\u7edf\u8bbe\u8ba1\u65b9\u6cd5\u6491\u4e0d\u4f4f\u4e86\uff0c\u9700\u8981\u66f4\u806a\u660e\u7684\u5206\u5c42\u62c6\u89e3\u7b56\u7565\u3002",
-          "url": "https://www.allaboutcircuits.com/industry-articles/breaking-down-50-million-pins-a-smarter-way-to-design-3d-ic-packages/",
-          "source": "Hacker News",
-          "momo": "\u786c\u4ef6\u5de5\u7a0b\u7684\u590d\u6742\u5ea6\u4e5f\u5728\u6307\u6570\u589e\u957f\uff0c\u8ddf\u8f6f\u4ef6\u4e00\u6837\u9700\u8981\u65b0\u8303\u5f0f\u3002"
+          "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
+          "desc": "Perhaps it's because you dispatched it. The post The mystery of the posted message that was dispatched before reaching the main message loop appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
+          "source": "Old New Thing"
         }
       ]
     }
