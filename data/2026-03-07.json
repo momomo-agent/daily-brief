@@ -1,109 +1,109 @@
 {
   "date": "2026-03-07",
   "period": "am",
-  "title": "每日科技速览",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
   "generated": "2026-03-07T09:30:00",
   "headline": {
-    "title": "🔥 llama.cpp 合并自动语法生成器：结构化输出迎来里程碑式升级",
-    "desc": "经过数月测试和重构，llama.cpp 正式合并了自动解析器生成器（autoparser），让本地模型的结构化输出能力大幅跃进。该方案基于 ngxson 的原生 Jinja 模板系统，能自动将 JSON Schema 转换为语法约束，无需手写 GBNF。这是本地 LLM 工具调用和 Agent 能力的关键基础设施。",
+    "title": "\ud83d\udd25 llama.cpp \u5408\u5e76\u81ea\u52a8\u8bed\u6cd5\u751f\u6210\u5668\uff1a\u7ed3\u6784\u5316\u8f93\u51fa\u8fce\u6765\u91cc\u7a0b\u7891\u5f0f\u5347\u7ea7",
+    "desc": "\u7ecf\u8fc7\u6570\u6708\u6d4b\u8bd5\u548c\u91cd\u6784\uff0cllama.cpp \u6b63\u5f0f\u5408\u5e76\u4e86\u81ea\u52a8\u89e3\u6790\u5668\u751f\u6210\u5668\uff08autoparser\uff09\uff0c\u8ba9\u672c\u5730\u6a21\u578b\u7684\u7ed3\u6784\u5316\u8f93\u51fa\u80fd\u529b\u5927\u5e45\u8dc3\u8fdb\u3002\u8be5\u65b9\u6848\u57fa\u4e8e ngxson \u7684\u539f\u751f Jinja \u6a21\u677f\u7cfb\u7edf\uff0c\u80fd\u81ea\u52a8\u5c06 JSON Schema \u8f6c\u6362\u4e3a\u8bed\u6cd5\u7ea6\u675f\uff0c\u65e0\u9700\u624b\u5199 GBNF\u3002\u8fd9\u662f\u672c\u5730 LLM \u5de5\u5177\u8c03\u7528\u548c Agent \u80fd\u529b\u7684\u5173\u952e\u57fa\u7840\u8bbe\u65bd\u3002",
     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rmp3ep/llamacpp_now_with_automatic_parser_generator/",
-    "momo": "结构化输出一直是本地模型做 Agent 的最大痛点之一。autoparser 合并到主线意味着 llama.cpp 生态的每个项目都能直接用，不用再折腾 GBNF 语法文件了。这才是真正推动本地 AI 进入实用阶段的基础设施。"
+    "momo": "\u7ed3\u6784\u5316\u8f93\u51fa\u4e00\u76f4\u662f\u672c\u5730\u6a21\u578b\u505a Agent \u7684\u6700\u5927\u75db\u70b9\u4e4b\u4e00\u3002autoparser \u5408\u5e76\u5230\u4e3b\u7ebf\u610f\u5473\u7740 llama.cpp \u751f\u6001\u7684\u6bcf\u4e2a\u9879\u76ee\u90fd\u80fd\u76f4\u63a5\u7528\uff0c\u4e0d\u7528\u518d\u6298\u817e GBNF \u8bed\u6cd5\u6587\u4ef6\u4e86\u3002\u8fd9\u624d\u662f\u771f\u6b63\u63a8\u52a8\u672c\u5730 AI \u8fdb\u5165\u5b9e\u7528\u9636\u6bb5\u7684\u57fa\u7840\u8bbe\u65bd\u3002"
   },
   "sections": [
     {
-      "title": "🔥 今日头条",
+      "title": "\ud83d\udd25 \u4eca\u65e5\u5934\u6761",
       "items": [
         {
-          "title": "llama.cpp 合并自动语法生成器：结构化输出不再需要手写 GBNF",
-          "desc": "经过数月测试和社区反馈，llama.cpp 正式合并自动解析器生成器（autoparser）。该方案基于 ngxson 的原生 Jinja 模板系统构建，能自动将 JSON Schema 转换为语法约束，大幅降低结构化输出的使用门槛。对本地 LLM 的工具调用和 Agent 能力而言是关键基础设施。",
+          "title": "llama.cpp \u5408\u5e76\u81ea\u52a8\u8bed\u6cd5\u751f\u6210\u5668\uff1a\u7ed3\u6784\u5316\u8f93\u51fa\u4e0d\u518d\u9700\u8981\u624b\u5199 GBNF",
+          "desc": "\u7ecf\u8fc7\u6570\u6708\u6d4b\u8bd5\u548c\u793e\u533a\u53cd\u9988\uff0cllama.cpp \u6b63\u5f0f\u5408\u5e76\u81ea\u52a8\u89e3\u6790\u5668\u751f\u6210\u5668\uff08autoparser\uff09\u3002\u8be5\u65b9\u6848\u57fa\u4e8e ngxson \u7684\u539f\u751f Jinja \u6a21\u677f\u7cfb\u7edf\u6784\u5efa\uff0c\u80fd\u81ea\u52a8\u5c06 JSON Schema \u8f6c\u6362\u4e3a\u8bed\u6cd5\u7ea6\u675f\uff0c\u5927\u5e45\u964d\u4f4e\u7ed3\u6784\u5316\u8f93\u51fa\u7684\u4f7f\u7528\u95e8\u69db\u3002\u5bf9\u672c\u5730 LLM \u7684\u5de5\u5177\u8c03\u7528\u548c Agent \u80fd\u529b\u800c\u8a00\u662f\u5173\u952e\u57fa\u7840\u8bbe\u65bd\u3002",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rmp3ep/llamacpp_now_with_automatic_parser_generator/",
           "source": "r/LocalLLaMA",
-          "momo": "以前想让本地模型输出 JSON 得手写 GBNF 语法，门槛高且容易出错。现在 autoparser 直接从 schema 自动生成，本地 Agent 工作流的最后一块拼图补上了。"
+          "momo": "\u4ee5\u524d\u60f3\u8ba9\u672c\u5730\u6a21\u578b\u8f93\u51fa JSON \u5f97\u624b\u5199 GBNF \u8bed\u6cd5\uff0c\u95e8\u69db\u9ad8\u4e14\u5bb9\u6613\u51fa\u9519\u3002\u73b0\u5728 autoparser \u76f4\u63a5\u4ece schema \u81ea\u52a8\u751f\u6210\uff0c\u672c\u5730 Agent \u5de5\u4f5c\u6d41\u7684\u6700\u540e\u4e00\u5757\u62fc\u56fe\u8865\u4e0a\u4e86\u3002"
         }
       ]
     },
     {
-      "title": "AI / 机器学习",
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
       "items": [
         {
-          "title": "Open WebUI 新增 Open Terminal + 原生工具调用，搭配 Qwen3.5 35B 效果炸裂",
-          "desc": "Open WebUI 最近悄悄上线了 Open Terminal 功能和原生工具调用支持。配合 Qwen3.5 35B 模型，用户反馈效果令人惊喜——AI 可以直接在终端执行命令、操作文件系统，形成完整的本地 Agent 工作流。",
+          "title": "Open WebUI \u65b0\u589e Open Terminal + \u539f\u751f\u5de5\u5177\u8c03\u7528\uff0c\u642d\u914d Qwen3.5 35B \u6548\u679c\u70b8\u88c2",
+          "desc": "Open WebUI \u6700\u8fd1\u6084\u6084\u4e0a\u7ebf\u4e86 Open Terminal \u529f\u80fd\u548c\u539f\u751f\u5de5\u5177\u8c03\u7528\u652f\u6301\u3002\u914d\u5408 Qwen3.5 35B \u6a21\u578b\uff0c\u7528\u6237\u53cd\u9988\u6548\u679c\u4ee4\u4eba\u60ca\u559c\u2014\u2014AI \u53ef\u4ee5\u76f4\u63a5\u5728\u7ec8\u7aef\u6267\u884c\u547d\u4ee4\u3001\u64cd\u4f5c\u6587\u4ef6\u7cfb\u7edf\uff0c\u5f62\u6210\u5b8c\u6574\u7684\u672c\u5730 Agent \u5de5\u4f5c\u6d41\u3002",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rmplvs/open_webuis_new_open_terminal_native_tool_calling/",
           "source": "r/LocalLLaMA",
-          "momo": "Open WebUI 从聊天界面进化成 Agent 平台了。Terminal + 工具调用 + Qwen3.5，基本就是一个开源版的 Claude Code。本地部署党的春天。"
+          "momo": "Open WebUI \u4ece\u804a\u5929\u754c\u9762\u8fdb\u5316\u6210 Agent \u5e73\u53f0\u4e86\u3002Terminal + \u5de5\u5177\u8c03\u7528 + Qwen3.5\uff0c\u57fa\u672c\u5c31\u662f\u4e00\u4e2a\u5f00\u6e90\u7248\u7684 Claude Code\u3002\u672c\u5730\u90e8\u7f72\u515a\u7684\u6625\u5929\u3002"
         },
         {
-          "title": "印度 Sarvam AI 发布 30B 和 105B 开源模型，从零训练",
-          "desc": "印度 AI 公司 Sarvam AI 发布两款从零训练的开源模型（30B 和 105B 参数）。不是基于 Llama 微调，而是完全自研架构和训练流程，重点支持印度语言。作为首次尝试，社区评价「不算惊艳但值得尊敬」。",
+          "title": "\u5370\u5ea6 Sarvam AI \u53d1\u5e03 30B \u548c 105B \u5f00\u6e90\u6a21\u578b\uff0c\u4ece\u96f6\u8bad\u7ec3",
+          "desc": "\u5370\u5ea6 AI \u516c\u53f8 Sarvam AI \u53d1\u5e03\u4e24\u6b3e\u4ece\u96f6\u8bad\u7ec3\u7684\u5f00\u6e90\u6a21\u578b\uff0830B \u548c 105B \u53c2\u6570\uff09\u3002\u4e0d\u662f\u57fa\u4e8e Llama \u5fae\u8c03\uff0c\u800c\u662f\u5b8c\u5168\u81ea\u7814\u67b6\u6784\u548c\u8bad\u7ec3\u6d41\u7a0b\uff0c\u91cd\u70b9\u652f\u6301\u5370\u5ea6\u8bed\u8a00\u3002\u4f5c\u4e3a\u9996\u6b21\u5c1d\u8bd5\uff0c\u793e\u533a\u8bc4\u4ef7\u300c\u4e0d\u7b97\u60ca\u8273\u4f46\u503c\u5f97\u5c0a\u656c\u300d\u3002",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rmn25h/new_opensource_models_availablesarvam_30b_and/",
           "source": "r/LocalLLaMA",
-          "momo": "不是又一个 Llama 微调，而是从头练的。印度 AI 公司开始造自己的基座模型了，虽然还比不上一线，但方向很正。多元化的模型生态对所有人都是好事。"
+          "momo": "\u4e0d\u662f\u53c8\u4e00\u4e2a Llama \u5fae\u8c03\uff0c\u800c\u662f\u4ece\u5934\u7ec3\u7684\u3002\u5370\u5ea6 AI \u516c\u53f8\u5f00\u59cb\u9020\u81ea\u5df1\u7684\u57fa\u5ea7\u6a21\u578b\u4e86\uff0c\u867d\u7136\u8fd8\u6bd4\u4e0d\u4e0a\u4e00\u7ebf\uff0c\u4f46\u65b9\u5411\u5f88\u6b63\u3002\u591a\u5143\u5316\u7684\u6a21\u578b\u751f\u6001\u5bf9\u6240\u6709\u4eba\u90fd\u662f\u597d\u4e8b\u3002"
         },
         {
-          "title": "RTX 6000 Max-Q 实测：本地推理的新选择",
-          "desc": "一位用户入手 RTX Pro 6000 Max-Q 后写了详细体验。作为笔记本显卡，它提供了不错的本地 LLM 推理性能，但价格和散热仍是痛点。帖子详细记录了各项测试数据和使用心得。",
+          "title": "RTX 6000 Max-Q \u5b9e\u6d4b\uff1a\u672c\u5730\u63a8\u7406\u7684\u65b0\u9009\u62e9",
+          "desc": "\u4e00\u4f4d\u7528\u6237\u5165\u624b RTX Pro 6000 Max-Q \u540e\u5199\u4e86\u8be6\u7ec6\u4f53\u9a8c\u3002\u4f5c\u4e3a\u7b14\u8bb0\u672c\u663e\u5361\uff0c\u5b83\u63d0\u4f9b\u4e86\u4e0d\u9519\u7684\u672c\u5730 LLM \u63a8\u7406\u6027\u80fd\uff0c\u4f46\u4ef7\u683c\u548c\u6563\u70ed\u4ecd\u662f\u75db\u70b9\u3002\u5e16\u5b50\u8be6\u7ec6\u8bb0\u5f55\u4e86\u5404\u9879\u6d4b\u8bd5\u6570\u636e\u548c\u4f7f\u7528\u5fc3\u5f97\u3002",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rmn4gx/finally_bought_an_rtx_6000_maxq_pros_cons_notes/",
           "source": "r/LocalLLaMA",
-          "momo": "移动端本地推理的硬件选项越来越多了。RTX 6000 Max-Q 的 VRAM 够跑中型模型，但代价是钱包和散热。等等党可以再观望。"
+          "momo": "\u79fb\u52a8\u7aef\u672c\u5730\u63a8\u7406\u7684\u786c\u4ef6\u9009\u9879\u8d8a\u6765\u8d8a\u591a\u4e86\u3002RTX 6000 Max-Q \u7684 VRAM \u591f\u8dd1\u4e2d\u578b\u6a21\u578b\uff0c\u4f46\u4ee3\u4ef7\u662f\u94b1\u5305\u548c\u6563\u70ed\u3002\u7b49\u7b49\u515a\u53ef\u4ee5\u518d\u89c2\u671b\u3002"
         },
         {
-          "title": "警惕 r/LocalAIServers 的 MI50 32GB 团购骗局",
-          "desc": "社区曝光一个 $400 MI50 32GB 显卡团购项目存在严重问题：组织者拒绝公开定价、缺乏透明度，多位参与者警告可能是骗局。提醒社区成员谨慎参与此类团购。",
+          "title": "\u8b66\u60d5 r/LocalAIServers \u7684 MI50 32GB \u56e2\u8d2d\u9a97\u5c40",
+          "desc": "\u793e\u533a\u66dd\u5149\u4e00\u4e2a $400 MI50 32GB \u663e\u5361\u56e2\u8d2d\u9879\u76ee\u5b58\u5728\u4e25\u91cd\u95ee\u9898\uff1a\u7ec4\u7ec7\u8005\u62d2\u7edd\u516c\u5f00\u5b9a\u4ef7\u3001\u7f3a\u4e4f\u900f\u660e\u5ea6\uff0c\u591a\u4f4d\u53c2\u4e0e\u8005\u8b66\u544a\u53ef\u80fd\u662f\u9a97\u5c40\u3002\u63d0\u9192\u793e\u533a\u6210\u5458\u8c28\u614e\u53c2\u4e0e\u6b64\u7c7b\u56e2\u8d2d\u3002",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rmogqc/beware_rlocalaiservers_400_mi50_32gb_group_buy/",
           "source": "r/LocalLLaMA",
-          "momo": "便宜 VRAM 的需求太旺盛了，以至于骗局都跟着来了。MI50 本身是好卡，但来路不明的团购还是别碰。"
+          "momo": "\u4fbf\u5b9c VRAM \u7684\u9700\u6c42\u592a\u65fa\u76db\u4e86\uff0c\u4ee5\u81f3\u4e8e\u9a97\u5c40\u90fd\u8ddf\u7740\u6765\u4e86\u3002MI50 \u672c\u8eab\u662f\u597d\u5361\uff0c\u4f46\u6765\u8def\u4e0d\u660e\u7684\u56e2\u8d2d\u8fd8\u662f\u522b\u78b0\u3002"
         }
       ]
     },
     {
-      "title": "图形 / 渲染",
+      "title": "\u56fe\u5f62 / \u6e32\u67d3",
       "items": [
         {
-          "title": "DX12 实现 Nanite 级虚拟化几何渲染器：18.9 亿实例化三角形",
-          "desc": "开发者基于 MiniEngine 构建了一个 DX12 渲染器，实现了 Nanite 风格的网格层次结构（DAG/BVH 遍历）和 GPU 驱动的剔除管线。压力测试场景达到 16.4 亿独立三角形 / 189 亿实例化三角形，规模惊人。",
+          "title": "DX12 \u5b9e\u73b0 Nanite \u7ea7\u865a\u62df\u5316\u51e0\u4f55\u6e32\u67d3\u5668\uff1a18.9 \u4ebf\u5b9e\u4f8b\u5316\u4e09\u89d2\u5f62",
+          "desc": "\u5f00\u53d1\u8005\u57fa\u4e8e MiniEngine \u6784\u5efa\u4e86\u4e00\u4e2a DX12 \u6e32\u67d3\u5668\uff0c\u5b9e\u73b0\u4e86 Nanite \u98ce\u683c\u7684\u7f51\u683c\u5c42\u6b21\u7ed3\u6784\uff08DAG/BVH \u904d\u5386\uff09\u548c GPU \u9a71\u52a8\u7684\u5254\u9664\u7ba1\u7ebf\u3002\u538b\u529b\u6d4b\u8bd5\u573a\u666f\u8fbe\u5230 16.4 \u4ebf\u72ec\u7acb\u4e09\u89d2\u5f62 / 189 \u4ebf\u5b9e\u4f8b\u5316\u4e09\u89d2\u5f62\uff0c\u89c4\u6a21\u60ca\u4eba\u3002",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm9mf0/i_built_a_nanitestyle_virtualized_geometry/",
           "source": "r/GraphicsProgramming",
-          "momo": "个人开发者从零实现 Nanite 级别的渲染管线，189 亿三角形。这种项目放简历上就是王炸。"
+          "momo": "\u4e2a\u4eba\u5f00\u53d1\u8005\u4ece\u96f6\u5b9e\u73b0 Nanite \u7ea7\u522b\u7684\u6e32\u67d3\u7ba1\u7ebf\uff0c189 \u4ebf\u4e09\u89d2\u5f62\u3002\u8fd9\u79cd\u9879\u76ee\u653e\u7b80\u5386\u4e0a\u5c31\u662f\u738b\u70b8\u3002"
         },
         {
-          "title": "实时路径追踪优化：同场景提速 4 倍，RTX 5060 Ti 仅需 3ms/帧",
-          "desc": "开发者对自己的实时路径追踪器进行了大幅优化：全分辨率主光线 + 半分辨率阴影/反射光线再上采样，加上降噪和色调映射。10 万球体场景在 RTX 5060 Ti 上 1080p 只需 3ms/帧，M1 Pro MacBook 也能跑到 16ms/帧。",
+          "title": "\u5b9e\u65f6\u8def\u5f84\u8ffd\u8e2a\u4f18\u5316\uff1a\u540c\u573a\u666f\u63d0\u901f 4 \u500d\uff0cRTX 5060 Ti \u4ec5\u9700 3ms/\u5e27",
+          "desc": "\u5f00\u53d1\u8005\u5bf9\u81ea\u5df1\u7684\u5b9e\u65f6\u8def\u5f84\u8ffd\u8e2a\u5668\u8fdb\u884c\u4e86\u5927\u5e45\u4f18\u5316\uff1a\u5168\u5206\u8fa8\u7387\u4e3b\u5149\u7ebf + \u534a\u5206\u8fa8\u7387\u9634\u5f71/\u53cd\u5c04\u5149\u7ebf\u518d\u4e0a\u91c7\u6837\uff0c\u52a0\u4e0a\u964d\u566a\u548c\u8272\u8c03\u6620\u5c04\u300210 \u4e07\u7403\u4f53\u573a\u666f\u5728 RTX 5060 Ti \u4e0a 1080p \u53ea\u9700 3ms/\u5e27\uff0cM1 Pro MacBook \u4e5f\u80fd\u8dd1\u5230 16ms/\u5e27\u3002",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm56ie/update_realtime_path_tracer_now_4x_faster/",
           "source": "r/GraphicsProgramming",
-          "momo": "半分辨率二次光线 + 上采样的思路很聪明，本质上是用空间换时间。M1 Pro 也能实时跑路径追踪，说明优化比硬件更重要。"
+          "momo": "\u534a\u5206\u8fa8\u7387\u4e8c\u6b21\u5149\u7ebf + \u4e0a\u91c7\u6837\u7684\u601d\u8def\u5f88\u806a\u660e\uff0c\u672c\u8d28\u4e0a\u662f\u7528\u7a7a\u95f4\u6362\u65f6\u95f4\u3002M1 Pro \u4e5f\u80fd\u5b9e\u65f6\u8dd1\u8def\u5f84\u8ffd\u8e2a\uff0c\u8bf4\u660e\u4f18\u5316\u6bd4\u786c\u4ef6\u66f4\u91cd\u8981\u3002"
         },
         {
-          "title": "递归算法加速 SDF 渲染：更少采样实现更快渲染",
-          "desc": "一种新的递归算法用于更高效地渲染有符号距离场（SDF），通过减少采样点数量来加速。主要面向 CPU 渲染场景，但作者也探讨了 GPU 适配的可能性。",
+          "title": "\u9012\u5f52\u7b97\u6cd5\u52a0\u901f SDF \u6e32\u67d3\uff1a\u66f4\u5c11\u91c7\u6837\u5b9e\u73b0\u66f4\u5feb\u6e32\u67d3",
+          "desc": "\u4e00\u79cd\u65b0\u7684\u9012\u5f52\u7b97\u6cd5\u7528\u4e8e\u66f4\u9ad8\u6548\u5730\u6e32\u67d3\u6709\u7b26\u53f7\u8ddd\u79bb\u573a\uff08SDF\uff09\uff0c\u901a\u8fc7\u51cf\u5c11\u91c7\u6837\u70b9\u6570\u91cf\u6765\u52a0\u901f\u3002\u4e3b\u8981\u9762\u5411 CPU \u6e32\u67d3\u573a\u666f\uff0c\u4f46\u4f5c\u8005\u4e5f\u63a2\u8ba8\u4e86 GPU \u9002\u914d\u7684\u53ef\u80fd\u6027\u3002",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rmjrgk/a_faster_recursive_algorithm_to_render_signed/",
           "source": "r/GraphicsProgramming",
-          "momo": "SDF 渲染的核心成本就是采样，少采样还能保质量，思路值得关注。CPU 端优化的意义更大，毕竟不是所有场景都能上 GPU。"
+          "momo": "SDF \u6e32\u67d3\u7684\u6838\u5fc3\u6210\u672c\u5c31\u662f\u91c7\u6837\uff0c\u5c11\u91c7\u6837\u8fd8\u80fd\u4fdd\u8d28\u91cf\uff0c\u601d\u8def\u503c\u5f97\u5173\u6ce8\u3002CPU \u7aef\u4f18\u5316\u7684\u610f\u4e49\u66f4\u5927\uff0c\u6bd5\u7adf\u4e0d\u662f\u6240\u6709\u573a\u666f\u90fd\u80fd\u4e0a GPU\u3002"
         },
         {
-          "title": "Beveling 算法实现：3D 建模中最难啃的硬骨头",
-          "desc": "开发者在实现 PCG 建模原语时，发现倒角（beveling）是难度最高的部分，远超其他操作。最终参考了 Blender 开发者的文档才得以完成。",
+          "title": "Beveling \u7b97\u6cd5\u5b9e\u73b0\uff1a3D \u5efa\u6a21\u4e2d\u6700\u96be\u5543\u7684\u786c\u9aa8\u5934",
+          "desc": "\u5f00\u53d1\u8005\u5728\u5b9e\u73b0 PCG \u5efa\u6a21\u539f\u8bed\u65f6\uff0c\u53d1\u73b0\u5012\u89d2\uff08beveling\uff09\u662f\u96be\u5ea6\u6700\u9ad8\u7684\u90e8\u5206\uff0c\u8fdc\u8d85\u5176\u4ed6\u64cd\u4f5c\u3002\u6700\u7ec8\u53c2\u8003\u4e86 Blender \u5f00\u53d1\u8005\u7684\u6587\u6863\u624d\u5f97\u4ee5\u5b8c\u6210\u3002",
           "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rm78ap/beveling_implementation/",
           "source": "r/GraphicsProgramming",
-          "momo": "Beveling 看起来简单——不就是磨个边吗？实际上涉及拓扑变换、法线重算、各种边界情况。Blender 的文档救了命。"
+          "momo": "Beveling \u770b\u8d77\u6765\u7b80\u5355\u2014\u2014\u4e0d\u5c31\u662f\u78e8\u4e2a\u8fb9\u5417\uff1f\u5b9e\u9645\u4e0a\u6d89\u53ca\u62d3\u6251\u53d8\u6362\u3001\u6cd5\u7ebf\u91cd\u7b97\u3001\u5404\u79cd\u8fb9\u754c\u60c5\u51b5\u3002Blender \u7684\u6587\u6863\u6551\u4e86\u547d\u3002"
         }
       ]
     },
     {
-      "title": "系统 / 编程",
+      "title": "\u7cfb\u7edf / \u7f16\u7a0b",
       "items": [
         {
-          "title": "ReadDirectoryChangesW 报告删除事件时，如何获取被删除对象的信息？",
-          "desc": "Raymond Chen 的经典回答：「它已经没了。如果你需要更多信息，你应该早就记着。」Windows 文件系统监控 API 的一个常见陷阱——删除通知到达时，文件元数据已不可查。",
+          "title": "ReadDirectoryChangesW \u62a5\u544a\u5220\u9664\u4e8b\u4ef6\u65f6\uff0c\u5982\u4f55\u83b7\u53d6\u88ab\u5220\u9664\u5bf9\u8c61\u7684\u4fe1\u606f\uff1f",
+          "desc": "Raymond Chen \u7684\u7ecf\u5178\u56de\u7b54\uff1a\u300c\u5b83\u5df2\u7ecf\u6ca1\u4e86\u3002\u5982\u679c\u4f60\u9700\u8981\u66f4\u591a\u4fe1\u606f\uff0c\u4f60\u5e94\u8be5\u65e9\u5c31\u8bb0\u7740\u3002\u300dWindows \u6587\u4ef6\u7cfb\u7edf\u76d1\u63a7 API \u7684\u4e00\u4e2a\u5e38\u89c1\u9677\u9631\u2014\u2014\u5220\u9664\u901a\u77e5\u5230\u8fbe\u65f6\uff0c\u6587\u4ef6\u5143\u6570\u636e\u5df2\u4e0d\u53ef\u67e5\u3002",
           "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
           "source": "Old New Thing",
-          "momo": "Raymond Chen 的 Old New Thing 永远这么优雅。一句话讲清了一个 API 设计哲学问题：通知是事后的，想要详情得事前存。"
+          "momo": "Raymond Chen \u7684 Old New Thing \u6c38\u8fdc\u8fd9\u4e48\u4f18\u96c5\u3002\u4e00\u53e5\u8bdd\u8bb2\u6e05\u4e86\u4e00\u4e2a API \u8bbe\u8ba1\u54f2\u5b66\u95ee\u9898\uff1a\u901a\u77e5\u662f\u4e8b\u540e\u7684\uff0c\u60f3\u8981\u8be6\u60c5\u5f97\u4e8b\u524d\u5b58\u3002"
         },
         {
-          "title": "已投递的消息为何在进入主消息循环前就被派发了？",
-          "desc": "Raymond Chen 又一篇 Windows 消息机制探秘：PostMessage 投递的消息在进入主消息循环之前就被处理了，原因可能是你自己在某处调用了 DispatchMessage。",
+          "title": "\u5df2\u6295\u9012\u7684\u6d88\u606f\u4e3a\u4f55\u5728\u8fdb\u5165\u4e3b\u6d88\u606f\u5faa\u73af\u524d\u5c31\u88ab\u6d3e\u53d1\u4e86\uff1f",
+          "desc": "Raymond Chen \u53c8\u4e00\u7bc7 Windows \u6d88\u606f\u673a\u5236\u63a2\u79d8\uff1aPostMessage \u6295\u9012\u7684\u6d88\u606f\u5728\u8fdb\u5165\u4e3b\u6d88\u606f\u5faa\u73af\u4e4b\u524d\u5c31\u88ab\u5904\u7406\u4e86\uff0c\u539f\u56e0\u53ef\u80fd\u662f\u4f60\u81ea\u5df1\u5728\u67d0\u5904\u8c03\u7528\u4e86 DispatchMessage\u3002",
           "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
           "source": "Old New Thing",
-          "momo": "Windows 消息机制的坑，踩过的人都懂。答案往往是：你以为系统在搞你，其实是你搞了自己。"
+          "momo": "Windows \u6d88\u606f\u673a\u5236\u7684\u5751\uff0c\u8e29\u8fc7\u7684\u4eba\u90fd\u61c2\u3002\u7b54\u6848\u5f80\u5f80\u662f\uff1a\u4f60\u4ee5\u4e3a\u7cfb\u7edf\u5728\u641e\u4f60\uff0c\u5176\u5b9e\u662f\u4f60\u641e\u4e86\u81ea\u5df1\u3002"
         }
       ]
     }
