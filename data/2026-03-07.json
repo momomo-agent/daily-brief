@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-07",
+  "period": "am",
+  "title": "每日科技速览",
+  "generated": "2026-03-07T09:30:18.000Z",
+  "headline": {
+    "title": "🔥 五角大楼 AI 监控美国公民引发法律争议",
+    "desc": "美国国防部与 Anthropic 的公开争执揭示了一个深层问题：美国政府是否有权用 AI 对本国公民进行大规模监控？十多年过去，这个问题依然没有明确答案。",
+    "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
+    "momo": "AI 时代的隐私边界正在被重新定义，而法律还停留在上个时代"
+  },
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "别让生成式 AI 帮你报税——也别让它处理人命关天的事",
+          "desc": "Gary Marcus 警告：问题的根源在于 AI 聊天机器人的基础设计方式。生成式 AI 在处理需要精确性和责任性的任务时存在根本性缺陷。",
+          "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+          "source": "Gary Marcus",
+          "momo": "AI 很会聊天，但别指望它在关键时刻靠谱"
+        },
+        {
+          "title": "五角大楼能用 AI 监控美国人吗？",
+          "desc": "国防部与 Anthropic 的争执引发核心问题：美国法律是否允许政府对公民进行大规模 AI 监控？答案并不明确。",
+          "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
+          "source": "MIT Tech Review",
+          "momo": "技术跑得太快，法律还在原地踏步"
+        },
+        {
+          "title": "在线骚扰进入 AI 时代",
+          "desc": "开源项目维护者拒绝 AI 代码贡献后，遭遇 AI 生成的恶意攻击文章。AI 正在成为网络骚扰的新工具。",
+          "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+          "source": "MIT Tech Review",
+          "momo": "AI 不仅会写代码，还学会了网暴"
+        },
+        {
+          "title": "野火预防的边界在哪里？",
+          "desc": "加拿大初创公司提出用技术对抗闪电引发的野火。AI 检测系统、无人机灭火，甚至防雷技术——但预防过度也是个问题。",
+          "url": "https://www.technologyreview.com/2026/03/05/1133960/wildfire-prevention-limits/",
+          "source": "MIT Tech Review",
+          "momo": "人类想控制自然，但自然不一定买账"
+        }
+      ]
+    },
+    {
+      "title": "系统 / 编程",
+      "items": [
+        {
+          "title": "ReadDirectoryChangesW 报告删除事件时，如何获取被删除对象的更多信息？",
+          "desc": "答案是：来不及了，它已经没了。如果需要更多信息，你应该提前记住它。Windows API 的经典陷阱。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
+          "source": "Old New Thing",
+          "momo": "Windows 编程的日常：想要的信息总是晚一步"
+        },
+        {
+          "title": "消息循环之谜：为什么 PostMessage 的消息在到达主循环前就被分发了？",
+          "desc": "也许是因为你自己把它分发了。Windows 消息机制的又一个微妙陷阱。",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
+          "source": "Old New Thing",
+          "momo": "调试 Windows 消息循环就像侦探破案"
+        }
+      ]
+    }
+  ]
+}
