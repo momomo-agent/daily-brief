@@ -1,0 +1,131 @@
+{
+  "date": "2026-03-14",
+  "period": "am",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-03-14T09:30:34.899309",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "Is the US military actually afraid of Claude? A new theory of why Anthropic was labeled a supply chain risk.",
+          "desc": "Unpacking a perplexing argument from the Pentagon",
+          "url": "https://garymarcus.substack.com/p/is-the-us-military-actually-afraid",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "I feel personally attacked",
+          "desc": "submitted by /u/HeadAcanthisitta7390 [link] [comments]",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsunqq/i_feel_personally_attacked/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "I'm fully blind, and AI is a game changer for me. Are there any local LLMS that can rival claude code and codex?",
+          "desc": "Hi guys, So, I am fully blind. Since AI was released to the public, I have been a max user. Why? Because it has changed my life. Suddenly, I am able to get very accurate image descriptions, when I get an inaccessible document, an AI can read it to me in a matter of seconds, when there is something i...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsuhwl/im_fully_blind_and_ai_is_a_game_changer_for_me/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Avacado is toast",
+          "desc": "Meta's avacado doesn't meet the standards Facebook desires so it is now delayed till May . Zuc must be fuming after spending billions and getting subpar performance. https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html https://x.com/i/trending/2032258514568298991 submitte...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsrc1j/avacado_is_toast/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "2000 TPS with QWEN 3.5 27b on RTX-5090",
+          "desc": "I've been tuning my settings for a specific job that classifies markdown documents - lots of input tokens, no real caching because every doc is different and very few output tokens. So, these numbers are totally situational, but I thought I would share if anyone cares. In the last 10 minutes it proc...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsz8k6/2000_tps_with_qwen_35_27b_on_rtx5090/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Lemonade v10: Linux NPU support and chock full of multi-modal capabilities",
+          "desc": "Hi r/localllama community, I am happy to announce this week's release of Lemonade v10! The headline feature, Linux support for NPU, was already posted but I wanted to share the big picture as well. Lemonade v9 came out 4 months ago and introduced a new C++ implementation for what was essentially an ...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsucvk/lemonade_v10_linux_npu_support_and_chock_full_of/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Saw this somewhere on LinkedIn \ud83d\ude02",
+          "desc": "submitted by /u/Optimalutopic [link] [comments]",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rshvng/saw_this_somewhere_on_linkedin/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "Why can't we have small SOTA-like models for coding?",
+          "desc": "maybe a dumb question but, i'm wondering why can't we have a specialized model just for a specific programming language like python, that can perform on par with opus 4.6? or to frame my question better, we have coder Qwen3-Coder-480B-A35B-Instruct, does it make sense to train Qwen3-Coder-30B-A3B-In...",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsv70y/why_cant_we_have_small_sotalike_models_for_coding/",
+          "source": "r/LocalLLaMA"
+        }
+      ]
+    },
+    {
+      "title": "\u56fe\u5f62 / \u6e32\u67d3",
+      "items": [
+        {
+          "title": "People be talking bout gabecube or wtv",
+          "desc": "submitted by /u/ChemicalJumpy7253 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rt1iut/people_be_talking_bout_gabecube_or_wtv/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "I built a wallpaper that shifts perspective when you move your head looking for feedback",
+          "desc": "submitted by /u/Apart-Medium6539 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rt1sjc/i_built_a_wallpaper_that_shifts_perspective_when/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "DirectX: Bringing Console-Level Developer Tools to Windows",
+          "desc": "submitted by /u/corysama [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rsv782/directx_bringing_consolelevel_developer_tools_to/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "GPU grass shader for my pixel art game",
+          "desc": "submitted by /u/Time-Guidance-5150 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rt3e8y/gpu_grass_shader_for_my_pixel_art_game/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "WebGPU >>>>>>>>",
+          "desc": "submitted by /u/Michael-RZ [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rt16jy/webgpu/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Unity Shader IntelliSense Web V2 \u2014 Much More Powerful, Much More Context-Aware",
+          "desc": "I\u2019ve been working on V2 of my Unity shader IntelliSense project, and this update is not just an iteration \u2014 it\u2019s a major generational leap. V2 is built to understand Unity shaders in their real context, not as loosely connected text files. Try it here: https://uslearn.clerindev.com/en/ide/ The end g...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rt5k0w/unity_shader_intellisense_web_v2_much_more/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Paper Plane Starry Background \u2708\ufe0f",
+          "desc": "submitted by /u/FriendshipNo9222 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rswsh2/paper_plane_starry_background/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Made a Mandlebrot renderer in c++",
+          "desc": "submitted by /u/Own_Squash5242 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rsuzsl/made_a_mandlebrot_renderer_in_c/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    },
+    {
+      "title": "\u7cfb\u7edf / \u7f16\u7a0b",
+      "items": [
+        {
+          "title": "Windows stack limit checking retrospective: MIPS",
+          "desc": "Optimizing out the unnecessary probes comes with its own complexity. The post Windows stack limit checking retrospective: MIPS appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138",
+          "source": "Old New Thing"
+        },
+        {
+          "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
+          "desc": "One of the weirdest calling conventions you'll see. The post Windows stack limit checking retrospective: x86-32, also known as i386 appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260312-00/?p=112136",
+          "source": "Old New Thing"
+        }
+      ]
+    }
+  ]
+}
