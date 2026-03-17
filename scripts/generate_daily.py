@@ -34,6 +34,8 @@ FEEDS = {
         ("Hacker News", "https://hnrss.org/frontpage", "rss"),
         ("r/LocalLLaMA", "https://www.reddit.com/r/LocalLLaMA/hot.rss", "atom"),
         ("MIT Tech Review", "https://www.technologyreview.com/feed/", "rss"),
+    ],
+    "学术前沿": [
         ("HF Daily Papers", "https://huggingface.co/api/daily_papers", "hf-api"),
     ],
     "图形 / 渲染": [
