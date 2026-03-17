@@ -34,6 +34,7 @@ FEEDS = {
         ("Hacker News", "https://hnrss.org/frontpage", "rss"),
         ("r/LocalLLaMA", "https://www.reddit.com/r/LocalLLaMA/hot.rss", "atom"),
         ("MIT Tech Review", "https://www.technologyreview.com/feed/", "rss"),
+        ("HF Daily Papers", "https://huggingface.co/api/daily_papers", "hf-api"),
     ],
     "图形 / 渲染": [
         ("r/GraphicsProgramming", "https://www.reddit.com/r/GraphicsProgramming/hot.rss", "atom"),
@@ -173,6 +174,52 @@ def parse_rss(xml_str, source_name, limit=10, max_age_days=MAX_AGE_DAYS):
             })
     return items
 
+def parse_hf_papers(api_url, source_name, limit=8):
+    """解析 Hugging Face Daily Papers JSON API"""
+    req = Request(api_url, headers={
+        'User-Agent': 'Mozilla/5.0 (Macintosh) DailyBrief/2.0',
+        'Accept': 'application/json',
+    })
+    try:
+        with urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+    except Exception:
+        return []
+    
+    if not isinstance(data, list):
+        return []
+    
+    items = []
+    # Sort by upvotes (most popular first)
+    sorted_papers = sorted(data, key=lambda p: p.get('paper', {}).get('upvotes', 0), reverse=True)
+    
+    for entry in sorted_papers[:limit]:
+        paper = entry.get('paper', {})
+        paper_id = paper.get('id', '')
+        title = paper.get('title', '').strip()
+        summary = paper.get('summary', '').strip()
+        upvotes = paper.get('upvotes', 0)
+        
+        if not title or not paper_id:
+            continue
+        
+        url = f"https://huggingface.co/papers/{paper_id}"
+        arxiv_url = f"https://arxiv.org/abs/{paper_id}"
+        desc = clean_text(summary)
+        if upvotes > 0:
+            desc = f"[{upvotes}👍] {desc}"
+        
+        items.append({
+            "title": title,
+            "url": url,
+            "desc": desc,
+            "date": entry.get('publishedAt', '')[:10],
+            "source": source_name,
+            "arxiv": arxiv_url
+        })
+    
+    return items
+
 def generate():
     """抓取所有源，生成 JSON 数据"""
     now = datetime.datetime.now()
@@ -188,11 +235,14 @@ def generate():
         items = []
         for source_name, url, feed_type in feeds:
             try:
-                xml_str = fetch_feed(url)
-                if feed_type == "atom":
-                    parsed = parse_atom(xml_str, source_name)
+                if feed_type == "hf-api":
+                    parsed = parse_hf_papers(url, source_name)
                 else:
-                    parsed = parse_rss(xml_str, source_name)
+                    xml_str = fetch_feed(url)
+                    if feed_type == "atom":
+                        parsed = parse_atom(xml_str, source_name)
+                    else:
+                        parsed = parse_rss(xml_str, source_name)
                 items.extend(parsed)
                 if parsed:
                     print(f"  ✅ {source_name}: {len(parsed)} 条")
