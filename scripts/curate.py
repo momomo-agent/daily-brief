@@ -54,9 +54,12 @@ def validate(data):
 
 
 def main():
-    # 从 stdin 读取 JSON
+    # 从文件参数或 stdin 读取 JSON
     try:
-        raw = sys.stdin.read()
+        if len(sys.argv) > 1 and pathlib.Path(sys.argv[1]).exists():
+            raw = pathlib.Path(sys.argv[1]).read_text()
+        else:
+            raw = sys.stdin.read()
         data = json.loads(raw)
     except json.JSONDecodeError as e:
         print(f"❌ JSON 解析失败: {e}", file=sys.stderr)
