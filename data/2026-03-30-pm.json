@@ -1,0 +1,128 @@
+{
+  "date": "2026-03-30",
+  "period": "pm",
+  "title": "每日科技速览",
+  "generated": "2026-03-30T18:00:00Z",
+  "headline": {
+    "title": "🔥 万亿参数科学多模态模型 Intern-S1-Pro 发布",
+    "desc": "首个万亿参数级科学多模态基础模型，在通用和科学领域都实现全面提升，推理和图文理解能力显著增强。",
+    "momo": "科学计算的 GPT-4 时刻到了，万亿参数不是噱头，是科研工具的代际跃迁。",
+    "url": "https://arxiv.org/abs/2603.25040",
+    "source": "HF Daily Papers"
+  },
+  "sections": [
+    {
+      "title": "AI / 机器学习",
+      "items": [
+        {
+          "title": "AMD GPU 解码速度翻倍：kernel-anvil 自动调优工具",
+          "desc": "针对 AMD GPU 自动分析 GGUF 模型的层形状并生成最优内核配置，llama.cpp 运行时加载即可生效，无需重新编译。",
+          "momo": "AMD 用户的福音，终于不用羡慕 CUDA 生态了。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7jfh2/kernelanvil_2x_decode_speedup_on_amd_by/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "M5 Max 跑 Qwen3.5-397B 达到 20.34 tok/s",
+          "desc": "通过 36 次实验优化，在 M5 Max 128GB 上将 Qwen3.5-397B 的推理速度从 10.61 tok/s 提升到 20.34 tok/s，纯软件优化实现 2 倍提速。",
+          "momo": "本地跑 400B 模型不再是梦，Apple Silicon 的潜力还没挖完。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7g8ov/autoresearch_on_qwen35397b_36_experiments_to/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "前沿模型的视觉理解是海市蜃楼？",
+          "desc": "Gary Marcus 指出，当模型在标准胸部 X 光问答基准上取得顶级排名却完全不看图像时，说明评估体系出了大问题。",
+          "momo": "benchmark 作弊的老把戏，真正的视觉理解还远着呢。",
+          "url": "https://garymarcus.substack.com/p/the-mirage-of-visual-understanding",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "KV 缓存量化的性能陷阱：旋转编码来救场",
+          "desc": "llama.cpp 的 KV 旋转 PR 发现现有 Q8 KV 量化会严重损害 AIME25 性能，但通过旋转编码可以基本恢复。",
+          "momo": "量化不是免费午餐，细节决定成败。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s720r8/in_the_recent_kv_rotation_pr_it_was_found_that/",
+          "source": "r/LocalLLaMA"
+        },
+        {
+          "title": "5090 vs 双 5060 16GB：为什么不都选双卡？",
+          "desc": "两张 5060 16GB 共 32GB 显存只需 $1100，远低于 5090 的价格，社区讨论为何双卡方案不流行。",
+          "momo": "因为 NVLink 带宽、驱动支持、功耗散热都是坑，便宜有便宜的代价。",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7chea/5090_vs_dual_5060_16g_why_isnt_everyone_going_dual/",
+          "source": "r/LocalLLaMA"
+        }
+      ]
+    },
+    {
+      "title": "学术前沿",
+      "items": [
+        {
+          "title": "Out of Sight but Not Out of Mind：动态视频世界模型的混合记忆",
+          "desc": "解决视频世界模型中动态主体离开视野后再出现时的冻结、扭曲或消失问题，提出混合记忆机制。",
+          "momo": "世界模型要有记忆，不能只看眼前这一帧。",
+          "url": "https://arxiv.org/abs/2603.25716",
+          "source": "HF Daily Papers"
+        },
+        {
+          "title": "PixelSmile：细粒度面部表情编辑",
+          "desc": "构建连续情感标注的 FFE 数据集，建立 FFE-Bench 评估结构混淆、编辑精度和线性可控性，解决表情编辑中的语义重叠问题。",
+          "momo": "表情编辑终于不用靠运气了，可控性是关键。",
+          "url": "https://arxiv.org/abs/2603.25728",
+          "source": "HF Daily Papers"
+        },
+        {
+          "title": "ShotStream：交互式多镜头视频生成",
+          "desc": "提出因果多镜头架构，实现交互式叙事和高效的实时帧生成，解决双向架构的交互性和延迟问题。",
+          "momo": "视频生成从批处理到流式，交互体验质变。",
+          "url": "https://arxiv.org/abs/2603.25746",
+          "source": "HF Daily Papers"
+        },
+        {
+          "title": "Voxtral TTS：3 秒参考音频生成表现力语音",
+          "desc": "混合架构结合自回归语义 token 生成和流匹配声学 token，实现多语言表现力 TTS。",
+          "momo": "语音克隆的门槛又降了，3 秒就够。",
+          "url": "https://arxiv.org/abs/2603.25551",
+          "source": "HF Daily Papers"
+        },
+        {
+          "title": "Calibri：通过参数高效校准增强扩散 Transformer",
+          "desc": "发现在 DiT 块中引入单个可学习缩放参数即可显著提升生成任务性能。",
+          "momo": "一个参数解决大问题，简单粗暴有效。",
+          "url": "https://arxiv.org/abs/2603.24800",
+          "source": "HF Daily Papers"
+        }
+      ]
+    },
+    {
+      "title": "图形 / 渲染",
+      "items": [
+        {
+          "title": "迷幻 shader 创作：是艺术还是过火？",
+          "desc": "开发者分享自制的迷幻视觉效果 shader，引发社区讨论视觉强度的边界。",
+          "momo": "shader 艺术的魅力就在于没有边界，过火才有趣。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1s71d8c/i_made_this_acid_trip_shader_and_got_a_little/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "SDL_GPU 实现 GPU 黏菌模拟",
+          "desc": "基于研究论文用 SDL_GPU 实现黏菌模拟，参考 Sebastian Lague 视频和 Sage Jenson 的技术文档。",
+          "momo": "生物模拟遇上 GPU 加速，自然算法的美感。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1s6zb3p/sdl_gpu_gpu_slime_simulation/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "C++ + OpenGL 实现黑洞光线追踪",
+          "desc": "开发者分享自制的黑洞光线追踪器，展示引力透镜效果的实时渲染。",
+          "momo": "物理模拟的终极浪漫，把广义相对论写进 shader。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1s6j0l8/black_hole_in_c_with_opengl/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Quasar 引擎第 7 次重启：先做 UI 库",
+          "desc": "开发者第 7 次重启游戏引擎项目，这次先用 Vulkan 实现了保留式 UI 库 Causality，纯 C 编写的响应式状态更新 UI。",
+          "momo": "重启 7 次还在坚持，这才是真爱。UI 先行是对的。",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1s6ti6b/reboot_but_this_time_made_a_retained_ui_lib_first/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    }
+  ]
+}
