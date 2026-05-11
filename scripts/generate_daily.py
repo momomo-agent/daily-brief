@@ -51,6 +51,8 @@ FEEDS = {
 MAX_PER_SECTION = 8
 # 只保留最近 N 天的内容
 MAX_AGE_DAYS = 2
+# 跨天去重：回看最近 N 天的 JSON，过滤重复 URL（HN 同一条能挂好几天）
+DEDUP_LOOKBACK_DAYS = 7
 
 def fetch_feed(url, timeout=3, retries=1):
     """抓取 RSS/Atom feed，缩短超时避免整体卡住"""
@@ -222,6 +224,33 @@ def parse_hf_papers(api_url, source_name, limit=8):
     
     return items
 
+def load_seen_urls(days=DEDUP_LOOKBACK_DAYS):
+    """读取最近 N 天的 JSON，收集已经出现过的 URL"""
+    seen = set()
+    if not DATA_DIR.exists():
+        return seen
+    today = datetime.date.today()
+    for f in DATA_DIR.glob('202*-*.json'):
+        stem = f.stem
+        # 只看带 -am/-pm 后缀或纯日期的文件
+        date_str = stem[:10]
+        try:
+            d = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
+        except ValueError:
+            continue
+        if (today - d).days > days:
+            continue
+        try:
+            data = json.loads(f.read_text())
+        except Exception:
+            continue
+        for section in data.get('sections', []):
+            for item in section.get('items', []):
+                url = item.get('url')
+                if url:
+                    seen.add(url)
+    return seen
+
 def generate():
     """抓取所有源，生成 JSON 数据"""
     now = datetime.datetime.now()
@@ -230,8 +259,13 @@ def generate():
     file_date = now.strftime("%Y-%m-%d")
     filename = f"{file_date}-{period}"
     
+    # 读取最近 N 天 URL，跨天去重
+    seen_urls = load_seen_urls()
+    print(f"🔍 已见 URL（近 {DEDUP_LOOKBACK_DAYS} 天）：{len(seen_urls)} 条")
+    
     sections = []
     total = 0
+    dedup_skipped = 0
     
     for section_name, feeds in FEEDS.items():
         items = []
@@ -254,16 +288,22 @@ def generate():
                 print(f"  ❌ {source_name}: {e}")
         
         if items:
-            # 去重（按 URL）
-            seen = set()
+            # 去重（按 URL）：当次内部去重 + 跨天去重
+            local_seen = set()
             unique = []
             for item in items:
-                if item['url'] not in seen:
-                    seen.add(item['url'])
-                    unique.append(item)
+                url = item['url']
+                if url in local_seen:
+                    continue
+                if url in seen_urls:
+                    dedup_skipped += 1
+                    continue
+                local_seen.add(url)
+                unique.append(item)
             items = unique[:MAX_PER_SECTION]
             total += len(items)
-            sections.append({"title": section_name, "items": items})
+            if items:
+                sections.append({"title": section_name, "items": items})
     
     data = {
         "date": file_date,
@@ -278,7 +318,7 @@ def generate():
     # 保存带时段的文件
     path = DATA_DIR / f"{filename}.json"
     path.write_text(json.dumps(data, ensure_ascii=True, indent=2))
-    print(f"\n✅ 已生成: {path} ({total} 条)")
+    print(f"\n✅ 已生成: {path} ({total} 条，跨天去重跳过 {dedup_skipped} 条）")
     
     # 同时保存为当天最新（兼容旧前端）
     latest = DATA_DIR / f"{file_date}.json"
