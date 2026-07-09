@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-08",
+  "period": "am",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-07-08T09:30:19.025719",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "Show HN: Chiptune Radio",
+          "desc": "I built a chiptune song generator and its broadcasting algorithmically generated chiptune music. Comments URL: https://news.ycombinator.com/item?id=48826094 Points: 3 # Comments: 0",
+          "url": "https://chiptune-radio.alephvoid.com/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "An interactive explorer for Benford's Law across real datasets",
+          "desc": "Article URL: https://vatsalbakshi.com/blog/benfords-law/ Comments URL: https://news.ycombinator.com/item?id=48825816 Points: 7 # Comments: 1",
+          "url": "https://vatsalbakshi.com/blog/benfords-law/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Fortress \u2013 a stealth Chromium so your agents stop getting blocked",
+          "desc": "Article URL: https://github.com/tiliondev/fortress Comments URL: https://news.ycombinator.com/item?id=48825745 Points: 12 # Comments: 2",
+          "url": "https://github.com/tiliondev/fortress",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Honey, We Bought an AI Story",
+          "desc": "Article URL: https://www.bona-books.com/news/we-bought-an-ai-story Comments URL: https://news.ycombinator.com/item?id=48825694 Points: 14 # Comments: 2",
+          "url": "https://www.bona-books.com/news/we-bought-an-ai-story",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Structure and Interpretation of Computer Programs Video Lectures",
+          "desc": "Article URL: https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/ Comments URL: https://news.ycombinator.com/item?id=48825664 Points: 8 # Comments: 0",
+          "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "A 13th-Century Enumeration Algorithm, Ignored for 700 Years",
+          "desc": "Article URL: https://blog.klipse.tech/aboulafia/2026/07/06/a-13th-century-enumeration-algorithm-ignored-for-700-years.html Comments URL: https://news.ycombinator.com/item?id=48825556 Points: 8 # Comments: 0",
+          "url": "https://blog.klipse.tech/aboulafia/2026/07/06/a-13th-century-enumeration-algorithm-ignored-for-700-years.html",
+          "source": "Hacker News"
+        },
+        {
+          "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+          "desc": "Article URL: https://www.gao.gov/products/gao-26-108193 Comments URL: https://news.ycombinator.com/item?id=48824826 Points: 77 # Comments: 25",
+          "url": "https://www.gao.gov/products/gao-26-108193",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Every new car sold in the European Union must include a driver monitoring camera",
+          "desc": "Article URL: https://allaboutcookies.org/eu-mandatory-distracted-driver-system Comments URL: https://news.ycombinator.com/item?id=48823557 Points: 416 # Comments: 542",
+          "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "\u5b66\u672f\u524d\u6cbf",
+      "items": [
+        {
+          "title": "OmniOpt: Taxonomy, Geometry, and Benchmarking of Modern Optimizers",
+          "url": "https://huggingface.co/papers/2607.04033",
+          "desc": "[65\ud83d\udc4d] Optimizer selection for large-scale model training has become a system-level design decision constrained jointly by compute, memory, tuning budget, and task diversity, yet the landscape of over one hundred methods remains fragmented. We therefore present OmniOpt, a unified survey and benchmark cookb...",
+          "date": "2026-07-03",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2607.04033"
+        },
+        {
+          "title": "MANCE: Manifold Aware Concept Erasure",
+          "url": "https://huggingface.co/papers/2607.03973",
+          "desc": "[33\ud83d\udc4d] Concept erasure aims to remove a target concept from a representation while preserving the other information encoded in it. This is difficult because representations encode many concepts that are often correlated with the erasure target, so removing the target risks damaging them. We propose the Man...",
+          "date": "2026-07-03",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2607.03973"
+        }
+      ]
+    },
+    {
+      "title": "\u7cfb\u7edf / \u7f16\u7a0b",
+      "items": [
+        {
+          "title": "How did Windows 95 decide that a setup program ran?",
+          "desc": "It used some heuristics. The post How did Windows 95 decide that a setup program ran? appeared first on The Old New Thing.",
+          "url": "https://devblogs.microsoft.com/oldnewthing/20260707-00/?p=112508",
+          "source": "Old New Thing"
+        }
+      ]
+    }
+  ]
+}
