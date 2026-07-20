@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-20",
+  "period": "am",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-07-20T09:30:23.087059",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "DeKalb deputy charged with Flock camera misuse; more Georgia officers fired",
+          "desc": "Article URL: https://www.ajc.com/news/2026/07/3-more-georgia-police-officers-fired-over-alleged-flock-camera-misuse/ Comments URL: https://news.ycombinator.com/item?id=48973123 Points: 39 # Comments: 17",
+          "url": "https://www.ajc.com/news/2026/07/3-more-georgia-police-officers-fired-over-alleged-flock-camera-misuse/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Ask HN: What are your favorite blogs not about AI?",
+          "desc": "Many of my favorite bloggers have stopped writing (or have drastically shifted topics). What are your favorite blogs?I miss the 2009 era of blogging about personal projects or super niche factoids. Comments URL: https://news.ycombinator.com/item?id=48972858 Points: 51 # Comments: 21",
+          "url": "https://news.ycombinator.com/item?id=48972858",
+          "source": "Hacker News"
+        },
+        {
+          "title": "We want Texans to know their rights",
+          "desc": "Article URL: https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion Comments URL: https://news.ycombinator.com/item?id=48972062 Points: 124 # Comments: 34",
+          "url": "https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Grok-iOS \u2013 remote Grok Build from your iPhone over ACP",
+          "desc": "Article URL: https://github.com/Pedroshakoor/grok-build-ios Comments URL: https://news.ycombinator.com/item?id=48971999 Points: 10 # Comments: 0",
+          "url": "https://github.com/Pedroshakoor/grok-build-ios",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+          "desc": "Article URL: https://spectrum.ieee.org/biggest-probabilistic-computer Comments URL: https://news.ycombinator.com/item?id=48971938 Points: 31 # Comments: 2",
+          "url": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+          "source": "Hacker News"
+        },
+        {
+          "title": "AI advice made people less accurate but more confident \u2013 sudy",
+          "desc": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 272 # Comments: 151",
+          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+          "source": "Hacker News"
+        },
+        {
+          "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
+          "desc": "Article URL: https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html Comments URL: https://news.ycombinator.com/item?id=48971566 Points: 46 # Comments: 32",
+          "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Modder Runs GTA III Inside GTA: San Andreas on an In-Game TV",
+          "desc": "Article URL: https://videocardz.com/newz/modder-runs-gta-iii-inside-gta-san-andreas-on-an-in-game-tv Comments URL: https://news.ycombinator.com/item?id=48970991 Points: 81 # Comments: 17",
+          "url": "https://videocardz.com/newz/modder-runs-gta-iii-inside-gta-san-andreas-on-an-in-game-tv",
+          "source": "Hacker News"
+        }
+      ]
+    }
+  ]
+}
