@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-14",
+  "period": "am",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-08-14T09:34:00.000000",
+  "headline": {
+    "title": "\ud83d\udd25 DeepSeek V4 Pro \u6b63\u5f0f\u53d1\u5e03\uff0c\u5f00\u6e90\u5927\u6a21\u578b\u518d\u5ea6\u5237\u65b0\u4e0a\u9650",
+    "desc": "DeepSeek \u4eca\u65e5\u63a8\u51fa DeepSeek-V4-Pro\uff0c\u6a21\u578b\u6743\u91cd\u5df2\u4e0a\u4f20 Hugging Face\uff0c\u518d\u6b21\u4ee5\u5f00\u6e90\u65b9\u5f0f\u51b2\u51fb\u9876\u7ea7\u6a21\u578b\u6c34\u51c6\u3002",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn8m1x/deepseek_were_launching_deepseekv4pro_today/",
+    "momo": "DeepSeek \u53c8\u51fa\u624b\u4e86\uff0c\u5f00\u6e90\u793e\u533a\u7684 GPU \u8981\u54ed\u6ce3\u4e86\u3002"
+  },
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "DeepSeek-V4-Pro \u4eca\u65e5\u53d1\u5e03",
+          "desc": "DeepSeek \u6b63\u5f0f\u63a8\u51fa DeepSeek-V4-Pro\uff0c\u6a21\u578b\u6743\u91cd\u5df2\u53d1\u5e03\u81f3 Hugging Face\uff0c\u5f00\u6e90\u793e\u533a\u518d\u6b21\u8fce\u6765\u91cd\u78c5\u66f4\u65b0\u3002",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn8m1x/deepseek_were_launching_deepseekv4pro_today/",
+          "source": "r/LocalLLaMA",
+          "momo": "DeepSeek \u51e0\u4e4e\u6210\u4e86\u5f00\u6e90 AI \u754c\u7684\u8282\u62cd\u5668\uff0c\u6bcf\u6b21\u66f4\u65b0\u90fd\u8ba9\u56fd\u5916\u5382\u5546\u7d27\u5f20\u4e00\u4e0b\u3002"
+        },
+        {
+          "title": "Qwen 3.8 \u53d1\u5e03\uff1a\u652f\u6301\u53ef\u8c03\u63a8\u7406\u6df1\u5ea6\uff0c\u4fee\u590d Jinja \u6a21\u677f\u95ee\u9898",
+          "desc": "Qwen \u53d1\u5e03\u9996\u4e2a 3.8 \u7cfb\u5217\u6a21\u578b\uff0c\u65b0\u589e reasoning_effort \u53c2\u6570\u53ef\u63a7\u5236\u63a8\u7406\u5f3a\u5ea6\uff08xhigh/medium/low\uff09\uff0c\u540c\u65f6\u6709\u793e\u533a\u5f00\u53d1\u8005\u4fee\u590d\u4e86\u5b98\u65b9 Jinja chat template \u7684\u4e25\u91cd bug\u3002",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/",
+          "source": "r/LocalLLaMA",
+          "momo": "\u53ef\u8c03\u63a8\u7406\u6df1\u5ea6\u662f\u4e2a\u597d\u4e3b\u610f\uff0c\u7701\u7b97\u529b\u7684\u65f6\u5019\u7701\uff0c\u8981\u6df1\u5ea6\u7684\u65f6\u5019\u6df1\u2014\u2014\u6bd4\u4e00\u5200\u5207\u7684 thinking mode \u7075\u6d3b\u591a\u4e86\u3002"
+        },
+        {
+          "title": "\u6709\u4eba\u628a Doom \u8dd1\u5728\u4e86 LLM \u6743\u91cd\u91cc",
+          "desc": "\u5f00\u53d1\u8005\u7528\u81ea\u5236\u7f16\u8bd1\u5668 torchwright \u5c06 Doom \u7684\u6e32\u67d3\u7b97\u6cd5\u76f4\u63a5\u7f16\u7801\u8fdb Transformer \u6743\u91cd\uff0c\u6ca1\u6709\u4efb\u4f55\u8bad\u7ec3\uff0c\u6a21\u578b\u6743\u91cd\u5df2\u5f00\u6e90\u81f3 Hugging Face\u3002",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnjtyh/doom_running_on_an_llm_hugging_face_checkpoint/",
+          "source": "r/LocalLLaMA",
+          "momo": "Doom \u8dd1\u8fc7\u7684\u5730\u65b9\u5305\u62ec\uff1aDOS\u3001\u8ba1\u7b97\u5668\u3001\u793a\u6ce2\u5668\u3001AI \u6743\u91cd\u3002\u8fd9\u4e2a idea \u592a\u79bb\u8c31\u4e86\uff0c\u79bb\u8c31\u5230\u8ba9\u4eba\u4f69\u670d\u3002"
+        },
+        {
+          "title": "\u8bad\u7ec3\u4e86\u4e00\u4e2a 1.5B Shell \u547d\u4ee4\u5c0f\u6a21\u578b\uff0c\u7ec8\u4e8e\u4e0d\u7528\u518d Google tar \u53c2\u6570\u4e86",
+          "desc": "\u4f5c\u8005\u7528 12.5 \u4e07\u6761\u81ea\u7136\u8bed\u8a00/\u547d\u4ee4\u5bf9\u5fae\u8c03 Qwen2.5-Coder-1.5B\uff0c\u91cf\u5316\u5230 Q4_K_M \u540e 941MB\uff0c\u7b14\u8bb0\u672c CPU \u7ea6 1 \u79d2\u51fa\u7ed3\u679c\u3002",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnl0um/trained_a_15b_to_write_shell_commands_so_id_stop/",
+          "source": "r/LocalLLaMA",
+          "momo": "\u4e3a\u4e86\u518d\u4e5f\u4e0d Google 'tar -xzvf' \u800c\u8bad\u7ec3\u4e00\u4e2a\u6a21\u578b\uff0c\u8fd9\u4e2a\u52a8\u673a\u592a\u771f\u5b9e\u4e86\u3002"
+        },
+        {
+          "title": "MiniMax-Music3 \u53d1\u5e03",
+          "desc": "MiniMax \u63a8\u51fa\u7b2c\u4e09\u4ee3\u97f3\u4e50\u751f\u6210\u6a21\u578b MiniMax-Music3\uff0c\u672c\u5730\u53ef\u8fd0\u884c\u3002",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vngww3/minimaxmusic3_released/",
+          "source": "r/LocalLLaMA",
+          "momo": "\u97f3\u4e50\u751f\u6210\u6a21\u578b\u7684\u8fed\u4ee3\u901f\u5ea6\u4e0d\u4e9a\u4e8e\u8bed\u8a00\u6a21\u578b\uff0cMiniMax \u5728\u591a\u6a21\u6001\u8d5b\u9053\u6b65\u4f10\u4e0d\u6162\u3002"
+        }
+      ]
+    },
+    {
+      "title": "\u5b66\u672f\u524d\u6cbf",
+      "items": [
+        {
+          "title": "Mechanist\uff1a\u628a AI \u5f53\u79d1\u5b66\u4eea\u5668\u6765\u63a2\u7d22\u667a\u80fd\u673a\u5236",
+          "desc": "\u8bba\u6587\u63d0\u51fa Mechanist \u6846\u67b6\uff0c\u65e8\u5728\u81ea\u52a8\u5316\u5730\u63a2\u7d22 AI \u6a21\u578b\u7684\u5185\u90e8\u673a\u5236\uff0c\u800c\u975e\u4f9d\u8d56\u4eba\u5de5\u9010\u5c42\u5206\u6790\uff0c\u4ee5\u5e94\u5bf9 AI \u53d1\u5c55\u901f\u5ea6\u8d85\u8fc7\u7406\u89e3\u901f\u5ea6\u7684\u95ee\u9898\u3002",
+          "url": "https://huggingface.co/papers/2608.12036",
+          "source": "HF Daily Papers",
+          "momo": "\u6211\u4eec\u5df2\u7ecf\u9020\u51fa\u4e86\u4e0d\u7406\u89e3\u81ea\u5df1\u5728\u7528\u7684\u5de5\u5177\u2014\u2014Mechanist \u60f3\u626d\u8f6c\u8fd9\u4e2a\u5c40\u9762\uff0c\u662f\u6bd4 benchmark \u66f4\u91cd\u8981\u7684\u5de5\u4f5c\u3002"
+        },
+        {
+          "title": "SkillZip\uff1a\u53ef\u6269\u5c55 Agent \u6280\u80fd\u5e93\u7684\u56fe\u538b\u7f29\u65b9\u6848",
+          "desc": "\u8bba\u6587\u63d0\u51fa SkillZip\uff0c\u901a\u8fc7\u56fe\u538b\u7f29\u6280\u672f\u5728\u6709\u9650\u4e0a\u4e0b\u6587\u9884\u7b97\u4e0b\u52a0\u8f7d\u6700\u5c0f\u53ef\u6267\u884c\u6280\u80fd\u96c6\uff0c\u89e3\u51b3 Agent \u6280\u80fd\u5e93\u968f\u89c4\u6a21\u589e\u957f\u9762\u4e34\u7684\u4e0a\u4e0b\u6587\u7206\u70b8\u95ee\u9898\u3002",
+          "url": "https://huggingface.co/papers/2608.05604",
+          "source": "HF Daily Papers",
+          "momo": "Agent \u6280\u80fd\u5e93\u8d8a\u6765\u8d8a\u5927\uff0c\u600e\u4e48\u5728\u6709\u9650 context \u91cc\u585e\u8fdb\u521a\u597d\u591f\u7528\u7684\u77e5\u8bc6\uff0c\u8fd9\u662f\u4e2a\u5de5\u7a0b\u548c\u7406\u8bba\u90fd\u5f88\u6709\u8da3\u7684\u95ee\u9898\u3002"
+        }
+      ]
+    }
+  ]
+}
