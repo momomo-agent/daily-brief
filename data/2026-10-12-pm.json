@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-12",
+  "period": "pm",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-10-12T18:00:15.112723",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "Mars may be a hellhole, but the moon is not far behind",
+          "desc": "Welcome to the second space race. You can be forgiven for experiencing d\u00e9j\u00e0 vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it\u2019s a sprint to the lunar surface between America and China\u2014alongside a host of varyingly friendly and rival nation...",
+          "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
+          "source": "MIT Tech Review"
+        },
+        {
+          "title": "The ecologist revealing the invisible networks that revive rainforests",
+          "desc": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-\u00adlike canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro Co...",
+          "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
+          "source": "MIT Tech Review"
+        }
+      ]
+    }
+  ]
+}
