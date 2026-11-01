@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "period": "am",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-11-01T01:54:25.596903",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "Jepsen: ParticleDB 1.1.4",
+          "desc": "https://github.com/jepsen-io/particledb Comments URL: https://news.ycombinator.com/item?id=50316100 Points: 35 # Comments: 13",
+          "url": "https://jepsen.io/analyses/particledb-1.1.4",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Prospero: A new coding harness for a more civilized age",
+          "desc": "Article URL: https://nullprogram.com/blog/2026/10/31/ Comments URL: https://news.ycombinator.com/item?id=50315226 Points: 142 # Comments: 87",
+          "url": "https://nullprogram.com/blog/2026/10/31/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "We Took over ChatGPT Accounts",
+          "desc": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 227 # Comments: 108",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "source": "Hacker News"
+        },
+        {
+          "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+          "desc": "This is today\u2019s edition of The Download, our weekday newsletter that provides a daily dose of what\u2019s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to ...",
+          "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
+          "source": "MIT Tech Review"
+        }
+      ]
+    }
+  ]
+}

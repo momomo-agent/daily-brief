@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-02",
+  "period": "am",
+  "title": "\u6bcf\u65e5\u79d1\u6280\u901f\u89c8",
+  "generated": "2026-11-02T04:03:46.762424",
+  "sections": [
+    {
+      "title": "AI / \u673a\u5668\u5b66\u4e60",
+      "items": [
+        {
+          "title": "Report from the Vatican",
+          "desc": "Yesterday I had the singular honor of meeting His Holiness, Pope Leo XIV",
+          "url": "https://garymarcus.substack.com/p/report-from-the-vatican",
+          "source": "Gary Marcus"
+        },
+        {
+          "title": "Proposed data centre will release 23 Hiroshima atomic bomb worth of energy a day",
+          "desc": "Article URL: https://www.cbc.ca/lite/story/9.7403677 Comments URL: https://news.ycombinator.com/item?id=50328556 Points: 9 # Comments: 6",
+          "url": "https://www.cbc.ca/lite/story/9.7403677",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Nurses Sound Alarm as 'Uber for Nursing' Apps Push to Deregulate Healthcare",
+          "desc": "Article URL: https://nurse.org/news/uber-for-nursing-gig-apps-report/ Comments URL: https://news.ycombinator.com/item?id=50328487 Points: 55 # Comments: 22",
+          "url": "https://nurse.org/news/uber-for-nursing-gig-apps-report/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+          "desc": "Article URL: https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again Comments URL: https://news.ycombinator.com/item?id=50328462 Points: 8 # Comments: 1",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Mathematics has changed. Let's act like it",
+          "desc": "Article URL: https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/ Comments URL: https://news.ycombinator.com/item?id=50328251 Points: 61 # Comments: 68",
+          "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Patrick Stewart taught us what good men do with power",
+          "desc": "Article URL: https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism Comments URL: https://news.ycombinator.com/item?id=50327650 Points: 199 # Comments: 138",
+          "url": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Frontier Airlines Likely Breached",
+          "desc": "Article URL: https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/ Comments URL: https://news.ycombinator.com/item?id=50327266 Points: 108 # Comments: 27",
+          "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+          "desc": "Article URL: https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml Comments URL: https://news.ycombinator.com/item?id=50327058 Points: 93 # Comments: 15",
+          "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "title": "\u5b66\u672f\u524d\u6cbf",
+      "items": [
+        {
+          "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+          "url": "https://huggingface.co/papers/2610.36671",
+          "desc": "[101\ud83d\udc4d] Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve thi...",
+          "date": "2026-10-26",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2610.36671"
+        },
+        {
+          "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+          "url": "https://huggingface.co/papers/2610.38568",
+          "desc": "[71\ud83d\udc4d] Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introd...",
+          "date": "2026-10-27",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2610.38568"
+        },
+        {
+          "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+          "url": "https://huggingface.co/papers/2610.39302",
+          "desc": "[64\ud83d\udc4d] Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem...",
+          "date": "2026-10-28",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2610.39302"
+        },
+        {
+          "title": "A Broader Look into MLLM's Retrieval Heads",
+          "url": "https://huggingface.co/papers/2610.32411",
+          "desc": "[29\ud83d\udc4d] Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information from the context to the output. However, these analyses are confined to a limited ...",
+          "date": "2026-10-22",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2610.32411"
+        },
+        {
+          "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+          "url": "https://huggingface.co/papers/2610.40647",
+          "desc": "[24\ud83d\udc4d] Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...",
+          "date": "2026-10-28",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2610.40647"
+        },
+        {
+          "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+          "url": "https://huggingface.co/papers/2610.40599",
+          "desc": "[23\ud83d\udc4d] The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decod...",
+          "date": "2026-10-28",
+          "source": "HF Daily Papers",
+          "arxiv": "https://arxiv.org/abs/2610.40599"
+        }
+      ]
+    },
+    {
+      "title": "\u56fe\u5f62 / \u6e32\u67d3",
+      "items": [
+        {
+          "title": "We released an UE5 plugin to render Stable 3D Pixel Art (No severe pixel jitter)",
+          "desc": "Hi devs today we wanna share with you our plugin about making 3D pixel art render truly possible. We started creating this plugin after seeing the trailers of Project Shadowglass as well as the recent 3D pixel art discoveries of Dylan Ebert and Lunar Blank, and after 3 month of work we managed to cr...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1xl3ppu/we_released_an_ue5_plugin_to_render_stable_3d/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Vulkan 1.4 with RAII headers is absolute joy to work with!",
+          "desc": "https://preview.redd.it/nm3n3doiltyh1.png?width=2560&format=png&auto=webp&s=decdc33d3e4cc36e87328bb0749ad170beb955f6 submitted by /u/0xdeadf1sh [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1xkcy7l/vulkan_14_with_raii_headers_is_absolute_joy_to/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "[OptiX 9 / CUDA] Real-Time Translucent Jade: 2.1 Gigarays/s on 4060 Laptop with ReSTIR & Hardware RT Cores",
+          "desc": "Here are the Stanford Happy Buddha (1.09M tris) and Dragon (871k tris) rendered in Translucent Imperial Jade (Jadeite) at 1080p, 256 SPP, and 8 bounces. \ud83d\udc8e Translucent Jade Shading (RGB Multi-Bounce): RGB Subsurface Diffusion: Strong red/blue attenuation with high green transmission across diffuse bo...",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1xl3549/optix_9_cuda_realtime_translucent_jade_21/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Own-Renderer Render Competition round 1 just ended",
+          "desc": "Round 1 of the \"Own Renderer Render Competition\" just ended (theme was: cyberpunk) the entries are up, and voting is live for the next week. gallery: https://orrc.mutantstargoat.com/orrc?cmd=show vote: https://orrc.mutantstargoat.com/orrc?cmd=vote submitted by /u/jtsiomb [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1xkpi51/ownrenderer_render_competition_round_1_just_ended/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "Should I use HPP Bindings?",
+          "desc": "submitted by /u/JackeyGen [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1xksmjm/should_i_use_hpp_bindings/",
+          "source": "r/GraphicsProgramming"
+        },
+        {
+          "title": "I went too far with this in a new terminal app, it works so well.. what else can you do with shaders?",
+          "desc": "submitted by /u/wuu73 [link] [comments]",
+          "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1xktdex/i_went_too_far_with_this_in_a_new_terminal_app_it/",
+          "source": "r/GraphicsProgramming"
+        }
+      ]
+    }
+  ]
+}
